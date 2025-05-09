@@ -1,4 +1,3 @@
-1  README.md — Historic Homeworld Multiplayer Maps
 markdown
 Copy
 Edit
