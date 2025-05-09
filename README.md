@@ -28,6 +28,7 @@ Copy
 Edit
 
 ### Installation
+
 1. **Locate your HW install** – e.g. `C:\Sierra\Homeworld` (GOG/CD).  
 2. Copy any desired map folder from `Maps/` into:
 Homeworld\Data\MultiPlayer\```
