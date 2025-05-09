@@ -1,0 +1,8 @@
+; MissionMan script, Saturday, Feb 8 2003, 11:09:59 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Ships    ,0.0,0.0,0.0,0.0,Traders,Junk_LGun,4,WALL_FORMATION|?|?,0,?
+Ships    ,0.0,0.0,0.0,0.0,Traders,Junk_LGun,4,WALL_FORMATION|?|?,0,?
+Ships    ,0.0,0.0,0.0,0.0,Traders,Junk_LGun,4,WALL_FORMATION|?|?,0,?
+Ships    ,0.0,0.0,0.0,0.0,Traders,Junk_LGun,4,WALL_FORMATION|?|?,0,?

@@ -1,0 +1,10 @@
+Description     War of the SphereII 2 - 6
+Description	Classic War of the Sphere, only better.
+Description
+Description	AUTHOR:	Music Master (Coasters1@aol.com)
+Description	VERSION: 2.0 (June 6, 2003)
+
+Font            Arial_b12.hff
+Color           200, 100, 200
+DropShadow      Yes
+

@@ -1,0 +1,84 @@
+; MissionMan script, Friday, Apr 25 2003, 5:41:49 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,0.0,0.0,0.0,Sphere,Asteroid.dist,75,12500.0,25000.0,0.0,0.0,0,?
+Resources    DustCloud,-534.3,-26716.3,0.0,Cylinder,Dust.dist,35,1250.0,25000.0,0.0,0.0,0,?
+
+Resources    DustCloud,-27250.7,801.5,0.0,Cylinder,Dust.dist,35,1250.0,25000.0,0.0,89.0,0,?
+Resources    DustCloud,-18167.1,267.2,-20838.7,Cylinder,Dust.dist,35,1250.0,25000.0,-46.0,-180.0,0,?
+Resources    DustCloud,-18434.3,267.2,18701.4,Cylinder,Dust.dist,35,1250.0,25000.0,46.0,-180.0,0,?
+
+Resources    DustCloud,0.0,-26716.3,534.3,Cylinder,Dust.dist,35,1250.0,25000.0,90.0,180.0,0,?
+Resources    DustCloud,1068.7,28052.1,0.0,Cylinder,Dust.dist,35,1250.0,25000.0,0.0,0.0,0,?
+Resources    DustCloud,-18701.4,20304.4,0.0,Cylinder,Dust.dist,35,1250.0,25000.0,0.0,44.0,0,?
+Resources    DustCloud,20838.7,20037.2,0.0,Cylinder,Dust.dist,35,1250.0,25000.0,0.0,136.0,0,?
+Resources    DustCloud,29655.1,267.1,0.0,Cylinder,Dust.dist,35,1250.0,25000.0,0.0,90.0,0,?
+Resources    DustCloud,-19770.1,-18434.3,0.0,Cylinder,Dust.dist,35,1250.0,25000.0,0.0,-46.0,0,?
+Resources    DustCloud,20304.4,-19235.8,0.0,Cylinder,Dust.dist,35,1250.0,25000.0,0.0,40.0,0,?
+
+Resources    DustCloud,0.0,-19235.8,-20304.4,Cylinder,Dust.dist,35,1250.0,25000.0,50.0,90.0,0,?
+Resources    DustCloud,0.0,-18434.3,19770.1,Cylinder,Dust.dist,35,1250.0,25000.0,44.0,-90.0,0,?
+Resources    DustCloud,0.0,267.1,-29655.1,Cylinder,Dust.dist,35,1250.0,25000.0,0.0,90.0,0,?
+
+Resources    Asteroid,1752.0,0.0,0.0,Cylinder,Asteroid.dist,250,2500.0,125000.0,0.0,0.0,0,?
+Resources    Asteroid,1752.0,0.0,0.0,Cylinder,Asteroid.dist,250,2500.0,125000.0,0.0,90.0,0,?
+Resources    Asteroid,1752.0,0.0,0.0,Cylinder,Asteroid.dist,250,2500.0,125000.0,0.0,44.0,0,?
+Resources    Asteroid,1752.0,0.0,0.0,Cylinder,Asteroid.dist,250,2500.0,125000.0,0.0,137.0,0,?
+
+Resources    DustCloud,0.0,20037.2,-20838.8,Cylinder,Dust.dist,35,1250.0,25000.0,-46.0,90.0,0,?
+Resources    DustCloud,0.0,20304.4,18701.5,Cylinder,Dust.dist,35,1250.0,25000.0,46.0,90.0,0,?
+Resources    DustCloud,0.0,28052.1,-1068.7,Cylinder,Dust.dist,35,1250.0,25000.0,90.0,180.0,0,?
+
+Resources    DustCloud,519.2,3237.2,28212.7,Cylinder,Dust.dist,35,1250.0,25000.0,1.0,180.0,0,?
+Resources    DustCloud,0.0,801.5,27250.7,Cylinder,Dust.dist,35,1250.0,25000.0,1.0,90.0,0,?
+Resources    DustCloud,28586.5,267.2,534.3,Cylinder,Dust.dist,35,1250.0,25000.0,90.0,-90.0,0,?
+Resources    DustCloud,-26182.0,267.2,-1068.7,Cylinder,Dust.dist,35,1250.0,25000.0,90.0,-90.0,0,?
+
+Resources    DustCloud,21105.9,267.2,-20304.4,Cylinder,Dust.dist,35,1250.0,25000.0,50.0,-180.0,0,?
+Resources    DustCloud,20304.4,267.2,19770.1,Cylinder,Dust.dist,35,1250.0,25000.0,44.0,0.0,0,?
+Resources    DustCloud,1603.0,267.2,-29655.1,Cylinder,Dust.dist,35,1250.0,25000.0,0.0,-180.0,0,?
+
+
+Derelict    Junk1_Strut,-884,1370,385,10.58208,16.20765,0,?,?
+Derelict    Junk1_Strut,630,895,-1951,55.19762,2.876482,0,?,?
+Derelict    Junk1_Strut,1381,-2174,-613,63.00076,33.27721,0,?,?
+Derelict    Junk1_Strut,-2024,-298,-284,38.06321,40.04325,0,?,?
+Derelict    Junk1_Strut,-80,-82,-1887,54.64936,2.163769,0,?,?
+Derelict    Junk1_Strut,1058,-1993,-2225,38.32161,9.870484,0,?,?
+Derelict    Junk1_Strut,-41,-1588,-79,29.58824,30.3348,0,?,?
+Derelict    Junk1_Strut,451,-2130,-316,6.930868,24.91368,0,?,?
+Derelict    Junk1_Strut,901,-642,-1110,4.03195,69.73257,0,?,?
+Derelict    Junk1_Strut,650,1159,-1218,66.05724,26.29127,0,?,?
+Derelict    Junk1_Strut,-2001,1568,-126,1.542154,73.69549,0,?,?
+Derelict    Junk1_Strut,1184,-1296,-667,19.7075,14.28764,0,?,?
+Derelict    Junk1_Strut,-1265,-23,917,56.87284,22.92253,0,?,?
+Derelict    Junk1_Strut,-1080,878,2292,31.84171,1.51476,0,?,?
+Derelict    Junk1_Strut,-311,-2456,57,22.06164,19.69927,0,?,?
+Derelict    Junk1_Strut,1721,-869,-1810,8.685284,28.47612,0,?,?
+Derelict    Junk1_Strut,924,-413,-181,2.110952,68.35445,0,?,?
+Derelict    Junk1_Strut,-146,-737,-176,40.7089,0.1268238,0,?,?
+Derelict    Junk1_Strut,1174,718,-1099,16.35271,3.66569,0,?,?
+Derelict    Junk1_Strut,-2191,-1532,-1383,3.495263,20.77348,0,?,?
+Derelict    Junk1_Strut,-1632,788,1857,50.34045,47.68329,0,?,?
+Derelict    Junk1_Strut,435,-569,-161,35.46123,48.40768,0,?,?
+Derelict    Junk1_Strut,1260,2482,-1209,31.86254,19.19062,0,?,?
+Derelict    Junk1_Strut,-1457,999,-1922,29.15422,33.31686,0,?,?
+Derelict    Junk1_Strut,-794,-512,-1631,33.42016,38.77008,0,?,?
+Derelict    Junk2_shipwreck,402,1224,623,41.59156,74.56624,0,?,?
+Derelict    Junk2_shipwreck,-1632,387,-1362,47.26395,41.19319,0,?,?
+Derelict    Junk2_shipwreck,1752,-202,-2343,22.86156,71.69557,0,?,?
+Derelict    Junk2_shipwreck,-1120,-334,1484,47.83294,0.6037608,0,?,?
+Derelict    ResourceController,-1729,-1840,-567,55.95506,17.72453,0,?,?
+Derelict    ResourceController,-1263,-1470,-2290,25.18967,17.71265,0,?,?
+Derelict    ResourceController,639,1816,1821,69.54618,73.31042,0,?,?
+Derelict    ResourceController,1473,-612,1066,66.79504,36.9731,0,?,?
+Derelict    ResourceController,-1404,639,-2112,29.19107,30.65201,0,?,?
+Derelict    Carrier,875,-801,709,58.7168,30.45524,0,?,?
+Derelict    Carrier,1676,-800,-566,56.16333,44.48313,0,?,?
+Derelict    Carrier,2284,-1930,-2076,21.11546,3.888537,0,?,?
+Derelict    Carrier,488,390,-1394,16.89498,26.24998,0,?,?
+Derelict    HeavyCruiser,1263,760,-900,11.60114,24.09105,0,?,?
+Derelict    HeavyCruiser,-1260,1879,1030,19.74153,66.31569,0,?,?
+Derelict    HeavyCruiser,1654,0,-1737,48.80539,35.75406,0,?,?
+Derelict    HeavyCruiser,2378,1182,-1903,49.54013,67.78597,0,?,?

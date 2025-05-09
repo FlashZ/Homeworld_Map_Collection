@@ -1,0 +1,8 @@
+Description	Rumble in the Space Colonies
+Description
+Description	This is colony 195....................has sustained damaged..........2 orbiting colonies have been des.........hostile vessels are attacking ..............major casualties..........we need military assista...0909839123311458300-93839893039849200858020204498
+Description
+Description	AUTHOR  : Master_Tenchi*
+Font            Arial_b12.hff
+Color           255, 0, 0
+DropShadow      Yes

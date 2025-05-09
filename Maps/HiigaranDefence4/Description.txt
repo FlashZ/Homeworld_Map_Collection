@@ -1,0 +1,10 @@
+Hiigaran Defence (2-4)	This is Soban Allied Rebellion command our enemies are attempting to break through the defence perimeter of Hiigara and raid our main base, you must protect Hiigara at all costs.
+        SETTINGS : Default
+	AUTHOR	 : ShadowSAR
+        SPECIAL THANKS TO: devestatorBiB
+	VERSION	 : 3.0 (21 december 2001)
+
+
+Font            Arial_b12.hff
+Color           255, 200, 0
+DropShadow      Yes

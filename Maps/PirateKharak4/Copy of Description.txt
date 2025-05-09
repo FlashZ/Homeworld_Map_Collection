@@ -1,0 +1,10 @@
+Description	Pirate Kharak (4 player game) 
+Description   	Fleet Inteligence reports that Pirates are salvageing our retired ships around karak. Sqirmish's are breaking out amoung them. Intercept these pirates and destroy them. That is all.
+Description     SETTINGS: No harvesting. No injections. Bounties high
+Description	AUTHOR'S  : [DP]Overkill & Teelan(Sjet) (www.Drunkenpirates.homestead.com)
+Description	DATE MADE : (Sep 7 2000)
+
+Font            Arial_b12.hff
+Color           0, 180, 40
+DropShadow      Yes
+

@@ -1,0 +1,12 @@
+; MissionMan script, Monday, Mar 17 2003, 8:42:50 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R2,Mothership
+
+Derelict    FragmentPanel0a,-776000.0,0.0,0.0,90.0,180.0,0,?,?
+Derelict    FragmentPanel0a,-776000.0,-1500.0,0.0,90.0,180.0,0,?,?
+Derelict    FragmentPanel0a,-776000.0,1500.0,0.0,90.0,180.0,0,?,?
+Derelict    FragmentPanel0a,-776000.0,-750.0,1200.0,90.0,180.0,0,?,?
+Derelict    FragmentPanel0a,-776000.0,750.0,1200.0,90.0,180.0,0,?,?
+Derelict    FragmentPanel0a,-776000.0,-750.0,-1200.0,90.0,180.0,0,?,?
+Derelict    FragmentPanel0a,-776000.0,750.0,-1200.0,90.0,180.0,0,?,?
+

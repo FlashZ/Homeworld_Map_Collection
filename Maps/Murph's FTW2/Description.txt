@@ -1,0 +1,18 @@
+Description     Murph's FTW
+Description	Plex with a presance of Murph
+Description     It was sad news indeed to hear of Murph's passing
+Description     Steven Jagaczewski
+Description     January 10, 1984 - November 15, 2005
+Description     R.I.P. our good friend and game mate.
+Description     we will not forget you Murph
+Description          
+Description	Map By: LagsyPSA
+
+
+
+Font            Arial_b12.hff
+Color          300, 97, 260
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

@@ -1,0 +1,27 @@
+; MissionMan
+
+[Insert map name]
+
+MissionSphere    -1,?,ResourceSphere,0,0,0,0,0,Standard_resource_file.missphere
+MissionSphere    0,R1,Mothership,0,0,0,0,0,Standard_player_file0.missphere
+MissionSphere    1,R1,Mothership,0,0,0,0,0,Standard_player_file1.missphere
+
+Lighting    ez07
+Background    ez07, 200, 0
+smZoomMax    200000
+smZoomMin    20000
+smInitialDistance    100000
+smUniverseSizeX    200000
+smUniverseSizeY    200000
+smUniverseSizeZ    200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeAsteroid    HeadShotAsteroidR1
+ExcludeAsteroid    HeadShotAsteroidR2
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    -1

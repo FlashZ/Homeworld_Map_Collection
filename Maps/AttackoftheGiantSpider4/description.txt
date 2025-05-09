@@ -1,0 +1,7 @@
+Description     Attack of the Giant Spider
+Description	(4,6,8)
+Description     Author: &X&t&r&o&n
+
+Font            Arial_b12.hff
+Color           200, 0, 0
+DropShadow      Yes

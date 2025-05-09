@@ -1,0 +1,7 @@
+; MissionMan
+
+Ships     50000,0,0,180,R1,Mothership,1,NULL_FORMATION
+Ships     0,0,0,0,R1,ResourceCollector,1,PARADE_FORMATION
+Ships     0,0,0,0,R1,ResearchShip,1,PARADE_FORMATION
+Ships     0,0,0,0,R1,LightInterceptor,1,PARADE_FORMATION
+Ships     0,0,0,0,R1,ResourceController,1,PARADE_FORMATION

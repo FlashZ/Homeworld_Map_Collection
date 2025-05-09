@@ -1,0 +1,111 @@
+; MissionMan script, Monday, September 11 2006, 5:07 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+
+Resources    Asteroid,0.0,0.0,0.0,Sphere,Plane.dist,560,150000.0,150000.0,0.0,0.0,0,0
+Resources    Asteroid,0.0,0.0,0.0,Rectangle,Plane.dist,800,88000.0,88000.0,0.0,0.0,     ?,     ?
+Resources    Asteroid,0.0,0.0,0.0,Rectangle,Plane.dist,500,15000.0,25000.0,0.0,0.0,     ?,     ?
+
+
+Resources    Asteroid,0.0,4000.0,70000.0,Cylinder,AsteroidMed.dist,42,500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,4000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,6000.0,4000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,0.0,-4000.0,70000.0,Cylinder,AsteroidMed.dist,42,500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,-4000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,6000.0,-4000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,0.0,6000.0,70000.0,Cylinder,AsteroidMed.dist,42,500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,6000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,6000.0,6000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,0.0,-6000.0,70000.0,Cylinder,AsteroidMed.dist,42,500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,-6000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,6000.0,-6000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,0.0,8000.0,70000.0,Cylinder,AsteroidMed.dist,42,500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,8000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,6000.0,8000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,0.0,-8000.0,70000.0,Cylinder,AsteroidMed.dist,42,500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,-8000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,6000.0,-8000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,0.0,10000.0,70000.0,Cylinder,AsteroidMed.dist,42,500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,10000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,6000.0,10000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,0.0,-10000.0,70000.0,Cylinder,AsteroidMed.dist,42,500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,-10000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,6000.0,-10000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,0.0,12000.0,70000.0,Cylinder,AsteroidMed.dist,42,500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,12000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,6000.0,12000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,0.0,-12000.0,70000.0,Cylinder,AsteroidMed.dist,42,500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,-12000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,6000.0,-12000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,0.0,14000.0,70000.0,Cylinder,AsteroidMed.dist,42,500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,14000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,6000.0,14000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,0.0,-14000.0,70000.0,Cylinder,AsteroidMed.dist,42,500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,-14000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,6000.0,-14000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,0.0,16000.0,70000.0,Cylinder,AsteroidMed.dist,42,500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,16000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,6000.0,16000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,0.0,-16000.0,70000.0,Cylinder,AsteroidMed.dist,42,500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,-16000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,6000.0,-16000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,-2000.0,-16000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,-4000.0,-16000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,0.0,-16000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,2000.0,-16000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,4000.0,-16000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,-2000.0,16000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,-4000.0,16000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,0.0,16000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,2000.0,16000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,4000.0,16000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,-2000.0,4000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,-4000.0,4000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,0.0,4000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,2000.0,4000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,4000.0,4000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+Resources    Asteroid,-2000.0,-4000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,-4000.0,-4000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,0.0,-4000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,2000.0,-4000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+Resources    Asteroid,4000.0,-4000.0,35000.0,Cylinder,AsteroidMed.dist,62,500.0,70000.0,90.0,180.0,0,?
+
+-Spears
+Resources    Asteroid,0.0,-16000.0,50000.0,Cylinder,Plane.dist,192,300.0,140000.0,180.0,20.0,0,?
+Resources    Asteroid,0.0,16000.0,55000.0,Cylinder,Plane.dist,192,300.0,140000.0,190.0,-30.0,0,?
+
+-Antena
+Resources    Asteroid,0.0,-10000.0,85000.0,Cylinder,Plane.dist,32,100.0,12000.0,90.0,180.0,0,?
+Resources    Asteroid,0.0,10000.0,85000.0,Cylinder,Plane.dist,32,100.0,12000.0,90.0,180.0,0,?
+Resources    Asteroid,0.0,-10000.0,75000.0,Cylinder,AsteroidMed.dist,32,500.0,12000.0,90.0,180.0,0,?
+Resources    Asteroid,0.0,10000.0,75000.0,Cylinder,AsteroidMed.dist,32,500.0,12000.0,90.0,180.0,0,?
+
+
+4 player RUs
+Resources    Asteroid,22000.0,-10000.0,0.0,Cylinder,AsteroidMed.dist,42,500.0,38000.0,0.0,0.0,0,?
+Resources    Asteroid,-22000.0,-10000.0,0.0,Cylinder,AsteroidMed.dist,42,500.0,38000.0,0.0,0.0,0,?
+Resources    Asteroid,22000.0,10000.0,0.0,Cylinder,AsteroidMed.dist,42,500.0,38000.0,0.0,0.0,0,?
+Resources    Asteroid,-22000.0,10000.0,0.0,Cylinder,AsteroidMed.dist,42,500.0,38000.0,0.0,0.0,0,?
+
+Resources    DustCloud,32000.0,10000.0,0.0,Cylinder,Ghost.dist,12,600.0,45000.0,0.0,0.0,0,?
+Resources    DustCloud,-32000.0,10000.0,0.0,Cylinder,Ghost.dist,12,600.0,45000.0,0.0,0.0,0,?
+Resources    DustCloud,32000.0,-10000.0,0.0,Cylinder,Ghost.dist,12,600.0,45000.0,0.0,0.0,0,?
+Resources    DustCloud,-32000.0,-10000.0,0.0,Cylinder,Ghost.dist,12,600.0,45000.0,0.0,0.0,0,?

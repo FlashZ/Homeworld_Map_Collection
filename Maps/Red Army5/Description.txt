@@ -1,0 +1,13 @@
+Description &                   &Pentagram
+Description &        First Map only for 5 players
+Description &                 |\________/|
+Description &                 |                |
+Description &                 \ <O>   <O> /
+Description &                   \    {}    /
+Description &                     \  ==  /
+Description &                      |_<>_|
+Description &                         \/
+Description &                                               v1.1
+Description &             Map Creator: &Ostap.&h&g
+Description &                       (ostaphg@o2.pl)
+Description

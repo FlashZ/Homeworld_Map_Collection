@@ -1,0 +1,9 @@
+; MissionMan script, Friday, Jun 29 2001, 3:13:38 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: MS_4
+
+Ships     ,-4000.0,-6928.0,0.0,-120.0,R2,Mothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,-4000.0,-6928.0,0.0,-120.0,R2,ResourceCollector,1,PARADE_FORMATION|?|?,?,?
+Ships     ,-4000.0,-6928.0,0.0,-120.0,R2,ResearchShip,5,PARADE_FORMATION|?|?,?,?
+Ships     ,-4000.0,-6928.0,0.0,-120.0,R2,AdvanceSupportFrigate,3,PARADE_FORMATION|?|?,?,?
+Ships     ,-4000.0,-6928.0,0.0,-120.0,R2,HeavyDefender,1,PARADE_FORMATION|?|?,?,?

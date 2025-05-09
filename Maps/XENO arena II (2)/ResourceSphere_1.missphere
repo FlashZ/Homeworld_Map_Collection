@@ -1,0 +1,24 @@
+; MissionMan script, יום חמישי, אוקטובר 11 2001, 8:50:17 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,59352.7,-6740.0,0.0,Cylinder,Asteroid.dist,30,2141.7,21417.0,0.0,90.0,0,?
+Resources    Asteroid,-8401.2,13971.5,0.0,Cylinder,Asteroid.dist,30,2141.7,21417.0,0.0,-90.0,0,?
+Resources    Asteroid,55543.4,40565.9,0.0,Cylinder,Asteroid.dist,20,2141.7,21417.0,0.0,0.0,0,?
+Resources    Asteroid,40508.7,32652.9,0.0,Cylinder,Asteroid.dist,20,2141.7,21417.0,0.0,56.0,0,?
+Resources    Asteroid,31804.5,15640.0,0.0,Cylinder,Asteroid.dist,20,2141.7,21417.0,0.0,68.0,0,?
+Resources    Asteroid,-5782.1,-31442.1,0.0,Cylinder,Asteroid.dist,20,2141.7,21417.0,0.0,0.0,0,?
+Resources    Asteroid,21122.0,-8098.8,0.0,Cylinder,Asteroid.dist,20,2141.7,21417.0,0.0,60.0,0,?
+Resources    Asteroid,27056.7,1792.4,1978.2,Cylinder,Asteroid.dist,40,3465.1,34651.3,-88.9,-154.6,0,?
+Resources    Asteroid,9648.2,-24716.1,0.0,Cylinder,Asteroid.dist,20,2141.7,21417.0,0.0,49.0,0,?
+Resources    DustCloud,23502.4,-36945.7,0.0,Sphere,DustCloud.dist,30,8692.0,17384.1,0.0,0.0,0,?
+Resources    DustCloud,26661.0,44522.4,0.0,Sphere,DustCloud.dist,30,8692.0,17384.1,0.0,0.0,0,?
+Resources    DustCloud,17561.1,10496.6,0.0,Sphere,DustCloud.dist,20,4410.1,8820.3,0.0,0.0,0,?
+Resources    DustCloud,36947.9,-6145.4,0.0,Sphere,DustCloud.dist,20,4410.1,8820.3,0.0,0.0,0,?
+Resources    DustCloud,3713.4,-17990.0,0.0,Sphere,DustCloud.dist,15,2627.2,5254.4,0.0,0.0,0,?
+Resources    DustCloud,45938.5,-46069.0,0.0,Sphere,DustCloud.dist,15,2627.2,5254.4,0.0,0.0,0,?
+Resources    DustCloud,-7878.8,-44905.6,0.0,Sphere,DustCloud.dist,15,2627.2,5254.4,0.0,0.0,0,?
+Resources    DustCloud,48492.7,24904.6,0.0,Sphere,DustCloud.dist,15,2627.2,5254.4,0.0,0.0,0,?
+Resources    DustCloud,60487.3,53939.1,0.0,Sphere,DustCloud.dist,15,2627.2,5254.4,0.0,0.0,0,?
+Resources    DustCloud,3690.2,55239.7,0.0,Sphere,DustCloud.dist,15,2627.2,5254.4,0.0,0.0,0,?
+

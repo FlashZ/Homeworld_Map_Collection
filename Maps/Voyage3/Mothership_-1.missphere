@@ -1,0 +1,28 @@
+; MissionMan script, Monday, Jun 12 2000, 5:19:11 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,0,0,0,180.0,Traders,ResearchStation,1,NULL_FORMATION|?|colorScheme(7),0,?
+Ships     ,1200,1200,0,180.0,Traders,CargoBarge,4,BROAD_FORMATION|?|colorScheme(7),0,?
+Ships     ,-2660,2000,2500,240.0,Traders,ResearchStation,1,NULL_FORMATION|?|colorScheme(7),0,?
+Ships     ,-3860,3200,2500,240.0,Traders,CargoBarge,4,BROAD_FORMATION|?|colorScheme(7),0,?
+Ships     ,-30000,-25000,9800,90.0,Traders,ResearchStation,1,NULL_FORMATION|?|colorScheme(7),0,?
+Ships     ,-31200,-26200,9800,90.0,Traders,CargoBarge,4,BROAD_FORMATION|?|colorScheme(7),0,?
+Ships     ,30000,25000,-9800,160.0,Traders,ResearchStation,1,NULL_FORMATION|?|colorScheme(7),0,?
+Ships     ,31200,26200,-9800,160.0,Traders,CargoBarge,4,BROAD_FORMATION|?|colorScheme(7),0,?
+Ships     ,5000,-5000,14800,207.0,Traders,ResearchStation,2,BROAD_FORMATION|?|colorScheme(7),0,?
+Ships     ,6200,-6200,14800,207.0,Traders,CargoBarge,8,BROAD_FORMATION|?|colorScheme(7),0,?
+Ships     ,-50000,-50000,46,344.0,Traders,ResearchStation,5,BROAD_FORMATION|?|colorScheme(7),0,?
+Ships     ,-61200,-61200,46,344.0,Traders,CargoBarge,30,WALL_FORMATION|?|colorScheme(7),0,?
+Ships     ,-13678,65600,10800,300.0,Traders,ResearchStation,1,NULL_FORMATION|?|colorScheme(7),0,?
+Ships     ,-14878,66800,10800,300.0,Traders,CargoBarge,4,BROAD_FORMATION|?|colorScheme(7),0,?
+Ships     ,46890,2669,-10800,228.0,Traders,ResearchStation,1,NULL_FORMATION|?|colorScheme(7),0,?
+Ships     ,48090,3869,-10800,228.0,Traders,CargoBarge,4,BROAD_FORMATION|?|colorScheme(7),0,?
+Ships     ,-2344,-42000,10800,289.0,Traders,ResearchStation,1,NULL_FORMATION|?|colorScheme(7),0,?
+Ships     ,-3544,-43000,10800,289.0,Traders,CargoBarge,4,BROAD_FORMATION|?|colorScheme(7),0,?
+Ships     ,32000,-32000,-12500,321.0,Traders,ResearchStation,1,NULL_FORMATION|?|colorScheme(7),0,?
+Ships     ,33200,-33200,-12500,321.0,Traders,CargoBarge,4,BROAD_FORMATION|?|colorScheme(7),0,?
+Ships     ,-59880,5799,-15500,337.0,Traders,ResearchStation,1,NULL_FORMATION|?|colorScheme(7),0,?
+Ships     ,-61080,6999,-15500,337.0,Traders,CargoBarge,4,BROAD_FORMATION|?|colorScheme(7),0,?
+Ships     ,-2988,47990,0,217.0,Traders,ResearchStation,1,NULL_FORMATION|?|colorScheme(7),0,?
+Ships     ,-4188,49190,0,217.0,Traders,CargoBarge,4,BROAD_FORMATION|?|colorScheme(7),0,?

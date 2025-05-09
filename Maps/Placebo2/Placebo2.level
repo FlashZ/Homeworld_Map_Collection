@@ -1,0 +1,36 @@
+; MissionMan script, Friday, Sep 3 1999, 1:45:25 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level:Placebo2
+; Info: &P&l&a&c&e&b&o (2)
+
+[&P&l&a&c&e&b&o (2)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_1.missphere,1000
+
+Lighting    ez01
+Background    ez01, 180, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    155000
+smZoomMin    40000
+smInitialDistance    145000
+smUniverseSizeX    50000
+smUniverseSizeZ    50000
+smUniverseSizeY    50000
+SongNumber    0
+
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,TargetDrone
+ExcludeShips    R1,TargetDrone
+ExcludeDerelict    All
+ExcludeDerelict    Crate

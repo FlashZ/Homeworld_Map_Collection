@@ -1,0 +1,19 @@
+Description     Teh Leet Corvette Map. 4-6
+Description
+Description     7h1s 5i 73h 1337 c0rv3773 m4p. 4-6 p33p5 w17h 1075 0f c0rv5.
+Description     H4v3 ||= ||_|| ||\||   .
+Description     
+Description     v 1.0 - 13-8-2K2
+Description     Map by: creamy.&g&u&r&u
+Description     
+Description           
+Description	w00t.
+
+
+
+Font            Arial_b12.hff
+Color          900, 900, 900
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:
