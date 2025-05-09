@@ -1,6 +1,3 @@
-markdown
-Copy
-Edit
 # Homeworld (1999) – Historic Multiplayer Map Collection  
 *Preserving two decades of community creativity ✧*
 
@@ -23,11 +20,8 @@ Maps/ # each sub‑folder is a self‑contained level
  ├─ 2nd_Map_Name/
  └─ …
 
-r
-Copy
-Edit
-
 ### Installation
+
 1. **Locate your HW install** – e.g. `C:\Sierra\Homeworld` (GOG/CD).  
 2. Copy any desired map folder from `Maps/` into:
 Homeworld\Data\MultiPlayer\```
