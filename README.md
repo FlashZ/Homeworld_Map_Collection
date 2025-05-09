@@ -1,5 +1,5 @@
 # Homeworld (1999) – Historic Multiplayer Map Collection  
-*Preserving two decades of community creativity ✧*
+*Preserving two decades of community creativity*
 
 ## About  
 This repository is an **archive of fan‑made multiplayer maps for the original *Homeworld*** (1999, v1.05 GOTY).  
@@ -8,18 +8,17 @@ Everything here is provided *as‑is* for historical and educational purposes.
 
 ## Directory layout
 Maps/ # each sub‑folder is a self‑contained level
- ├─ Map_Name2/ # 2 player version
- │ ├─ Map_Name.level # mission script
- │ ├─ Asteroid.dist # resource distribution tables
- │ ├─ DustCloud.dist
- │ ├─ Tiny.dist
- │ ├─ Mothership_0.missphere # player‑start spheres
- │ ├─ …
- │ └─ Description.txt # lobby blurb & default rules
- ├─ Map_Name4/ # 4 player version
- ├─ 2nd_Map_Name/
- └─ …
-
+├─ Map_Name2/ # 2 player version
+│ ├─ Map_Name.level # mission script
+│ ├─ Asteroid.dist # resource distribution tables
+│ ├─ DustCloud.dist
+│ ├─ Tiny.dist
+│ ├─ Mothership_0.missphere # player‑start spheres
+│ ├─ …
+│ └─ Description.txt # lobby blurb & default rules
+├─ Map_Name4/ # 4 player version
+├─ 2nd_Map_Name/
+└─ …
 
 ### Installation
 
