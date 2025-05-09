@@ -4,7 +4,6 @@ Edit
 # Homeworld (1999) – Historic Multiplayer Map Collection  
 *Preserving two decades of community creativity ✧*
 
-
 ## 🍁 About  
 This repository is an **archive of fan‑made multiplayer maps for the original *Homeworld*** (1999, v1.05 GOTY).  
 Many of these files circulated on relicnews.com, WON, and early clan websites in the 2000‑2005 era and are increasingly hard to find.  
@@ -32,7 +31,7 @@ Edit
 1. **Locate your HW install** – e.g. `C:\Sierra\Homeworld` (GOG/CD).  
 2. Copy any desired map folder from `Maps/` into:
 Homeworld\Data\MultiPlayer\```
-1. Launch the game → Multiplayer → Host → choose the map from the Select Map drop‑down.
+
 
 No game files are overwritten; uninstall by simply deleting the folder(s).
 
@@ -48,6 +47,7 @@ Homeworld Classic Remastered (v1.0rc)	✅	Copy as above; ignore .leveldata warni
 Original author tags kept where present (see Description.txt)
 
 ### 🤝 Contributing
+
 Zip the entire map folder ( .level, .missphere, .dist, Description.txt)
 
 Open a PR in maps/<MapName>/ or create an issue with a download link.
