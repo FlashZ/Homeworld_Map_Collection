@@ -8,16 +8,27 @@ Everything here is provided *as‑is* for historical and educational purposes.
 
 ## Directory layout
 Maps/ # each sub‑folder is a self‑contained level
+
 ├─ Map_Name2/ # 2 player version
+
 │ ├─ Map_Name.level # mission script
+
 │ ├─ Asteroid.dist # resource distribution tables
+
 │ ├─ DustCloud.dist
+
 │ ├─ Tiny.dist
+
 │ ├─ Mothership_0.missphere # player‑start spheres
+
 │ ├─ …
+
 │ └─ Description.txt # lobby blurb & default rules
+
 ├─ Map_Name4/ # 4 player version
+
 ├─ 2nd_Map_Name/
+
 └─ …
 
 ### Installation
