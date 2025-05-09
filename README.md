@@ -20,6 +20,7 @@ Maps/ # each sub‑folder is a self‑contained level
  ├─ 2nd_Map_Name/
  └─ …
 
+
 ### Installation
 
 1. **Locate your HW install** – e.g. `C:\Sierra\Homeworld` (GOG/CD).  
