@@ -1,0 +1,11 @@
+Description	Metal Crusade:
+Description	With a nice backdrop of an awesome nebula, you will have to quickly prepare for war with your enemies. Keep a watchful eye on your resourcers.
+Description	
+Description	AUTHOR: medamanx[DP]
+Description	E-MAIL: medamanx@hotmail.com
+Description	
+Description	www.strategyplanet.com/hwshots
+
+Font 		Arial_b12.hff
+Color 		255, 255, 0
+DropShadow 	Yes

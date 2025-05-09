@@ -1,0 +1,52 @@
+; MissionMan script, lunedì, feb 19 2001, 3.47.12 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Triangle Towers
+
+TOWER 1
+
+Resources    Asteroid,5000.0,0.0,0.0,Cylinder,Tiny.dist,150,1300.0,50000.0,90.0,0.0,0,?
+Resources    Asteroid,5000.0,0.0,25000.0,Cylinder,Tiny.dist,15,500.0,5000.0,90.0,0.0,0,?
+Resources    Asteroid,5000.0,0.0,-25000.0,Cylinder,Tiny.dist,15,500.0,5000.0,90.0,0.0,0,?
+
+ANGLES
+
+Resources    Asteroid,2500.0,0.0,12750.0,Cylinder,Tiny.dist,150,800.0,25750.0,98.0,0.0,0,?
+Resources    Asteroid,2500.0,0.0,-12750.0,Cylinder,Tiny.dist,150,800.0,25750.0,82.0,0.0,0,?
+
+TOWER 2
+
+Resources    Asteroid,-5000.0,0.0,0.0,Cylinder,Tiny.dist,150,1300.0,50000.0,90.0,0.0,0,?
+Resources    Asteroid,-5000.0,0.0,25000.0,Cylinder,Tiny.dist,15,500.0,5000.0,90.0,0.0,0,?
+Resources    Asteroid,-5000.0,0.0,-25000.0,Cylinder,Tiny.dist,15,500.0,5000.0,90.0,0.0,0,?
+
+ANGLES
+
+Resources    Asteroid,-2500.0,0.0,12750.0,Cylinder,Tiny.dist,150,800.0,25750.0,82.0,0.0,0,?
+Resources    Asteroid,-2500.0,0.0,-12750.0,Cylinder,Tiny.dist,150,800.0,25750.0,98.0,0.0,0,?
+
+Rhombus
+
+Resources    Asteroid,7500.0,5000.0,0.0,Cylinder,Tiny.dist,150,750.0,75000.0,0.0,-20.0,0,?
+Resources    Asteroid,-7500.0,5000.0,0.0,Cylinder,Tiny.dist,150,750.0,75000.0,0.0,-160.0,0,?
+Resources    Asteroid,7500.0,-5000.0,0.0,Cylinder,Tiny.dist,150,750.0,75000.0,0.0,20.0,0,?
+Resources    Asteroid,-7500.0,-5000.0,0.0,Cylinder,Tiny.dist,150,750.0,75000.0,0.0,160.0,0,?
+
+Resources    Asteroid,7500.0,5000.0,0.0,Cylinder,Asteroid.dist,100,750.0,75000.0,0.0,-20.0,0,?
+Resources    Asteroid,-7500.0,5000.0,0.0,Cylinder,Asteroid.dist,100,750.0,75000.0,0.0,-160.0,0,?
+Resources    Asteroid,7500.0,-5000.0,0.0,Cylinder,Asteroid.dist,100,750.0,75000.0,0.0,20.0,0,?
+Resources    Asteroid,-7500.0,-5000.0,0.0,Cylinder,Asteroid.dist,100,750.0,75000.0,0.0,160.0,0,?
+
+Arrows
+
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,Tiny.dist,150,750.0,70000.0,0.0,-32.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,Tiny.dist,150,750.0,70000.0,0.0,32.0,0,?
+
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,Tiny.dist,150,750.0,80000.0,0.0,-12.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,Tiny.dist,150,750.0,80000.0,0.0,12.0,0,?
+
+Gas
+
+Resources    DustCloud,0.0,0.0,0.0,Sphere,DustCloud.dist,30,2500.0,2500.0,0.0,0.0,?,?
+

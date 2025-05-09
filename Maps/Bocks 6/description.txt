@@ -1,0 +1,11 @@
+Description     Bocks 2 - 8 players.
+Description	
+Description	By: &Far&scape &Æ 
+Description	Assistant: &Ai&M&g&u&r&u
+Description	November 5, 2002
+
+
+Font            Arial_b12.hff
+Color           250, 150, 250
+DropShadow      Yes
+

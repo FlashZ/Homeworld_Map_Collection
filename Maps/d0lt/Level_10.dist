@@ -1,0 +1,10 @@
+; MissionMan script, sobota, paü 22 2005, 4:48:06 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Distribution Object: Level
+
+MissionSphere    1,R1,Mothership,47689,0,75044,0,-20602,0,30000.0,0,0,Mothership_1.missphere,1000
+MissionSphere    0,R1,Mothership,47689,0,75044,0,-20602,0,30000.0,0,0,Mothership_0.missphere,1000
+MissionSphere    -1,R2,Mothership,-9000,0,0,0,50000,0,30000.0,0,0,Mothership_4.missphere,1000
+Derelict    Homeworld,-4000,0,-20500,0,9000,0,0,0,180,0,0,?,?
+Derelict    Junk1_strut,-543,0,-22323,0,242,0,0,0,0,0,0,?,?
+

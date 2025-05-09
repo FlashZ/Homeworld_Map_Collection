@@ -1,0 +1,38 @@
+; MissionMan script, Friday, Sep 3 1999, 1:45:25 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: cq5
+; Info: Close Quarters (2-8)
+
+[Close and Dusty Quarters (2-8)]
+
+MissionSphere    -1,?,ResourceSphere,16759.0,-85466.0,0.0,80000.0,0.0,ResourceSphere_3.missphere,2000
+MissionSphere    0,R1,Mothership,1000.0,0.0,0.0,80000.0,0.0,Mothership_0.missphere,2000
+MissionSphere    1,R1,Mothership,9000.0,-1000.0,0.0,80000.0,0.0,Mothership_1.missphere,2000
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,80000.0,0.0,Mothership_2.missphere,2000
+MissionSphere    3,R1,Mothership,1000.0,0.0,0.0,80000.0,0.0,Mothership_3.missphere,2000
+MissionSphere    4,R1,Mothership,0.0,0.0,0.0,80000.0,0.0,Mothership_4.missphere,2000
+
+Lighting    Mission17
+Background    Mission17,200,0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    120000
+smZoomMax    300000
+smZoomMin    50000
+smInitialDistance    60000
+smUniverseSizeX    100000
+smUniverseSizeZ    23000
+smUniverseSizeY    100000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,TargetDrone
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    0

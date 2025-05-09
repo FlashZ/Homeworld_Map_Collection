@@ -1,0 +1,9 @@
+; MissionMan script, Utopian, Sept 8th,2006 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,70000.0,0.0,0.0,-180.0,R1,Mothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,0.0,-50000.0,0.0,90.0,R2,ResourceCollector,1,PARADE_FORMATION|?|?,?,?
+Ships     ,0.0,-50000.0,0.0,90.0,R2,ResearchShip,2,PARADE_FORMATION|?|?,?,?
+Ships     ,0.0,-50000.0,0.0,90.0,R2,LightInterceptor,5,PARADE_FORMATION|?|?,?,?
+

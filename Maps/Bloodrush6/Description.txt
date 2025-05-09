@@ -1,0 +1,12 @@
+Description	Bloodrush 2-6 Players
+Description	
+Description	AUTHOR of Resourcesphere : medamanx
+Description	E-MAIL  : medamanx@hotmail.com 
+Description	
+Description     altered : Spacebear Okt 2003
+Description     E-Mail  : zellerald@hotmail.com
+Description     Note: 6Player Version is only for tvb
+
+Font 		Arial_b12.hff
+Color 		255, 100, 0
+DropShadow 	Yes

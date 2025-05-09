@@ -1,0 +1,37 @@
+; MissionMan script, Friday, Aug 4 2000, 3:43:41 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Staples4
+; Info: Ashes to Ashes (4)
+
+[Ashes to Ashes (4)]
+
+MissionSphere    -1,?,ResourceSphere,16759.0,-85466.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    0,R1,Mothership,1000.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,2500
+MissionSphere    1,R1,Mothership,9000.0,-1000.0,0.0,30000.0,0.0,Mothership_1.missphere,2500
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,2500
+MissionSphere    3,R1,Mothership,1000.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,2500
+
+Lighting    ashes.hsf
+Background    ashes.btg
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    120000
+smZoomMax    300000
+smZoomMin    50000
+smInitialDistance    60000
+smUniverseSizeX    100000
+smUniverseSizeZ    45000
+smUniverseSizeY    100000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,MinelayerCorvette
+ExcludeShips    R2,MinelayerCorvette
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    15

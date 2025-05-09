@@ -1,0 +1,22 @@
+; MissionMan script, Wednesday, Dec 25 2002, 6:39:37 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,-40000.0,-40000.0,0.0,Cylinder,Cylinder.dist,30,2000.0,40000.0,0.0,-135.0,0,?
+Resources    Asteroid,40000.0,40000.0,0.0,Cylinder,Cylinder.dist,30,2000.0,40000.0,0.0,-135.0,0,?
+Resources    Asteroid,-40000.0,40000.0,0.0,Cylinder,Cylinder.dist,30,2000.0,40000.0,0.0,-45.0,0,?
+Resources    Asteroid,40000.0,-40000.0,0.0,Cylinder,Cylinder.dist,30,2000.0,40000.0,0.0,-45.0,0,?
+Resources    Asteroid,1000.0,25000.0,0.0,Cylinder,Cylinder.dist,30,2000.0,40000.0,0.0,180.0,0,?
+Resources    Asteroid,-1000.0,-25000.0,0.0,Cylinder,Cylinder.dist,30,2000.0,40000.0,0.0,180.0,0,?
+Resources    Asteroid,25000.0,1000.0,0.0,Cylinder,Cylinder.dist,30,2000.0,40000.0,0.0,-90.0,0,?
+Resources    Asteroid,-25000.0,-1000.0,0.0,Cylinder,Cylinder.dist,30,2000.0,40000.0,0.0,-90.0,0,?
+Resources    Asteroid,-8000.0,-1000.0,0.0,Cylinder,Cylinder.dist,50,2000.0,20000.0,0.0,-90.0,0,?
+Resources    Asteroid,8000.0,-1000.0,0.0,Cylinder,Cylinder.dist,50,2000.0,20000.0,0.0,-90.0,0,?
+Resources    Asteroid,0.0,-8500.0,0.0,Cylinder,Cylinder.dist,50,2000.0,20000.0,0.0,180.0,0,?
+Resources    Asteroid,-100.0,8000.0,0.0,Cylinder,Cylinder.dist,50,2000.0,20000.0,0.0,180.0,0,?
+
+Resources    Asteroid,-8000.0,-1000.0,0.0,Cylinder,Cylinder.dist,50,2000.0,20000.0,0.0,-90.0,0,?
+Resources    Asteroid,8000.0,-1000.0,0.0,Cylinder,Cylinder.dist,50,2000.0,20000.0,0.0,-90.0,0,?
+Resources    Asteroid,0.0,-8500.0,0.0,Cylinder,Cylinder.dist,50,2000.0,20000.0,0.0,180.0,0,?
+Resources    Asteroid,-100.0,8000.0,0.0,Cylinder,Cylinder.dist,50,2000.0,20000.0,0.0,180.0,0,?
+

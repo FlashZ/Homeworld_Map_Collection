@@ -1,0 +1,13 @@
+Description	Standoff II (6-8 Players only)
+Description     
+Description     3 Research, 2 coll, 1 controller, 2 Assaults Frigs, 10 scouts
+Description  	
+Description	AUTHOR	 : Iam|HG (Iam_HG@hotmail.com)
+Description                                         
+Description	VERSION	 : 1.0 (July 25th 03)
+Description 
+
+
+
+
+; DEFAULT SETTINGS:

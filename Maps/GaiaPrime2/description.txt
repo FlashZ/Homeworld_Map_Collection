@@ -1,0 +1,11 @@
+Description	A medium size map with medium to more ru's. 2-4 players. 
+Description     Your would "Gaia Prime" needs you to command your fighting force for their existence! Do not fail them.
+Description	There are 2 of my personal funny movies in the map folder "GaiaPrime4" and also a warning form &T&2 not to be stupid or you'll end up like the picture also in the folder. Check them out 8)
+Description	& & & & & & & & & & & & & & & & & & & & & & & & & & & &  Author: &T&2_Œlite²
+
+
+Color           800, 1000, 100
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

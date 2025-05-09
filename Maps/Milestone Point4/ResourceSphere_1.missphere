@@ -1,0 +1,58 @@
+; MissionMan script, Tuesday, Aug 6 2002, 9:15:33 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,-36000.0,0.0,0.0,Rectangle,Roids.dist,200,10000.0,40000.0,7000.0,0.0,2048,5
+Resources    Asteroid,36000.0,0.0,0.0,Rectangle,Roids.dist,200,10000.0,40000.0,7000.0,0.0,2048,5
+Resources    Asteroid,-31500.0,-92965.0,13985.0,Cylinder,Roids.dist,31,2500.0,42500.0,-17.0,-25.0,0,?
+Resources    Asteroid,-62915.0,-78005.0,2000.0,Cylinder,Roids.dist,31,2500.0,30000.0,-20.0,-25.0,0,?
+Resources    Asteroid,-90915.0,-85005.0,3000.0,Cylinder,Roids.dist,30,2500.0,40000.0,20.0,45.0,0,?
+Resources    Asteroid,-85915.0,-55005.0,3000.0,Cylinder,Roids.dist,30,2500.0,40000.0,20.0,-60.0,0,?
+Resources    Asteroid,-100915.0,-18000.0,15000.0,Cylinder,Roids.dist,45,2500.0,50000.0,15.0,-75.0,0,?
+Resources    Asteroid,-107815.0,26005.0,18000.0,Cylinder,Roids.dist,36,2500.0,40000.0,10.0,89.0,0,?
+Resources    Asteroid,-111915.0,95005.0,-3000.0,Cylinder,Roids.dist,30,2500.0,40000.0,-20.0,-45.0,0,?
+Resources    Asteroid,-103000.0,66005.0,8000.0,Cylinder,Roids.dist,36,2500.0,40000.0,20.0,75.0,0,?
+Resources    Asteroid,-79000.0,95000.0,0.0,Cylinder,Roids.dist,45,2500.0,50000.0,5.0,30.0,0,?
+Resources    Asteroid,-35980.0,112000.0,-10510.0,Cylinder,Roids.dist,45,2500.0,50000.0,20.0,10.0,0,?
+Resources    Asteroid,3000.0,110500.0,-18010.0,Cylinder,Roids.dist,29,2500.0,35000.0,-5.0,-20.0,0,?
+Resources    Asteroid,35995.0,104005.0,-19495.0,Cylinder,Roids.dist,29,2500.0,35000.0,10.0,0.0,0,?
+Resources    Asteroid,74000.0,104000.0,-22500.0,Cylinder,Roids.dist,29,2500.0,35000.0,0.0,0.0,0,?
+Resources    Asteroid,64000.0,97000.0,-9500.0,Cylinder,Roids.dist,29,2500.0,35000.0,-50.0,-30.0,0,?
+Resources    Asteroid,83000.0,78000.0,15000.0,Cylinder,Roids.dist,29,2500.0,35000.0,-35.0,-60.0,0,?
+Resources    Asteroid,90000.0,40000.0,27500.0,Cylinder,Roids.dist,45,2500.0,50000.0,5.0,90.0,0,?
+Resources    Asteroid,84000.0,2000.0,14015.0,Cylinder,Roids.dist,30,2500.0,30000.0,25.0,90.0,0,?
+Resources    Asteroid,87000.0,2000.0,25515.0,Cylinder,Roids.dist,30,2500.0,30000.0,-20.0,75.0,0,?
+Resources    Asteroid,94000.0,-30015.0,10015.0,Cylinder,Roids.dist,30,2500.0,30000.0,20.0,10.0,0,?
+Resources    Asteroid,81000.0,-27015.0,17015.0,Cylinder,Roids.dist,30,2500.0,30000.0,-10.0,80.0,0,?
+Resources    Asteroid,73500.0,-56015.0,14015.0,Cylinder,Roids.dist,30,2500.0,30000.0,0.0,68.0,0,?
+Resources    Asteroid,60000.0,-82015.0,8015.0,Cylinder,Roids.dist,30,2500.0,30000.0,-20.0,55.0,0,?
+Resources    Asteroid,59000.0,-91515.0,-1000.0,Cylinder,Roids.dist,30,2500.0,30000.0,20.0,20.0,0,?
+Resources    Asteroid,25000.0,-98015.0,20015.0,Cylinder,Roids.dist,30,2500.0,30000.0,-45.0,-6.0,0,?
+Resources    Asteroid,30000.0,-97015.0,7015.0,Cylinder,Roids.dist,29,2500.0,30000.0,10.0,0.0,0,?
+Resources    Asteroid,0.0,-100000.0,15000.0,Cylinder,Roids.dist,31,2500.0,30000.0,20.0,10.0,0,?
+Resources    DustCloud,0.0,60000.0,0.0,Cylinder,DustCloud.dist,250,7500.0,50000.0,0.0,0.0,0,?
+Resources    DustCloud,0.0,-60000.0,0.0,Cylinder,DustCloud.dist,250,7500.0,50000.0,0.0,0.0,0,?
+Derelict    AngelMoon_clean,180000.0,-550000.0,-90000.0,0.0,105.0,0,?,?
+Ships     ,0.0,0.0,0.0,-44.0,Traders,JunkyardHQ,1,NULL_FORMATION|?|?,256,?
+Derelict    Junk1_partB,-2010.0,1000.0,0.0,40.0,-29.9,0,?,?
+Derelict    Junk2_shipwreck,2010.0,3020.0,1090.0,54.6,45.0,0,?,?
+Derelict    Junk3_BoilerCasing,-780.0,-2280.0,-1580.0,45.6,23.2,0,?,?
+Derelict    FragmentPanel2,-2000.0,-80.0,2050.0,62.8,103.8,0,?,?
+Derelict    Junk1_partA,200.0,2210.0,-1970.0,83.3,-4.8,0,?,?
+Derelict    Junk1_shell,-1810.0,2310.0,1020.0,28.4,79.5,0,?,?
+Derelict    Junk1_strut,2170.0,360.0,-2680.0,40.9,-26.6,0,?,?
+Derelict    Junk2_panelA,-1430.0,2630.0,-1070.0,-10.6,46.2,0,?,?
+Derelict    Junk2_panelA,-1190.0,1810.0,140.0,38.5,-30.3,0,?,?
+Derelict    Junk2_panelB,-2510.0,1950.0,140.0,-1.7,-47.4,0,?,?
+Derelict    Junk3_Boiler,-3090.0,3200.0,140.0,37.5,74.3,0,?,?
+Derelict    Junk2_panelC,-2610.0,3330.0,-200.0,0.0,-44.0,0,?,?
+Derelict    Junk0_sensors,980.0,1930.0,95.0,32.0,-37.6,0,?,?
+Derelict    Junk0_panel,-780.0,830.0,95.0,52.2,-2.0,0,?,?
+Derelict    Junk0_antenna,830.0,-2510.0,95.0,35.0,-6.3,0,?,?
+Derelict    ResourceController,0.0,-60000.0,0.0,47.5,-42.5,0,?,?
+Derelict    ResourceController,0.0,60000.0,0.0,10.2,59.6,0,?,?
+Derelict    Junk1_shell,-1750.0,-840.0,0.0,43.7,10.7,0,?,?
+Derelict    Junk1_partB,1550.0,1380.0,-1370.0,-23.9,-43.4,0,?,?
+Derelict    Junk3_Boiler,-1680.0,4020.0,0.0,-19.3,15.9,0,?,?
+Derelict    FragmentStrut,-1080.0,3290.0,-620.0,-20.0,-60.0,0,?,?
+

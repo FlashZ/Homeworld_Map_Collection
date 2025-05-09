@@ -1,0 +1,36 @@
+; MissionMan script, Salute guru
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: MortalCombat by Paladineguru3
+; Info: MortalCombat by Paladineguru (2-4)
+
+[MortalCombat by Paladineguru]
+
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,?,0.0,Mothership_0.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,?,0.0,Mothership_1.missphere,?
+MissionSphere    2,R1,Mothership,47689.0,75044.0,-20602.0,?,0.0,Mothership_2.missphere,?
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_3.missphere,1000
+
+Lighting    ez12
+Background    ez12, 90, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    175000
+smZoomMin    40000
+smInitialDistance    145000
+smUniverseSizeX    100000
+smUniverseSizeZ    150000
+smUniverseSizeY    150000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+ExcludeDerelict    All
+IncludeDerelict    Crate
+SongNumber    14

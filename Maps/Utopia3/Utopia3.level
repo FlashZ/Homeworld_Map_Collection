@@ -1,0 +1,38 @@
+; MissionMan script, Monday, Jan 14 2002, 11:49:45 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Utopia3
+; Info: Ion Fields (2-4)
+
+[Ion Fields (2-4)]
+
+MissionSphere    0,R1,Mothership,67999.8,72000.6,0.0,30000.0,-147.0,Mothership_1.missphere,1000
+MissionSphere    1,R2,Mothership,-62000.6,18000.7,-10000.4,30000.0,-73.0,Mothership_0.missphere,1000
+MissionSphere    -1,?,ResourceSphere,22000.8,53000.8,0.0,30000.0,0.0,ResourceSphere_2.missphere,1000
+MissionSphere    2,R1,Mothership,67999.8,72000.6,0.0,30000.0,-147.0,Mothership_2.missphere,1000
+Ships     ,0.0,0.0,0.0,0.0,Traders,Ghostship,1,NULL_FORMATION|?|?,0,?
+
+Lighting    ez05
+Background    ez05, 180, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    120000
+smZoomMin    53000
+smInitialDistance    60000
+smUniverseSizeX    95000
+smUniverseSizeZ    45000
+smUniverseSizeY    95000
+IncludeShips    P1,All
+IncludeShips    P2,All
+IncludeShips    P3,P3Megaship
+IncludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+IncludeShips    Traders,All
+ExcludeDerelict    All
+IncludeDerelict    Crate
+SongNumber    0

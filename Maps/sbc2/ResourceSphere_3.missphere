@@ -1,0 +1,53 @@
+; MissionMan script, Saturday, Jun 23 2001, 2:18:39 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    DustCloud,0.0,1.0,-1000.0,Sphere,DustCloudCentre.dist,11,1510.0,3020.0,0.0,1.0,2048,2
+Resources    DustCloud,29561.6,39718.0,-64342.5,Sphere,DustCloudCentre.dist,10,2000.0,5000.0,0.0,0.0,?,?
+Resources    DustCloud,-19999.0,-36584.0,54196.0,Sphere,DustCloudCentre.dist,10,2000.0,5000.0,0.0,-40.0,?,?
+Resources    Asteroid,0.0,-126.0,0.0,Cylinder,AsteroidLong.dist,175,4000.0,151200.0,70.0,0.0,?,?
+Resources    Asteroid,-49750.0,-3989.0,0.0,Cylinder,AsteroidLong.dist,40,4000.0,40000.0,-24.4,-32.7,?,?
+Resources    Asteroid,-29447.9,-24135.0,26873.9,Cylinder,AsteroidLong.dist,40,4000.0,40000.0,-58.5,-70.6,?,?
+Resources    Asteroid,-19999.0,-36926.9,55987.4,Cylinder,AsteroidLong.dist,40,4000.0,22650.0,90.0,135.0,?,?
+Resources    Asteroid,1136.0,-34073.0,28218.0,Cylinder,AsteroidLong.dist,40,4000.0,40000.0,37.2,16.0,?,?
+Resources    Asteroid,34374.9,-25938.0,4479.2,Cylinder,AsteroidLong.dist,40,4000.0,40000.0,-39.3,-164.7,?,?
+Resources    Asteroid,53306.8,-21392.6,-6718.5,Cylinder,AsteroidCentre.dist,6,2390.0,11400.0,0.0,2.0,?,?
+Resources    Asteroid,65967.8,-26532.0,-7614.3,Cylinder,AsteroidBigSphere.dist,12,4810.0,24350.0,0.0,-20.0,?,?
+Resources    Asteroid,19833.9,-29442.7,14780.7,Cylinder,AsteroidCentre.dist,6,2390.0,11400.0,0.0,8.0,2048,2
+Resources    Asteroid,60500.0,8468.1,-10749.6,Cylinder,AsteroidLong.dist,40,4000.0,40000.0,-24.4,-32.7,?,?
+Resources    Asteroid,41541.4,29061.0,-34040.0,Cylinder,AsteroidLong.dist,40,4000.0,40000.0,-58.5,-70.6,?,?
+Resources    Asteroid,29854.1,39614.0,-61361.9,Cylinder,AsteroidLong.dist,40,4500.0,22650.0,90.0,135.0,?,?
+Resources    Asteroid,9167.0,30041.5,-37175.0,Cylinder,AsteroidLong.dist,40,4000.0,40000.0,37.2,16.0,?,?
+Resources    Asteroid,-24072.9,22803.4,-12541.1,Cylinder,AsteroidLong.dist,40,4000.0,40000.0,-39.3,-171.7,?,?
+Resources    Asteroid,-65217.6,26875.7,0.0,Cylinder,AsteroidBigSphere.dist,12,4810.0,24350.0,0.0,-20.0,?,?
+Resources    Asteroid,-45692.4,22619.7,0.0,Cylinder,AsteroidCentre.dist,6,2390.0,11400.0,0.0,0.0,2048,2
+Resources    Asteroid,-5948.7,25411.8,-24186.6,Cylinder,AsteroidCentre.dist,6,2390.0,11400.0,0.0,7.0,?,?
+Resources    Asteroid,-35115.3,-274.7,124515.9,Cylinder,AsteroidLong.dist,90,4000.0,110300.0,80.0,0.0,?,?
+Resources    Asteroid,35610.0,-15.0,-124068.4,Cylinder,AsteroidLong.dist,90,4000.0,110300.0,80.0,0.0,?,?
+Resources    Asteroid,44851.0,1983.4,-223100.0,Cylinder,AsteroidLong.dist,40,7500.0,150000.0,90.0,135.0,?,?
+Resources    Asteroid,-45357.7,-256.0,239849.0,Cylinder,AsteroidLong.dist,40,5000.0,150000.0,90.0,135.0,?,?
+Resources    Asteroid,30016.0,28323.0,-74800.0,Sphere,AsteroidCentre.dist,6,1390.0,7280.0,-29.5,78.5,2,?
+Resources    Asteroid,35610.0,19692.6,-125859.6,Cylinder,AsteroidLong.dist,90,4000.0,110300.0,67.7,-64.5,?,?
+Resources    Asteroid,-19253.0,-26768.0,69424.0,Sphere,AsteroidCentre.dist,6,1390.0,7280.0,-29.5,78.5,2,?
+Resources    Asteroid,-35115.0,-17294.5,120037.0,Cylinder,AsteroidLong.dist,90,4000.0,110300.0,67.7,-64.5,?,?
+Resources    Asteroid,10122.6,-5432.0,0.0,Rectangle,Nebula.dist,10,3000.0,1000.0,1000.0,20.0,2048,7
+Resources    Asteroid,6925.0,-5654.0,0.0,Rectangle,Nebula.dist,10,4000.0,1000.0,1000.0,-10.0,2048,7
+Resources    Asteroid,11460.7,-2676.8,0.0,Rectangle,Nebula.dist,10,4000.0,1000.0,1000.0,-90.0,2048,7
+Resources    Asteroid,8814.7,94.2,0.0,Rectangle,Nebula.dist,15,5000.0,1000.0,1000.0,-20.0,2048,7
+Resources    Asteroid,6673.7,2740.2,0.0,Rectangle,Nebula.dist,10,4000.0,1000.0,1000.0,-90.0,2048,7
+Resources    Asteroid,7869.6,5354.2,0.0,Rectangle,Nebula.dist,10,3000.0,1000.0,1000.0,20.0,2048,7
+Resources    Asteroid,10736.8,5701.4,0.0,Rectangle,Nebula.dist,10,4000.0,1000.0,1000.0,-10.0,2048,7
+Resources    Asteroid,2278.0,598.0,0.0,Rectangle,Nebula.dist,30,10000.0,1000.0,1000.0,-90.0,2048,7
+Resources    Asteroid,-368.6,-5447.8,0.0,Rectangle,Nebula.dist,15,4000.0,1000.0,1000.0,0.0,2048,7
+Resources    Asteroid,9.4,221.2,0.0,Rectangle,Nebula.dist,15,4000.0,1000.0,1000.0,0.0,2048,7
+Resources    Asteroid,-368.6,6393.2,0.0,Rectangle,Nebula.dist,15,4000.0,1000.0,1000.0,0.0,2048,7
+Resources    Asteroid,-3013.6,4881.2,0.0,Rectangle,Nebula.dist,10,3000.0,1000.0,1000.0,60.0,2048,7
+Resources    Asteroid,-2887.6,1984.2,0.0,Rectangle,Nebula.dist,10,3000.0,1000.0,1000.0,-60.0,2048,7
+Resources    Asteroid,-2887.6,-1416.8,0.0,Rectangle,Nebula.dist,10,3000.0,1000.0,1000.0,60.0,2048,7
+Resources    Asteroid,-3013.6,-4313.8,0.0,Rectangle,Nebula.dist,10,3000.0,1000.0,1000.0,-60.0,2048,7
+Resources    Asteroid,-6623.2,221.2,0.0,Rectangle,Nebula.dist,20,6000.0,1000.0,1000.0,-90.0,2048,7
+Resources    Asteroid,-8260.2,4882.2,0.0,Rectangle,Nebula.dist,15,5000.0,1000.0,1000.0,-45.0,2048,7
+Resources    Asteroid,-11661.2,6268.2,0.0,Rectangle,Nebula.dist,10,4000.0,1000.0,1000.0,10.0,2048,7
+Resources    Asteroid,-11787.2,-5950.8,0.0,Rectangle,Nebula.dist,10,4000.0,1000.0,1000.0,-10.0,2048,7
+Resources    Asteroid,-8260.2,-4758.8,0.0,Rectangle,Nebula.dist,15,5000.0,1000.0,1000.0,45.0,2048,7
+

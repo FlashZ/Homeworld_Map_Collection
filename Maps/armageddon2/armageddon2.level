@@ -1,0 +1,38 @@
+; MissionMan script, Sunday, Oct 28 2001, 3:19:39 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: armageddon2
+; Info: Armageddon (2)
+
+[Armageddon (2)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,600000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,600000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,600000.0,0.0,Mothership_0.missphere,0
+
+Lighting    giant
+Background    giant, 0, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    2000000
+smZoomMin    30000
+smInitialDistance    75000
+smUniverseSizeX    1200000
+smUniverseSizeZ    600000
+smUniverseSizeY    1200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,CryoTray
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,CryoTray
+ExcludeShips    R2,TargetDrone
+ExcludeAsteroid    Asteroid4
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    14
