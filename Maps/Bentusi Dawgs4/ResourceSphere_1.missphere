@@ -1,7 +1,0 @@
-; MissionMan script, Thursday, Jul 26 2001, 11:59:35 
-; Copyright (c) 1998-99, Relic Entertainment Inc.
-; MissionSphere Object: ?,ResourceSphere
-
-Resources    Asteroid,0.0,0.0,0.0,Sphere,Asteroid.dist,500,9500.0,19000.0,0.0,0.0,0,?
-Resources    DustCloud,0.0,0.0,9000.0,Cylinder,DustCloud.dist,590,9500.0,100000.0,0.0,0.0,0,?
-

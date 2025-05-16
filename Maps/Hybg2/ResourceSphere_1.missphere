@@ -1,6 +1,0 @@
-; MissionMan script, Friday, Oct 13 2006, 9:21:25 PM
-; Copyright (c) 1998-99, Relic Entertainment Inc.
-; MissionSphere Object: ?,ResourceSphere
-
-Resources    Asteroid,0.0,0.0,0.0,Sphere,Heavyrocks.dist,10,25000.0,25000.0,0.0,0.0,0,5
-

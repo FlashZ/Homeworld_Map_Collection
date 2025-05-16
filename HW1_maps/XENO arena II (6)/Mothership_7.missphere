@@ -1,0 +1,13 @@
+; MissionMan script, יום רביעי, אוקטובר 10 2001, 12:00:40 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,-3798.6,14229.7,0.0,0.0,R1,Mothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,-3798.6,14229.7,-100.0,0.0,R2,Carrier,1,PARADE_FORMATION|?|?,0,?
+Ships     ,-3798.6,14229.7,0.0,0.0,P2,P2MultiBeamFrigate,4,PARADE_FORMATION|?|?,0,?
+Ships     ,-3798.6,9229.7,0.0,0.0,P2,P2Swarmer,20,NULL_FORMATION|?|?,0,?
+Ships     ,-3798.6,14229.7,0.0,0.0,P2,P2AdvanceSwarmer,10,PARADE_FORMATION|?|?,0,?
+Ships     ,-3798.6,9729.7,0.0,0.0,P2,P2FuelPod,5,NULL_FORMATION|?|?,0,?
+Ships     ,-3798.6,8729.7,0.0,0.0,P1,P1Missilecorvette,8,Null_FORMATION|?|?,0,?
+
+

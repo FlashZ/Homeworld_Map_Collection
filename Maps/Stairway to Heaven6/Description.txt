@@ -1,9 +1,0 @@
-Description &              &Stairway to Heaven
-Description &There's a lady who's sure all that glitters is gold
-Description &And she's buying a stairway to heaven
-Description &And when she gets there she knows if the stores are closed
-Description &With a word she can get what she came for
-Description &
-Description &             Map Creator: &Ostap.&h&g
-Description &                       (ostaphg@o2.pl)
-Description

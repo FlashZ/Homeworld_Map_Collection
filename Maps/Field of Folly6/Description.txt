@@ -1,7 +1,0 @@
-Description     Field of Folly 6
-Description	two research, collector, 2 controller
-Description	This map isn't so easy as it seems. A simple arena for you to showcase what skills you got.Special Thanks to Lagsy for showing me how to use Mission Man- without which this map wouldn't be possible- and Falcon for fixing the listing problem.   
-Description	AUTHOR:	Afterlife-hg 
-Font            Arial_b12.hff
-Color           200, 100, 200
-DropShadow      Yes

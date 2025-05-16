@@ -1,0 +1,6 @@
+Description  Ownerize (1v1)
+Description  This map was designed for 1vs1 only.
+Description  Author:  Thor|HSC (thor@hscweb.com)
+Description  With a little help from B][ll Da BiB, PhaetonSLS and calculus.
+Description  Thanks a bunch guys. :)
+Description  Version 1.1  (may 14th 2002)

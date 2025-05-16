@@ -1,6 +1,0 @@
-Description  Tiny map, unavailable ships. Recommend top vs. bottom with 4 ppl. 
-Description  With 2 ppl, both have a balance of Strike Craft and Capital Ships.
-Description  In 2vs2, Players 1+3 command Strike Craft, Players 2+4 control Capital Ships.
-Description  Resources should be set to small with harvesting disabled.
-Description  
-Description  Author: MofuggerX

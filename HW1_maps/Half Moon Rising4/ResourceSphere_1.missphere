@@ -1,0 +1,31 @@
+; MissionMan script, Wednesday, May 3 2006, 7:18:46 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,60000.0,80000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,0.0,?,?
+Resources    Asteroid,41000.0,74000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,35.0,?,?
+Resources    Asteroid,26000.0,62000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,42.0,?,?
+Resources    Asteroid,12000.0,49000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,43.0,?,?
+Resources    Asteroid,-500.0,34000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,58.0,?,?
+Resources    Asteroid,-7000.0,15000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,85.0,?,?
+Resources    Asteroid,-60000.0,-80000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,0.0,?,?
+Resources    Asteroid,-41000.0,-74000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,35.0,?,?
+Resources    Asteroid,-26000.0,-62000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,42.0,?,?
+Resources    Asteroid,-12000.0,-49000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,43.0,?,?
+Resources    Asteroid,-500.0,-34000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,58.0,?,?
+Resources    Asteroid,6000.0,-15000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,85.0,?,?
+Resources    Asteroid,60000.0,-80000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,0.0,?,?
+Resources    Asteroid,41000.0,-74000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,-35.0,?,?
+Resources    Asteroid,26000.0,-62000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,-42.0,?,?
+Resources    Asteroid,12000.0,-49000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,-43.0,?,?
+Resources    Asteroid,-500.0,-34000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,-58.0,?,?
+Resources    Asteroid,-7000.0,-15000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,-85.0,?,?
+Resources    Asteroid,-60000.0,80000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,0.0,?,?
+Resources    Asteroid,-41000.0,74000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,-35.0,?,?
+Resources    Asteroid,-26000.0,62000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,-42.0,?,?
+Resources    Asteroid,-12000.0,49000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,-43.0,?,?
+Resources    Asteroid,500.0,34000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,-58.0,?,?
+Resources    Asteroid,7000.0,15000.0,0.0,Rectangle,Tiny.dist,15,20000.0,2000.0,1000.0,-85.0,?,?
+Resources    Asteroid,0.0,0.0,0.0,Rectangle,Tiny.dist,15,8000.0,40000.0,1000.0,0.0,2048,7
+
+

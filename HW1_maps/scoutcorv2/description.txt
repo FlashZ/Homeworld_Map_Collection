@@ -1,0 +1,17 @@
+Description	Scout and Corvette Training
+Description     
+Description	Inspired by the good folks
+Description     that brought us the corvette
+Description     training map.
+Description
+Description     AUTHOR:  TaoTao
+Description	VERSION: 1.0
+Description	DATE:     11/26/01
+Description	 
+
+
+Color           100, 200, 155
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

@@ -1,0 +1,6 @@
+; MissionMan script, Montag, Jun 11 2001, 7:24:46 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: Traders, merda varia
+
+Ships     ,0.0,0.0,0.0,0.0,Traders,ResearchStation,1,NULL_FORMATION|?|?,0,?
+Ships     ,0.0,0.0,0.0,0.0,Traders,Junk_SGun,151,SPHERE_FORMATION|?|?,0,?

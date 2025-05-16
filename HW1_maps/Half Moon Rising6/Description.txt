@@ -1,0 +1,7 @@
+Description     Half Moon Rising
+Description	two research, collector, 2 controller
+Description	experiment a   
+Description	AUTHOR:	Afterlife-hg 
+Font            Arial_b12.hff
+Color           200, 100, 200
+DropShadow      Yes

@@ -1,0 +1,155 @@
+; MissionMan script, Wednesday, August 01, 2001 5:13:51 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+
+
+Resources	DustCloud,-45000,906,6881,Cylinder,Small.dist,1,800,1828,7.5,0,?
+Resources	DustCloud,-45000,2656,6412,Cylinder,Small.dist,1,800,1828,22.5,0,?
+Resources	DustCloud,-45000,4225,5507,Cylinder,Small.dist,1,800,1828,35.5,0,?
+Resources	DustCloud,-45000,5506,4226,Cylinder,Small.dist,1,800,1828,52.5,0,?
+Resources	DustCloud,-45000,6412,2657,Cylinder,Small.dist,1,800,1828,67.5,0,?
+Resources	DustCloud,-45000,6880,907,Cylinder,Small.dist,1,800,1828,82.5,0,?
+
+Resources	DustCloud,-45000,-906,-6881,Cylinder,Small.dist,1,800,1828,7.5,0,?
+Resources	DustCloud,-45000,-2656,-6412,Cylinder,Small.dist,1,800,1828,22.5,0,?
+Resources	DustCloud,-45000,-4225,-5507,Cylinder,Small.dist,1,800,1828,35.5,0,?
+Resources	DustCloud,-45000,-5506,-4226,Cylinder,Small.dist,1,800,1828,52.5,0,?
+Resources	DustCloud,-45000,-6412,-2657,Cylinder,Small.dist,1,800,1828,67.5,0,?
+Resources	DustCloud,-45000,-6880,-907,Cylinder,Small.dist,1,800,1828,82.5,0,?
+
+Resources	DustCloud,-45000,906,-6881,Cylinder,Small.dist,1,800,1828,-7.5,0,?
+Resources	DustCloud,-45000,2656,-6412,Cylinder,Small.dist,1,800,1828,-22.5,0,?
+Resources	DustCloud,-45000,4225,-5507,Cylinder,Small.dist,1,800,1828,-35.5,0,?
+Resources	DustCloud,-45000,5506,-4226,Cylinder,Small.dist,1,800,1828,-52.5,0,?
+Resources	DustCloud,-45000,6412,-2657,Cylinder,Small.dist,1,800,1828,-67.5,0,?
+Resources	DustCloud,-45000,6880,-907,Cylinder,Small.dist,1,800,1828,-82.5,0,?
+
+Resources	DustCloud,-45000,-906,6881,Cylinder,Small.dist,1,800,1828,-7.5,0,?
+Resources	DustCloud,-45000,-2656,6412,Cylinder,Small.dist,1,800,1828,-22.5,0,?
+Resources	DustCloud,-45000,-4225,5507,Cylinder,Small.dist,1,800,1828,-35.5,0,?
+Resources	DustCloud,-45000,-5506,4226,Cylinder,Small.dist,1,800,1828,-52.5,0,?
+Resources	DustCloud,-45000,-6412,2657,Cylinder,Small.dist,1,800,1828,-67.5,0,?
+Resources	DustCloud,-45000,-6880,907,Cylinder,Small.dist,1,800,1828,-82.5,0,?
+
+Resources	DustCloud,45000,906,6881,Cylinder,Small.dist,1,800,1828,7.5,0,?
+Resources	DustCloud,45000,2656,6412,Cylinder,Small.dist,1,800,1828,22.5,0,?
+Resources	DustCloud,45000,4225,5507,Cylinder,Small.dist,1,800,1828,35.5,0,?
+Resources	DustCloud,45000,5506,4226,Cylinder,Small.dist,1,800,1828,52.5,0,?
+Resources	DustCloud,45000,6412,2657,Cylinder,Small.dist,1,800,1828,67.5,0,?
+Resources	DustCloud,45000,6880,907,Cylinder,Small.dist,1,800,1828,82.5,0,?
+Resources	DustCloud,45000,-906,-6881,Cylinder,Small.dist,1,800,1828,7.5,0,?
+Resources	DustCloud,45000,-2656,-6412,Cylinder,Small.dist,1,800,1828,22.5,0,?
+Resources	DustCloud,45000,-4225,-5507,Cylinder,Small.dist,1,800,1828,35.5,0,?
+Resources	DustCloud,45000,-5506,-4226,Cylinder,Small.dist,1,800,1828,52.5,0,?
+Resources	DustCloud,45000,-6412,-2657,Cylinder,Small.dist,1,800,1828,67.5,0,?
+Resources	DustCloud,45000,-6880,-907,Cylinder,Small.dist,1,800,1828,82.5,0,?
+Resources	DustCloud,45000,906,-6881,Cylinder,Small.dist,1,800,1828,-7.5,0,?
+Resources	DustCloud,45000,2656,-6412,Cylinder,Small.dist,1,800,1828,-22.5,0,?
+Resources	DustCloud,45000,4225,-5507,Cylinder,Small.dist,1,800,1828,-35.5,0,?
+Resources	DustCloud,45000,5506,-4226,Cylinder,Small.dist,1,800,1828,-52.5,0,?
+Resources	DustCloud,45000,6412,-2657,Cylinder,Small.dist,1,800,1828,-67.5,0,?
+Resources	DustCloud,45000,6880,-907,Cylinder,Small.dist,1,800,1828,-82.5,0,?
+Resources	DustCloud,45000,-906,6881,Cylinder,Small.dist,1,800,1828,-7.5,0,?
+Resources	DustCloud,45000,-2656,6412,Cylinder,Small.dist,1,800,1828,-22.5,0,?
+Resources	DustCloud,45000,-4225,5507,Cylinder,Small.dist,1,800,1828,-35.5,0,?
+Resources	DustCloud,45000,-5506,4226,Cylinder,Small.dist,1,800,1828,-52.5,0,?
+Resources	DustCloud,45000,-6412,2657,Cylinder,Small.dist,1,800,1828,-67.5,0,?
+
+Resources   DustCloud,-38000,-38000,9500,Sphere,bubble.dist,25,2250,2250,0.0,0.0,2048,3
+Resources   DustCloud,38000,38000,-9500,Sphere,bubble.dist,25,2250,2250,0.0,0.0,2048,3
+Resources   DustCloud,-38000,38000,-9500,Sphere,bubble.dist,25,2250,2250,0.0,0.0,2048,3
+Resources   DustCloud,38000,-38000,9500,Sphere,bubble.dist,25,2250,2250,0.0,0.0,2048,3
+
+Resources   DustCloud,-20000.0,0.0,0.0,Cylinder,gas.dist,5,2500.0,64450.0,180.0,180.0,0,?
+Resources   DustCloud,-20000.0,0.0,0.0,Cylinder,gas.dist,5,2500.0,64450.0,180.0,180.0,0,?
+Resources   DustCloud,20000.0,0.0,0.0,Cylinder,gas.dist,5,2500.0,64450.0,180.0,180.0,0,?
+Resources   DustCloud,20000.0,0.0,0.0,Cylinder,gas.dist,5,2500.0,64450.0,180.0,180.0,0,?
+
+Resources   DustCloud,0.0,0.0,-20000.0,Cylinder,gas.dist,5,2500.0,64450.0,90.0,180.0,0,?
+Resources   DustCloud,0.0,0.0,20000.0,Cylinder,gas.dist,5,2500.0,64450.0,90.0,180.0,0,?
+Resources   DustCloud,0.0,0.0,-20000.0,Cylinder,gas.dist,5,2500.0,64450.0,90.0,180.0,0,?
+Resources   DustCloud,0.0,0.0,20000.0,Cylinder,gas.dist,5,2500.0,64450.0,90.0,180.0,0,?
+
+Resources   DustCloud,0.0,-20000.0,0.0,Cylinder,gas.dist,5,2500.0,64450.0,180.0,90.0,0,?
+Resources   DustCloud,0.0,-200000.0,0.0,Cylinder,gas.dist,5,2500.0,64450.0,180.0,90.0,0,?
+Resources   DustCloud,0.0,20000.0,0.0,Cylinder,gas.dist,5,2500.0,64450.0,180.0,90.0,0,?
+Resources   DustCloud,0.0,20000.0,0.0,Cylinder,gas.dist,5,2500.0,64450.0,180.0,90.0,0,?
+
+Resources   Nebula,-20000.0,-20000.0,0.0,Nebula,nebula.dist,48,15000,25000,10000,4000
+Resources   Nebula,20000.0,20000.0,0.0,Nebula,nebula.dist,48,15000,25000,10000,4000
+
+Resources   Asteroid,-50000,-15000,-7000,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+Resources   Asteroid,-45000,-20000,-5500,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+Resources   Asteroid,-38000,-17000,-6000,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+Resources   Asteroid,-29000,-30000,-4000,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+Resources   Asteroid,50000,-15000,7000,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+Resources   Asteroid,45000,-20000,5500,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+Resources   Asteroid,38000,-17000,6000,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+Resources   Asteroid,29000,-30000,4000,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+Resources   Asteroid,50000,15000,7000,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+Resources   Asteroid,45000,20000,5500,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+Resources   Asteroid,38000,17000,6000,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+Resources   Asteroid,29000,30000,4000,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+Resources   Asteroid,-50000,15000,-7000,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+Resources   Asteroid,-45000,20000,-5500,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+Resources   Asteroid,-38000,17000,-6000,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+Resources   Asteroid,-29000,30000,-4000,Sphere,Pebble.dist,10,1697.8,2490.0,0.0,-19.0,0,?
+
+Resources	DustCloud,906,-45000,6881,Cylinder,Small.dist,1,800,1828,7.5,0,?
+Resources	DustCloud,2656,-45000,6412,Cylinder,Small.dist,1,800,1828,22.5,0,?
+Resources	DustCloud,4225,-45000,5507,Cylinder,Small.dist,1,800,1828,35.5,0,?
+Resources	DustCloud,5506,-45000,4226,Cylinder,Small.dist,1,800,1828,52.5,0,?
+Resources	DustCloud,6412,-45000,2657,Cylinder,Small.dist,1,800,1828,67.5,0,?
+Resources	DustCloud,6880,-45000,907,Cylinder,Small.dist,1,800,1828,82.5,0,?
+
+Resources	DustCloud,-906,-45000,-6881,Cylinder,Small.dist,1,800,1828,7.5,0,?
+Resources	DustCloud,-2656,-45000,-6412,Cylinder,Small.dist,1,800,1828,22.5,0,?
+Resources	DustCloud,-4225,-45000,-5507,Cylinder,Small.dist,1,800,1828,35.5,0,?
+Resources	DustCloud,-5506,-45000,-4226,Cylinder,Small.dist,1,800,1828,52.5,0,?
+Resources	DustCloud,-6412,-45000,-2657,Cylinder,Small.dist,1,800,1828,67.5,0,?
+Resources	DustCloud,-6880,-45000,-907,Cylinder,Small.dist,1,800,1828,82.5,0,?
+
+Resources	DustCloud,906,-45000,-6881,Cylinder,Small.dist,1,800,1828,-7.5,0,?
+Resources	DustCloud,2656,-45000,-6412,Cylinder,Small.dist,1,800,1828,-22.5,0,?
+Resources	DustCloud,4225,-45000,-5507,Cylinder,Small.dist,1,800,1828,-35.5,0,?
+Resources	DustCloud,5506,-45000,-4226,Cylinder,Small.dist,1,800,1828,-52.5,0,?
+Resources	DustCloud,6412,-45000,-2657,Cylinder,Small.dist,1,800,1828,-67.5,0,?
+Resources	DustCloud,6880,-45000,-907,Cylinder,Small.dist,1,800,1828,-82.5,0,?
+
+Resources	DustCloud,-906,-45000,6881,Cylinder,Small.dist,1,800,1828,-7.5,0,?
+Resources	DustCloud,-2656,-45000,6412,Cylinder,Small.dist,1,800,1828,-22.5,0,?
+Resources	DustCloud,-4225,-45000,5507,Cylinder,Small.dist,1,800,1828,-35.5,0,?
+Resources	DustCloud,-5506,-45000,4226,Cylinder,Small.dist,1,800,1828,-52.5,0,?
+Resources	DustCloud,-6412,-45000,2657,Cylinder,Small.dist,1,800,1828,-67.5,0,?
+Resources	DustCloud,-6880,-45000,907,Cylinder,Small.dist,1,800,1828,-82.5,0,?
+
+Resources	DustCloud,906,45000,6881,Cylinder,Small.dist,1,800,1828,7.5,0,?
+Resources	DustCloud,2656,45000,6412,Cylinder,Small.dist,1,800,1828,22.5,0,?
+Resources	DustCloud,4225,45000,5507,Cylinder,Small.dist,1,800,1828,35.5,0,?
+Resources	DustCloud,5506,45000,4226,Cylinder,Small.dist,1,800,1828,52.5,0,?
+Resources	DustCloud,6412,45000,2657,Cylinder,Small.dist,1,800,1828,67.5,0,?
+Resources	DustCloud,6880,45000,907,Cylinder,Small.dist,1,800,1828,82.5,0,?
+
+Resources	DustCloud,-906,45000,-6881,Cylinder,Small.dist,1,800,1828,7.5,0,?
+Resources	DustCloud,-2656,45000,-6412,Cylinder,Small.dist,1,800,1828,22.5,0,?
+Resources	DustCloud,-4225,45000,-5507,Cylinder,Small.dist,1,800,1828,35.5,0,?
+Resources	DustCloud,-5506,45000,-4226,Cylinder,Small.dist,1,800,1828,52.5,0,?
+Resources	DustCloud,-6412,45000,-2657,Cylinder,Small.dist,1,800,1828,67.5,0,?
+Resources	DustCloud,-6880,45000,-907,Cylinder,Small.dist,1,800,1828,82.5,0,?
+
+Resources	DustCloud,906,45000,-6881,Cylinder,Small.dist,1,800,1828,-7.5,0,?
+Resources	DustCloud,2656,45000,-6412,Cylinder,Small.dist,1,800,1828,-22.5,0,?
+Resources	DustCloud,4225,45000,-5507,Cylinder,Small.dist,1,800,1828,-35.5,0,?
+Resources	DustCloud,5506,45000,-4226,Cylinder,Small.dist,1,800,1828,-52.5,0,?
+Resources	DustCloud,6412,45000,-2657,Cylinder,Small.dist,1,800,1828,-67.5,0,?
+Resources	DustCloud,6880,45000,-907,Cylinder,Small.dist,1,800,1828,-82.5,0,?
+
+Resources	DustCloud,-906,45000,6881,Cylinder,Small.dist,1,800,1828,-7.5,0,?
+Resources	DustCloud,-2656,45000,6412,Cylinder,Small.dist,1,800,1828,-22.5,0,?
+Resources	DustCloud,-4225,45000,5507,Cylinder,Small.dist,1,800,1828,-35.5,0,?
+Resources	DustCloud,-5506,45000,4226,Cylinder,Small.dist,1,800,1828,-52.5,0,?
+Resources	DustCloud,-6412,45000,2657,Cylinder,Small.dist,1,800,1828,-67.5,0,?
+Resources	DustCloud,-6880,45000,907,Cylinder,Small.dist,1,800,1828,-82.5,0,?
+
+

@@ -1,0 +1,7 @@
+; MissionMan? No, Notepad!
+
+Ships     70710.7,70710.7,0,225,R1,Mothership,1,NULL_FORMATION
+Ships     0,0,0,0,R1,ResourceCollector,2,PARADE_FORMATION
+Ships     0,0,0,0,R1,ResearchShip,2,PARADE_FORMATION
+Ships     7071.1,7071.1,0,225,R1,LightInterceptor,25,DELTA3D_FORMATION
+Ships     0,0,0,0,R1,ResourceController,1,PARADE_FORMATION

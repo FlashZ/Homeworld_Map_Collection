@@ -1,0 +1,16 @@
+Description   &Dr&ag&on&'s &L&a&i&r (&3-&5 Plyr)
+Description   
+Description   &Battle &Your &Way &Up &&& &Down &The &Spine &Of &Dr&ag&on&'s &La&ir!
+Description   
+Description   &3Plyr: &Three way &Free &For &All!
+Description   &4Plyr: &2x&2 &Top &Vs. &Bottem!
+Description   &5Plyr: &Five way &Free &For &All!
+Description   
+Description   By: &Dr&ag&on v1.0(4/24/2002)
+Description   www.HyperspaceDragons.cjb.net
+Description    ~ &T&h&e &H&y&p&e&r&s&p&a&c&e &D&r&a&g&o&n&s  ~
+
+Font            Arial_b12.hff
+Color           200, 33, 33
+DropShadow      Yes
+

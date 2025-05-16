@@ -1,0 +1,6 @@
+Description     This area was long ago the site of a moon-sized asteroid. Although it broke up several million years ago, there are still many remains.
+Description     
+Description     Version: 1.0
+Description     Starting forces: 2 resource collectors, 2 research ships
+Description	Author: -StarSlayer-
+Description     Email: stormfury2000@hotmail.com

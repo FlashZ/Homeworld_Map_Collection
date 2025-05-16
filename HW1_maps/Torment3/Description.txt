@@ -1,0 +1,9 @@
+Description  Torment (2-4)
+Description  &T&o&r&m&e&n&t your enemy to death.
+Description  Author:  &Qt, &Ho&H.  (Thor@hscweb.com)
+Description  Version: 1.1  (19th June 2003).
+
+
+Font		Arial_b12.hff
+Color		0, 180, 40
+DropShadow	Yes

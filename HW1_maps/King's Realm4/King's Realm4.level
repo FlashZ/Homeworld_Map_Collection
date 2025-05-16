@@ -1,0 +1,35 @@
+; MissionMan script, Thursday, Apr 27 2006, 7:48:45 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: King's Realm4
+; Info: King's Realm (2-8)
+
+[King's Realm (2-8)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+MissionSphere    3,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,1000
+
+Lighting    ez09
+Background    ez09
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    100000
+smZoomMin    25000
+smInitialDistance    75000
+smUniverseSizeX    200000
+smUniverseSizeZ    200000
+smUniverseSizeY    200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    Traders,All
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    13

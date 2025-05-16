@@ -1,0 +1,15 @@
+; MissionMan script, Saturday, May 27 2000, 2:21:34 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+;	       TYPE,  X_POS, Y-POS,  Z-POS,SHAPE,DIST FILE,QUANT,RADIUS,LENGTH,Y-ROT,Z-ROT,PROP,PARAM
+
+Resources    DustCloud,0.0,6.0,0.0,Sphere,DustCloud.dist,15,3500.0,16969.0,0.0,-7.5,2048,   ?,     ?
+Resources    DustCloud,6.0,0.0,0.0,Sphere,DustCloud.dist,15,3500.0,16969.0,0.0,-22.5,2048,   ?,     ?
+Resources    DustCloud,-0.0,-6.0,0.0,Sphere,DustCloud.dist,20,3500.0,16969.0,0.0,-37.5,2048,   ?,     ?
+Resources    DustCloud,-6.0,-0.0,0.0,Sphere,DustCloud.dist,20,3500.0,16969.0,0.0,-52.5,2048,   ?,     ?
+Resources    DustCloud,-6.0,-0.0,0.0,Sphere,DustCloud.dist,20,6500.0,16969.0,0.0,-52.5,2048,  ?,     ?
+Resources    DustCloud,-6.0,-0.0,0.0,Sphere,DustCloud.dist,20,1000.0,16969.0,0.0,-52.5,2048,   ?,     ?
+
+Resources    Asteroid,0.0,0.0,0.0,Sphere,Tiny.dist,20,3500.0,16969.0,8000.0,-90.0,   ?,     ?
+Resources    Asteroid,0.0,0.0,0.0,Sphere,Tiny.dist,20,3500.0,16969.0,8000.0,0.0,   ?,     ?

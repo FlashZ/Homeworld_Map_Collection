@@ -1,0 +1,42 @@
+; MissionMan script, Saturday, May 27 2000, 2:21:35 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level:Gyro6 
+; Info:Gyro 2,4 or 6 players
+
+[Gyro  (1v1,2v2,3v3)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,40000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,40000.0,0.0,ResourceSphere_2.missphere,?
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_4.missphere,0
+MissionSphere    3,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_3.missphere,0
+MissionSphere    4,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,0
+MissionSphere    5,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_5.missphere,0
+
+
+Lighting    ez07
+Background    ez07, -160, 0
+smDepthCueRadius   80000
+smDepthCueStartRadius    40000
+smCircleBorder    90000
+smZoomMax    250000
+smZoomMin    20000
+smInitialDistance    150000
+smUniverseSizeX    140000
+smUniverseSizeZ    100000
+smUniverseSizeY    140000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+IncludeShips    P2,P2MultiBeamFrigate
+ExcludeDerelict    All
+IncludeDerelict    Crate
+SongNumber    10

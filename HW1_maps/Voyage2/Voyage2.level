@@ -1,0 +1,36 @@
+; MissionMan script, Monday, Jun 12 2000, 5:19:46 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Voyage2
+; Info: Rumble in the Space Colonies (4)
+
+[Rumble in the Space Colonies (4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,0,0,0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,0,0,0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    -1,R1,Mothership,0,0,0,30000.0,0.0,Mothership_-1.missphere,1000
+
+Lighting    lite.hsf
+Background    lite.btg
+smDepthCueRadius    70000
+smDepthCueStartRadius    50000
+smCircleBorder    90000
+smZoomMax    90000
+smZoomMin    4000
+smInitialDistance    20000
+smUniverseSizeX    100000
+smUniverseSizeZ    100000
+smUniverseSizeY    100000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+IncludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+IncludeDerelict    HomeWorld
+IncludeDerelict    AngelMoon_Clean
+SongNumber    12

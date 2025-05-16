@@ -1,6 +1,0 @@
-Description Map made in honor of the &V&X. Starting ships are 10 scouts, 2 collectors, 2 research, and 3 standard frigates(assault). &D&O &N&O&T start with an odd number of players or you will crash (desktop).
-Description Author: &Blood&Fleet{&V&X}
-
-Font            Arial_b12.hff
-Color           255, 0, 0
-DropShadow      Yes

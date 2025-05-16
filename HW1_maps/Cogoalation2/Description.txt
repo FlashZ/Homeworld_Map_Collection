@@ -1,0 +1,3 @@
+Description A map made for 2 vs 2, 3 vs 3, or 4 vs 4. DO NOT start with 3,5,or 7 players or the map will crash. Starting fleet and RU design differs depending on the number of players.
+Description AUTHOR: BloodFleet[VX]
+Description Made on: 1/12/05

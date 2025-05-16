@@ -1,0 +1,17 @@
+Description     this is kinda nice, its a 3v3 but with 2 2v1's ... get it??? well play the map and find out who's faith is about to be sealed
+Description	
+Description     
+Description     only 6 player available, help ur leader or leave him to the dogs!! can u escape Sins Wrath??
+Description     Creator : &S&i&n&G&u&R&u
+Description     
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          300, 97, 260
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

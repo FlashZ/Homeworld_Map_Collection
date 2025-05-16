@@ -1,0 +1,8 @@
+; MissionMan script, Sunday, Aug 10 2003, 1:50:44 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Derelict    ScaffoldFingerB_scarred,-25.0,-50.0,25.0,0.0,0.0,0,?,?
+Derelict    ScaffoldFingerA_scarred,-25.0,-25.0,25.0,0.0,0.0,0,?,?
+Derelict    Scaffold_scarred,0.0,0.0,0.0,0.0,0.0,0,?,?
+

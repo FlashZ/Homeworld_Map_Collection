@@ -1,0 +1,69 @@
+; MissionMan script, lunedì, feb 19 2001, 3.55.54 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+
+Derelict    AngelMoon_clean,387956.0,800000.0,0.0,0.0,230.0,0,?,?
+
+;center RUs 
+Resources    Asteroid,0.0,0.0,0.0,Sphere,AsteroidBig.dist,75,12500.0,25000.0,0.0,0.0,2048,2
+Resources    Asteroid,0.0,0.0,0.0,Sphere,AsteroidBig.dist,35,5500.0,15000.0,0.0,0.0,2048,2
+Resources    Asteroid,0.0,0.0,17000.0,Sphere,Asteroid.dist,15,5000.0,10000.0,0.0,0.0,2048,2
+Resources    Asteroid,0.0,0.0,-17000.0,Sphere,Asteroid.dist,15,5000.0,10000.0,0.0,0.0,2048,2
+Resources    Nebula,0,0,0.0,Nebula,nebula.dist,75,38000.0,38000.0,38000.0,10000,0,?
+
+
+
+
+
+
+;player 1 RUs
+;front rocks 
+Resources    Asteroid,-45000.0,0.0,-5000.0,Sphere,Asteroid.dist,15,7500.0,15000.0,0.0,0.0,0,?
+;back gas
+Resources    DustCloud,-75000.0,5000.0,10000.0,Sphere,DustCloudBig.dist,10,5000.0,10000.0,0.0,0.0,0,?
+;front rocks
+Resources    Asteroid,-75000.0,5000.0,10000.0,Sphere,AsteroidBig.dist,20,5000.0,10000.0,0.0,0.0,2048,2
+
+;player 2 RUs
+;front rocks 
+Resources    Asteroid,-22500.0,38971.0,5000.0,Sphere,Asteroid.dist,15,7500.0,15000.0,0.0,0.0,0,?
+;back gas
+Resources    DustCloud,-33169.0,67451.0,-10000.0,Sphere,DustCloudBig.dist,10,5000.0,10000.0,0.0,0.0,0,?
+;front rocks
+Resources    Asteroid,-33169.0,67451.0,-10000.0,Sphere,AsteroidBig.dist,20,5000.0,10000.0,0.0,0.0,2048,2
+
+
+;player 3 RUs
+;front rocks 
+Resources    Asteroid,22500.0,38971.0,-5000.0,Sphere,Asteroid.dist,15,7500.0,15000.0,0.0,0.0,0,?
+;back gas
+Resources    DustCloud,41830.0,62451.0,10000.0,Sphere,DustCloudBig.dist,10,5000.0,10000.0,0.0,0.0,0,?
+;front rocks
+Resources    Asteroid,41830.0,62451.0,10000.0,Sphere,AsteroidBig.dist,20,5000.0,10000.0,0.0,0.0,2048,2
+
+;player 4 RUs
+;front rocks 
+Resources    Asteroid,45000.0,0.0,5000.0,Sphere,Asteroid.dist,15,7500.0,15000.0,0.0,0.0,0,?
+;back gas
+Resources    DustCloud,75000.0,-5000.0,-10000.0,Sphere,DustCloudBig.dist,10,5000.0,10000.0,0.0,0.0,0,?
+;front rocks
+Resources    Asteroid,75000.0,-5000.0,-10000.0,Sphere,AsteroidBig.dist,20,5000.0,10000.0,0.0,0.0,2048,2
+
+
+;player 5 RUs
+;front rocks 
+Resources    Asteroid,22500.0,-38971.0,-5000.0,Sphere,Asteroid.dist,15,7500.0,15000.0,0.0,0.0,0,?
+;back gas
+Resources    DustCloud,33169.0,-67451.0,10000.0,Sphere,DustCloudBig.dist,10,5000.0,10000.0,0.0,0.0,0,?
+;front rocks
+Resources    Asteroid,33169.0,-67451.0,10000.0,Sphere,AsteroidBig.dist,20,5000.0,10000.0,0.0,0.0,2048,2
+
+
+;player 6 RUs
+;front rocks 
+Resources    Asteroid,-22500,-38971.0,5000.0,Sphere,Asteroid.dist,15,7500.0,15000.0,0.0,0.0,0,?
+;back gas
+Resources    DustCloud,-41830.0,-62451.0,-10000.0,Sphere,DustCloudBig.dist,10,5000.0,10000.0,0.0,0.0,0,?
+;front rocks
+Resources    Asteroid,-41830.0,-62451.0,-10000.0,Sphere,AsteroidBig.dist,20,5000.0,10000.0,0.0,0.0,2048,2

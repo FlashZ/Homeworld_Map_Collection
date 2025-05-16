@@ -1,0 +1,11 @@
+Description	Subjugate Your Friends IV. This is a new iteration of the old favorite. it contains more resources and 6 research ships to allow almost any strategy. 
+Description     Version 1.0 May 20 2001
+Description	Author: Beltemall (dwillia552@aol.com)
+
+
+
+Color           100, 200, 155
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

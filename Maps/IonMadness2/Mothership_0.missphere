@@ -1,6 +1,0 @@
-; MissionMan script, Saturday, Aug 9 2003, 11:12:11 AM
-; Copyright (c) 1998-99, Relic Entertainment Inc.
-; MissionSphere Object: R1,Mothership
-
-Ships     ,-30000.0,0.0,0.0,0.0,R1,IonCannonFrigate,80,WALL_FORMATION|?|?,0,?
-

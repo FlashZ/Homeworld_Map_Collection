@@ -1,0 +1,23 @@
+; MissionMan script, Tuesday, Jul 16 2002, 7:09:18 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,77000.0,27000.0,82000.0,-180.0,R1,Carrier,1,UseAsMothership|?|?,0,?
+Ships     ,198990.0,0.0,110015.0,-180.0,R1,Carrier,1,NULL_FORMATION|?|?,0,?
+Ships     ,199040.0,1000.0,110030.0,-180.0,R1,ResourceCollector,1,NULL_FORMATION|?|?,0,?
+Ships     ,198990.0,-1000.0,110030.0,-180.0,R1,ResourceCollector,1,NULL_FORMATION|?|?,0,?
+Ships     ,200405.0,0.0,80015.0,-180.0,R1,HeavyCruiser,1,PARADE_FORMATION|?|?,0,?
+Ships     ,200395.0,-1000.0,80015.0,-180.0,R1,MissileDestroyer,1,PARADE_FORMATION|?|?,0,?
+Ships     ,200440.0,1000.0,80015.0,-180.0,R1,StandardDestroyer,1,PARADE_FORMATION|?|?,0,?
+Ships     ,199255.0,-1000.0,80015.0,-180.0,R1,ResearchShip,2,PARADE_FORMATION|?|?,0,?
+Ships     ,198965.0,-2000.0,80015.0,-180.0,R1,AdvanceSupportFrigate,2,PARADE_FORMATION|?|?,0,?
+Ships     ,198475.0,-1000.0,80015.0,-180.0,R1,IonCannonFrigate,3,PARADE_FORMATION|?|?,0,?
+Ships     ,197995.0,-1000.0,80015.0,-180.0,R1,StandardFrigate,3,PARADE_FORMATION|?|?,0,?
+Ships     ,199155.0,1520.0,80015.0,-180.0,R1,ResourceCollector,2,PARADE_FORMATION|?|?,0,?
+Ships     ,198825.0,1020.0,80015.0,-180.0,R1,RepairCorvette,5,PARADE_FORMATION|?|?,0,?
+Ships     ,198675.0,1020.0,80015.0,-180.0,R1,MultiGunCorvette,5,PARADE_FORMATION|?|?,0,?
+Ships     ,198515.0,1020.0,80015.0,-180.0,R1,HeavyCorvette,5,PARADE_FORMATION|?|?,0,?
+Ships     ,198345.0,1020.0,80015.0,-180.0,R1,AttackBomber,10,PARADE_FORMATION|?|?,0,?
+Ships     ,198175.0,1020.0,80015.0,-180.0,R1,HeavyInterceptor,10,PARADE_FORMATION|?|?,0,?
+Ships     ,198000.0,1020.0,80015.0,-180.0,R1,LightInterceptor,10,PARADE_FORMATION|?|?,0,?
+

@@ -1,0 +1,13 @@
+Description    &Gothic (&2-&4)
+Description    
+Description    I just wanted to make a Gothic map!!
+Description
+Description    AUTHOR: &:Dragon(&N&D&C) (opalesce_dragon@hotmail.com)
+Description    VERSION:V1.04 (Made with Mission Man)
+Description    
+Description
+
+Font Arial_b12.hff
+Color  230, 0, 0
+DropShadow Yes
+

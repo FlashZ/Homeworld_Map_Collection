@@ -1,8 +1,0 @@
-; MissionMan script, Thursday, Jun 20 2002, 3:43:03 PM
-; Copyright (c) 1998-99, Relic Entertainment Inc.
-; MissionSphere Object: R2,Mothership
-
-Ships     ,0.0,400.0,100.0,-150.0,Traders,JunkyardDawg,1,NULL_FORMATION|?|?,0,?
-Ships     ,3500.0,0.0,0.0,-180.0,P3,P3Megaship,1,UseAsMothership|?|?,0,?
-Ships     ,1000.0,-4000.0,0.0,130.0,P3,P3Megaship,1,NULL_FORMATION|?|?,0,?
-

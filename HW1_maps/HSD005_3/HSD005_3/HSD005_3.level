@@ -1,0 +1,46 @@
+; MissionMan script, Sunday, Oct 7 2001, 8:11:39 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: HSD005_3
+; Info: (HSD 005)
+
+[Hiigaran Suppy Depot 005 (3)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,300000.0,0.0,ResourceSphere_1.missphere,10000
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,200000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,20000.0,0.0,Mothership_1.missphere,0
+MissionSphere    2,R2,Mothership,-43995.0,259800.0,84845.0,200000.0,0.0,Mothership_2.missphere,10000
+
+Lighting    ghost1
+Background    ghost1, 90, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    500000
+smZoomMin    30000
+smInitialDistance    75000
+smUniverseSizeX    400000
+smUniverseSizeZ    300000
+smUniverseSizeY    400000
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+IncludeShips    Traders,ResearchStationTower
+IncludeShips    Traders,ResearchStationBridge
+IncludeShips    Traders,JunkyardHQ
+IncludeShips    Traders,ResearchStation
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+IncludeDerelict    HeavyCruiser
+IncludeDerelict    Carrier
+IncludeDerelict    StandardFrigate
+IncludeDerelict    IonCannonFrigate
+IncludeDerelict    AdvanceSupportFrigate
+BaseColor    5, 10, 10, 10
+BaseColor    6, 180, 180, 180
+StripeColor    5, 0, 0, 0
+StripeColor    6, 80, 80, 80
+SongNumber    9

@@ -1,8 +1,0 @@
-; MissionMan
-
-Resources    Asteroid,0,0,0,Sphere,Asteroids.dist,1,1000,0,0,0
-Resources    DustCloud,0,0,0,Sphere,DustCloud.dist,1,1000,0,0,0
-Resources    Asteroid,0,0,0,Cylinder,Asteroids.dist,1,1000,10000,0,0
-Resources    DustCloud,0,0,0,Cylinder,DustCloud.dist,1,1000,10000,0,0
-Resources    Nebula,0,0,0,Nebula,Nebula.dist,1,10000,10000,10000,0
-Derelict     Crate,0,0,0,0,0,0

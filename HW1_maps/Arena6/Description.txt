@@ -1,0 +1,12 @@
+Description  Arena (2-8)
+Description
+Description  This is a huge map, 1000 kilometers of diameter. Resources are locate in far pokets; asteroids regenerate, but their limited number can sustain no more than 3 collectors a time. Also a small defensive fleet of Bentusi and Turanic will be at your orders, they can not use hyperspace.
+Description  
+Description  
+Description  Author   : Roberto
+Description  
+ 
+
+Font Arial_b12.hff
+Color 6, 6, 166
+DropShadow Yes

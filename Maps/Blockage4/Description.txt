@@ -1,4 +1,0 @@
-Description	Blockage
-Description     This is a fun map for FFA. This map also will make for an interesting 2v2 game.
-Description
-Description	AUTHOR	 : medamanx

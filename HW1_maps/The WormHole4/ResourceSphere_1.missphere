@@ -1,0 +1,66 @@
+; MissionMan script, Monday Monday. Blue Monday
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+
+
+
+
+Resources    Asteroid,0.0,0.0,-7500.0,Cylinder,Tiny2.dist,47,1500.0,65000.0,1.0,-90.0,?,?
+Resources    Asteroid,0.0,0.0,-7500.0,Sphere,Tiny2.dist,99,5561.0,11121.9,0.0,0.0,2048,2
+
+
+
+Resources    Asteroid,-23500.0,-41000.0,0.0,Cylinder,Tiny2.dist,6,750.0,7500.0,-0.9,68.0,?,?
+Resources    Asteroid,-23500.0,41000.0,0.0,Cylinder,Tiny2.dist,6,750.0,7500.0,0.9,-68.0,?,?
+Resources    Asteroid,23500.0,-41000.0,0.0,Cylinder,Tiny2.dist,6,750.0,7500.0,0.9,-68.0,?,?
+Resources    Asteroid,23500.0,41000.0,0.0,Cylinder,Tiny2.dist,6,750.0,7500.0,-0.9,68.0,?,?
+Resources    Asteroid,-25000.0,49000.0,0.0,Cylinder,Tiny2.dist,6,750.0,7500.0,1.0,-90.0,?,?
+Resources    Asteroid,25000.0,-49000.0,0.0,Cylinder,Tiny2.dist,6,750.0,7500.0,1.0,-90.0,?,?
+Resources    Asteroid,-25000.0,-49000.0,0.0,Cylinder,Tiny2.dist,6,750.0,7500.0,1.0,-90.0,?,?
+Resources    Asteroid,25000.0,49000.0,0.0,Cylinder,Tiny2.dist,6,750.0,7500.0,1.0,-90.0,?,?
+
+
+Resources    Asteroid,-24098.0,-2554.0,-7915.0,Cylinder,Tiny.dist,22,3000.0,25000.0,-87.8,-117.0,?,?
+Resources    Asteroid,-19891.0,813.0,7233.0,Cylinder,Tiny.dist,22,3000.0,25000.0,-44.0,-3.0,?,?
+Resources    Asteroid,-9792.0,813.0,12283.0,Cylinder,Tiny.dist,22,3000.0,25000.0,-22.0,1.4,?,?
+Resources    Asteroid,1148.0,813.0,13124.0,Cylinder,Tiny.dist,22,3000.0,25000.0,-1.0,2.0,?,?
+Resources    Asteroid,15455.0,813.0,10599.0,Cylinder,Tiny.dist,22,3000.0,25000.0,15.0,2.0,?,?
+Resources    Asteroid,26395.0,813.0,5550.0,Cylinder,Tiny.dist,22,3000.0,25000.0,41.0,2.9,?,?
+Resources    Asteroid,30603.0,813.0,-8757.0,Cylinder,Tiny.dist,22,3000.0,25000.0,86.4,34.4,?,?
+Resources    Asteroid,23029.0,813.0,-25588.0,Cylinder,Tiny.dist,22,3000.0,25000.0,51.9,176.4,?,?
+Resources    Asteroid,8723.0,813.0,-33162.0,Cylinder,Tiny.dist,22,3000.0,25000.0,13.0,177.8,?,?
+Resources    Asteroid,-3901.0,813.0,-33162.0,Cylinder,Tiny.dist,22,3000.0,25000.0,-7.0,178.0,?,?
+Resources    Asteroid,-19049.0,813.0,-26429.0,Cylinder,Tiny.dist,22,3000.0,25000.0,-37.0,177.2,?,?
+Resources    Asteroid,-25782.0,813.0,-9598.0,Cylinder,Tiny.dist,22,3000.0,25000.0,-88.0,90.0,?,?
+Resources    Asteroid,-24098.0,813.0,4708.0,Cylinder,Tiny.dist,22,3000.0,25000.0,-44.9,3.0,?,?
+Resources    Asteroid,-10633.0,813.0,10599.0,Cylinder,Tiny.dist,22,3000.0,25000.0,-27.0,1.5,?,?
+Resources    Asteroid,-3791.6,813.0,12704.1,Cylinder,Tiny.dist,22,3000.0,25000.0,-12.0,1.4,?,?
+Resources    Asteroid,16732.7,813.0,8493.9,Cylinder,Tiny.dist,22,3000.0,25000.0,22.0,1.5,?,?
+Resources    Asteroid,24100.4,2391.8,4810.1,Cylinder,Tiny.dist,22,3000.0,25000.0,43.0,1.8,?,?
+Resources    Asteroid,26731.7,2391.8,-3083.8,Cylinder,Tiny.dist,22,3000.0,25000.0,71.0,4.1,?,?
+Resources    Asteroid,29889.3,2391.8,-7293.9,Cylinder,Tiny.dist,22,3000.0,25000.0,88.7,90.6,?,?
+Resources    Asteroid,24100.4,2391.8,-19398.0,Cylinder,Tiny.dist,22,3000.0,25000.0,67.9,176.4,?,?
+Resources    Asteroid,14101.4,2391.8,-28870.7,Cylinder,Tiny.dist,22,3000.0,25000.0,20.0,178.6,?,?
+Resources    Asteroid,2523.6,2391.8,-32554.6,Cylinder,Tiny.dist,22,3000.0,25000.0,-1.0,178.7,?,?
+Resources    Asteroid,-12211.8,-239.5,-28870.7,Cylinder,Tiny.dist,22,3000.0,25000.0,-26.0,178.5,?,?
+Resources    Asteroid,-25894.6,-239.5,-10977.8,Cylinder,Tiny.dist,22,3000.0,25000.0,-84.8,164.9,?,?
+Resources    Asteroid,-24315.8,-239.5,1126.3,Cylinder,Tiny.dist,22,3000.0,25000.0,-70.9,4.1,?,?
+Resources    Asteroid,-14843.1,-239.5,10072.7,Cylinder,Tiny.dist,22,3000.0,25000.0,-28.0,1.5,?,?
+
+
+
+
+
+Resources    Asteroid,-25235.6,-25235.6,350.5,Sphere,Tiny2.dist,14,5561.0,11121.9,0.0,0.0,2048,2
+Resources    Asteroid,-24885.1,25410.9,0.0,Sphere,Tiny2.dist,14,5561.0,11121.9,0.0,0.0,2048,2
+Resources    Asteroid,25586.1,25410.9,0.0,Sphere,Tiny2.dist,14,5561.0,11121.9,0.0,0.0,2048,2
+Resources    Asteroid,24885.1,-25060.4,0.0,Sphere,Tiny2.dist,14,5561.0,11121.9,0.0,0.0,2048,2
+
+
+Resources    DustCloud,-25586.1,-24709.9,0.0,Cylinder,gas.dist,10,2500.0,64450.0,90.0,180.0,2048,2
+Resources    DustCloud,24885.1,-24359.4,0.0,Cylinder,gas.dist,10,2500.0,64450.0,90.0,180.0,2048,2
+Resources    DustCloud,25235.6,25410.9,0.0,Cylinder,gas.dist,10,2500.0,64450.0,90.0,180.0,2048,2
+Resources    DustCloud,-24885.1,25761.3,0.0,Cylinder,gas.dist,10,2500.0,64450.0,90.0,180.0,2048,2
+Derelict    AngelMoon_clean,-301166.6,1083.3,0.0,0.0,0.0,0,?,?
+

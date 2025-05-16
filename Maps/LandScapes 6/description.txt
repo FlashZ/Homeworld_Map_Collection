@@ -1,8 +1,0 @@
-Description     LandScapes 6
-Description	My 3rd kickass map 
-Description	made by afterlife-hg and Iam-hg
-Description	special background thanks to PoorManDSO
-Font            Arial_b12.hff
-Color           260, 410, 200
-DropShadow      Yes
-
