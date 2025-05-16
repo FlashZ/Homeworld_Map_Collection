@@ -8,7 +8,7 @@ Everything here is provided *as‑is* for historical and educational purposes.
 
 ## Directory layout
 HW1_maps/ # each sub‑folder is a self‑contained level
-
+```
 ├─ Map_Name2/ # 2 player version
 │ ├─ Map_Name.level # mission script
 │ ├─ Asteroid.dist # resource distribution tables
@@ -20,7 +20,9 @@ HW1_maps/ # each sub‑folder is a self‑contained level
 ├─ Map_Name4/ # 4 player version
 
 └─ …
+```
 
+```
 CATA_maps/ # Homeworld: Cataclysm maps (same structure as above)
 
 ├─ Map_Name2/
