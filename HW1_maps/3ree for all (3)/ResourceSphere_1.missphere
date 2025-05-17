@@ -1,0 +1,11 @@
+; MissionMan script, Thursday, Jan 1 2004, 8:21:03 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,6144.4,-12864.7,0.0,Cylinder,cyl.dist,100,2500.0,25000.0,0.0,-64.0,0,?
+Resources    Asteroid,5813.4,12671.5,0.0,Cylinder,cyl.dist,100,2500.0,25000.0,0.0,-115.0,0,?
+Resources    Asteroid,-14345.2,-264.2,0.0,Cylinder,cyl.dist,100,2500.0,25000.0,0.0,0.0,0,?
+Resources    DustCloud,7683.8,16896.8,0.0,Cylinder,DustCloud.dist,75,1250.0,12500.0,0.0,65.0,2048,4
+Resources    DustCloud,7550.8,-15956.1,0.0,Cylinder,DustCloud.dist,75,1250.0,12500.0,0.0,-64.0,2048,4
+Resources    DustCloud,-19198.0,-382.2,0.0,Cylinder,DustCloud.dist,75,1250.0,12500.0,0.0,-180.0,2048,4
+

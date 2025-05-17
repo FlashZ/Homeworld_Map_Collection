@@ -1,0 +1,88 @@
+; MissionMan script, Tuesday, Aug 8 2000, 11:22:44 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: kadeshi4
+; Info: Kadeshi4
+
+[Kadeshi4]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    2,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_2.missphere,0
+MissionSphere    3,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_3.missphere,0
+
+
+Background   ez8
+Lighting    ez8
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    100000
+smZoomMin    500
+smInitialDistance    75000
+smUniverseSizeX    10000000
+smUniverseSizeZ    10000000
+smUniverseSizeY    10000000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,HeavyDefender
+ExcludeShips    R1,LightInterceptor
+ExcludeShips    R1,HeavyInterceptor
+ExcludeShips    R1,AttackBomber
+ExcludeShips    R1,CloakedFighter
+ExcludeShips    R1,LightCorvette
+ExcludeShips    R1,HeavyCorvette
+ExcludeShips    R1,RepairCorvette
+ExcludeShips    R1,SalCapCorvette
+ExcludeShips    R1,MultiGunCorvette
+ExcludeShips    R1,MineLayerCorvette
+ExcludeShips    R1,StandardFrigate
+ExcludeShips    R1,AdvanceSupportFrigate
+ExcludeShips    R1,DDDFrigate
+ExcludeShips    R1,IonCannonFrigate
+ExcludeShips    R1,StandardDestroyer
+ExcludeShips    R1,MissileDestroyer
+ExcludeShips    R1,HeavyCruiser
+ExcludeShips    R1,Carrier
+ExcludeShips    R1,ResourceCollector
+ExcludeShips    R1,ResourceController
+ExcludeShips    R1,ResearchShip
+ExcludeShips    R1,ProximitySensor
+ExcludeShips    R1,GravWellGenerator
+ExcludeShips    R1,CloakGenerator
+ExcludeShips    R1,SensorArray
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R2,HeavyDefender
+ExcludeShips    R2,LightInterceptor
+ExcludeShips    R2,HeavyInterceptor
+ExcludeShips    R2,AttackBomber
+ExcludeShips    R2,DefenseFighter
+ExcludeShips    R2,LightCorvette
+ExcludeShips    R2,HeavyCorvette
+ExcludeShips    R2,RepairCorvette
+ExcludeShips    R2,SalCapCorvette
+ExcludeShips    R2,MultiGunCorvette
+ExcludeShips    R2,MineLayerCorvette
+ExcludeShips    R2,StandardFrigate
+ExcludeShips    R2,AdvanceSupportFrigate
+ExcludeShips    R2,DFGFrigate
+ExcludeShips    R2,IonCannonFrigate
+ExcludeShips    R2,StandardDestroyer
+ExcludeShips    R2,MissileDestroyer
+ExcludeShips    R2,HeavyCruiser
+ExcludeShips    R2,Carrier
+ExcludeShips    R2,ResourceCollector
+ExcludeShips    R2,ResourceController
+ExcludeShips    R2,ResearchShip
+ExcludeShips    R2,ProximitySensor
+ExcludeShips    R2,GravWellGenerator
+ExcludeShips    R2,CloakGenerator
+ExcludeShips    R2,SensorArray
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    18

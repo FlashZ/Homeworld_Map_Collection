@@ -1,0 +1,8 @@
+Description	-DoomsDay (1vs1)Fleas at it again		
+Description	-this1vs1 is funandexciting be fast and quick the more harvesters the beter chance to live.We;; hope you all like it 
+Description	-Settings:Default:Starting fleet consist of "It doesnt matter what you get"As Flea raises the peoples eyebrow and says have fun you canndy ass jabrone 
+Description	-AUTHOR:Flea&g&u&r&u
+Description	-VERSION:4.20(Aug 02 2001)
+	Font Arial_b12.hff
+	Color 0,180,40
+	Drop Shadow: Yes:

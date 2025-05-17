@@ -1,0 +1,11 @@
+Description		 Turanic Missile Vette
+Deacription		 Madness
+Description              Created By YessMasster&H&G
+
+
+Font            Arial_b12.hff
+Color          200, 0, 0
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

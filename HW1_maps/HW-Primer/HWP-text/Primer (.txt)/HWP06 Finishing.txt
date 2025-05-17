@@ -1,0 +1,127 @@
+HOMEWORLD The Map-Makers Primer
+[v2.1 Dylov 22/12/00]
+
+
+FINISHING
+================================================================
+
+
+6.0 PUTTING IT ALL TOGETHER 
+----------------------------------------------------------------
+
+All that remains is setting up the map for multiple players. This is a relatively simple step, but conversely offering some of the most headaches. Be methodical, trying not to do too much at once so you dont get confused with all the file swapping, copying and renaming to the other game folders as you go along. Its here that textpad really comes into its own. If you have not taken the time to download then all I can say is 'Good luck!' If you have it then this is a simple task. 
+
+
+
+6.1 ADDING MORE PLAYERS TO THE BASIC 2-PLAYER (1V1) MAP. 
+----------------------------------------------------------------
+ 
+As has already been mentioned in this primer, Homeworld maps needs an entire set of map files for each number of start positions in the map. This means that when you make a map for 2-4 players you will have to make three versions of the map: one for two players, one for three players and one for four players. Each Folder is a stand-alone map in its own right and can be used as such.
+The changes between versions are relatively minor involving changes to the folder name, the level files, and the Mothership_#.missphere files. Other changes can be made as needed to any of the other files that make up the map.
+
+According to TAKER, this means that you should always start your map by editing the version with the most number of players that you will make starting positions for. Now, if you have been following the Tutorial then you are probably thinking "WhatwhatWhaaaat!!?? I've been spending all this time making a two-player version! What the smeg is going on!?" Well, personally, I always draw out my maps on graph paper first and so have a pretty good idea of where I want all the players to start. And, I like to see the map with all (or most of) the resources in place before I begin adding any players. Even for the two player I have a habit of shifting the first player mothership around so I start on the map right next to what I want to see etc. Meaning the addition of the player Mothership files is usually the last thing I do.
+
+6.1.1 THE MAP FOLDER 
+----------------------------------------------------------------
+Each folder will contain a different number of Mothership_#.missphere files, one for each player that that folder stipulates. The only difference between all the folders that make up the map is the number of players each folder supports, otherwise the name is exactly the same (Remember; Case is important) the difference between folder names is the number at the end of its name. Example;
+
+'Revelations2' - this is for two players only, and as such will contain two Mothership files.
+'Revelations3' - for three players and will contain three Mothership files.
+'Revelations4' - for four players and will contain four Mothership files.
+etc
+
+Two players is the minimum amount of players for a multiplayer map, you can't have a One-player version folder. The maximum number of players Homeworld can support is Eight, meaning that there will be a maximum of Seven folders for any given map.
+
+6.1.2 THE DESCRIPTION.TXT FILE 
+----------------------------------------------------------------
+The Description.txt file needs only be copied from your original version of your map. Changes in this file appear not to be recognised and as such would be superfluous for your map. These files are needed though, remember that each map has to be able to stand alone as a map in its own right, so all the files that go into making up your map has to be in all the map folders.
+
+6.1.3 THE LEVEL FILE 
+----------------------------------------------------------------
+As we have already covered, the level file has to have the same name as the folder it resides in, so if you had a map folder called Revelation2, then Revelations2.level would reside therein. A three player version of the same map would be in the Revelations3 folder and contain a level file called Revelations3.level and so on.
+
+The third line of text in the level file names the folder remember, and so needs to be changed, I am referring to the line; '; Multiplayer Level:   Revelations2', The 'Revelations2' tag tells us that this is from a folder called 'Revelations2' etc.
+
+The level file also deals with the Mothership_#.missphere files and tells homeworld where to look for each players Mothership file; for a three player map there will be three of these lines regarding the three Mothership files that will be in the 3 player folder. And so on. We will cover these in more detail below.
+
+If you name an alternate background in this file (and there is a growing number to choose from) then these alternate Lighting and Background files (*.hsf & *.btg) must be included in all folders, as each will be a stand alone map...
+
+6.1.4 THE MOTHERSHIP_#.MISSPHERE FILES 
+----------------------------------------------------------------
+Each map folder name tells us at a glance just how many players that folder supports. It therefore tells us how many Mothership_#.missphere files are to be found in that folder. The level file in that folder will list (in the MissionSphere lines) what each players Mothership file is called, and Homeworld will seek out that file for the starting fleets and their locations for each player.
+
+So, taking as an example a four player version of any given map, its level file will list 5 'Missphere' lines pointing to 5 different missphere files; one ResourceSphere file and four Mothership files, i.e.;
+
+ResourceSphere_1.missphere
+Mothership_0.missphere
+Mothership_1.missphere
+Mothership_2.missphere
+Mothership_3.missphere
+
+As all these files are named in the 4 player map version they will be found in the 4-player map folder. Changes can be made to these files without fear of consequence, the locations and composition of all the resources and the player starting fleets can be changed with each map, just be careful that if you rename a file you rename the contents part of the MissionSphere line to match.
+
+6.1.5 THE RESOURCESPHERE_#.MISSPHERE FILE 
+----------------------------------------------------------------
+The level file names the ResourceSphere file used in the map. You can easily copy the Resourcesphere file directly from the previous folders, just be careful that if you renamed the contents part of the MissionSphere line, you rename the file it points at.
+
+There is nothing stopping you add more resources for your higher player number maps, indeed it is a commonly done thing, you need only look at 'Hyperspace arena' and 'Lughnassad' for examples of this.
+Actually, to give you an example I will discuss 'Lughnassad' and my reasons for doing this.
+
+In this map I originally had three of the Traders Mining Base's (from the singleplayer mission 'Bridge of Sighs') in a huge cluster of asteroids. I wanted each Mining Base to give the impression that it was actively mining so I added huge tails of dustclouds behind them. dustclouds have higher RU values than the asteroids, also these dustclouds I made denser and had them regenerate faster than the asteroids so they would be focal points for the players to fight over.
+
+After I had done this I decided that for a two-player game having three of these Mining Bases would be a bit overwhelming, so I decided to cut them down a little. I renamed the ResourceSphere file containing the three Mining Bases and their mined dustcloud tails from 'ResourceSphere_1.missphere' to 'ResourceSphere_3.missphere'. I then deleted one of the Mining Bases and its attendant dustcloud and saved the file as 'ResourceSphere_2.missphere'. Lastly I deleted two of the mining bases/dustclouds leaving just the one and saved this file as 'ResourceSphere_1.missphere'.
+
+So, I ended up with three Resource files, I used 'ResourceSphere_1.missphere' for the two and three-player version of the map, 'ResourceSphere_2.missphere' for the four, five and six-player version, and lastly, used 'ResourceSphere_3.missphere' for the seven and eight player version.
+All I had to do then, was make sure that each in each level file, I had the contents part of the MissionSphere Resources line named correctly. And that I had actually copied the correct files into the correct folders.
+
+6.1.6 THE 64K-WON LIMIT 
+----------------------------------------------------------------
+The ResourceSphere can be no bigger than 64k to allow downloading over WON. Any bigger and it won't be able to be passed over WON, all players will need to have downloaded and installed the game prior to starting. This is easily fixed. You need to split your resources over two ResourceSphere files and call them for example; 'ResourceSphere_1.missphere' and 'ResourceSphere_2.missphere'. Make sure that you add an extra 'MissionSphere' line in all your level files, pointing to this new ResourceSphere and just make sure that both are in all your folders.
+
+6.1.7 DISTRIBUTION FILES 
+----------------------------------------------------------------
+Distribution files also can be changed, The distribution files you have may be too light for a 8-player map when they are just right for the 2 player version. As I keep iterating, each folder that makes up a multiplayer map is a strand-alone map and so there is nothing stopping you tweaking the ratios of each asteroid type. Just be sure that if you change the name of the distribution file or add more in, then the ResourceSphere file has the correct distribution file(s) named, matching those you are using in that map version.
+
+This also goes for the regeneration of clusters using the 'regrow' property, (2048) there is nothing stopping you make resources clusters regenerate in only the higher player games. Or regenerate at different rates depending on player numbers. Whatever.
+
+
+ 
+6.2 TWEAKS AND FINAL TOUCHES 
+----------------------------------------------------------------
+
+Ok, you are finished your map. Are you happy? Now is the time to tweak. Perhaps it needs denser or lighter cluster of asteroid? Perhaps you would like derelicts floating around? Perhaps the players need jiggled about or swapped around? Do the ResourceSphere files need to be split so they don't exceed the 64k-WON limit? Is the sensor manager max/min zooms fine for your map? And so on. As far as I'm concerned; 'a good map is never finished its just abandoned...'
+
+If you have been following the tutorial and are now in possession of a fine map entitled 'Revelations' then looking at it in the state it is in now, the version included with this primer, there are a whole number of things I feel could make it a better map and little tweaks you can make... Crates in the description.txt file vs crates in the Revelations#.level file for instance?. I'm not going to tell you as you know pretty much everything now, and you probably have your own ideas about what could improve the map 'waddaya mean by 'Select all and the hit delete!?'.
+
+
+ 
+6.3 ONCE YOU HAVE FINISHED YOUR MAP... 
+----------------------------------------------------------------
+
+Test your map in all possible permutations or at least be aware of these permutations and that they will work fine. By this I'm talking about playing it for every amount of players it supports. Try moving the Mothership files around (simply renumbering the 'PlayerNumber' parameter in the level file MissionSphere lines), try to start the game using every Mothership file for yourself.
+
+Try to get in as many full games against the computer on your map as you can be bothered with. Try at least one game using every possible number of players (preferably more than the one game).
+Play it over WON. Let everybody know that's it's a beta and encourage feedback.
+
+Stick all the folders that comprise your map in a new folder named after your map, add a Readme file and zip it up. (You need to have either WinRAR, or WinZip for this. If you don't have it then I don't believe you). Send it to as many people as you can and have them play it, encouraging feedback. If you can't play over WON, send it to some other people, and have them play it over WON.
+
+When you are happy, and everybody who's opinion you value is happy, (I tend to ignore feedback from people who start every game with 9999 resource injections, I mean anyone can make pretty scenery...). Send it to Dylov at Project Red: The Map and Map Makers Archive, also to BPLlama at The Homeworld Map Archive and ask us nicely to post it on the sites just header the email with 'HWMap Submission'. 
+Don't fret too much about updating your map. If you have prepared adequately enough before hand any changes would be more than likely the feedback from a much greater test group and more than likely be a game-play issue resulting from all this game play.
+
+The Readme.txt file is not too important unless there are issues on your map than need to be conveyed and you need more space than is possible with the Description Box in Homeworld. Just copy any you already have, If you've downloaded 'Genesis 240D' then you will already have one, which's the one I copied.
+
+ 
+
+6.4 AND SO IT ENDS... 
+----------------------------------------------------------------
+
+Well, that's pretty much everything I can tell you about map making for Homeworld. If you are stuck at any part or not clear on specific details then there are a number of things you can do;
+
+• Experiment! It's a doddle to swap between windows and homeworld to see your changes, you only ever would need to reload Homeworld when you add new folders into the multiplayer folder. And of course, when it crashes.
+
+• Ask! If you have a specific problem with your map and the above resources do not seem to help at all, post it to the Project Red boards, the OMO boards or the Relic Editing boards and I am sure that one of us will do our best to help you. 
+
+• Look! At other maps! This is my favourite, I am always looking to see how the others do things, and grubbing about in every file I can lay my hands on.
+I can always be found at on the Project Red and OMO boards as well as keeping an eye on the relic boards (try them in that order) for bug reports, feedback and questions etc . Failing that you can email me at hwprimer@ntlworld.com should you so wish. (See the 'About the Primer' page).
+Dylov (...Grunter-OMO on WON).
+

@@ -1,0 +1,223 @@
+Level file parameters
+---------------------
+
+MissionSphere	player,race,x,y,z,radius,msrot,contents,RUs
+
+eg
+MissionSphere	-1,?,0.0,0.0,0.0,30000.0,1000.0,sphere.missphere,2000
+
+player:		player # ( -1 for no player)
+race:		name of the race or ? for no race
+x:		x coordinate of the missionsphere centre
+y:		y coordinate of the missionsphere centre
+z:		z coordinate of the missionsphere centre
+radius :	radius of the missionsphere
+msrot:		angle of rotation of the mission sphere (1000.0 points towards centre of universe)
+contents:	the ìxxxxxxx.missphere î file
+RUs:		number of RUs the player starts with (integer, optional)
+
+
+Lighting	filename
+eg
+Lighting	ez01
+
+filename:	the filename of a lighting file (ez01-ez16)
+
+
+Background	filename, angle1, angle2
+eg
+Background	ez01, 90, 30
+
+backgroundfile:	the filename of a background file
+angle1:		horizontal rotation
+angle2:		vertical rotation
+
+SongNumber	integer
+eg
+SongNumber	3
+
+integer:	the song that will be played in a mission (1-49, 0=no music)
+		(See also Objects-SongNumber.txt)
+
+smDepthCueRadius	integer
+eg
+smDepthCueRadius	30
+
+integer :		the radius of the depth cue circle in the sensors manager
+
+
+smDepthCueStartRadius	integer
+eg
+smDepthCueStartRadius	10000
+
+integer :		the radius of the depth cue radius in the sensors manager
+
+
+smCircleBorder		integer
+eg
+smCircleBorder		90000
+
+integer :		the diameter of the small compass circle on the sensors manager
+
+
+smZoomMax		integer
+eg
+smZoomMax		150000
+
+integer:		the maximum zoom range for the sensors manager
+
+
+smZoomMin		integer
+eg
+smZoomMin		50000
+
+integer:		the minimum zoom range for the sensors manager
+
+
+smInitialDistance	integer
+eg
+smInitialDistance	75000
+
+integer:		the distance of the playerís starting position from the centre of the universe
+
+
+
+smUniverseSizeX		integer
+eg
+smUniverseSizeX		120000
+
+integer:		the x coordinate diameter of the universe (width)
+
+
+smUniverseSizeY		integer
+eg
+smUniverseSizeY		120000
+
+integer:		the y coordinate diameter of the universe (length)
+
+
+smUniverseSizeZ		integer
+eg
+smUniverseSizeZ		60000
+
+integer:		the z coordinate diameter of the universe (height)
+
+
+Determining what Ships to load:(See also Objects-Ships.txt)
+
+Not all ships/resources/derelicts etc. need be loaded for every level.  Substantial savings in loading time and texture RAM can be realized by excluding some things from the load.  By default everything is loaded for every level.  If something is loaded in one level and not loaded the next, the space it occupied (in RAM and texture RAM) is freed for other uses.
+
+Here is a listing of the new directives to control this:
+
+ExcludeShips	race shiptype
+eg
+ExcludeShips	P1, P1MissileCorvette
+ExcludeShips	R1, LightInterceptor
+
+race:		R1,R2,P1,P2,P3,Traders.
+shiptype:	any ship type valid for these races.
+		shiptype can also be "All" which will exclude that entire race.
+
+IncludeShips	race shiptype
+eg
+IncludeShips	P1MissileCorvette
+IncludeShips	LightInterceptor (etc).
+
+race:		R1,R2,P1,P2,P3,Traders.
+shiptype:	any ship type valid for these races.
+		shiptype can also be "All" which will include that entire race.
+
+eg, to only load 1 pirate (a MissileCorvette) beyond the basic R1/R2 fleet
+
+ExcludeShips	Traders,All
+ExcludeShips	P3,All
+ExcludeShips 	P2,All
+ExcludeShips 	P1,All
+IncludeShips 	P1,P1MissileCorvette
+
+
+Determining what Resources to load:(See also Objects-Resources.txt)
+
+Exclude		resourcetype
+Include		resourcetype
+
+eg
+Exclude		Asteroid All
+Include		Asteroid2
+
+resourcetype:	Asteroid0, Asteroid1, Asteroid2, Asteroid3, Asteroid4
+		DustCloud0, DustCloud1, DustCloud2, DustCloud3, DustCloud4
+		GasCloud0, GasCloud1, GasCloud2, GasCloud3, GasCloud4
+		Nebula0, Nebula1, Nebula2, Nebula3, Nebula4
+		HeadShotAsteroidR1, HeadShotAsteroidR2
+
+		Note: don't load the head shot asteroids, they're really big 
+
+		ExcludeAsteroid	HeadShotAsteroidR1
+		ExcludeAsteroid	HeadShotAsteroidR2
+
+
+Determining what Derelicts to load:(See also Objects-Derelicts.txt)
+
+ExcludeDerelict	derelicttype
+IncludeDerelict	derelicttype
+
+derelicttype:	Fragment, Ghostship, Shipwreck
+
+		Note: don't load all the derelicts
+
+		ExcludeDerelict	Fragment All
+		ExcludeDerelict ShipWreck All
+
+		then specify what to load
+
+
+Determining what colorSchemes a ship can be:
+
+By default, the color scheme of a ship is based on it's race.
+
+Race				Default colour scheme
+R1 (Kushan)				0
+R2 (Taiidan)				1
+P1 (Turanic Raiders)			4
+P2 (Kadeshi Garden Protectors)		5
+P3 (T-Mat)				6
+Traders (Bentusi & assorted)		7
+
+In order for your fancy color scheme to show up, you must enable it for every ship that will use it by using this directive:
+
+AvailableColorSchemes   race type scheme#[scheme#[...]]
+eg
+AvailableColorSchemes   P1 All 3
+AvailableColorSchemes   P1 P1MissileCorvette 6 (for pirates of a purple color)
+AvailableColorSchemes   R1 MissileDestroyer 0,1,7
+
+race:	any valid race
+type:	any ship valid for that race or "All"
+
+Changing the BaseColor(sets the base colour of ships) use: 
+
+BaseColor	raceNum,red,green,blue
+eg
+BaseColor	7,255,0,0
+
+Changing the StripColor(sets the stripe colours of ships) use: 
+
+StripColor	raceNum,red,green,blue
+eg
+StripColor	0,0,0
+
+So, now colour 7 has been replaced with a Red overall colour with Black strips.
+
+
+To the Mothership file adding:
+
+Ships	Label,-3000.0,-2500.0,0.0,-90.0,R1,MissileDestroyer,1,?|?|colorScheme(7)
+Ships	Label,-3500.0,-2500.0,0.0,-90.0,R1,MissileDestroyer,1,?|?|colorScheme(1)
+Ships	Label,-3000,-5000,0,90,P1,P1MissileCorvette,5,DELTA_FORMATION|?|colorScheme(6)
+
+Makes a mission sphere with 2 funky-colored missile destroyers and a formation of purple pirates.
+
+
+
+

@@ -1,0 +1,61 @@
+Derelicts 
+
+derelicttype is:
+
+For planets
+----------------
+AngelMoon
+AngelMoon_clean
+Homeworld
+PlanetOfOrigin; 
+PlanetOfOrigin_scarred
+
+For crates
+----------------
+Crate
+
+For odd ships
+----------------
+Ghostship
+PrisonShipNew
+PrisonShipOld
+LifeBoat
+Shipwreck
+
+For the Scaffold
+----------------
+Scaffold
+Scaffold_scarred
+ScaffoldFingerA_scarred
+ScaffoldFingerB_scarred
+
+For space junk
+----------------
+Junk0_antenna
+Junk0_fin1
+Junk0_fin2
+Junk0_GunAmmo
+Junk0_LGun
+Junk0_panel
+Junk0_sensors
+Junk0_SGun
+Junk1_partA
+Junk1_partB
+unk1_shell
+Junk1_strut
+Junk2_panelA
+Junk2_panelB
+Junk2_panelC
+Junk2_panelD
+Junk2_shipwreck
+FragmentPanel0a
+FragmentPanel0b
+FragmentPanel0c
+FragmentPanel1
+FragmentPanel2
+FragmentPanel3
+FragmentStrut
+Junk2_Boiler			(causes mission to crash if used)
+Junk2_BoilerCasing		(causes mission to crash if used)
+
+ - Note; while you need to add the line 'IncludeDerelict    <derelicttype>' in the level file for all the above listed derelicts, you can get away with it and forget about these lines as far as the smaller planets are concerned. You do need to have a line in the level file including the Homeworld if you decide to use that however. Homeworld planet is HUGE, and I would suggest placing it way, way out of your map; try a value of 3000000 for the x (or the y, or even the z) position to start you off.

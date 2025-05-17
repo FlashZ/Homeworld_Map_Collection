@@ -1,0 +1,17 @@
+Description     Like A Krakken You Die
+Description	this map will test your skillz for sure.
+Description     
+Description     Map By: &L&a&g&s&y
+Description     Edited by gravi&†y to include all
+Description     fighters and covettes 16/8/22
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          300, 97, 260
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

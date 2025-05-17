@@ -6,6 +6,8 @@ This repository is an **archive of fan‑made multiplayer maps for the original 
 Many of these files circulated on relicnews.com, WON, and early clan websites in the 2000‑2005 era and are increasingly hard to find.  
 Everything here is provided *as‑is* for historical and educational purposes.
 
+Thanks to [@Volans-SF] (https://www.github.com/Volans-SF) for providing additional HW1 maps and all of the Cataclysm Maps.
+
 ## Directory layout
 HW1_maps/ # each sub‑folder is a self‑contained level
 ```
@@ -22,27 +24,17 @@ HW1_maps/ # each sub‑folder is a self‑contained level
 └─ …
 ```
 
-```
 CATA_maps/ # Homeworld: Cataclysm maps (same structure as above)
-
+```
 ├─ Map_Name2/
-
 │ ├─ Map_Name.level
-
 │ ├─ Asteroid.dist
-
 │ ├─ DustCloud.dist
-
 │ ├─ Tiny.dist
-
 │ ├─ Mothership_0.missphere
-
 │ ├─ …
-
 │ └─ Description.txt
-
 ├─ Map_Name4/
-
 ├─ 2nd_Map_Name/
 └─ …
 ```

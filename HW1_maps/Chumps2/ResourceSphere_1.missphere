@@ -1,0 +1,16 @@
+; MissionMan script, Wednesday, Aug 22 2001, 4:28:29 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,-47117.2,-14135.2,0.0,Cylinder,AsteroidBig.dist,20,2383.9,23838.9,0.0,137.0,0,?
+Resources    Asteroid,49001.9,13192.8,0.0,Cylinder,AsteroidBig.dist,20,2383.9,23838.9,0.0,142.0,0,?
+Resources    Asteroid,-45232.5,12250.5,0.0,Cylinder,AsteroidBig.dist,20,2383.9,23838.9,0.0,37.0,0,?
+Resources    Asteroid,49001.9,-10365.8,0.0,Cylinder,AsteroidBig.dist,20,2383.9,23838.9,0.0,35.0,0,?
+Resources    Asteroid,22616.3,-12250.5,0.0,Cylinder,AsteroidBig.dist,20,2383.9,23838.9,0.0,150.0,0,?
+Resources    Asteroid,-21673.9,13192.8,0.0,Cylinder,AsteroidBig.dist,20,2383.9,23838.9,0.0,150.0,0,?
+Resources    Asteroid,19789.2,13192.8,0.0,Cylinder,AsteroidBig.dist,20,2383.9,23838.9,0.0,-146.0,0,?
+Resources    Asteroid,-21673.9,-13192.8,0.0,Cylinder,AsteroidBig.dist,20,2383.9,23838.9,0.0,-150.0,0,?
+Resources    DustCloud,-43347.8,0.0,18846.9,Cylinder,DustCloudCentre.dist,30,3001.2,30011.7,-51.0,0.0,0,?
+Resources    DustCloud,49001.9,942.3,16962.2,Cylinder,DustCloudCentre.dist,30,3001.2,30011.7,46.0,0.0,0,?
+Resources    DustCloud,1884.7,0.0,-25443.3,Cylinder,DustCloudCentre.dist,100,13197.9,131978.5,0.0,0.0,0,?
+

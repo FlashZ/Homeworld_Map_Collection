@@ -1,0 +1,577 @@
+--------------------------------------------------------------------------------------------
+
+Mission Man Editing Steps by Roons
+roons@pacificnet.net
+
+A pack of early post info collated into one big text file by BPLlama!  WOOOOOO!
+Some O this might be a touch outdated & inaccurate, but it's still a helpful step-by-step guide.
+
+--------------------------------------------------------------------------------------------
+
+Roons' Step by Step for dummies
+
+Myself and a few others do plan on writing up some tutorials once we work out the details on using MissionMan. It'll probably be
+another week or two until we have the basics down in a readable format. There is even talk of a dedicate webpage to editing, we
+shall see. 
+
+Using MissionMan is fairly complicated; however, the learning curve is relativly short IF you know what to do. The problem is right
+now, there is very little information on what to do. So we are all learning by experimentation and trial and error.
+
+Once there are a few tutorials out there, creating maps will be much easier; Yet, using MissionMan will still be more complex than
+using the map editors that come with games such as StarCraft, RedAlert, AoE, or many other RTS. This is due to the fact
+everything is in 3D, so it is much more like a 3D imaging program than a 2D RTS map editor.
+
+A few of us have created some very basic maps so far. Building a map is a very time consuming process based on what we know.
+The most tedious part is setting the X, Y, Z coordinates for EVERY object within the map. This includes resources, nebulas, and
+ships. Once you see the default maps that come with Homeworld in the editor, you start to appreciate the amount of work they put
+into them. There is alot of geometry going down. There may be shortcuts we discover along the way; however, right now it is a very
+dedicated process.
+
+--------------------------------------------------------------------------------------------
+
+Mission Man Editing Part 1 - Introduction 
+
+I took a minute to check out MissionMan for ya. I plan on using it alot. I'm currently making a MOD for Half-Life, so I have some
+experience with WorldCraft, 3DStudio Max, and other editors.
+Anyways, Mission Man looks top notch. I would rate it intermediate in its complexity. It is set up in the standard 4 screen set up
+much like most 3D editors. Primary displays are in a 3D wireframe view.
+
+Here is a snip from the help section:
+"Creating a new mission is easy. Simply click on File, then Create, type a new folder name, then click Save, and MissionMan will
+open a new, blank mission template in that folder. A new mission is composed of a universe containing two MissionSpheres, (one
+for each player) and a ResourceSphere. The MissionSpheres are where you place a mothership and other ships for each player.
+There is one ResourceSphere in each mission. This is where all of the resources are located. You can customize the blank mission
+template by adding more ships to the MissionSpheres and more resources to the ResourceSphere. Most objects have properties
+and attributes that can be changed as well. If you want more than two players, you will need to create additional MissionSpheres.
+Steps one through three will further explain how to perform these operations."
+
+There is alot more details included in the help sections. Its definetly more complex than say the editor for StarCraft. However, from
+what I can tell, it would only take a few hours to get over the learning curve.
+
+Here is a little more on what you can edit:
+- Lighting
+- Background
+- smZoomMax (sets the maximum zoom range for the sensors manager)
+- smZoomMin (sets the minimum zoom range for the sensors manager)
+- smInitialDistance
+- smUniverseSizeX (sets the width of the universe)
+- smUniverseSizeY (sets the height of the universe)
+- smUniverseSizeZ (sets the depth of the universe)
+- ExcludeShips (sets which ships will not be used in a mission)
+- IncludeShips (sets which ships will be used in a mission)
+- ExcludeAsteroid (sets which asteroid will not be used in a mission)
+- IncludeAsteroid (sets which asteroids will be used in a mission)
+- ExcludeDerelict (sets which derelicts will not be used in a mission)
+- IncludeDerelict (sets which derelicts will be used in a mission)
+- BaseColor (sets the base color of ships)
+- StripColor (sets the stripe colors of ships)
+- AvailableColorSchemes (sets the colors available for ships)
+- SongNumber (sets which song will be played in a mission)"
+
+There doesn't seem to be a TON of documenation in the help file, so it looks like alot of experimentation will be necessary. I expect
+a sort of elite group of map editors to be the norm, rather than alot of amateur map builders since it seems a little intimidating.
+
+I still am unsure as to the ability to make custom mission exactly like that in the single player game and stringing them together
+(adding custom waves for voices, using special units and mission objects) or if Mission Man only allows for the creation of
+multiplayer maps. Once I have more time to experiment with it, I'll let you know.
+
+I would be glad to help out in editing any way I can, and will do my best to share any info I learn about MissionMan.
+
+--------------------------------------------------------------------------------------------
+
+Mission Man Editing Part 2 - Map Transfers 
+
+Good news! Custom maps are transferable over WON!
+I was able to test if a basic custom map I created using the MissionMan editor would transfer to players who joined my game.
+
+Thanks to VonEsling, Killer_450, and ET336K for helping me test this out. I appreciate their help alot.
+
+A custom map will appear in the same section as the regular maps that come with Homeworld when choosing the scenario to play.
+Once all players have joined and the game is launched, the following message appears:
+
+"Detected Custom Map. Autoupload included in load time"
+
+Then the standard load screen will appear with the chat window indicating the status of each players loading time. A custom map is
+about 250kb in size, so map transfers shouldn't take that long.
+
+Its a great day in Homeworld since we now know for sure that custom maps will be easily distributed throughout the community!
+
+Thanks again VonEsling, Killer_450, and ET336K for your help! I definetly couldn't have done it without you!
+
+Ill be working hard on the custom map I've started in hopes to have it out very soon. As I learn more about MissionMan, I will be sure
+to post about it here on the Boards.
+
+--------------------------------------------------------------------------------------------
+
+Mission Man Editing Part 3 - Basic Map Creating 
+
+Here is some more info on map editing in a response to Demon-Dog who is as crazy as I am in attempting to use Mission Man 
+
+Hi, Im glad someone else is trying to figure out Mission Man too. 
+
+Ok, well, to get started of course you read the help.doc. It has the VERY basic way to start in creating a map. After selecting
+create, I choose a name for my map similar to those used by Relic. Once the folder is created, it will create the file *.mdr which is
+where the core of information regarding the map is stored. The #1 one way I've learned what to do so far is by editing the already
+existing maps provided by Relic.
+
+Most of the main work is done in the tree to the left. I first started by renaming the top fields of NewMission: Multiplayer and New
+Level by right clicking on them and editing their properties.
+
+Next, because I want to create maps playable by more than two people, I need to add two more mission_spheres for a total of four.
+For ease of reference, Ill use the default names I changed listed in the above paragraph. Since the mission_spheres are located in
+the New Level root, right click on New Level and select New Object. Basically, every thing in a map is an Object and every Object
+has an attribute.
+
+Once the Object window is open, we need to specific a type of Object. Select the top pulldown window titled Type, and scroll down
+to Mission Sphere. Next, in the Name pulldown window, you need to select the MothershipR1 or R2 to tell it that its going to be a
+player. R1 = Kushan, R2=Taiidan. I have yet to figure out how this is applied during a multiplayer map as it seems to make no
+difference since a player chooses their own race. Next, you can select a Layer to which this object belongs, its not necessary, but
+as the map gets cluttered, you can use layers to only see units, resources, or misc. objects.
+
+At the bottom you will see coordinate fields for X Y and Z. This is where you select the starting point for the object. Its location on
+the map, orientation, scale and size. 0 is the very center of the map. So placement is done with positive and negative numbers. So,
+for example, to ships on one map facing each other would probably have X values of -50000 and 50000 respectively. This is where
+the 3d map comes into play as you can see immediately where the object is placed.
+
+Now, as you might see in the maps that came with Homeworld. You just dont start with a Mothership, but a RC, maybe some
+scouts, and a research ship. To add these, go to one of the Mission_Spheres, and select the ShipR1,Mothership field so its
+highlighted. Next right click on the highlighted section and choose Insert Object. The follow is much like adding a mission_shere;
+however, you scroll down in Type and choose Ship. In name, you will see all the ships available in the game. Placement for the ship
+is exactly like the Mission_sphere.
+
+As you can see so far, it is a rather lengthly process to create a detailed map. However, Im sure as we gain more experience, well
+find shortcuts, like cutting and pasting.
+
+You will also need to add a resource sphere, Im still working on this one. The placement and type of resouce is choosen much like
+ships, however, there are somethings you have to do to a resource spehre which is different than a ship. One of these is setting the
+distribution. Once the resource is created, say an Asteroid, you need to select the field Distribution and right click and select
+Attribute Properties. Now, at first everything is blank, you need to go into one of the map folders that came with Homeworld and cut
+and past all of the *.dist files into your new folder. I believe these files set the distribution (spacing) of the resouces inside the
+resouce_sphere. They appear to be editable in notepad, but I have yet to really experiment with the settings.
+
+Now, since we done all of the above, we can Generate the map to make it ready for play. To generate the map, we must be in the
+VERY TOP root section of the menu. So, that would be New Mission: Multiplayer. Right click on it and choose Generate Mission. If
+you renamed the sections I mentioned before, and did most of what I said, you should now be able to see your new custom map
+listed along with the other multiplayer maps. You can use the skirmish mode in multiplayer to test you maps. 
+
+If you go online to WON, and host a game, it will autodown to the other players.
+
+Now, there is ALOT I still need to learn about Mission Man. The above is what Ive learned in about 4 hours of work. So, PLEASE, if
+you learn anything, post it here.
+
+Anyways, we got alot to learn, but Im sure we can do it. Ive spent the past couple days finishing Homeworld, and finished it, and it
+was the coolest game Ive played in a VERY long time. There are alot of good map designs in the game, which I know we can bring
+some of their elements into multiplayer.
+
+So lets get to work and have some fun. 8)
+
+Hope to here from you and all future map makers.
+
+--------------------------------------------------------------------------------------------
+
+How to: Make a resource cloud by LupusUmbrus
+
+CREDIT TO LupusUmbrus FOR POSTING THIS INFORMATION!
+
+I guess I'll start a series of "How to" posts on here. If any one has a somewhat specific question they would liked answered, I'll try to
+figure it out for ya. 
+How to create resource clusters:
+
+First off, create a 'New Object' in your resource sphere [for me its usually the first "sphere" on the tree].
+
+For the "Type", select one of the following:
+•Astroid-Use the first 'Astroid' in the list for a rectangular astroid cluster
+•Astroid-Use the 2nd 'Astroid' to create either a sphere or cylinder cluster
+•DustCloud-Creates a sphere or cylider cluster of dust clouds
+•GasCloud-Same as DustCloud only for gas clouds
+•Nebula-Creates a nebula
+
+Now we need to create a distrabution file [a *.dist file]. First, either copy and paste one over from one of the maps that have been
+made or simply create text file and change its extention to .dist.
+In that file you list the type of resource you want, and the relitive ditribution in the cluster. Let me use a DustCloud *.dist file as an
+example:
+BOF------------------------------------------
+
+DustCloud0 0 0
+DustCloud1 10 2
+DustCloud2 35 1
+DustCloud3 15 3
+
+EOF------------------------------------------
+
+Now the fist column lists the diffrent things we're sticking into our DustCloud cluster. The second gives us the relitive number of
+times each will occur. This means that for roughly every 35 DustCloud2's I use there should be 15 DustCloud3's, etc. If you make
+the numbers in this column add up to 100 then the numbers you use represent percentages. As for the third column, I am not entirly
+sure, but I have a hunch that it has something to do with how/if it regenerates or something to that effect.
+
+Now lets use that *.dist file. Go to MissionMan and find the cluster you made. Now click on the little plus[+] symbol next to it to see
+the extra stuff associated with it. Double-click on "distrabution" and click the little arrow next to "Value". Now select the *.dist file
+you just made. Hit 'OK'.
+
+Now, right below "distribution" you should see "numResources". Double-click it. This tells it roughly how many RU's it should pump
+into the resource cluster.
+
+As for "properties" and "propertiesParam", I have not experimented enough to determine what these do.
+
+And there you have it, a cluster of resources. Using the x,y,z properties on the cluster you should be able to move it around and
+shrink/enlargen your cluster.
+
+[Wow, lots of typing]
+I know in some areas I am not quite clear so ask any questions you might have and I'd be happy to answer them.
+
+--------------------------------------------------------------------------------------------
+
+How to: Make a resource cluster regenerate by LupusUmbrus
+
+Ok, so we know how to make a cluster of resources. Now if you play the map you'll notice that the cluster once harvested doesn't
+come back.
+How to make a resource cluster regenerate:
+
+Open up Mission Man and then your map and lets do a little work. Find the resource cluster in question. Now click the little plus[+]
+symbol next to it so we can see the additional properties of the cluster.
+
+Ok, now double-click on properties[should be right below numResources] and enter the number 2048 in the value field.
+This is the bitvalue neccesary to turn on regeneration. Now double-click propertiesParam. Enter 2 in the value field. This is a bitvalue
+also, but its true function is still vauge.
+
+(NOTE - That 2 is NOT a bitvalue.  It's a rate of regeneration from 0 (slow) to 7 (fast))
+
+Now, make sure that the *.dist file used by the cluster has the 3rd column in it. This controls something with the rate/relitive
+propability at which the objects regenerate.
+The 3rd column is the second column of #'s, and is not neccesary for clusters you don't have set to regenerate.
+
+Side Notes:
+In most cases you should have at least one cluster regenerate on the map. Without at least one, its possible for both sides to
+harvest the entire map leaving nothing left to:
+1)Fight for control of
+2)Supply resources for people to rebuild lost ships
+
+Limiting the size,location,and number of clusters you have on the map that regenerate will add strategic points to the map. Having a
+single medium size cluster near the middle of the map focuses the fight to the center.
+
+--------------------------------------------------------------------------------------------
+
+Mission Man Editing Part 4 - Map Not Found / Working
+
+Hi, its late Sunday nite, Im tired, I have to work tomorrow, but Ill try my best to be coherent. :)
+
+I think each map needs a resource_sphere in order for it to work correctly. Resource spheres are set up much like a
+mission_sphere; however, instead of ships, they hold...resources. Now, I set up one resource sphere in the map I tested on WON
+which loaded and worked. I was a single resource sphere, real simple, patterned directly off of one of ther asteroid resource spheres
+in the other maps that came with Homeworld. Try adding a resource sphere much like a mission sphere and edit its attributes to
+match those of the ones found in the multiplayer default maps. Remember to copy those *.dist files into the new folder of your map
+so you can set the distribution of the resources when you adjust its attributes.
+
+I can see having no resources as a result of a map not working.
+
+Now, regarding it not showing up. Once you have mission_spheres, and a resource_sphere, you need to Generate Mission. The
+way I did it is select the VERY TOP field in the left menu, New Mission: Multiplayer if you havent changed the name, right click on
+it, and choose generate map. I guess this is how it compiles itself.
+
+Ill be working out details on the resource_spheres and other misc. objects such as alien ship and debris fields this week. Ill keep
+you all posted.
+
+Oh yeah, and regarding the x y z thing. Its like geometry 101. Imagine a 3D sphere, X is left and right, Y is up and down, Z is in and
+out. A typical distance from one player to another during startup is, I think, around 80000 units. So from center, one unit would be
+-40000 and the other 40000, which gives a total distance of 80000. You then adjust its height in the Y, and its depth on Z. The
+easiest way to figure whats going on is to use the 3D view which is located on the upper right screen in the 4 window view. You can
+adjust the camera and pan around much like that in Homeworld and other 3D design tools. The help.doc gives the camera
+instructions on how to do this. You can also zoom out and move around in the X Y Z windows as well; however, since they are 2D
+only, there is no rotate.
+
+Anyways, Im passing out as I type this. I get those resouces figured out asap so we can really start making some good maps for
+multiplayer.
+
+Good Luck! and remember not to give up! No one remembers a map that was never made or something. Brain shuttin..g..
+d.o..w.n....
+
+Anolis:
+First off, no resource maps DO work, they were the first maps I made. Even thought they don't have resources though, they do have
+a resource sphere.
+
+Led Mirage:
+1- The mission.mdr is only for Mission Man, get rid of it for distributing.
+
+2- I created my map in Mission man, then worked with the text editors 100%, well see those comments MM leaves on the files?
+guess what i removed them and the game CRASHES!!! WEIRD!!! took me 2 hrs to figure it out DOH!
+so DONT touch them (makes no sense to me but it is that)
+
+--------------------------------------------------------------------------------------------
+
+Mission Man Editing Part 5 - Text Editing and New Objects! 
+
+
+I've done some more experimenting.
+
+First, many of the map files located in the map folder can be edited and viewed in notepad. This includes all the *.dist files, which
+appear to set the distribution of the look and type of the rocks in a resource patch. Also viewable in notepad is the *.level file, which
+seems to hold the specifications regarding player mission sphere starting positions and what objects are included and excluded.
+The last viewable type is the *.missphere files, which lists the details, such as type of ships and location, included in each specific
+mission sphere.
+
+Useing these files in a text editor might be a little bit easier to edit certain properties. I've also been using cut n paste in the menu
+section which has increased adding objects considerably. You can also open one of the default maps, copy a resource, open your
+new map, and paste it there. Even though your map isnt viewable, Mission Man remembers your map as the new one is open, so
+no need to constantly generate the mission when switching between maps.
+
+Ok, here is the COOLEST part! You can add and USE! new objects!. I was able to add a ship called the Head Asteroid. Its basically
+a giant asteroid with an engine. Once its placed in the missionsphere of a player, that player can control it and move it around! I
+believe its the giant asteroid that was heading towards your ship in one particular single player mission that was guarded by the
+enemy fleet. However, you controll it! I was also able to add a cryo tray. Im sure more objects are able to be placed and Ill be adding
+the all to see what can and cant be used. One thing of note, once you add these objects, you need to make sure they are not
+excluded. In the menu, you will see certain objects after the exclude field, some say ALL, others are more specific, just clear out
+the field so nothing is in there. 
+
+I was also able to add the planet models seen in the single player, they are however, only a half-sphere, so they must be placed
+outside of the world so they are only seen from afar. But we CAN add them in our multiplayer maps to give a great looking
+background! Ill be testing to see if I can group them together to make a whole sphere. Planets are included in the derlict object list,
+derlict objects should be placed within the resource_sphere in order for them to appear.
+
+Its rather exciting to know we will probably be able to add and use all the alien ships from single player. It was very cool
+commanding that giant asteroid with an engine to fly around. Ill be working some more and will post again tomorrow.
+
+Good Luck! and dont be afraid to post ANYTHING you discover!
+
+Anolis:
+Hmm, I have also added a HeadShotAsteroid, but there are 2 files for it. Since the single player mission can be played by either
+side, there are 2 of these evil asteroids, one for each side.
+
+As it is these ships work on Newtoin Physics!! I have tested it, the Asteroid starts off with low speed and constant accleration. The
+acceleratoin remains constant and the speed keep getting faster and faster and faster. Eventually this thing out-runs strike craft!
+What really makes this Newtonian is that if you want to stop it will take you awhile.
+
+To turn around, the asteroid has to turn 180 degrees and start up the thrusters again and slow down (which depending on your
+current speed can be a slow proccess) and then it will accelerate in the proper direction. I haven't tested to make sure it completely
+adheres to Newtonian Physics, but even when you turn it at an angle that is greater than 90 degrees from its current heading it
+makes a loop as its (for simplification) X speed slows down and the Y speed starts up, you really have to see it for yourself, but it
+works.
+
+The true test will be in making the Asteroid move 90 degrees to its current heading, will it need to slow down its current heading, will
+its speed in the current/former direction stay the same? This needs testing, but shows promise of a full Newtonian based unit
+(however suicidal, one-shot, and unbuildable).
+
+On a final note, this unit appears to over-run the position you give it if you use the sensor manager, the speed it builds up over that
+long a distance is too great to stop in any short period of time. I know this because about 2/3 of the way through launching the
+HeadShotAsteroid at a Comp player I decided to stop and do some more T-Mat testing, but I couldn't. Even when I tried to redirect
+the Asteroid along a course that would make it barely pass by the MS, moving at an angle to it current heading, it was unable to
+stop itself from colliding. Funniest thing is that it had about 50% (roughly, give or take 20%) of its health left every trial run, nasty
+stuff.
+
+Led Mirage:
+DONT remove the exclude ALL field!!!!! it eats away precious memory!!!!! just do an include for the object you want in there, it doesnt
+matter if all ships were to be excluded, if you had an include for each ship they will still show.
+
+--------------------------------------------------------------------------------------------
+
+Roons on Getting a map to work (show up in Homeworld)
+
+The problem is in how your map is named. I renamed it:
+
+Galaxy2
+
+After I generated it, it worked! It seems that long names or spaces really mess it up. Also, I changed the Info on the name attributes
+to:
+
+Galaxy2 (2-4)
+
+After doing all of that, it loaded and was viewable in the skirmish screen! I still have yet to figure out how to give a discription for the
+game, as the default maps have those nice little stories, there is no where to put them in your maps. We'll figure it out since its not
+where you had it in the Info field.
+
+
+--------------------------------------------------------------------------------------------
+
+Mission Man Editing Part 6 - Description & T-Mat Race
+
+I was able to take part in the recent chat on the gamespy network hosted by Journey to Homeworld
+(http://www.strategyplanet.com/homeworld/)
+
+I asked the question:
+"How do you put in the text description detailing the "story" of a multiplayer map which shows along with the map name?"
+
+YMS from Relic told me we need to include a description.txt file that will contain all the information needed. He sent me a copy of it
+and I will post it below. I have yet to work with it, so I assume it is place in the folder along with your other map files and it will just
+work. Ill post an update once I successfully use it.
+
+I also asked about limitations or known bugs regarding adding the other alien units. They informed me its untested so they are
+unsure as to what will happen. They did mention that the famous T-Mat race is available. To use their ship, their race is the Traders
+and their ship is the P3Megaship.
+
+I also asked about how to get a map to allow only 2 players when you have 4 mission spheres set up. I asked this since I have 4
+mission spheres in my test map; yet, I want it to be a 2-4 player map. However, when I play the map in skirmish, it REQUIRES that
+I add 3 ai to make a total of 4. Here is the answer I got, its a little vague, but hopefully will make sense latter on:
+
+"When you make a mission, eg with 3-5 player support, HomeWorld will detect that automatically by the existance of those files.
+For consistency, you can put (3-5) after the name if you like. Also you can't make maps with say only 2,4, or 5 player support (can't
+have holes) but you could make a map that supports 5-8 players"
+
+Huh? I know, I tried to elaborate, but I had to leave work.
+
+Anyways, Ill start working on MissionMan and this new information and will keep you all updated!
+
+Description The fear and self loathing the sight of your mighty armada shall evoke in your pathetic and humble enemies will be more
+than enough reward to justify the effort of engaging and decimating their forces. A medium-sized map with large resource deposits in
+a vertical configuration. Good for intermediate to advanced players.
+Description
+Description Settings: default.
+
+DescriptionFrench La peur et le ressentiment que devrait provoquer la vue de votre redoutable armada chez l'ennemi faible et
+pathétique, devrait plus que suffire à récompenser et à justifier l'effort fourni pour les décimer. Une carte de taille moyenne,
+ressources importantes et configuration verticale. Convient à des joueurs de niveau intermédiaire ou avancé.
+DescriptionFrench
+DescriptionFrench Configuration : par défaut.
+
+DescriptionGerman Die Angst und Selbstzweifel, von denen Ihre erbärmlichen Feinde angesichts Ihrer gewaltigen Armada erfüllt
+werden, sollten Ansporn genug sein, deren Streitkräfte anzugreifen und zu dezimieren. Eine Karte mittlerer Größe mit bedeutenden
+Vorräten an Ressourcen und ansteigendem Schwierigkeitsgrad. Geeignet für mittlere bis fortgeschrittene Spieler.
+DescriptionGerman
+DescriptionGerman Einstellungen: Standard.
+
+Font Arial_b12.hff
+Color 255, 200, 0
+DropShadow Yes
+
+
+; DEFAULT SETTINGS:
+type.flag BIT1 ; destroy mothership
+type.flagNeeded BIT1 ; FLAG: destroy mothership
+
+;type.flag BIT2 ; capture capital ship
+type.flagNeeded BIT2 ; FLAG: capture capital ship
+
+type.flag BIT3 ; research
+type.flagNeeded BIT3 ; FLAG: research
+
+;BIT4 = bounties - Obselete!
+
+type.flag BIT5 ; enable harvesting
+type.flagNeeded BIT5 ; FLAG: enable harvesting
+
+;type.flag BIT6 ; resouce injections
+type.flagNeeded BIT6 ; FLAG: resource injections
+
+;type.flag BIT7 ; resouce lump sum
+type.flagNeeded BIT7 ; FLAG: resource lump sum
+
+;BIT8 = password protected - only let the user change this
+
+type.flag BIT9 ; unit caps
+type.flagNeeded BIT9 ; FLAG: unit caps
+
+type.flag BIT10 ; fuel burn
+type.flagNeeded BIT10 ; FLAG: fuel burn
+
+type.flag BIT11 ; allied victory
+type.flagNeeded BIT11 ; FLAG: allied victory
+
+type.flag BIT12 ; crates
+type.flagNeeded BIT12 ; FLAG: crates
+
+;type.flag BIT13 ; carrier only
+type.flagNeeded BIT13 ; FLAG: carrier only
+
+type.flag BIT14 ; hyperspace
+type.flagNeeded BIT14 ; FLAG: hyperspace
+
+type.numComputers 0
+type.startingFleet 1
+type.bountySize 3 ; turn off bounties (3 = off)
+type.startingResources 1
+type.resourceInjectionInterval 14400
+type.resourceInjectionsAmount 2000
+type.resourceLumpSumTime 19200
+type.resourceLumpSumAmount 2000
+
+The above is cut and pasted from the Description.txt file sent to my by YMS.
+
+Just cut and past it into a notepad file and save it as Description.txt
+
+What to do next, Im not sure. I would assume putting it into your map folder and edit the variables to match your map. I might even
+have to be name in lower case as description.txt I have no idea.
+
+If ANYONE gets it to work, please post what you did here.
+
+Thanks! 
+
+--------------------------------------------------------------------------------------------
+
+Mission Man Editing Part 7 - Background and Lighting
+
+I was able to figure out how backgrounds work and lighting is set up by tearing apart the Meltdown CD maps and just random
+testing. Mmmmm Random.
+
+Lighting and backgrounds are usually setup like this:
+
+lighting ez01
+background ex01, 180, 0
+
+By tweaking these settings slowly, I found out the two digits after the ez are the backgrounds for all the single player missions! So,
+for example: ez02 = the second mission, ez10 = the tenth mission, and ez16 is the last mission. You can put in any number
+between 01 and 16, but I havent been able to get 03 to work. WE HAVE ACCESS TO ALL THE BACKGROUNDS! WOOHOOO!
+
+I did a couple test maps and noticed something right away, since certain maps have a very distinct light source, like the SuperNova
+mission, the light source has to be set in a specific way. Its sorta defined much like in Quake or Half-Life, with a degree setting
+based on a sphere, sorta. But since the light source is stationary, you can rotate the background by adjusting the two fields after
+the ez01 field as listed below:
+
+lighting ez16
+background ez16, -90, -20
+
+It took forever to figure this out, but I got the background on the final mission to line up with the light source. It seems the first
+number is the horizontal rotation and the second one is vertical. Just try to edit them with negative and positive numbers much like
+placing items with the X Y Z coordinates.
+
+We are getting closer to finally being able to make "good" maps. Good Luck and thanks to those whole helped me get this far. You
+know who you are. :)
+
+Spittledung:
+I am wondering if the lighting for 03 is giving a problem because the location of the action (Kharak system) is the same as 01 ... so
+it just uses the lighting for 01 and 03 is just a place holder so the numbers match?
+
+Roons:
+That must be it! Yeah, since 01 and 03 take place in the same area, the Kharak system, there isn't any need for a 03.
+My brain must have overloaded to miss that one.
+Thanks Spittledung for pointing it out.
+
+--------------------------------------------------------------------------------------------
+
+Led Mirage: Map Editing Info (Variable number of players)
+
+In order for a map to work with 2 to 8 players you have to make 7 maps variants!!!! each one named the same and in their own
+separate folders but the last character in the folder name has to be the number of players so you would have the map "TEST" for 2
+to 4 players like this:
+
+- 3 actual maps each in their own folders.
+
+- The folder and mission names would be TEST2, TEST3 and TEST 4.
+
+- TEST 2 would be the variant for 2 players, TEST 3 for 3 players, and on and on.
+
+so there you go, this is how you can make a map work with a variable number of players, if you only make a map for 4 players
+named TEST4 you HAVE to have 4 players, so this is the only way to do it that i have found.
+
+--------------------------------------------------------------------------------------------
+
+MajroMax:
+Can someone here detail exactly what one needs to do to generate a map and get it to show up in the CPU/Skirmish option in HW
+Multiplayer Menu?
+
+So far as I can tell, I have followed what instructions I could gather to the letter, but still no dice.
+
+Map Name, Level Name are all set to the folder. Info under level is set to something. Info under multiplayer can be set to something.
+No real ships, no resource (but a resourcesphere), so no conflict apparantly there.
+
+After Generating the Map, it does not show. Any ideas?
+
+Roons:
+The name of the map and the folder have to be EXACTLY the same. CaSe matters. So first make sure if you capitalize the first
+letter of the map, the folder is the same, and viceversa.
+
+Let us know if that works.
+
+Led Mirage:
+Also the map names HAVE to end up in the number of players the map is intended for and the *.level file has to be named the same
+as the folder, if you are missing either, the map WONT show up in the game.
+
+--------------------------------------------------------------------------------------------
+

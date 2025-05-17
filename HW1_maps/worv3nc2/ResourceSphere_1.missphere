@@ -1,0 +1,65 @@
+; MissionMan script, Monday, Aug 13 2001, 10:51:52 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Derelict    Scaffold_scarred,-51128.0,39232.0,0.0,-45,45,8,1,1
+Derelict    Scaffold_scarred,51128.0,-39232.0,0.0,-45,-45,8,1,1
+Derelict    Scaffold_scarred,-51128.0,-39232.0,0.0,45,-45,8,1,1
+Derelict    Scaffold_scarred,51128.0,39232.0,0.0,45,45,8,1,1
+
+Derelict    Scaffold,0.0,4000.0,0.0,-90.0,90.0,0,?,?
+Derelict    Scaffold,0.0,-4000.0,0.0,90.0,-90.0,0,?,?
+
+Derelict     Homeworld,5000000,0,0,180,0,0,?,?
+Derelict      AngelMoon_clean,-1000000.0,0.0,30000.0,0.0,0.0,0
+
+Resources    Asteroid,8412.0,63893.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,-7.5,2048,?
+Resources    Asteroid,24663.0,59540.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,-22.5,2048,?
+Resources    Asteroid,39232.0,51128.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,-37.5,2048,?
+Resources    Asteroid,51128.0,39232.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,-52.5,2048,?
+Resources    Asteroid,59540.0,24663.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,-67.5,2048,?
+Resources    Asteroid,63895.0,8413.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,-82.5,2048,?
+Resources    Asteroid,-8412.0,-63893.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,-7.5,2048,?
+Resources    Asteroid,-24663.0,-59540.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,-22.5,2048,?
+Resources    Asteroid,-39232.0,-51128.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,-37.5,2048,?
+Resources    Asteroid,-51128.0,-39232.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,-52.5,2048,?
+Resources    Asteroid,-59540.0,-24663.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,-67.5,2048,?
+Resources    Asteroid,-63895.0,-8413.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,-82.5,2048,?
+Resources    Asteroid,8412.0,-63893.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,7.5,2048,?
+Resources    Asteroid,24663.0,-59540.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,22.5,2048,?
+Resources    Asteroid,39232.0,-51128.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,37.5,2048,?
+Resources    Asteroid,51128.0,-39232.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,52.5,2048,?
+Resources    Asteroid,59540.0,-24663.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,67.5,2048,?
+Resources    Asteroid,63895.0,-8413.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,82.5,2048,?
+Resources    Asteroid,-8412.0,63893.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,7.5,2048,?
+Resources    Asteroid,-24663.0,59540.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,22.5,2048,?
+Resources    Asteroid,-39232.0,51128.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,37.5,2048,?
+Resources    Asteroid,-51128.0,39232.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,52.5,2048,?
+Resources    Asteroid,-59540.0,24663.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,67.5,2048,?
+Resources    Asteroid,-63895.0,8413.0,0.0,Cylinder,tiny.dist,15,7500.0,16969.0,0.0,82.5,2048,?
+
+Resources    DustCloud,8412.0,63893.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,-7.5,2048   ,     ?
+Resources    DustCloud,24663.0,59540.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,-22.5,2048   ,     ?
+Resources    DustCloud,39232.0,51128.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,-37.5,2048   ,     ?
+Resources    DustCloud,51128.0,39232.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,-52.5,2048   ,     ?
+Resources    DustCloud,59540.0,24663.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,-67.5,2048   ,     ?
+Resources    DustCloud,63895.0,8413.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,-82.5,2048   ,     ?
+Resources    DustCloud,-8412.0,-63893.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,-7.5,2048   ,     ?
+Resources    DustCloud,-24663.0,-59540.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,-22.5,2048   ,     ?
+Resources    DustCloud,-39232.0,-51128.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,-37.5,2048   ,     ?
+Resources    DustCloud,-51128.0,-39232.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,-52.5,2048   ,     ?
+Resources    DustCloud,-59540.0,-24663.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,-67.5,2048   ,     ?
+Resources    DustCloud,-63895.0,-8413.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,-82.5,2048   ,     ?
+Resources    DustCloud,8412.0,-63893.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,7.5,2048   ,     ?
+Resources    DustCloud,24663.0,-59540.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,22.5,2048   ,     ?
+Resources    DustCloud,39232.0,-51128.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,37.5,2048   ,     ?
+Resources    DustCloud,51128.0,-39232.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,52.5,2048   ,     ?
+Resources    DustCloud,59540.0,-24663.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,67.5,2048   ,     ?
+Resources    DustCloud,63895.0,-8413.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,82.5,2048   ,     ?
+Resources    DustCloud,-8412.0,63893.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,7.5,2048   ,     ?
+Resources    DustCloud,-24663.0,59540.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,22.5,2048   ,     ?
+Resources    DustCloud,-39232.0,51128.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,37.5,2048   ,     ?
+Resources    DustCloud,-51128.0,39232.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,52.5,2048   ,     ?
+Resources    DustCloud,-59540.0,24663.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,67.5,2048   ,     ?
+Resources    DustCloud,-63895.0,8413.0,0.0,Cylinder,stuff.dist,14,7500.0,16969.0,0.0,82.5,2048   ,     ?
+

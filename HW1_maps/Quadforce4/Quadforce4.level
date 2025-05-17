@@ -1,0 +1,37 @@
+; MissionMan script, Tuesday, Dec 28 2004, 2:36:00 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Quadforce4
+; Info: Quadforce (4)
+
+[Quadforce (4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_4.missphere,1000
+MissionSphere    3,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_5.missphere,1000
+
+Lighting    ez09
+Background    ez09
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    250000
+smZoomMax    100000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    250000
+smUniverseSizeZ    200000
+smUniverseSizeY    250000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+IncludeShips    P2,P2MultiBeamFrigate
+IncludeShips    P1,P1IonArrayFrigate
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    14

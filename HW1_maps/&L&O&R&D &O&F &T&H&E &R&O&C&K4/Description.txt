@@ -1,0 +1,18 @@
+Description     &L&O&R&D &O&F &T&H&E &R&O&C&K4
+Description	       4-way FFA or 2vs2
+Description	
+Description      A CUBE OF ROCKS SUROUNDED BY
+Description            A SPHERE OF ROCKS
+Description           PROTECT YOUR COLLS!
+Description
+Description           By :&Poor&Man&D&S&O
+   
+
+
+
+
+Font            Arial_b12.hff
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

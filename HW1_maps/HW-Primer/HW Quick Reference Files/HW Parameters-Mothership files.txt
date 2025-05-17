@@ -1,0 +1,59 @@
+Mothership file parameters
+--------------------------
+
+Ships	Label,x,y,z,rot,race,ship,num,formation|flag|(color),properties,propertiesParam
+eg
+Ships	Label,-3000,-5000,0,90,P1,P1MissileCorvette,5,DELTA_FORMATION|?|colorScheme(6),?,?
+
+Label:			AI label (no spaces) or ?
+x:			x coordinate
+y:			y coordinate
+z:			z coordinate
+rot:			rotation angle of ship (facing)
+race:			R1, R2, P1, P2, P3, or Traders
+ship:			ship (See Object-Ships.txt)
+num:			number of ships to place
+
+The following  strings can appear in any combination and should be separated by a pipe (|) with no spaces.
+
+formation:	NULL_FORMATION
+		PARADE_FORMATION
+		DELTA_FORMATION
+		BROAD_FORMATION
+		DELTA3D_FORMATION
+		CLAW_FORMATION
+		WALL_FORMATION
+		SPHERE_FORMATION
+		PICKET_FORMATION
+
+flag:		UseAsMothership or ?
+
+color:		? or colorScheme(n) where n= 0 to 7;		
+
+Race				Default colour scheme
+R1 (Kushan)				0
+R2 (Taiidan)				1
+P1 (Turanic Raiders)			4
+P2 (Kadeshi Garden Protectors)		5
+P3 (T-Mat)				6
+Traders (Bentusi & assorted)		7
+
+
+Properties: (value with possible 'propertiesParam' see The HW Map Makers Primer on Properties)
+
+ATTRIBUTES_SalvageAttachtime		1 
+ATTRIBUTES_ShellOfResources 		2 
+ATTRIBUTES_VelToMothership 		4 
+ATTRIBUTES_DontApplyFriction 		8 
+ATTRIBUTES_KillerCollDamage 		16 
+ATTRIBUTES_Anomaly 			32 
+ATTRIBUTES_NeutralShip			256
+ATTRIBUTES_HeadShotVelToMothership 	512 
+ATTRIBUTES_HeadShotKillerCollDamage 	1024 
+ATTRIBUTES_Regrow 			2048 
+
+ATTRIBUTES_SMColorInvisible		4096 
+ATTRIBUTES_SMColorYellow 		8192 
+ATTRIBUTES_SMColorGreen 		12288 
+
+

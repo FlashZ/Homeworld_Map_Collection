@@ -1,0 +1,45 @@
+; MissionMan script, Thursday, Aug 3 2000, 7:22:32 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+
+Resources    Asteroid,0.0,0.0,6000.0,Rectangle,tiny2.dist,150,70000.0,70000.0,0,0,?,?
+Resources    Asteroid,0.0,0.0,-6000.0,Rectangle,tiny2.dist,150,70000.0,70000.0,0,0,?,?
+Resources    Asteroid,0.0,0.0,18000.0,Rectangle,tiny2.dist,150,70000.0,70000.0,0,0,?,?
+Resources    Asteroid,0.0,0.0,-18000.0,Rectangle,tiny2.dist,150,70000.0,70000.0,0,0,?,?
+
+
+Resources    Nebula,0.0,0.0,0.0,Nebula,Nebula.dist,231,90000.0,90000.0,48000,100
+
+Resources    DustCloud,0.0,0.0,12000.0,Rectangle,dustcloud.dist,89,45000.0,45000.0,0,0.0,2,?
+Resources    DustCloud,0.0,0.0,12000.0,Rectangle,dustcloud.dist,89,45000.0,45000.0,0,45.0,2,?
+Resources    DustCloud,0.0,0.0,12000.0,Rectangle,dustcloud.dist,89,45000.0,45000.0,0,22.5,2,?
+Resources    DustCloud,0.0,0.0,12000.0,Rectangle,dustcloud.dist,89,45000.0,45000.0,0,67.5,2,?
+Resources    DustCloud,0.0,0.0,-12000.0,Rectangle,dustcloud.dist,89,45000.0,45000.0,0,0.0,2,?
+Resources    DustCloud,0.0,0.0,-12000.0,Rectangle,dustcloud.dist,89,45000.0,45000.0,0,45.0,2,?
+Resources    DustCloud,0.0,0.0,-12000.0,Rectangle,dustcloud.dist,89,45000.0,45000.0,0,22.5,2,?
+Resources    DustCloud,0.0,0.0,-12000.0,Rectangle,dustcloud.dist,89,45000.0,45000.0,0,67.5,2,?
+
+;Resources    Asteroid,0.0,0.0,0.0,Rectangle,tiny.dist,100,55000.0,55000.0,0,0,?,?
+;Resources    Asteroid,0.0,0.0,0.0,Rectangle,tiny.dist,100,55000.0,55000.0,0,22.5,?,?
+;Resources    Asteroid,0.0,0.0,0.0,Rectangle,tiny.dist,100,55000.0,55000.0,0,45,?,?
+;Resources    Asteroid,0.0,0.0,0.0,Rectangle,tiny.dist,100,55000.0,55000.0,0,67.5,?,?
+Resources    Asteroid,65000.0,65000.0,0.0,Sphere,tiny.dist,60,6000.0,6000.0,0,67.5,2,?
+Resources    DustCloud,65000.0,65000.0,0.0,Sphere,dustcloud.dist,49,4500.0,4500.0,0,67.5,2,?
+Resources    Asteroid,-65000.0,65000.0,0.0,Sphere,tiny.dist,60,6000.0,6000.0,0,22.5,2,?
+Resources    DustCloud,-65000.0,65000.0,0.0,Sphere,dustcloud.dist,49,4500.0,4500.0,0,22.5,2,?
+Resources    Asteroid,65000.0,-65000.0,0.0,Sphere,tiny.dist,60,6000.0,6000.0,0,22.5,2,?
+Resources    DustCloud,65000.0,-65000.0,0.0,Sphere,dustcloud.dist,49,4500.0,4500.0,0,22.5,2,?
+Resources    Asteroid,-65000.0,-65000.0,0.0,Sphere,tiny.dist,60,6000.0,6000.0,0,22.5,2,?
+Resources    DustCloud,-65000.0,-65000.0,0.0,Sphere,dustcloud.dist,49,4500.0,4500.0,0,22.5,2,?
+
+Resources    Asteroid,0.0,0.0,24000.0,Rectangle,tiny.dist,100,55000.0,55000.0,0,0,?,?
+Resources    Asteroid,0.0,0.0,-24000.0,Rectangle,tiny.dist,100,55000.0,55000.0,0,0,?,?
+Resources    Asteroid,0.0,0.0,24000.0,Rectangle,tiny.dist,100,55000.0,55000.0,0,45,?,?
+Resources    Asteroid,0.0,0.0,-24000.0,Rectangle,tiny.dist,100,55000.0,55000.0,0,45,?,?
+Resources    Asteroid,0.0,0.0,24000.0,Rectangle,tiny.dist,100,55000.0,55000.0,0,22.5,?,?
+Resources    Asteroid,0.0,0.0,-24000.0,Rectangle,tiny.dist,100,55000.0,55000.0,0,22.5,?,?
+Resources    Asteroid,0.0,0.0,24000.0,Rectangle,tiny.dist,100,55000.0,55000.0,0,67.5,?,?
+Resources    Asteroid,0.0,0.0,-24000.0,Rectangle,tiny.dist,100,55000.0,55000.0,0,67.5,?,?
+
+

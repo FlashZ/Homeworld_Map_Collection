@@ -1,0 +1,141 @@
+Ships	Label,x,y,z,rot,race,ship,num,formation|flag|(color),properties,propertiesParam
+eg
+Ships	Label,-3000,-5000,0,90,P1,P1MissileCorvette,5,DELTA_FORMATION|?|colorScheme(6),?,?
+
+Label:			AI label (no spaces) or ?
+x:			x coordinate
+y:			y coordinate
+z:			z coordinate
+rot:			rotation angle of ship (facing)
+race:			R1, R2, P1, P2, P3, or Traders
+ship:			ship (See Object-Ships.txt)
+num:			number of ships to place
+
+The following  strings can appear in any combination and should be separated by a pipe (|) with no spaces.
+
+formation:	NULL_FORMATION
+		PARADE_FORMATION
+		DELTA_FORMATION
+		BROAD_FORMATION
+		DELTA3D_FORMATION
+		CLAW_FORMATION
+		WALL_FORMATION
+		SPHERE_FORMATION
+		PICKET_FORMATION
+
+flag:		UseAsMothership or ?
+
+color:		0-7 or ?		
+
+	Race		Default color scheme
+	R1		0
+	R2		1
+	P1		4
+	P2		5
+	P3		6
+	Traders		7
+
+properties:			(see below)
+
+
+
+Ships
+
+Shiptype is:
+
+R1/R2 (Kushan/Taiidan):
+
+For The MS:	
+-----------------
+Mothership
+Carrier
+
+For Fighters
+-----------------
+LightInterceptor
+HeavyInterceptor
+AttackBomber
+LightDefender
+HeavyDefender
+CloakedFighter (R1 Only)
+DefenseFighter (R2 Only)
+
+For Corvettes
+--------------------
+LightCorvette
+RepairCorvette
+SalCapCorvette
+HeavyCorvette; 
+MultiGunCorvette
+MinelayerCorvette; 
+
+For Harvesters
+--------------------
+ResourceCollector
+ResourceController
+
+For Frigates
+--------------------
+AdvanceSupportFrigate
+StandardFrigate
+IonCannonFrigate; 
+DDDFrigate (R1 Only)
+DFGFrigate (R2 Only)
+
+For CapShips
+--------------------
+StandardDestroyer
+MissileDestroyer
+HeavyCruiser
+
+For Non-Combat Ships
+--------------------
+ResearchShip
+Probe
+ProximitySensor
+SensorArray
+CloakGenerator
+GravWellGenerator
+
+For Weirdness
+--------------------
+Drone (R1 Only)
+CryoTray
+HeadShotAsteroid
+TargetDrone
+
+P1 (Turanic)
+--------------------
+P1Mothership
+P1Fighter
+P1StandardCorvette
+P1MissileCorvette
+P1IonArrayFrigate
+
+P2 (Kadeshi)
+--------------------
+P2Mothership
+P2Swarmer
+P2AdvanceSwarmer
+P2FuelPod
+P2MultiBeamFrigate
+
+P3 (T-Mat)
+--------------------
+P3Frigate
+P3MegaShip
+
+Traders (misc.)
+--------------------
+CargoBarge
+GhostShip
+FloatingCity
+MiningBase
+Junk_Lgun
+Junk_Sgun
+JunkyardDawg
+JunkyardHQ
+ResearchStation
+ResearchStationBridge
+ResearchStationTower
+

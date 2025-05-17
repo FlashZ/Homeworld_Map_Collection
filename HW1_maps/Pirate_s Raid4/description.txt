@@ -1,0 +1,8 @@
+Description     Several small Pirate strike groups have met over a distant planet. Each faction is vying for control of the entire pirate fleet, and only the best commanders can win. Starting fleet includes one Turanic and one regular Carrier, several squadrons of corvettes and fighters, and a few frigates. Good luck.
+Description        Author: ThrawnPSA:MDC, thrawnpsamdc@hotmail.com, v1.1
+
+
+Font            Arial_b12.hff
+Color           0, 200, 1000
+DropShadow      Yes
+

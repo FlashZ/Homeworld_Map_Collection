@@ -1,0 +1,1069 @@
+HOMEWORLD The Map-Makers Primer
+[v2.1 Dylov 22/12/00]
+
+
+APPENDICES
+================================================================
+
+
+INDEX
+----------------------------------------------------------------
+RELICS LISTING OF ALL OBJECTS	4
+RESOURCES	4
+Resourcetype is:	4
+DERELICTS	5
+derelicttype is:	5
+SHIPS	6
+Shiptype is:	6
+SONGNUMBER	7
+Ambient level tracks	7
+Battle tracks	7
+NIS tracks	7
+Animatic tracks	7
+QUICK REFERENCE FILES	8
+LEVEL FILE PARAMETERS	8
+MISSIONSPHERE	8
+Lighting	8
+Background	8
+Songnumber	9
+Universal Settings	9
+DETERMINING WHAT SHIPS TO LOAD:(SEE ALSO OBJECTS-SHIPS.TXT)	10
+DETERMINING WHAT RESOURCES TO LOAD:(SEE ALSO OBJECTS-RESOURCES.TXT)	11
+DETERMINING WHAT DERELICTS TO LOAD:(SEE ALSO OBJECTS-DERELICTS.TXT)	11
+DETERMINING WHAT COLORSCHEMES A SHIP CAN BE:	11
+Changing the BaseColor(sets the base colour of ships) use:	12
+Changing the StripColor(sets the stripe colours of ships) use:	12
+To the Mothership file adding:	12
+MOTHERSHIP FILE PARAMETERS	13
+formation:	13
+flag:	13
+color:	13
+Properties:	14
+RESOURCE FILE PARAMETERS	15
+Nebula stuff:	15
+HOMEWORLD MAPMAKING HELP AND FAQ V2.0A	17
+1 - What do I need to make my own maps?	17
+2 - Where can I get MissionMan?	17
+3 - Are there any other mapmaking programs?	17
+4 - What does MissionMan do?	17
+5 - How do I make distribution files, and what do they do?	18
+6 - Why are there more than one directory for every map?	18
+7 - Why do the directories end in a number?	18
+8 - What does the Desiption.txt do?	18
+9 - What does the ResourceSphere_X.missphere do?	18
+10 - What Does The Mothership_X.missphere do?	18
+11 - Do I need one Resource Sphere file?	18
+12 - Do I have to have the Mothership Missionsphere files in every directory?	18
+13 - Why should I exclude things from my map?	18
+14 - Do I have to exclude things individually?	18
+15 - How can I exclude most things, but not all?	18
+16 - Do I have to include the comment lines on my map?	18
+17 - I've made all my files, where do I put them?	19
+18 - Why doesn't my map show up in the game menu?	19
+19 - How/where do I put in the description for my map?	19
+20 - I can select my map, but when I try to load it, it crashes to Windows, what's wrong?	19
+21 - When a map crashes, will it screw up Homeworld?	19
+22 - Where else can I find help?	19
+23 - For practice, can I edit other people's maps?	19
+24 - How do I put together the files to post to a site?	19
+25 - How do I make sure my map will work?	19
+26 - When I try to play my map over WON, when it tries to download, it crashes. What is wrong?	19
+HELLHAWK'S CHECKLIST FOR ADVANCED MAP-BUILDERS	20
+1. Directory Structure	20
+2. Directory Content	20
+3. Basic File Content	20
+4. Detailed Inter-File Content	21
+5.	Testing	22
+TAKER'S EXCEPTION ERRORS DEMYSTIFIED	23
+A. If the error occurs BEFORE the load indicator bar even comes on the screen:	23
+B. If the error occurs just after the load indicator bar comes up (one inch on my 19" monitor):	23
+C. If the error occurs after the load bar has gone a few inches, but not quite half way:	23
+PART ONE - TEXTS	24
+PART TWO - UTILITIES	24
+PART THREE - WEBSITES	25
+
+
+
+
+APPENDIX A: QUICK REFERENCE FILES
+----------------------------------------------------------------
+
+
+RELICS LISTING OF ALL OBJECTS - RESOURCES
+----------------------------------------------------------------
+
+Resourcetype is:
+
+For asteroids:		
+Asteroid0	(value-11RU's although these are non harvestable)
+Asteroid1	(value-25RU's)
+Asteroid2	(value-40RU's)
+Asteroid3	(value-100RU's)
+Asteroid4	(value-400RU's)
+
+For dust clouds:		
+DustCloud0	(value-50RU's)
+DustCloud1	(value-108RU's)
+DustCloud2	(value-250RU's)
+DustCloud3	(value-700RU's)
+
+For Nebulae:		
+Nebula0		(value-100RU's)
+Nebula1		(value-100RU's)
+Nebula2		(value-100RU's)
+Nebula3		(value-100RU's)
+Nebula4		(value-100RU's)
+
+For gas clouds:		
+GasCloud0	(value-0RU's and is Invisible)
+GasCloud1	(value-0RU's and is Invisible)
+GasCloud2	(value-0RU's and is Invisible)
+GasCloud3	(value-0RU's and is Invisible)
+GasCloud4	(value-0RU's and is Invisible)
+
+Note: Gas Clouds are not supported and thus should not be used, they will crash your mission if used.
+
+Note Also: The value of resourcetype depends on what type of resource it is. I have absolutely no idea why the nebula values are all the same... All the values above, I found in the Homeworld.Big file using Taleisin's big file viewer/extractor.
+
+
+
+RELICS LISTING OF ALL OBJECTS - DERELICTS 
+----------------------------------------------------------------
+
+derelicttype is:
+
+For planets:
+AngelMoon
+AngelMoon_clean
+Homeworld
+PlanetOfOrigin; 
+PlanetOfOrigin_scarred
+
+For crates:
+Crate
+
+For odd ships:
+Ghostship
+PrisonShipNew
+PrisonShipOld
+LifeBoat
+Shipwreck
+
+For the Scaffold:
+Scaffold
+Scaffold_scarred
+ScaffoldFingerA_scarred
+ScaffoldFingerB_scarred
+
+For space junk:
+Junk0_antenna
+Junk0_fin1
+Junk0_fin2
+Junk0_GunAmmo
+Junk0_LGun
+Junk0_panel
+Junk0_sensors
+Junk0_SGun
+Junk1_partA
+Junk1_partB
+unk1_shell
+Junk1_strut
+Junk2_panelA
+Junk2_panelB
+Junk2_panelC
+Junk2_panelD
+Junk2_shipwreck
+FragmentPanel0a
+FragmentPanel0b
+FragmentPanel0c
+FragmentPanel1
+FragmentPanel2
+FragmentPanel3
+FragmentStrut
+Junk2_Boiler			(causes mission to crash if used)
+Junk2_BoilerCasing		(causes mission to crash if used)
+
+Note: while you need to add the line 'IncludeDerelict    <derelicttype>' in the level file for all the above listed derelicts, you can get away with it and forget about these lines as far as the smaller planets are concerned. You do need to have a line in the level file including the Homeworld if you decide to use that however. Homeworld planet is HUGE, and I would suggest placing it way, way out of your map; try a value of 3000000 for the x (or the y, or even the z) position to start you off.
+
+
+
+RELICS LISTING OF ALL OBJECTS - SHIPS
+----------------------------------------------------------------
+
+Shiptype is:
+
+R1/R2 (Kushan/Taiidan):
+
+For The MS:	
+Mothership
+Carrier
+
+For Fighters:
+LightInterceptor
+HeavyInterceptor
+AttackBomber
+LightDefender
+HeavyDefender
+CloakedFighter (R1 Only)
+DefenseFighter (R2 Only)
+
+For Corvettes:
+LightCorvette
+RepairCorvette
+SalCapCorvette
+HeavyCorvette; 
+MultiGunCorvette
+MinelayerCorvette; 
+
+For Harvesters:
+ResourceCollector
+ResourceController
+
+For Frigates:
+AdvanceSupportFrigate
+StandardFrigate
+IonCannonFrigate; 
+DDDFrigate (R1 Only)
+DFGFrigate (R2 Only)
+
+For CapShips:
+StandardDestroyer
+MissileDestroyer
+HeavyCruiser
+
+For Non-Combat Ships:
+ResearchShip
+Probe
+ProximitySensor
+SensorArray
+CloakGenerator
+GravWellGenerator
+
+For Weirdness:
+Drone (R1 Only)
+CryoTray
+HeadShotAsteroid
+TargetDrone
+
+P1 (Turanic):
+P1Mothership
+P1Fighter
+P1StandardCorvette
+P1MissileCorvette
+P1IonArrayFrigate
+
+P2 (Kadeshi):
+P2Mothership
+P2Swarmer
+P2AdvanceSwarmer
+P2FuelPod
+P2MultiBeamFrigate
+
+P3 (T-Mat):
+P3Frigate
+P3MegaShip
+
+Traders (misc.):
+CargoBarge
+GhostShip
+FloatingCity
+MiningBase
+Junk_Lgun
+Junk_Sgun
+JunkyardDawg
+JunkyardHQ
+ResearchStation
+ResearchStationBridge
+ResearchStationTower
+
+
+
+RELICS LISTING OF ALL OBJECTS - SONGNUMBER 
+----------------------------------------------------------------
+is any number between 0 and 49 inclusive, listing from the .BIG file shows;
+
+Ambient level tracks
+
+c:\homeworld\sound\music\A02_mission2and4.wav, 255, 1024, 1		// 0
+c:\homeworld\sound\music\A04_mission5.wav, 255, 512, 1		// 1
+c:\homeworld\sound\music\A05_mission6and12.wav, 255, 512, 1		// 2
+c:\homeworld\sound\music\A06_mission7and8.wav, 255, 512, 1		// 3
+c:\homeworld\sound\music\A07_mission9.wav, 255, 512, 1		// 4
+c:\homeworld\sound\music\A08_mission10.wav, 255, 512, 1		// 5
+c:\homeworld\sound\music\A09_mission11and15.wav, 255, 512, 1	// 6
+c:\homeworld\sound\music\A11_mission13.wav, 255, 512, 1		// 7
+c:\homeworld\sound\music\A12_mission14.wav, 255, 512, 1		// 8
+c:\homeworld\sound\music\Tutorial.wav, 255, 512, 1			// 9
+
+Battle tracks
+
+c:\homeworld\sound\music\A01_mission1and16.wav, 255, 1024, 1	// 10
+c:\homeworld\sound\music\A03_mission3.wav, 255, 1024, 1		// 11
+c:\homeworld\sound\music\B01_TuranicRaidersLong.wav, 255, 512, 1	// 12
+c:\homeworld\sound\music\B02_TuranicRaidersShort.wav, 255, 512, 1	// 13
+c:\homeworld\sound\music\B03_Swarmers.wav, 255, 512, 1		// 14
+c:\homeworld\sound\music\B04_EvilEmpire.wav, 255, 1024, 1		// 15
+c:\homeworld\sound\music\NISlet01.wav, 255, 1024, 1			// 16
+
+NIS tracks
+
+c:\homeworld\sound\music\N01_R1Opening.wav, 255, 1024, 0		// 17
+c:\homeworld\sound\music\N01_R2Opening.wav, 255, 1024, 0		// 18
+c:\homeworld\sound\music\N02_P1Intro.wav, 255, 1024, 0		// 19
+c:\homeworld\sound\music\N03_TradersIntro.wav, 255, 1024, 0		// 20
+c:\homeworld\sound\music\N04_LearnOfSacking.wav, 255, 1024, 0	// 21
+c:\homeworld\sound\music\N05_P2Intro.wav, 255, 1024, 0		// 22
+c:\homeworld\sound\music\N06_Supernova.wav, 255, 1024, 0		// 23
+c:\homeworld\sound\music\N07_P3vsTraders.wav, 255, 1024, 0		// 24
+c:\homeworld\sound\music\N08_Awareness.wav, 255, 1024, 0		// 25
+c:\homeworld\sound\music\N09_Headshot.wav, 255, 1024, 0		// 26
+c:\homeworld\sound\music\N10_MiningFacility.wav, 255, 1024, 0		// 27
+c:\homeworld\sound\music\yes.wav, 255, 1024, 0			// 28
+
+Animatic tracks
+
+c:\homeworld\sound\music\ANIM00_Sierra.wav, 255, 1024, 0		// 29
+c:\homeworld\sound\music\ANIM00_Relic.wav, 255, 1024, 0		// 30
+c:\homeworld\sound\music\ANIM00_Opening.wav, 255, 1024, 0		// 31
+c:\homeworld\sound\music\ANIM01_02.wav, 255, 512, 0			// 32
+c:\homeworld\sound\music\ANIM02_03.wav, 255, 512, 0			// 33
+c:\homeworld\sound\music\ANIM03_04.wav, 255, 1024, 0		// 34
+c:\homeworld\sound\music\ANIM04_05.wav, 255, 512, 0			// 35
+c:\homeworld\sound\music\ANIM05_06.wav, 255, 512, 0			// 36
+c:\homeworld\sound\music\ANIM06_07.wav, 255, 512, 0			// 37
+c:\homeworld\sound\music\ANIM07_08.wav, 255, 512, 0			// 38
+c:\homeworld\sound\music\ANIM08_09.wav, 255, 512, 0			// 39
+c:\homeworld\sound\music\ANIM09_10.wav, 255, 512, 0			// 40
+c:\homeworld\sound\music\ANIM10_11.wav, 255, 512, 0			// 41
+c:\homeworld\sound\music\ANIM11_12.wav, 255, 512, 0			// 42
+c:\homeworld\sound\music\ANIM12_13.wav, 255, 512, 0			// 43
+c:\homeworld\sound\music\ANIM13_14.wav, 255, 512, 0			// 44
+c:\homeworld\sound\music\ANIM14_15.wav, 255, 1024, 0		// 45
+c:\homeworld\sound\music\ANIM15_16.wav, 255, 512, 0			// 46
+c:\homeworld\sound\music\ANIM_Ending.wav, 255, 1024, 0		// 47
+
+
+
+QUICK REFERENCE FILES - LEVEL FILE PARAMETERS
+----------------------------------------------------------------
+
+MissionSphere
+eg
+
+MissionSphere	-1,?,0.0,0.0,0.0,30000.0,1000.0,sphere.missphere,2000
+
+Where:
+
+MissionSphere	player,race,x,y,z,radius,msrot,contents,RUs
+
+player:		player # ( -1 for no player)
+race:		name of the race or ? for no race
+x:		x coordinate of the missionsphere centre
+y:		y coordinate of the missionsphere centre
+z:		z coordinate of the missionsphere centre
+radius:		radius of the missionsphere
+msrot:		angle of rotation of the mission sphere (1000.0 points towards centre of universe)
+contents:	the ìxxxxxxx.missphere î file
+RUs:		number of RUs the player starts with (integer, optional)
+
+Lighting
+eg
+
+Lighting		ez01
+
+Where
+
+Lighting		Filename
+
+filename:	the filename of a lighting file (ez01-ez16)
+
+Background
+Eg
+
+Background	ez01, 90, 30
+
+Where
+
+Background	filename, angle1, angle2
+
+backgroundfile:	the filename of a background file
+angle1:		horizontal rotation
+angle2:		vertical rotation
+
+Songnumber
+eg
+
+SongNumber	3
+
+Where;
+
+SongNumber	integer
+
+
+integer:	the song that will be played in a mission (1-49, 0=no music)
+		(See also Objects-SongNumber.txt)
+
+Universal Settings
+
+smDepthCueRadius	integer
+eg
+smDepthCueRadius	30
+
+integer :		the radius of the depth cue circle in the sensors manager
+
+smDepthCueStartRadius	integer
+eg
+smDepthCueStartRadius	10000
+
+integer :		the radius of the depth cue radius in the sensors manager
+
+smCircleBorder		integer
+eg
+smCircleBorder		90000
+
+integer :		the diameter of the small compass circle on the sensors manager
+
+smZoomMax		integer
+eg
+smZoomMax		150000
+
+integer:		the maximum zoom range for the sensors manager
+
+smZoomMin		integer
+eg
+smZoomMin		50000
+
+integer:		the minimum zoom range for the sensors manager
+
+smInitialDistance	integer
+eg
+smInitialDistance	75000
+
+integer:	the distance of the player's starting position from the centre of the universe
+
+smUniverseSizeX		integer
+eg
+smUniverseSizeX		120000
+
+integer:		the x coordinate diameter of the universe (width)
+
+smUniverseSizeY		integer
+eg
+smUniverseSizeY		120000
+
+integer:		the y coordinate diameter of the universe (length)
+
+smUniverseSizeZ		integer
+eg
+smUniverseSizeZ		60000
+
+integer:		the z coordinate diameter of the universe (height)
+
+
+Determining what Ships to load:(See also Objects-Ships.txt)
+----------------------------------------------------------------
+
+Not all ships/resources/derelicts etc. need be loaded for every level.  Substantial savings in loading time and texture RAM can be realized by excluding some things from the load.  By default everything is loaded for every level.  If something is loaded in one level and not loaded the next, the space it occupied (in RAM and texture RAM) is freed for other uses.
+
+Here is a listing of the new directives to control this:
+
+ExcludeShips	race shiptype
+eg
+ExcludeShips	P1, P1MissileCorvette
+ExcludeShips	R1, LightInterceptor
+
+race:		R1,R2,P1,P2,P3,Traders.
+shiptype:	any ship type valid for these races.
+		shiptype can also be "All" which will exclude that entire race.
+
+IncludeShips	race shiptype
+eg
+IncludeShips	P1MissileCorvette
+IncludeShips	LightInterceptor (etc).
+
+race:		R1,R2,P1,P2,P3,Traders.
+shiptype:	any ship type valid for these races.
+		shiptype can also be "All" which will include that entire race.
+
+eg, to only load 1 pirate (a MissileCorvette) beyond the basic R1/R2 fleet
+
+ExcludeShips	Traders,All
+ExcludeShips	P3,All
+ExcludeShips 	P2,All
+ExcludeShips 	P1,All
+IncludeShips 	P1,P1MissileCorvette
+
+
+Determining what Resources to load:(See also Objects-Resources.txt)
+----------------------------------------------------------------
+
+Exclude		resourcetype
+Include		resourcetype
+eg
+Exclude		Asteroid All
+Include		Asteroid2
+
+resourcetype:	Asteroid0, Asteroid1, Asteroid2, Asteroid3, Asteroid4
+		DustCloud0, DustCloud1, DustCloud2, DustCloud3, DustCloud4
+		GasCloud0, GasCloud1, GasCloud2, GasCloud3, GasCloud4
+		Nebula0, Nebula1, Nebula2, Nebula3, Nebula4
+		HeadShotAsteroidR1, HeadShotAsteroidR2
+
+		Note: don't load the head shot asteroids, they're really big ie:
+
+		ExcludeAsteroid	HeadShotAsteroidR1
+		ExcludeAsteroid	HeadShotAsteroidR2
+		
+
+Determining what Derelicts to load:(See also Objects-Derelicts.txt)
+----------------------------------------------------------------
+
+ExcludeDerelict		derelicttype
+IncludeDerelict		derelicttype
+
+derelicttype:	Fragment, Ghostship, Shipwreck
+
+		Note: don't load all the derelicts
+
+		ExcludeDerelict	Fragment All
+		ExcludeDerelict ShipWreck All
+
+		then specify what to load
+
+
+
+Determining what colorSchemes a ship can be:
+----------------------------------------------------------------
+
+By default, the color scheme of a ship is based on it's race.
+
+Race				Default colour scheme
+R1 (Kushan)				0
+R2 (Taiidan)				1
+P1 (Turanic Raiders)			4
+P2 (Kadeshi Garden Protectors)		5
+P3 (T-Mat)				6
+Traders (Bentusi & assorted)		7
+
+
+In order for your fancy color scheme to show up, you must enable it for every ship that will use it by using this directive:
+AvailableColorSchemes   race type scheme#[scheme#[...]]
+eg
+
+AvailableColorSchemes   P1 All 3
+AvailableColorSchemes   P1 P1MissileCorvette 6 (for pirates of a purple color)
+AvailableColorSchemes   R1 MissileDestroyer 0,1,7
+
+race:	any valid race
+type:	any ship valid for that race or "All"
+
+Changing the BaseColor(sets the base colour of ships) use: 
+
+BaseColor	raceNum,red,green,blue
+eg
+BaseColor	7,255,0,0
+
+Changing the StripColor(sets the stripe colours of ships) use: 
+
+StripColor	raceNum,red,green,blue
+eg
+StripColor	0,0,0
+
+So, now colour 7 has been replaced with a Red overall colour with Black strips.
+To the Mothership file adding:
+
+Ships	Label,-3000.0,-2500.0,0.0,-90.0,R1,MissileDestroyer,1,?|?|colorScheme(7)
+Ships	Label,-3500.0,-2500.0,0.0,-90.0,R1,MissileDestroyer,1,?|?|colorScheme(1)
+Ships	Label,-3000,-5000,0,90,P1,P1MissileCorvette,5,DELTA_FORMATION|?|colorScheme(6)
+
+Makes a mission sphere with 2 funky-colored missile destroyers and a formation of purple pirates.
+
+
+
+
+
+QUICK REFERENCE FILES - MOTHERSHIP FILE PARAMETERS
+----------------------------------------------------------------
+
+Ships	Label,x,y,z,rot,race,ship,num,formation|flag|(color),properties,propertiesParam
+eg
+Ships	Label,-3000,-5000,0,90,P1,P1MissileCorvette,5,DELTA_FORMATION|?|colorScheme(6),?,?
+
+Label:			AI label (no spaces) or ?
+x:			x coordinate
+y:			y coordinate
+z:			z coordinate
+rot:			rotation angle of ship (facing)
+race:			R1, R2, P1, P2, P3, or Traders
+ship:			ship (See Object-Ships.txt)
+num:			number of ships to place
+
+The following  strings can appear in any combination and should be separated by a pipe (|) with no spaces.
+
+formation:
+
+		NULL_FORMATION
+		PARADE_FORMATION
+		DELTA_FORMATION
+		BROAD_FORMATION
+		DELTA3D_FORMATION
+		CLAW_FORMATION
+		WALL_FORMATION
+		SPHERE_FORMATION
+		PICKET_FORMATION
+
+flag:
+
+		UseAsMothership or ?
+
+color:
+
+		? or colorScheme(n) where n= 0 to 7;		
+
+Race				Default colour scheme
+
+R1 (Kushan)				0
+R2 (Taiidan)				1
+P1 (Turanic Raiders)			4
+P2 (Kadeshi Garden Protectors)		5
+P3 (T-Mat)				6
+Traders (Bentusi & assorted)		7
+
+
+Properties:
+ (value with possible 'propertiesParam' see The HW Map Makers Primer on Properties)
+
+ATTRIBUTES_SalvageAttachtime		1 
+ATTRIBUTES_ShellOfResources 		2 
+ATTRIBUTES_VelToMothership 		4 
+ATTRIBUTES_DontApplyFriction 		8 
+ATTRIBUTES_KillerCollDamage 		16 
+ATTRIBUTES_Anomaly 			32 
+ATTRIBUTES_NeutralShip			256
+ATTRIBUTES_HeadShotVelToMothership 	512 
+ATTRIBUTES_HeadShotKillerCollDamage 	1024 
+ATTRIBUTES_Regrow 			2048 
+
+ATTRIBUTES_SMColorInvisible		4096 
+ATTRIBUTES_SMColorYellow 		8192 
+ATTRIBUTES_SMColorGreen 		12288 
+
+
+
+
+QUICK REFERENCE FILES - RESOURCE FILE PARAMETERS
+----------------------------------------------------------------
+
+Resources	type,x,y,z,layout,distribution,numResources,radius,length,roty,rotz,properties
+eg
+Resources	Asteroid,0.0,0.0,0.0,Sphere,distrib.dist,10,5000.0,10000.0,0.0,0.0,?
+
+type:		Asteroid, Nebula, GasCloud, or DustCloud
+x:		x coordinate
+y:		y coordinate
+z:		z coordinate
+layout:		Sphere, Cylinder, Rectangle, Nebula (Nebula is a sphere, see section below)
+distribution :	ìxxxxxxx.distî file
+numResources:	number of resources
+radius 	:	radius of cylinder or sphere
+length:		length of cylinder  (not relevant for spheres)
+roty:		angle of rotation (y axis) - not relevant for spheres
+rotz:		angle of rotation (z axis) - not relevant for spheres
+properties:	(value with possible 'propertiesParam' see The HW Map Makers Primer on Properties)
+
+ATTRIBUTES_SalvageAttachtime		1 
+ATTRIBUTES_ShellOfResources 		2 
+ATTRIBUTES_VelToMothership 		4 
+ATTRIBUTES_DontApplyFriction 		8 
+ATTRIBUTES_KillerCollDamage 		16 
+ATTRIBUTES_Anomaly 			32 
+ATTRIBUTES_NeutralShip			256
+ATTRIBUTES_HeadShotVelToMothership 	512 
+ATTRIBUTES_HeadShotKillerCollDamage 	1024 
+ATTRIBUTES_Regrow 			2048 
+
+ATTRIBUTES_SMColorInvisible		4096 
+ATTRIBUTES_SMColorYellow 		8192 
+ATTRIBUTES_SMColorGreen 		12288 
+
+Nebula stuff:
+----------------------------------------------------------------
+Nebulae use the same number of parameters as other resources, but with different intent.  Here's a template:
+
+Resources	Nebula,x,y,z,shape,xxxxxxx.dist,tendrils,xSize,ySize,zSize,numChunks
+eg
+Resources	Nebula,0.0,0.0,0.0,Nebula,nebula.dist,50,10000,10000,10000,4000
+
+x:	x coordinate of the nebulaís centre
+y:	y coordinate of the nebulaís centre
+z:	z coordinate of the nebulaís centre
+shape: 	Nebula (the distribution shape. Normally this is cylinder or sphere but nebulae
+	can only be of shape Nebula)
+dist :	relative distribution of RUs throughout the nebula
+tendrils: 	the number of "tendrils" in the nebula
+xSize:		x axis length of the nebula
+ySize:		y axis length of the nebula
+zSize:		z axis length of the nebula
+numChunks:	the seed value - best to leave at >= 60 * numTendrils, <= 100 * numTendrils
+
+Nebulae aren't as flexible  about controlling the distribution as other resource types because of the extreme amount of randomness that goes into their construction: a vast cylindrical region thinly populated with nebulosity tendrils appears mostly identical to a vast rectangular region [box] populated similarly, and I found that too many constraints produce unappealing tendril bunching.  Nebulae tend to form in a cylindrical/spherical fashion, even given the box distribution.
+
+
+
+
+
+APPENDIX B: HELP AND TROUBLESHOOTING
+----------------------------------------------------------------
+
+
+HOMEWORLD MAPMAKING HELP AND FAQ V2.0A  
+(Written By Obithrawn)
+----------------------------------------------------------------
+This is the second version of my help file, and it is more of a FAQ than the previous version. Anyway, first, go to Jason's site (http://www.strategyplanet.com/HWMaps/) and go to the editing section, then print out all the editing files there. I mention them a lot, and they helped me (I should explain a lot of things in those, but its nice to have them anyway). Also, I would like to thank Jason (BPLlama), TAKER, Hellhawk666, Skywalker, Jacelor, and anyone on the Relic board I didn't mention (especially the makers of all those kick-ass Homeworld web sites out there). And I would like to thank my parents, and my cats, Zoe and Stanly, and KoRn, and RatM, and pr0n, and potatoes...oh, and the guy who first decided to squeeze cow utters, and drink what came out of them. Especially him. All these questions fit into the category "How do I make a map?" which is the most FAQ of all! To the questions, batman! And this time, don't forget my pants! 
+1 - What do I need to make my own maps? 
+To make/edit maps, you need either MissionMan, or Notepad (which, I think, comes with Windows). Actually any text editor will do, just remember save it your files in plain text format, not one of those "fancy-pantsie" formats. Another alternative to MissionMan and Notepad is Excel. Homeworld map files can be loaded and saved with Excel if you use the "Comma Separated" or "CSV" spreadsheet format, and it really lines those columns of numbers up nicely. Once again Excel isn't a must, any spreadsheet or database program that supports CSV should work fine. 
+2 - Where can I get MissionMan? 
+It comes with Homeworld, in the installation menu (when you put the cd in, the installation menu should pop up). But, personally, I think using Notepad is much easier (will be covered later). 
+3 - Are there any other mapmaking programs?
+Not as of Christmas '99. There are several tools, including the Random Derelict Placer, the Ringmaker, and the JUICY .dist file creator, that might help you out. They're available on the editing section of Jason's site. [There are a few more out now, as the man says, see BPLlamas site for details! - Dylov]
+4 - What does MissionMan do? 
+MissionMan creates a bunch of text files when you generate missions, and they all can be opened using notepad. How to open using notepad: 
+1. Open a map, like Iron Curtin. 
+2. When the window that say 'what do you want to use to open this' pops up, select notepad. It should then open in notepad, and you should be able to see all the text. This is how most people edit maps, straight form notepad. (I know it looks confusing at first, but we'll cover it all)
+5 - How do I make distribution files, and what do they do? 
+You have to have at least one .dist file for every type of resource you have on your map. (EX-one for all the asteroids, one for the dustclouds) What they do is tell Homeworld how many of each size of asteroid/dustcloud/nebulea to put in. For example, say this was testmap2. When you opened it up, it looked like this: Asteroid0 0 Asteroid1 1 Asteroid2 2 Asteroid3 4 Asteroid4 0 What that means is that there will be twice as many asteroid2's as asteroid1's. And there will be twice as many Asteroid3's as Asteroid2's. Asteroid0's are the tiny, unharvestable dust particles, while Asteroid4's are missile destroyer size. Also, it is all relative, so Asteroid0 0 Asteroid1 10 Asteroid2 20 Asteroid3 40 Asteroid4 0 would have the exact same distribution. 
+6 - Why are there more than one directory for every map? 
+Homeworld won't just let you create a single file for a 2-4 player map, you have to create on directory for 2 players, 3 players, and 4 players. Each one will have the according number of Mothership_X.missphere files (same number as the folder) 
+7 - Why do the directories end in a number? 
+The number at the end is the version for that many players (IronCurtin2 is the 2 player version) 
+8 - What does the Desiption.txt do? 
+The description file just has the information that goes in the menu, font, colour of writing, the description. For all the details, look at the stuff I referred you to earlier 
+9 - What does the ResourceSphere_X.missphere do? 
+The ResourceSphere just has all the resources, and any derelicts or ships. When ships are placed in the ResourceSphere they go under AI hold, even when playing with no computer players. This is also where the .dist files are linked to. To see all the details, look at the stuff I asked you to print out earlier 
+10 - What Does The Mothership_X.missphere do? 
+The Mothership files are the ships each player starts out with, and where they are. Guess what? Look at the stuff to find out all the details. 
+11 - Do I need one Resource Sphere file? 
+Yes, you need one, even if your map doesn't have resources. Well, actually you can have more than one, but usually there is no point in having more than one, unless your ResourceSphere_X.missphere file is bigger than 64K (See the final question in this FAQ) 
+12 - Do I have to have the Mothership Missionsphere files in every directory? 
+Yep, you have to have one for each player on that map. "No more, no less" 
+13 - Why should I exclude things from my map? 
+1. To go along with the story line, or just to create an interesting map (my map, The Strike, for example, only lets you build strike craft) 
+2. To reduce loading time, if you exclude all the races beside R1 and R2, the loading time will be significantly less. 
+3. If you don't load something, the RAM will go to using something else, and this will reduce lag. 
+4. If you include too much stuff some of Homeworld's graphics start getting screwy... 
+14 - Do I have to exclude things individually? 
+No, you can exclude an entire race by putting: ExcludeShips Race (P1, P2, P3, Traders), ALL 
+15 - How can I exclude most things, but not all? 
+Yes, you can put: ExcludeShips P1, ALL Then below it put: IncludeShips P1, P1MissileCorvette This will exclude all P1 ships, except for the Missile Corvette 
+16 - Do I have to include the comment lines on my map? 
+No, but they help so things are grouped, and easier to edit. 
+17 - I've made all my files, where do I put them? 
+You put them in a set of subdirectories inside the Multiplayer directory in The Homeworld Folder. See question 6. 
+18 - Why doesn't my map show up in the game menu? 
+Probably because you don't have the folder name, and the name in the .level file the same (remember to put the number at the end) 
+19 - How/where do I put in the description for my map? 
+The description goes in the description.txt file. Where it says Description about 5 times vertically (it has to be within those decription lines) 
+20 - I can select my map, but when I try to load it, it crashes to Windows, what's wrong? 
+There are many reasons. Remember the stuff you printed? Read over the HW_Errors.txt written by Taker. (See below)
+21 - When a map crashes, will it screw up Homeworld? 
+Luckily, no (my computer wouldn't work if maps screwed up your game by crashing :-) 
+22 - Where else can I find help? 
+Relic's forums are good (http://www.relic.com/cgi-bin/Ultimate.cgi) 
+23 - For practice, can I edit other people's maps? 
+Sure, thats what I did for a loooooong time. Try testing different variables one at a time to see what they all do. 
+24 - How do I put together the files to post to a site? 
+Download either WinRAR, or WinZip. For these programs all you have to do is put all the files (the folders and a readme usually) into 1 folder, then tell the program to zip everything in that folder. 
+25 - How do I make sure my map will work? 
+Test it, play on WON, play against the computer with every possible number of players. If you can't play over WON, send it to some other people, and have them tell you what to change. I didn't do this for my first map, and as a result I had to keep re-releasing it to fix a number of problems. 
+26 - When I try to play my map over WON, when it tries to download, it crashes. What is wrong? 
+WON has a size limitation of 64k, if your map has any files larger than 64k it won't auto-download over WON. If you can't split up the big files (see question 11) then just have each player download the map regularily (from your website, over ICQ, or whatever). 
+
+
+
+HELLHAWK'S CHECKLIST FOR ADVANCED MAP-BUILDERS
+(Written by Hellhawk666)
+----------------------------------------------------------------
+This file is not a FAQ for people creating their first map, nor is it an instruction manual for map creation.  If you need these tools look for them in the Homeworld Editing Files section of the Homeworld Map Archive.  It is intended for use by experienced map builders, most probably using a text editor to create their map files.
+The file is a checklist of all the files necessary for your map to work, the necessary parameters you should have in these files, and the required inter-relationships between files.
+It does not contain detailed explanations of how the files work, because it is expected that you will either know this already or can refer to other documentation to find the answers.
+I created this file for my own use so I could be sure I had checked all the common problem areas before testing my maps, and to help in finding errors in maps which crashed during testing.
+Hellhawk666
+January 3, 2000
+
+1. Directory Structure
+a) Are the required numbers of directories present?
+b) Have they been numbered correctly?
+c) Are there any spelling mistakes in the directory names?
+
+2. Directory Content
+a) Is the "Description.txt" file present in every directory?
+b) Is the "XXXn.level" file present in every directory?
+c) Is each "XXXn.level" file correctly spelt and numbered?
+d) Is each "XXXn.level" file named the same as the directory in which it resides?
+e) Is the "ResourceSphere_1.missphere" file present in every directory (Did I set up for more than 1 resource sphere in this map? If so;
+are the ResourceSphere_n.missphere" files present in every directory?)
+Did I spell ".missphere" correctly?
+f) Are the required .dist files present in every directory? (XXX.dist, YYY.dist, etc.)
+g) Are the required "Mothership_n.missphere" files present in each directory? (DIRECTORYp includes "p" instances of Mothership_n.missphere)
+h) Are the "Mothership_n.missphere" files sequentially numbered?
+
+3. Basic File Content
+
+3.1 "Description.txt"
+a) Are all the "Description.txt" files identical?
+b) Are the game settings correctly formatted?
+
+3.2 "XXXn.level" files
+a) Does every file have the required comment lines and game information present, eg:
+
+; MissionMan script, Tuesday, Aug 24 1999, 5:25:46 PM
+ ; Copyright (c) 1998-99, Relic Entertainment Inc.
+ ; Multiplayer Level: Haldane4
+ ; Info: Haldane (2-4)
+ 
+ [Haldane (2-4)]
+
+b) Is the "Multiplayer Level:" data identical to the directory name where the file resides?
+c) Under these lines, does every file have a reference line for each Resource sphere and Mothership sphere file in the directory in which it resides, eg (for Haldane4):
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,-50000.0,0.0,50000.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R2,Mothership,50000.0,0.0,-50000.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    2,R1,Mothership,-50000.0,0.0,-50000.0,30000.0,0.0,Mothership_2.missphere,0
+MissionSphere    3,R2,Mothership,50000.0,0.0,50000.0,30000.0,0.0,Mothership_3.missphere,0
+
+d) Is everything below these lines identical in each "XXXn.level" file?
+
+3.3 "ResourceSphere_1.missphere"
+a) Are all the "ResourceSphere_1.missphere" files identical?
+b) If present, are the "ResourceSphere_2.missphere" files etc. identical.
+
+3.4 "XXX.dist", "YYY.dist", etc.
+a) Are all the "XXX.dist" files identical?
+b) Are all the "YYY.dist" files identical? etc.
+
+3.5 "Mothership_n.missphere" files
+
+a) Are the "Mothership_n.missphere" files which are present in more than 1 directory all identical?
+
+4. Detailed Inter-File Content
+
+4.1 "Description.txt"
+a) no inter-file settings
+ 
+4.2 "XXX.level" files
+a) Are the references to the resource sphere and mothership sphere files numbered correctly, eg (for Haldane4):
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,-50000.0,0.0,50000.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R2,Mothership,50000.0,0.0,-50000.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    2,R1,Mothership,-50000.0,0.0,-50000.0,30000.0,0.0,Mothership_2.missphere,0
+MissionSphere    3,R2,Mothership,50000.0,0.0,50000.0,30000.0,0.0,Mothership_3.missphere,0
+
+b) Are the Lighting, Background and SongNumber parameters valid and correctly formatted?
+c) Are the Exclude and Include parameters valid and correctly formatted?
+
+4.3 "ResourceShpere_1.missphere"
+a) Are the resource references correctly formatted, eg:
+
+Resources     DustCloud,-3500.0,2500.0,0.0,Cylinder,Dustcloud.dist,10,500.0,1000.0,0.0,-50.0,2048,7
+Derelict      AngelMoon_clean,0.0,500000.0,0.0,0.0,-90.0,0
+Derelict      Crate, 60000.0,0.0,0.0,-75.3, 163.7,4096
+Ships         ,-179194.4,9334.6,-43982.5,0.0,Traders,Junk_LGun,1,NULL_FORMATION|?|?,4096,?
+
+b) Pay attention to spelling errors, particularly:
+
+resource types
+resource.dist file names
+resource shape types
+
+c) Check that there are no derelicts or ships specified which are also excluded in the "XXXn.level" file
+d) Are the correct resource.dist files associated with each resource type?
+e) Is the file larger than 64KB in size.  If so it must be cut into two files.
+f) Check that GasClouds have not been used.
+
+4.4 "XXX.dist" files, etc.
+a) Are the correct resource types present within each type of  resource.dist file? eg:
+
+Asteroid .dist files - 	
+Asteroid0
+Asteroid1
+Asteroid2
+Asteroid3
+Asteroid4
+
+DustCloud.dist files - 	
+DustCloud0
+DustCloud1
+DustCloud2
+DustCloud3
+DustCloud4
+
+Nebula.dist files - 	
+Nebula0
+Nebula1
+Nebula2
+Nebula3
+Nebula4
+
+b) Is there a space between the resource type label and the value columns? eg:
+
+Asteroid3   1   2  etc.
+
+4.5 "Mothership_n.missphere" files
+a) Are the ship resources for each player formatted correctly? eg:
+
+Ships     ,-68732.6,-3678.0,0.0,0.0,R1,Mothership,1,NULL_FORMATION|?|?,0,?
+Ships     ,-66922.6,-5659.0,-104.0,0.0,R1,ResourceCollector,2,PARADE_FORMATION|?|?,0,?
+
+b) Check that no ship is specified which is excluded for that race by the "XXXn.level" file.
+c) Check for spelling errors, particularly in the names of ship types and formations.
+
+5. Testing
+
+a) Test vs. CPU for every combination of players.  Test saving the game and recording the game. Test loading from a cold start.
+b) Test vs. human opponents online.
+
+
+
+TAKER'S EXCEPTION ERRORS DEMYSTIFIED 
+(Written by TAKER, aka James Tooman)
+----------------------------------------------------------------
+[Edited ever so slightly by Dylov]: So you are just making your first map, eh? Well, I just did and there was nothing more frustrating than having it crash out on me with an exception error in module Homeworld.exe. At first I had NO IDEA what was causing it but after days of frustration I noticed a few patterns. The key to figuring out why your map won't load right is often right in front of you!
+
+I put together this list of common exception error causes and what to check. The way this works is to very closely watch for when EXACTLY the error occurs. 
+A. If the error occurs BEFORE the load indicator bar even comes on the screen:
+1. Your problem is most likely in the level file
+2. Check to make sure you have two lines at the beginning of the file that says:
+
+; MissionMan script
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+
+3. Make sure that your Mission Sphere lines are all there, there need to be at least three (one for resource sphere and two for ships)
+4. Make sure that there are no remark lines missing their ';' in front of them
+5. If you have an alternate background and/or lighting, check that the *.btg and/or *.hsf file are not missing from the folder
+
+B. If the error occurs just after the load indicator bar comes up (one inch on my 19" monitor):
+1. Your problem is most likely in one of the Mothership_#.missphere files
+2. You may not have enough arguments per line, check yours with one that you know works
+3. There may be a missing ';' in front of a remark line
+4. You may have accidentally put a return in the middle of one, especially if you used notepad to edit with
+5. Check for typos for the shiptype names
+
+C. If the error occurs after the load bar has gone a few inches, but not quite half way:
+1. Your problem is likely with the ResourceSphere_#.missphere file (or files if you have more than one)
+2. The most common problem is a mismatched distribution file to the resource type you specified e.g. the first argument is "Resource DustCloud" and the distribution file you specified is "Asteroid.dist" [Yup, tell me about this one! This is a good point to take note of.]
+3. Again, not enough arguments such as only two co-ordinates or no distribution file specified at all! [Another favourite, be careful of the commas and full stops.]
+4. Check for carriage returns splitting lines in half
+5. Check for typos in the distribution file names
+6. Make sure the distribution file name that you specified is actually IN the folder you are using
+7. Make sure the distribution file specified is using the matching resources to the type you said would be there
+
+These should help the novice map builder avoid a LOT of the frustration that I went through. If any of you experts would like to add some others, feel free to and I will edit this list.
+
+
+
+
+APPENDIX C: BIBLIOGRAPHY & LINKS
+----------------------------------------------------------------
+
+
+Part One – Texts
+----------------------------------------------------------------
+1. An introduction to Map Building (Written by TAKER, aka James Tooman)
+2. TAKER's Exception Errors Demystified (Written by TAKER, aka James Tooman)
+3. Hellhawk's Checklist for Advanced Map-Builders (Written by Hellhawk666)
+4. Homeworld Mapmaking Help and FAQ v2.0a (Written by Obithrawn (with help))
+5. Relic Mission Editing Text (Written by Relic Entertainment Inc.)
+6. Relic's Object List (Written by Relic Entertainment Inc.)
+7. Relic's Properties List (Written by Relic Entertainment Inc.)
+8. For .level files - (Written by Gary Shaw)
+9. Colors - (Written by Luke Moloney)
+10. Nebula stuff:  (Written by Keith Hentschel)
+11. Roon's Mission Man editing steps (Written by Roons)
+12. Relic Board Postings (Collated by BPLlama)
+13. Roons' Step by Step for dummies (Written by Roons)
+14. How to: Make a resource cloud (Written by LupusUmbrus)
+15. How to: Make a resource cluster regenerate (Written by LupusUmbrus)
+16. Map Editing Info (Written by Led Mirage)
+17. HeadShotAsteroid notes (Written by Anolis)
+18. Additional Notes (Spittledung, Demon-Dog)
+19. How to create regrowable resources (Written by DrakeBird)
+20. Base RU level is 400 (Written by Hellhawk666)
+21. MS optimal starting distances (Senilty OMO)
+22. Property Combinations (Tech)
+23. Numerous other postings (Hellhawk666, Shin, TAKER, BPLlama, Obithrawn, et al. etc.) 
+
+Many of these files are still available in the editing sections of the Project Red Engineering Module: The Map and Map Makers Archives and BPLlamas: The Homeworld Map Archive. Additional Forum postings from The Relic Homeworld Editing Forum and the OMO Map Editing Forums.
+ 
+
+Part Two – Utilities
+----------------------------------------------------------------
+TextPad   
+[2443kb by Helios Software Solutions]
+Using Text editors to create and/or modify maps can become pretty confusing, using Textpad will solve all your problems. Enjoy a free Unlimited trial of the full version of TextPad from Helios Software Solutions. Ask any mapper and they will recommend this program over notepad, wordpad etc.
+
+Big file viewer/extractor v3.0   
+[259kb by Taleisin]
+Root around in the Homeworld and Cataclysm BIG data files with Taleisin's BIG viewer.
+
+Background Tool of the Geeks  
+[618kb by Relic Entertainment Inc.]
+Create your own backgrounds For Homeworld and Cataclysm maps using Relic's BTG program. You might like to peruse the BTG Reference Images available, hosted on BPLlamas HW Map Archive site, and check over there for a collection of available backgrounds.
+
+The Excel HW Map Makers Spreadsheet  
+[319kb by Dylov]
+A number of helpful spreadsheets, deals with both resources and ship/player placement. Includes TAKER’s ‘Tilting’ Ring Maker Utility, The Continuous Asteroid Belt Maker, Player/Resource Distances Generator and preformatted .csv sheets for Missphere and Level file adjustments. More.
+
+Random Derelict Placer   
+[1427kb by BPLlama] 
+BPLlama’s Random Derelict placer will, as the name suggests, place random derelicts throughout your map in numbers and concentration to your specifications.
+
+Random Resource Placer  
+[24kb by BPLlama] 
+BPLlama’s Random Resource placer will, as its name suggests, place random resource clouds throughout your map in numbers and concentration to your specifications.
+
+JUICY Distribution Maker  
+[229kb by Jacelor] 
+Jacelor’s Distribution Maker will generate clouds of resources to the specifications of your choosing taking care of the distribution and resource lines. Good interface, if a little confusing to use at first. 
+
+Barking Dogs MissionMan doc   
+[1kb by Castewar (Barking Dog)]
+The Help file written by Castewar of Barking Dog for MissionMan, if you have the game then you will already have it, if you don't it is still useful for those HW Mappers who can use MissionMan without it crashing every 30 seconds or so...
+
+† see more on Utilities in Useful Tools.
+
+
+Part Three – Websites
+----------------------------------------------------------------
+Project Red Forums
+Relic Forums 
+OMO  Forums
+DP Forums
+BD Forums
+† see more on Forums in Online Help.
+
+The Map and Map Makers Archives
+The Homeworld Map Archive 
+jst Online Map Archive 
+Drunken Pirates Clan Pages & fourm 
+Medamanx's Screenshot Archives 
+
+
+Project Red
+The Guidestone
+RelicNews
+Homeworld X
+Homeworld Fleet Command
+
+Sierra Online Official Homeworld Pages
+Official Homeworld Site
+Relic Entertainment
+
+The Math and Physics Help Home Page
+The Maths Index
+Kenneth Boyd’s Trigonometry Crash Review
+Coordinates and vectors in three dimensional space 
+
+† see more on Website in Useful Websites.
+

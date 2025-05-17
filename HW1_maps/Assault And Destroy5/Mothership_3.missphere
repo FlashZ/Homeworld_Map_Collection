@@ -1,0 +1,9 @@
+; MissionMan script, Thursday, Mar 13 2003, 4:45:53 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,65000.0,-40000.0,0.0,0.0,P2,P2MultiBeamFrigate,4,UseAsMothership|?|?,?,?
+Ships     ,65000.0,-40000.0,0.0,0.0,R1,StandardDestroyer,4,UseAsMothership|?|?,?,?
+Ships     ,65000.0,-40000.0,0.0,0.0,P3,P3Frigate,1,UseAsMothership|?|?,?,?
+Ships     ,65000.0,-40000.0,0.0,0.0,R1,HeavyCruiser,4,UseAsMothership|?|?,?,?
+Ships     ,65000.0,-40000.0,0.0,0.0,P1,P1IonArrayFrigate,2,UseAsMothership|?|?,?,?

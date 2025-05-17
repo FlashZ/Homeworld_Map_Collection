@@ -1,0 +1,20 @@
+Description     &Assault &And &Destroy (&2-&4)
+Description
+Description     &Just &Play &T&H&I&S &! &! &!
+Description     &Starting with such army u gonna kick your enemys &a&s&s&!
+Description     
+Description     &v 1.0 - 15-7-2004
+Description     &Map by: &D!&ab&Lo-&E&T&F
+Description     
+Description           
+Description     &Plz select setting : &Small starting res, &Small Bountys.
+Description                           
+
+
+
+Font            Arial_b12.hff
+Color          200, 180, 0
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

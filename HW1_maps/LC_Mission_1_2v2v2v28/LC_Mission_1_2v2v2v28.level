@@ -1,0 +1,41 @@
+; MissionMan script, Friday, Sep 3 1999, 1:45:25 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level:LC_Mission_1_2v2v2v28
+; Info: LC Mission 1 2v2v2v2
+
+[LC Mission 1 2v2v2v2]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R1,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_1.missphere,1000
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_2.missphere,1000
+MissionSphere    3,R1,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_3.missphere,1000
+MissionSphere    4,R1,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_4.missphere,1000
+MissionSphere    5,R1,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_5.missphere,1000
+MissionSphere    6,R1,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_6.missphere,1000
+MissionSphere    7,R1,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_7.missphere,1000
+Lighting    ez04
+Background    ez04, 180, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    200000
+smZoomMax    200000
+smZoomMin    10000
+smInitialDistance    75000
+smUniverseSizeX    10000000
+smUniverseSizeZ    10000000
+smUniverseSizeY    10000000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,TargetDrone
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+IncludeDerelict    PlanetOfOrigin
+SongNumber    2

@@ -1,0 +1,14 @@
+Description	Sophie's Rose (2-6)
+Description
+Description
+Description	everyone gotta have a map for them
+Description
+Description
+Description	&f&a&lcon
+Description	2006
+
+
+
+Font		Arial_b12.hff
+Color		255, 200, 0
+DropShadow	Yes

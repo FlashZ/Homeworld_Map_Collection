@@ -1,0 +1,9 @@
+Description     Behold!  The REAL (new and improved) "Empty Space" is here!  Oh, and by the way, patience is a virtue...  you'll see.
+Description
+Description     AUTHOR: Warlord_Bob
+Description     E-MAIL: iliketosleep@hotmail.com
+   
+Font Arial_b12.hff
+Color 200, 200, 0
+DropShadow Yes
+ 

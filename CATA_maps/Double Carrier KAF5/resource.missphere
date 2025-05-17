@@ -1,0 +1,51 @@
+; MissionMan script, Friday, Jul 21 2000, 4:06:47 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,0.0,90000.0,0.0,Cylinder,kafclump.dist,30,7000.0,2500.0,0.0,0.0,0,?
+
+Resources    Asteroid,0.0,-90000.0,0.0,Cylinder,kafclump2.dist,5,3000.0,3000.0,0.0,0.0,0,?
+
+Resources    Asteroid,90000.0,0.0,0.0,Cylinder,kafclump2.dist,5,3000.0,3000.0,0.0,0.0,0,?
+
+Resources    Asteroid,-90000.0,0.0,0.0,Cylinder,kafclump2.dist,5,3000.0,3000.0,0.0,0.0,0,?
+
+Resources    Asteroid,-10000.0,-10000.0,0.0,Cylinder,kafclump.dist,25,3000.0,3000.0,0.0,0.0,0,?
+Resources    Asteroid,10000.0,-10000.0,0.0,Cylinder,kafclump.dist,25,3000.0,3000.0,0.0,0.0,0,?
+
+Resources    Asteroid,45000.0,45000.0,0.0,Cylinder,type2.dist,5,3000.0,3000.0,0.0,0.0,0,?
+Resources    Asteroid,-45000.0,45000.0,0.0,Cylinder,type2.dist,5,3000.0,3000.0,0.0,0.0,0,?
+Resources    Asteroid,45000.0,-45000.0,0.0,Cylinder,type2.dist,5,3000.0,3000.0,0.0,0.0,0,?
+Resources    Asteroid,-45000.0,-45000.0,0.0,Cylinder,type2.dist,5,3000.0,3000.0,0.0,0.0,0,?
+
+Resources    Asteroid,45000.0,0.0,0.0,Cylinder,type2.dist,5,3000.0,3000.0,0.0,0.0,0,?
+Resources    Asteroid,-45000.0,0.0,0.0,Cylinder,type2.dist,5,3000.0,3000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,45000.0,0.0,Cylinder,type2.dist,5,3000.0,3000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-45000.0,0.0,Cylinder,type2.dist,5,3000.0,3000.0,0.0,0.0,0,?
+
+Ships     ,-35000.0,72500.0,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,35000.0,72500.0,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+
+Ships     ,-80000.0,25000.0,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,80000.0,25000.0,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+
+Ships     ,-80000.0,-25000.0,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,80000.0,-25000.0,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+
+Ships     ,-35000.0,-72500.0,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,35000.0,-72500.0,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+
+Ships     ,0.0,8000.0,0.0,0.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships     ,0.0,6500.0,0.0,0.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+
+Slipgate ,-40000.0,77500.0,0.0,1/2,80.0,dSlipgateLarge
+Slipgate ,-85000.0,30000.0,0.0,2/2,80.0,dSlipgateLarge
+
+Slipgate ,40000.0,77500.0,0.0,1/2,-80.0,dSlipgateLarge
+Slipgate ,85000.0,30000.0,0.0,2/2,-80.0,dSlipgateLarge
+
+Slipgate ,-40000.0,-77500.0,0.0,1/2,120.0,dSlipgateLarge
+Slipgate ,-85000.0,-30000.0,0.0,2/2,40.0,dSlipgateLarge
+
+Slipgate ,40000.0,-77500.0,0.0,1/2,-120.0,dSlipgateLarge
+Slipgate ,85000.0,-30000.0,0.0,2/2,-40.0,dSlipgateLarge

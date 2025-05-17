@@ -1,0 +1,6 @@
+Description A map for 2 vs. 2 battles. Starting fleet is 15 scouts, 10 interceptors, 4 ion array frigates, 2 multi-beam frigates, 3 assault frigates, 3 research ships, 2 resource collectors, and 1 resource controller. Resources are dust,asteroids,and nebula. The dust pocket behind each player regenerates. The asteroid rectangle in front of the dust row also regenerates at a slightly slower rate. GL HF. Author:Diirvaas|SF
+ 
+
+Description Made on: 12/26/04
+
+Color     255,0,0

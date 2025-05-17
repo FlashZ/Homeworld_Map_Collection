@@ -1,0 +1,10 @@
+Description     This is a corvette battle training map that has each player starting with 10 heavy corvettes, 20 light corvettes, and 3 support frigates. Remember, this is training, do not be mad if you lose. Great for skirmish vs. a Computer.
+Description	
+Description	AUTHOR	: Creamy 
+Description     Version 1.2
+Description    
+
+Font            Arial_b12.hff
+Color           178, 216, 15
+DropShadow      Yes
+

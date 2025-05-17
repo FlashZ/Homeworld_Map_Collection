@@ -1,0 +1,91 @@
+HOMEWORLD The Map-Makers Primer
+[v2.1 Dylov 22/12/00]
+
+
+THE MAP BASICS
+================================================================
+
+
+1.0 AND SO IT BEGINS...
+----------------------------------------------------------------
+
+ The very first thing you should do is to draw your map out. Get a sheet of graph paper (ideally) or a blank piece of paper and draw a Cartesian x,y graph. Draw out the major features of your map (as it's seen from above), put in all the player starting positions, asteroid clusters and other points of interest such as derelicts, background planets and so on. Only a rough outline is needed although you can be as detailed as you wish, the more detailed, it is the better it would be to be using proper graph paper.
+ 
+
+1.1 ON MAP DESIGN
+----------------------------------------------------------------
+
+ What type of map do you want to build? It would be a good idea to know what type of game you want to build a map for. You see, whether you like it or not, your map will influence the type of game that will pan out on it. There are Four major map types covering most maps out there;
+
+ 1.1.1 THE MULTIPLAYER 'SKIRMISH' MAP
+----------------------------------------------------------------
+Small maps tend to lean them selves to a completely different type of game from the larger game maps. Strategies all change when players are going to be virtually on top of one another from the word go. These maps will tend to involve more fighters and corvettes being built as each player desperately pumps out as many ships as possible as all hell breaks loose.
+
+You will never need much in the way of resources for these maps, most will be centralised and would draw the players in. These maps need little in the way of intricate resource cluster design and enticing Derelicts dotted about, in fact they would even detract from this map type as everything you add, adds to the speed and to the lag. Not to scare you off from doing this, but everything can mount up until you create a dinosaur.
+
+The most important thing for this map type is the distances the players start apart. Resources will not be much of an issue and neither will the starting fleets.
+
+1.1.2 THE MULTIPLAYER 'HOMEWORLD' MAP
+----------------------------------------------------------------
+Medium to large sized maps give a completely different type of game; these games will have the players starting further apart and in doing so change the game strategies. The game is played out utilising the full potential of Homeworld; the games will be played out pretty much as the game can offer. Things like resource disruption become an issue as players have the time to research their way up the Research Ladder.
+
+So, you would want the resources set across wider areas, the possibilities of how these will look are only constrained by your imagination. See 'Jupiter's Rings' and 'Battle Star' for two contrasting examples, 'Jupiter's Rings' recreates an actual space arena with all its resources situated to reflect actual scenery as opposed to what is fair, and 'Battle Star' uses a geometric design creating a completely level playing field. Two completely different types of games would result from each, so you can see the scope open to you. The single most important thing for these maps are the resources. 
+Roons said once; "In most cases you should have at least one cluster regenerate on the map. Without at least one, its possible for both sides to harvest the entire map leaving nothing left to:
+
+• Fight for control of 
+• Supply resources for people to rebuild lost ships
+
+Limiting the size, location, and number of clusters you have on the map that regenerate will add strategic points to the map. Having a single medium size cluster near the middle of the map focuses the fight to the centre."
+
+But, you can argue that perhaps a map where everyone does not have to end up in the centre and fight for resources will offer the type of game you are looking for. The placement of the resources will have the effect of influencing how the game is played on your map. It is the single most important factor of the Multiplayer Homeworld Map. Starting distances are only secondary, a decent number for player starting distances to set you off was uncovered by Senility-OMO who said;
+
+"Errr, well anyway, I made a little experiment as far as map size is concerned, you might use this as reference: I took a scout and placed the opposing MSs so that the distance round-trip was just enough to run the scout out of fuel. The distance came to about 270,000 (one MS at 135,000, the other at -135,000)."
+
+1.1.3 THE MULTIPLAYER 'BATTLE' MAP
+----------------------------------------------------------------
+This is where the resource placement becomes a secondary issue and it's the starting fleets what count. See 'First Battle at Hancock Station' for an example of exactly what I'm talking about. The whole idea of harvesting and building go out the window, you create a scenario, to be played out to the best of the players ability. Its pretty much still in its infancy at the time of writing and I'm a strong advocate for this type of map.
+These maps have entire fleets in place when the map begins, just like the old tabletop battles where you would set up your fleets and go at it hammer and tongs. Building new ships becomes unnecessary and easy to exclude, as' is changing your Mothership types, perhaps to a 'Heavy cruiser' or even a 'cryotray'. From small skirmishes to famous battles such as Trafalgar or Enders assault on the Hive Homeworld, all are possible.
+Obithrawn has created 'Duel of the Fates' a map where you can settle the argument from the manual between the Admirals Riif-sa and Paktu. Hellhawk666 has created a map along the lines of 'The Battle of Midway' in 'Planetary Wars'. Randix went the other way and produced 'Megafleets War' where you start the map with pretty much everything you would expect to finish with, not quite the ideal of a Battle Map, but certainly a nod in its direction.
+
+1.1.4 The Multiplayer '1v1' maps
+----------------------------------------------------------------
+Designed specifically for 1v1, can be geometric (re: Relic/Drakebirds 'Minebase Defence') or scenic (re: Relics 'Subjugate') or even a battlemap (re: Andrew Robbs 'Taskforce') the size will be important as too big you will have far to long a game to hold long term interest for the community, too small and you create a swarmer fest where non swarmers are at an immediate disadvantage.
+
+1.1.5 The Multiplayer 'Giant' Maps 
+----------------------------------------------------------------
+After some consideration I decided to assign these their own category. Giant maps could easily be left under the Multiplayer heading, but the type of game that will pan out on a giant map will be completely different. Much longer games will happen, obviously, and this forces the players to look at long term strategies rather than build the biggest fleet first. Take a look at any of my own 'NGC' or 'Galaxy' maps or the classic, TAKER's 'Genesis 24-OD', or even MouseDD's 'Deepspace'.
+ 
+
+1.2 DIRECTORY STRUCTURE
+----------------------------------------------------------------
+
+All 'skirmish' or 'multiplayer' maps are stored in your ..\Sierra\Homeworld\Multiplayer directory. Homeworld won't just let you create a single directory for a 2-8 player map, you have to create a separate directory for 2 players, 3 players, 4 players and so on. Maximum number of players is 8, giving a possible total of 7 directories. Each sub-folder that makes up the map is named after the map followed by the number corresponding to the number of players that version of the map is made for.
+The name of the *.Level file and the folder it resides in, have to be EXACTLY the same. CaSe matters. So first make sure if you capitalise the first letter of the map, the folder is the same, and so on. Also the map names have to end up in the number of players the map is intended for and the *.level file contains the name of the folder, if you are missing either, the map won't show up in the game.
+This is more fully explained as we go on, its enough that you realise that the map name is all important at this stage.
+ 
+1.3 DIRECTORY CONTENT
+----------------------------------------------------------------
+
+Each directory of your map has to be able to be used independently and therefore means that each directory must contain all the files that are used to make up your map. In each folder there will be available all the files you have used in your map. There are five basic file types used to make a map. They are;
+
+1.3.1 THE DESCRIPTION FILE
+----------------------------------------------------------------
+ - (e.g. Description.txt) This file gives the description of your map viewable in the game it also allows you to deal with the options that are available within the Homeworld game itself, in the Multiplayer/Skirmish Vs CPU settings screen. There will never be more than one per folder and all must be identical.
+
+1.3.2 THE LEVEL FILE
+----------------------------------------------------------------
+- (e.g. Revelation2.level) This file contains all the basic information about your map. It contains the name and race of all the starting ship files, the name of the resource file, the universe size, the lighting type, the background type, the sensor manager zoom sizes, the default song to be played and any ship restrictions. There will never be more than one per folder and all will contain only minor changes between folders of the same map.
+
+1.3.3 THE MOTHERSHIP FILES
+----------------------------------------------------------------
+- (e.g. Mothership_0.missphere) Mothership files contain all the player starting fleets and the starting location of those fleets. The most important aspect of these files is the fact that these files are named in the level file and the game will seek out these named files, if they are not included as listed in the level file (case and spelling!) then the game will crash. 
+
+1.3.4 THE RESOURCESPHERE FILE
+----------------------------------------------------------------
+- (e.g. ResourceSphere_1.missphere) This file contains every single resource element that we want to use in the map including asteroids, dust clouds and particles. When ships are placed in the ResourceSphere they go under AI control, even when playing with no computer players. There will only be more than one of these if it becomes bigger than 64k.
+
+1.3.5 THE DISTRIBUTION FILE
+----------------------------------------------------------------
+ - (e.g. Asteroid.dist) This file contains the information on the size and amounts of each size of the resource you have in a cluster. They are very simple files giving the relative sizes of asteroids/dustclouds of the resources named in the Resourcesphere file. There can be any amount of distribution files in the folder.
+
+

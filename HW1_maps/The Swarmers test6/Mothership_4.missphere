@@ -1,0 +1,13 @@
+; MissionMan script, Monday, Jul 26 2004, 12:41:19 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,35519.5,-314.3,0.0,180.0,R1,LightInterceptor,25,BROAD_FORMATION|?|?,0,?
+Ships     ,35613.5,-315.3,0.0,180.0,R1,HeavyInterceptor,15,BROAD_FORMATION|?|?,0,?
+Ships     ,35720.5,-318.3,0.0,180.0,R1,AttackBomber,10,BROAD_FORMATION|?|?,0,?
+Ships     ,35814.5,-320.3,0.0,180.0,R1,HeavyDefender,10,BROAD_FORMATION|?|?,0,?
+Ships     ,35902.5,-326.3,0.0,180.0,R1,LightCorvette,5,BROAD_FORMATION|?|?,0,?
+Ships     ,35983.5,-328.3,0.0,180.0,R1,HeavyCorvette,20,BROAD_FORMATION|?|?,0,?
+Ships     ,36074.5,-339.3,0.0,180.0,R1,MultiGunCorvette,5,BROAD_FORMATION|?|?,0,?
+Ships     ,36469.9,-338.9,0.0,180.0,R1,AdvanceSupportFrigate,5,BROAD_FORMATION|?|?,0,?
+

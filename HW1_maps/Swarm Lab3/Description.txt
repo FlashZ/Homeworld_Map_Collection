@@ -1,0 +1,13 @@
+Description	Swarm Lab (2)
+Description	fighters only
+Description	injects &R&E&Q&U&I&R&E&D
+Description
+Description
+Description	&f&a&lcon
+Description	2006
+
+
+
+Font		Arial_b12.hff
+Color		255, 200, 0
+DropShadow	Yes

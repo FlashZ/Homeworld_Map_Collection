@@ -1,0 +1,29 @@
+; MissionMan
+
+[Unfair (1v1, 1v2, 2v2)]
+
+MissionSphere    -1,?,ResourceSphere,0,0,0,0,0,Standard_resource_file.missphere
+MissionSphere    0,R1,Mothership,0,0,0,0,0,Standard_player_file0.missphere
+MissionSphere    1,R1,Mothership,0,0,0,0,0,Standard_player_file1.missphere
+MissionSphere    2,R1,Mothership,0,0,0,0,0,Standard_player_file2.missphere
+MissionSphere    3,R1,Mothership,0,0,0,0,0,Standard_player_file3.missphere
+
+Lighting    ez07
+Background    ez07, 200, 0
+smZoomMax    200000
+smZoomMin    20000
+smInitialDistance    100000
+smUniverseSizeX    200000
+smUniverseSizeY    200000
+smUniverseSizeZ    200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeAsteroid    HeadShotAsteroidR1
+ExcludeAsteroid    HeadShotAsteroidR2
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    -1

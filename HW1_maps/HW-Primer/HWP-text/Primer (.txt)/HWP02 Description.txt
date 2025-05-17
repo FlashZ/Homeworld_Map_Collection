@@ -1,0 +1,99 @@
+HOMEWORLD The Map-Makers Primer
+[v2.1 Dylov 22/12/00]
+
+
+DESCRIPTION
+================================================================
+
+
+2.0 INTRODUCTION TO THE DESCRIPTION FILE 
+----------------------------------------------------------------
+
+The Description.txt file is where all of the default flags plus the level descriptions are stored. Open up the description.txt file in the 'Tutorial Map Files' Folder (included with this primer), and take a wee look at it. What this file essentially does, is deal with the options that are available within the Homeworld game itself, in the Multiplayer/Skirmish Vs CPU settings screen. You can use this file to set up all the options as your map settings, but this will not stop players from changing them themselves if they (and they invariably do) should wish. 
+There are three major parts to this file 'The Map Desrciption' 'The Map Settings' and 'RU Injections'.
+ 
+2.1 THE MAP DESCRIPTION 
+----------------------------------------------------------------
+
+Open up the Tutorial Map Files Folder (or indeed, any other map folder in the homeworld/multiplayer folder), and find the file called Description.txt. Open up this file then, and let's take a look around. 
+Ok, check out the first 5 lines that begin with the word 'Description' followed by a <tab> spacer. Here's where you add your description that the world will see when they click on your map as listed in the Multiplayer/Skirmish Vs CPU/Select Scenario.
+
+While the various aspects to the description file (i.e. the flags you can switch on and off) pertain directly to the "Multiplayer/setup Game" screen in Homeworld. The text description you can give on the first five lines proceeded by "Description" will appear in the description at the "Select Scenario" Game Info screen when you are choosing which map to load.
+
+Description	The Tutorial Map (2-8 Players)
+Description	Your Map description goes here.
+Description	Settings: Crates off.
+Description	AUTHOR : Dylov (dylov@ntlworld.com)
+Description	VERSION : 1.0 (May 01 2000)
+
+You can change anything after the Description<tab> part of each line. You can add more Description<tab> lines if you with or just let your text description wrap (as I do). I read somewhere once that the 5 lines was important, but maybe I just made it up as I have never found it again... If you add too big a description then the bottom lines will not be seen as you cant scroll up and down on the description screen in homeworld itself. 
+
+A couple points of note about these lines: If you add an '&' in front of a letter it will make that letter bold. But take note: the '&' symbol is still recognised as part of the line (even though it wont show up in the description box in the game) and it will wrap your emboldened text onto the next line if its too long. The second point was the length of the line, The description box in homeworld is not very big, if you look at the line:
+
+Description	AUTHOR : Dylov (dylov@ntlworld.com)
+
+Well bizarrely, this line is an exact fit for the length of the description box, so in the lines above I am always comparing the length, if they are longer than this line it will wrap. This is where its handy to add a whole load of extra lines beginning with 'Description<tab>', so you can get an idea of the final result. Just remember to delete them all again when you're finished and let your description wrap.
+We can sum this all up by saying that the description box will show a total of 12 lines of roughly 38 characters.
+
+The Next three lines give the settings for the font and colour in the description box, they are;
+
+Font                Arial_b12.hff
+Color               0, 180, 40
+DropShadow          Yes
+
+Don't change the font, or it will crash Homeworld. Don't change 'Dropshadow' either, I have no idea what it does, and you can set it to "No" but I have never noticed any difference and its probably best left well alone. You can change the text colour, and it's probably best I leave you to play around with it a bit yourself, until you come up with a colour you like, just change the R/G/B values, (min=0, max=255), remember don't touch the format, just the actual values.
+
+ 
+2.2 DEFAULT SETTINGS 
+----------------------------------------------------------------
+
+The Second part of the description.txt file is the DEFAULT SETTINGS as it says in those big happy capital letters. This bit pertains directly to the settings in the Homeworld game itself, in the Multiplayer/Skirmish Vs CPU/Advanced Options and Multiplayer/Skirmish Vs CPU/Resource Options screens. 
+Now, did you notice that the line I mentioned saying DEFAULT SETTINGS actually begins with a semicolon? As in "; DEFAULT SETTINGS"? You did? Well nobody likes a smart-arse! Anyway, the point here is that when you run homeworld and load up your map, the game will ignore all lines of text proceeded by a semicolon. However; while this is true throughout, the format of this file is important, don't change it by adding more lines in with semicolons. (The only file you can really fool about with format and get away with it is the ResourceSphere file, but we will get to them later).The first lot of settings are written the same way, lets look at the lines:
+
+type.flag               BIT12     ; crates
+type.flagNeeded         BIT12     ; FLAG: crates
+
+Here we see the flag that controls the crates option, also available via the Multiplayer/Skirmish Vs CPU/Advanced Options screen in the game itself. However, you can set these as a default setting (i.e. when you load up your map, this flag will be automatically set how you have set it via this file, as I mentioned before there is nothing stopping the player from changing it in the Advanced Options screen).
+Now, looking at these lines, they tell us that the crates have a flag of "BIT12", and the line below tell the type of flag needed for crates to be On (Default). So, you could add a semicolon in front of the first line to give you this;
+
+;type.flag              BIT12     ; crates 
+type.flagNeeded         BIT12     ; FLAG: crates 
+
+And now, when you load your map up, because the game has ignored the first line there, it has not assigned "BIT12" and crates will be Off. Its that simple. Again, this can be basically summarised by saying:
+
+If you want an option off, place a semicolon at the start of each "type.flag" line, not the "type.flgNeeded" line. If you want the option on, then remove the semicolon from in front of it.
+
+
+2.3 RU INJECTIONS 
+----------------------------------------------------------------
+
+The next four lines after the settings subsection are:
+
+type.numComputers      0
+type.startingFleet     1
+type.bountySize        2  ; turn off bounties (3 = off)
+type.startingResources 2 
+
+Here you can set default number of computer players (max 7 remember, + you = 8), the type of starting fleet, (which I have never noticed any difference when changed and so have no idea what it does, your probably best leaving this well alone). Bounty size, (where; 0=Small, 1=Medium, 2=Large and 3=Off). And starting resources (where; 0=Small, 1=Medium and 2=Large).
+
+The final lines in the Description.txt File, from our Tutorial map Files are:
+
+;type.resourceInjectionInterval    14400
+;type.resourceInjectionsAmount    2000
+;type.resourceLumpSumTime      19200
+;type.resourceLumpSumAmount    2000 
+
+If you have the injections on (and these are flagged in the BIT6 and BIT7 lines above) on the Description.txt file, you'll have already noted they are flagged 'off' by default). Well, you can control the amounts from here as well, and the time between injections (or 'Until' in the case of the Lump Sum). In the Game the maximum injection you can do is 9999 RU's, and 9999 Mins until injection, but in the Description.txt file there is no limit! 
+
+To illustrate what you can do; I once set up a map where you start with 4000RU's (type.startingResources	2) and have a Lump Sum injection of 196000RU's (;type.resourceLumpSumAmount	196000) right at the very start of the game by setting the LumpSumTime to a stultifying low amount, like '3' (this pans out as a couple seconds in the game I think this number means 'frames', but who knows?). The end result is an initial amount of 200,000 RU's available to each player! This was further modified (all via the Description.txt file) where I switched off injections, harvesting and bounties, giving each player 200,000RU's to play with and no possibility of acquiring more. Admittedly 200,000RU's is a HUGE number, but the point is valid. Aren't I just brilliant...
+
+One last point about RU's; you can switch off (via this file) all possible sources of cash and have no money available on your map, useful if you are making a Battle Map. (This is where all the ships are already on the board so to speak, a sort of 'Enders Game' scenario. See 'Planetary Wars' and 'First Battle at Hancock Station' which are available at time of writing). By doing this the cash flow reverts to a default of increment injections of 25RU's up to 400RU's max, allowing building of a modest amount of ships to keep the supply line ticking over. 
+
+ 
+2.4 LAST WORD 
+----------------------------------------------------------------
+
+And that's your Description.txt file. This file has to be the same in all versions of your map. The game actually pretty much ignores the Description.txt file in all but the lowest player number version of your map, but its required so you can actually see the description you gave for the in-game description screen. 
+
+So we have finished (For the time being) with the actual game settings for your map, let's move on to the map itself, we'll begin with the Most important file; the *.level file.
+

@@ -1,0 +1,28 @@
+; MissionMan script, Friday, Sep 15 2006, 5:51:34 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    DustCloud,0.0,0.0,0.0,Sphere,DustCloud.dist,30,5000.0,10000.0,0.0,0.0,2048,2
+Resources    Asteroid,-21729.2,-10614.8,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,-63.0,0,?
+Resources    Asteroid,-17358.4,-16609.1,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,-47.0,0,?
+Resources    Asteroid,-11489.0,-21104.8,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,-29.0,0,?
+Resources    Asteroid,-4048.6,-23630.6,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,-8.0,0,?
+Resources    Asteroid,4048.6,-23630.6,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,9.0,0,?
+Resources    Asteroid,11071.7,-21317.1,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,28.0,0,?
+Resources    Asteroid,16855.4,-17268.5,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,45.0,0,?
+Resources    Asteroid,21482.3,-10989.0,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,63.0,0,?
+Resources    Asteroid,23795.8,-3800.7,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,82.0,0,?
+Resources    Asteroid,23713.2,3966.0,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,99.0,0,?
+Resources    Asteroid,21482.3,11071.7,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,117.0,0,?
+Resources    Asteroid,17020.6,16938.0,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,135.0,0,?
+Resources    Asteroid,11071.7,21399.7,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,153.0,0,?
+Resources    Asteroid,3635.5,23878.4,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,171.0,0,?
+Resources    Asteroid,-3800.7,23713.2,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,-171.0,0,?
+Resources    Asteroid,-10906.4,21399.7,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,-151.0,0,?
+Resources    Asteroid,-17020.6,17103.2,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,-136.0,0,?
+Resources    Asteroid,-21399.7,10906.4,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,-117.0,0,?
+Resources    Asteroid,-23795.8,3800.7,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,-99.0,0,?
+Resources    Asteroid,-23795.8,-3883.3,0.0,Rectangle,Asteroid.dist,10,5039.1,1007.8,1007.8,-81.0,0,?
+Resources    Asteroid,50000.0,-10000.0,0.0,Cylinder,Asteroid.dist,100,1000.0,50000.0,0.0,0.0,0,?
+Resources    Asteroid,-50000.0,10000.0,0.0,Cylinder,Asteroid.dist,100,1000.0,50000.0,0.0,0.0,0,?
+

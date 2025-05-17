@@ -1,0 +1,26 @@
+; MissionMan script, Friday, Sep 3 1999, 12:14:52 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,0.0,0.0,45000.0,Cylinder,Asteroid.dist,200,4000.0,4000.0,1000.0,2500.0,3,?
+
+Resources    DustCloud,11647.0,98467.0,0.0,Cylinder,DustCloud.dist,45,3500.4,26106.8,0.0,-7.5,1400,1
+Resources    Asteroid,34146.0,82438.0,0.0,Cylinder,Tiny.dist,45,3500.4,26106.8,0.0,-22.5,2048,1
+
+Resources    DustCloud,92436.0,44149.0,0.0,Cylinder,DustCloud.dist,45,3500.4,26106.8,0.0,-67.5,1400,1
+Resources    Asteroid,88464.0,11649.0,0.0,Cylinder,Tiny.dist,45,3500.4,26106.8,0.0,-82.5,2048,1
+Resources    DustCloud,-11647.0,-98467.0,0.0,Cylinder,DustCloud.dist,45,3500.4,26106.8,0.0,-7.5,1400,1
+Resources    Asteroid,-34146.0,-82438.0,0.0,Cylinder,Tiny.dist,45,3500.4,26106.8,0.0,-22.5,2048,1
+
+Resources    DustCloud,-92436.0,-44149.0,0.0,Cylinder,DustCloud.dist,45,3500.4,26106.8,0.0,-67.5,1400,1
+Resources    Asteroid,-88464.0,-11649.0,0.0,Cylinder,Tiny.dist,45,3500.4,26106.8,0.0,-82.5,2048,1
+Resources    DustCloud,11647.0,-98467.0,0.0,Cylinder,DustCloud.dist,45,3500.4,26106.8,0.0,7.5,1400,1
+Resources    Asteroid,34146.0,-82438.0,0.0,Cylinder,Tiny.dist,45,3500.4,26106.8,0.0,22.5,2048,1
+  
+Resources    DustCloud,92436.0,-44149.0,0.0,Cylinder,DustCloud.dist,45,3500.4,26106.8,0.0,67.5,1400,1
+Resources    Asteroid,88464.0,-11649.0,0.0,Cylinder,Tiny.dist,45,3500.4,26106.8,0.0,82.5,2048,1
+Resources    DustCloud,-11647.0,98467.0,0.0,Cylinder,DustCloud.dist,45,3500.4,26106.8,0.0,7.5,1400,1
+Resources    Asteroid,-34146.0,82438.0,0.0,Cylinder,Tiny.dist,45,3500.4,26106.8,0.0,22.0,2048,1
+
+Resources    DustCloud,-92436.0,44149.0,0.0,Cylinder,DustCloud.dist,45,3500.4,26106.8,0.0,67.0,1400,1
+Resources    Asteroid,-88464.0,11649.0,0.0,Cylinder,Tiny.dist,45,3500.4,26106.8,0.0,82.0,2048,1

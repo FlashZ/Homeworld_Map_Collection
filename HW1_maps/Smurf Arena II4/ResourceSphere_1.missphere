@@ -1,0 +1,18 @@
+; MissionMan script, Monday, Oct 23 2006, 8:12:45 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,0.0,0.0,0.0,Rectangle,roid.dist,70,10000.0,10000.0,1000.0,0.0,2048,4
+Resources    Asteroid,-45000.0,0.0,25000.0,Rectangle,rock.dist,4,4000.0,4000.0,4000.0,0.0,0,?
+Resources    Asteroid,-45000.0,0.0,-25000.0,Rectangle,rock.dist,4,4000.0,4000.0,4000.0,0.0,0,?
+Resources    Asteroid,45000.0,0.0,25000.0,Rectangle,rock.dist,4,4000.0,4000.0,4000.0,0.0,0,?
+Resources    Asteroid,45000.0,0.0,-25000.0,Rectangle,rock.dist,4,4000.0,4000.0,4000.0,0.0,0,?
+Resources    Asteroid,-45000.0,0.0,25000.0,Rectangle,roid.dist,6,4000.0,4000.0,4000.0,0.0,2048,4
+Resources    Asteroid,-45000.0,0.0,-25000.0,Rectangle,roid.dist,6,4000.0,4000.0,4000.0,0.0,2048,4
+Resources    Asteroid,45000.0,0.0,25000.0,Rectangle,roid.dist,6,4000.0,4000.0,4000.0,0.0,2048,4
+Resources    Asteroid,45000.0,0.0,-25000.0,Rectangle,roid.dist,6,4000.0,4000.0,4000.0,0.0,2048,4
+Resources    DustCloud,-25000.0,-8000.0,20000.0,Cylinder,dust.dist,2,1000.0,1000.0,90.0,180.0,2048,1
+Resources    DustCloud,-25000.0,8000.0,-20000.0,Cylinder,dust.dist,2,1000.0,1000.0,90.0,180.0,2048,1
+Resources    DustCloud,25000.0,-8000.0,20000.0,Cylinder,dust.dist,2,1000.0,1000.0,90.0,180.0,2048,1
+Resources    DustCloud,25000.0,8000.0,-20000.0,Cylinder,dust.dist,2,1000.0,1000.0,90.0,180.0,2048,1
+

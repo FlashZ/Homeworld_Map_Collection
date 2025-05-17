@@ -1,0 +1,8 @@
+Description     Talisman 6
+Description	5th map- think i'm getting the hang of this- enjoy 
+Description	made by afterlife-hg
+Description	background by PoorManDSO 
+Font            Arial_b12.hff
+Color           260, 410, 200
+DropShadow      Yes
+

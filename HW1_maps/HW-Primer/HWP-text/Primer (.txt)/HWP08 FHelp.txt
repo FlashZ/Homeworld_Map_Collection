@@ -1,0 +1,304 @@
+HOMEWORLD The Map-Makers Primer
+[v2.1 Dylov 22/12/00]
+
+
+FURTHER HELP
+================================================================
+
+
+INDEX
+----------------------------------------------------------------
+FORUMS
+FORUMS:	4
+MIRC:	4
+E-MAIL:	4
+
+WEBSITES
+WEBSITES FOR MAP MAKERS:	5
+TRIG?	5
+FORUMS FOR MAP MAKERS:	6
+MAJOR NEWS SITES:	6
+
+USEFUL TOOLS
+RECOMMENDED:	7
+MSEXCEL	7
+WINDOWS	7
+MISCELLANEOUS	8
+
+USING EXCEL
+HOW TO IMPORT AN ENTIRE TEXT FILE INTO MICROSOFT EXCEL	9
+HOW TO IMPORT AN ENTIRE TEXT FILE INTO A REFRESHABLE MICROSOFT EXCEL DATA RANGE.	9
+HOW TO EXPORT AN ENTIRE MICROSOFT EXCEL WORKSHEET INTO A TEXT FILE	10
+
+USING THE SRD-XL
+USING EXCEL TO AID IN YOUR MAP MAKING EFFORTS	12
+WORKSHEETS	12
+1. STRAND CREATOR (DYLOV)	12
+2. TILTING RING MAKER (TAKER)	13
+3. DISTANCES (DYLOV)	13
+WORKSHEETS READY TO SAVE AS .CSV FILES	14
+4. THE RESOURCESPHERE WORKSHEET	14
+5. THE RING RESOURCESPHERE WORKSHEET	14
+6 & 7. THE LEVELFILE (FFA AND TEAM) WORKSHEETS	15
+
+
+
+
+ONLINE HELP
+----------------------------------------------------------------
+
+FORUMS:
+----------------------------------------------------------------
+Why Forums? Well they are the best place to find the information you need. The better forums for map makers are: the Project Red: Engineering forum, where a dedicated Mapping community exists, the author as well as most of the contributors can be found in there and also in the Relic Forums. The Relic Forums are the longest existing and most popular forum where most members of the homeworld community visit from time to time. Absurdly popular, there will always be help available here and I can't recommend it enough. 
+
+Brand new and growing rapidly is the Barking Dog Forums, these forums are moderated directly by the BD staff and so where better to ask question when your stuck and so on.
+
+Finally the Sierra Forums are worth noting in that they deal with homeworld and cataclysm and they are haunted by the Cataclysm developers who may or may not come out of the shadows to answer any questions you may have. Word of warning though, if you are not a regular member with post counts in the triple numbers and up, then it will be quickly pointed out. A new Mods section has opened up and this may prove to be more helpful as long as the spammers stay away, but I would still recommend the PRED or Relic Boards.
+
+Two other forums well worthy of note are the Clan boards for the Old Men Online (OMO Forums) and the Drunken Pirates (DP Forums). Smaller and more intimate, these forums are haunted by clan members and are usually pretty quick to reply to any questions and never with a "Use the Search Engine you Gimp" flames. The author can be found on the OMO boards along with a growing number of accomplished map makers, specifically Aged, Beltemall, Geritol and Senility at the time of writing. The DP Forums are home to Overkill, Teelan, and Medamanx so you will be in good hands there. 
+
+
+MIRC:
+----------------------------------------------------------------
+Real time help can always be found on mIRC, if you don't have it, go and download the Relic Board mIRC program (its free and small, a quick download). RBmIRC has the added benefit of connecting you direct to the Homeworld community, but if you are using the normal version of mIRC, then join irc.Telefragged.com and look for the #Homeworld, or join Austnet and seek out the #Relic and #Cataclysm rooms. Classic mIRC can be found using a search on any search engine, I got mine from a local tucows server.
+
+
+E-MAIL:
+----------------------------------------------------------------
+You can contact the author of the Primer at: hwprimer@ntlworld.com I will try to answer most of your questions concerning editing, alternately, if MissionMan is your thing then you might want to drop a line to Medamanx at the Homeworld Screenshots Archive who is one of the best authorities on the subject.
+
+
+
+
+WEBSITES
+----------------------------------------------------------------
+
+WEBSITES FOR MAP MAKERS:
+----------------------------------------------------------------
+The Map and Map Makers Archives (Project Red Engineering Module) 
+One of the biggest and best on the web, has a dedicated staff who man the PRED forums ready to help at the drop of a hat. All files mentioned in the course of the Primer can be found here in the Engineering Module. At the time of writing, the authors own site is pretty much the most comprehensive site with editing information, help, downloads and so on.
+
+The Homeworld Map Archive (Llamaworld)
+The longest running and most successful map site for homeworld. Has a good selection of maps as well as a smattering of helpful documents concerning Map Making. Until Project Red came along it was the ONLY resource for mappers in the community. The longest running and most popular among the community, has a small section on editing, mainly for Homeworld, but a great, nay the best collection of maps for both Homeworld and Homeworld: Cataclysm.
+
+Drunken Pirates Clan Pages & forum 
+The DP have among their number some of the better and most prolific mappers in the HW community. They maintain an archive of the clans own maps, (a surprisingly large collection, they are indeed, a prolific bunch) and even better, they themselves are a friendly lot and always onhand in their forums to help out any mapper with the odd question. This is also Medamanx's clan, or you can track him down at his own site: 
+
+Medamanx's Screenshot Archives 
+Medamanx uses MissionMan, the only person I know who does, and he certainly knows his stuff. If MissionMan is your thing then once you drag yourself away from the Screenshot Archive and into the help sections you'll find a number of help documents awaiting you. Meda also maintains his own forums at the site and is always happy to answer your questions on MissionMan.
+
+jst Online Map Archive
+Download every single map in one happy download of a neat self extracting/installing multiple map folders file. Updated often (and updates available seperately), its invaluble for begining your map collections, and maintaining them.
+
+TRIG?
+----------------------------------------------------------------
+Need to relearn all that Trigonometry? Or not even started there yet? Get everything you need to learn it here:
+
+The Math and Physics Help Home Page
+The Maths Index
+Kenneth Boyd's Trigonometry Crash Review
+Coordinates and vectors in three dimensional space 
+
+Learning all that trig is a bore, I admit, but its pretty simple when you get down to it, these are the sites where I went to relearn everything I had promptly forgotten (something like 5 mins after I first learned). Its really invaluable for HW mapping, not absolutely essential, but it will make you a better mapper.
+ 
+FORUMS FOR MAP MAKERS:
+----------------------------------------------------------------
+Project Red
+OMO Forums
+DP Forums
+Relic Forums
+BD Forums
+Sierra Forums
+  
+MAJOR NEWS SITES:
+----------------------------------------------------------------
+Keep abreast of what the community is up to on these Homeworld dedicated sites.
+
+Project Red
+The Guidestone
+RelicNews
+Homeworld X
+Official Homeworld Site
+Relic Entertainment
+
+
+
+
+
+USEFUL TOOLS
+----------------------------------------------------------------
+
+
+RECOMMENDED:
+----------------------------------------------------------------
+TextPad v4.4 (Helios Software Solutions). I cannot recommend this program enough. Take it as read, that almost every accomplished mapmaker uses this, and those that don't use MissionMan. Its free for unlimited evaluation so nothing is stopping you! Textpad is fantastic for swapping between open text files, you can have hundreds open at once and still be in complete control of the situation. A mere 2.4meg download, smaller than most game patches these day.
+So why am I pushing this so hard? I'll let Aged field this one with a post I snagged from the OMO Map Editing Forum: 
+Grumpy: I just use wordpad. What advantages do the other programs [Textpad] have? 
+
+Aged: Why TextPad is great! It's kind of hard to explain why until you use it. Basically, it does a great job of file management along with the text editting capabilities. It also has smarter cut and paste and find and replace functions.
+
+When I read the map making primer, I saw that and was skeptical - until I started running into problems with keeping track of the other-than-.txt files that maps require. So, I took Grunter's advice and d/l'd TextPad. I can't go back. He's spot-on with that recommendation. 
+  
+  
+MSEXCEL
+----------------------------------------------------------------
+Because all the map files are simply text files, there is nothing stopping you opening them up in Excel, a comma separates every value and Excel uses these to differentiate between columns when loading or saving. It allows sweeping changes to be made in seconds, as you would expect in any spreadsheet package. (more)
+
+Because its so useful a small number of spreadsheets have been released into the community; Dylov's Strands, Rings and Distances Excel Utility (The SRD-XL Utility includes TAKER's Tilting Ring Maker Utility - for more details on what it has to offer click here) is by far the best. Create streams of asteroids or complete rings in seconds, save the results as a *.csv file and copy into the relevant map files. Its that simple. TAKER's Excel Ring Maker utility is also available separately, but that version does not support tilting rings. Also, coming soon from Aged-OMO is Aged's XL Sphere Maker Utility, take a look at his map 'Azreal' to see what it can do.
+  
+  
+WINDOWS
+----------------------------------------------------------------
+Tycho's Random Derelict Placer and Tycho's Random Resource Placer are both simple windows programs that allow you to create random maps in minutes. You copy the text output direct into the resourcesphere.missphere files. The results may look weird from time to time but they always work fine.
+
+Jacelor's JUICY Distribution Maker deals with the *.dist files and allows you to see the changes that will incur while changing the *.dist values of your maps resources. A bit tougher to get the hang of but once you know what you are doing with it its invaluable.
+  
+  
+MISCELLANEOUS
+----------------------------------------------------------------
+Taleisin's Big file viewer/extractor With this utility you can open up the homeworld.big file and extract almost everything from the game, useful for he single player missions so you can see how Relic achieved aspects of the single player campaign and the included multiplayer maps.
+
+The Background Tool of the Geeks (Relic Entertainment Inc.) Using this tool you can create your own backgrounds from scratch or starting from a picture. A number of Backgrounds have been created, most noticeably by /Downslope\ and Fox, both of whom can usually be tracked down on the Relic Forums or on mIRC should you require any help.
+
+
+
+
+USEFUL TOOLS: EXCEL
+----------------------------------------------------------------
+I heartily recommend Excel. Every file you edit to make a map is a text file, also, every value in these text files is separate by a comma. So this means that by using the comma delimited properties when you open up a text file in excel you will be able to edit the file you open as you would any sheet you open with Excel. Especially for making big sweeping changes which could require ages of typing in number after number, Excel can accomplish this in moments.
+
+
+HOW TO IMPORT AN ENTIRE TEXT FILE INTO MICROSOFT EXCEL
+----------------------------------------------------------------
+Click Open. In the Look in box, locate the drive, folder, or Internet location that contains the file you want to open. In the Files of type box, click All Files. Double-click the file you want to import. Follow the instructions in the Text Import Wizard to specify how you want to divide the text into columns. You will want to separate the values using comma here, as opposed to tab. Use this method If you want to copy the data into Excel without maintaining a connection to the original file, its quick, fast and useful.
+
+ 
+HOW TO IMPORT AN ENTIRE TEXT FILE INTO A REFRESHABLE MICROSOFT EXCEL DATA RANGE.
+----------------------------------------------------------------
+We Use this procedure because we will want to refresh the data in Excel whenever the original text file changes. Working with resourcesphere files, its always best to just have a look at the format that excel spews out when converting back to text, just to be sure. 
+
+Click the cell where you want to put the data from the text file. To ensure that the external data does not replace existing data, make sure that the worksheet has no data below or to the right of the cell you click. On the Data menu, point to Get External Data, and then click Import Text File. In the Look in list, locate and double-click the text file you want to import as an external data range, to see all the Homeworld files make sure you have Files of type box switched to All Files . To specify how you want to divide the text into columns, follow the instructions in the Text Import Wizard, i.e. for Original Data Type you will be using Delimited and in the next box under the Delimiters heading tick Comma (remove the tick from Tab). Click Finish, and then if you are so inclined click Properties in the Import Data dialog box to set formatting and layout options for how the external data range is brought into Microsoft Excel. 
+
+In the Import Data dialog box, do one of the following: To return the data to the location you selected in step 1, click Existing worksheet, and then click OK. To return the data to a new worksheet, click New worksheet, and then click OK. Microsoft Excel adds a new worksheet to your workbook and automatically puts the external data range in the upper-left corner of the new worksheet. 
+
+Notes:
+----------------------------------------------------------------
+To refresh the external data range when the original text file changes, click Refresh Data on the External Data toolbar. In the Import Text File dialog box, select your text file, and then click Import. 
+To change the settings you made in the Text Import Wizard, click Edit Text Import on the External Data toolbar. Select your text file, click Import, and then make the changes you want in the wizard. 
+
+
+HOW TO EXPORT AN ENTIRE MICROSOFT EXCEL WORKSHEET INTO A TEXT FILE 
+----------------------------------------------------------------
+Save a Worksheet as a text file; Select File, Save As and in the Save as type box select CSV (Comma delimited (*.csv). Then, you will be able to open this *.csv file with a text editor (such as Textpad) and just copy the relevant lines directly into your ResourceSphere_#.missphere file. Saving in .csv format will save your data in text exactly as required by Homeworld, its a simple matter of copying and pasting what you want into your existing resourcesphere file, or saving the whole shebang making sure you named it correctly, it will work as long as its named in the Level file.
+
+
+
+
+USEFUL TOOLS: THE HOMEWORLD EXCEL MAPPER (SRD-XL)
+----------------------------------------------------------------
+I heartily recommend Excel. Every file you edit to make a map is a text file, also, every value in these text files is separated by a comma. So this means that by using the comma delimited properties when you open up a text file in excel you will be able to edit the file you open as you would any sheet you open with excel. Especially for making big sweeping changes which could require ages of typing in number after number, excel can accomplish this in moments.
+With that in mind I use the same worksheet to begin every map. By the time I'm finished the worksheet is usually changed beyond recognition, with little changes and tweaks made here and there to do what I want to achieve. You can download the Excel Spreadsheet here. It may take a while to fully get the hang of it, but I recommend it, Excel is a doddle, ergo, making maps with excel is, to quote TAKER: '...As easy as Apple-Pie'. Read more on how to use Excel.
+Dylov [17/12/00]
+
+ 
+THE STRANDS, RINGS AND DISTANCES EXCEL UTILITY (V1.3 HW)
+----------------------------------------------------------------
+Written by Dylov and TAKER. Download it Here.
+The Strands, Rings and Distances Excel Utility (the SRD-XL Utility) consists of 5 Excel worksheets linked together. If you are familiar with Excel these sheets will be of boundless and speedy help when placing rings and strands of asteroids, player start positions or just checking distances on your maps. 
+The Homeworld SRD-XL Utility consists of seven worksheets; 
+Worksheets
+1. Strand creator 
+(Used to generate continuous chains of cylinders)
+2. Tilting Ring Maker
+(Used to generate Rings of continuous chains of cylinders)
+3. Player/Resource Distances Editor 
+(A number of usful elements, primarily dealing with player placement and local player resources)
+Worksheets ready to save as .csv files
+4. Resourcesphere output Worksheet 
+(Prepared for Resourcesphere_#.missphere files) 
+5. Ring Resourcesphere output Worksheet
+(Prepared for Resourcesphere_#.missphere files) 
+6. LevelfilesFFA output worksheet 
+(Prepared for Levelname#.Level files optimised for Free For All setup)
+7. LevelfilesTEAM output worksheet
+(Prepared for Levelname#.Level files optimised for Team setup) 
+ 
+The Spreadsheet uses the same colour scheme throughout, if a box is in light-yellow, you input values there, if a box is in darker yellow/orange, you never type in there as output data will be displayed there. 
+ 
+ 
+USING EXCEL TO AID IN YOUR MAP MAKING EFFORTS
+----------------------------------------------------------------
+Before you begin to use this spreadsheet you will need to have at least some idea of what you want the finished map to look like. I suggest using graph paper to show a top down view of your map (a 2D view), where the centre of your map is the co-ordinates x=0, y=0 or (0,0). The y-axis is the vertical axis, and the x-axis is the horizontal axis bisecting at 90 degrees to the y axis. 
+The centre point is actually point x, y, z, (The co-ordinates 0,0,0,). Positive x values to the right of co-ordinate 0,0,0, and positive y co-ordinates above 0,0,0, on your 2D map. The positive z co-ordinates are the 3D points above the plane of the map (Up/Down). 
+ 
+ 
+WORKSHEETS
+----------------------------------------------------------------
+
+1. Strand Creator (Dylov) 
+----------------------------------------------------------------
+Used to generate the required co-ordinates for the 'Resourcesphere_1.missphere' file for continuous chains of cylinders. This sheet will carry out all the required calculations when placing the various cylinder asteroid-clusters end to end and have them all facing the correct way. 
+
+Draw out your strand on your map, marking where the turns, and/or ends of the individual cylinder asteroid-clusters are, so you can work out the co-ordinates. Once you have done this its a simple matter to just copy these co-ordinates into the relevant positions on the sheet (in the x Coord, y Coord and z Coord boxes shown in Light-Yellow). 
+The Strand sheet will generate the co-ordinates of the cylinder, the length of the cylinder, and the angles of rotation so that a cylinder will be placed BETWEEN the two co-ordinates you have entered, each cylinder beginning at the first co-ordinate entered and ending at the second one and so on. The generated lines will be passed on to the Resourcesphere sheet preformatted to save as a '.csv' file. 
+
+Notes:
+----------------------------------------------------------------
+Any empty co-ordinate lines will be read as 0,0,0 and Excel will still use this co-ordinate to generate a cylinder. For example; say you enter a number of co-ordinates, but not enough to fill the table (Which is set up to input 33 co-ordinates (& generate 32 continuous cylinders). If you have an empty box (for example, you only want a stand made up of 10 co-ordinates (or 9 cylinders end to end), Excel will read any empty boxes as co-ordinate 0,0,0 and will generate a cylinder between your last inputted co-ordinate and 0,0,0, so pay attention to the lines you copy into your Resourcesphere file. 
+There are three separate tables where you can input co-ordinates, these all perform exactly the same function, I just found I wanted more space so I could manipulate a number of strands at the same time without have to delete everything all the time, the third one labelled resources is no different other than it generates the data in the preformatted '.csv' sheet which correct labelling of the '.dist' files to produce resource clusters. You can easily change what cylinder consists of what in the resourcesphere sheet, just don't change the lengths, co-ordinates and angles of rotation. (See the Notes on The Resourcesphere Worksheet below). 
+ 
+ 
+2. Tilting Ring Maker (TAKER) 
+----------------------------------------------------------------
+This easy-to-use sheet will generate a set of 24 cylinders of the required length and rotation to form a ring around the required co-ordinates. There are 5 sheets, all are identical, I always found that I wanted to work with more than one ring at a time, and five seemed the most optimal number, considering size of the saved xls file, and actual volume space used on the worksheet.
+The Central Point of the ring is designated in the boxes labelled Shift x, Shift y and Shift z. input the co-ordinates here. 
+The Radius will generate the size of the ring, (where 2r is the diameter!), the radius is measured from the inputted x, y, z co-ordinates which is 0,0,0, by default. 
+The Tilt of the ring (box labelled Tilt X (deg)), will generate the 'y-rotation' value (Up/down where the angle is measured (or pivots) about the x-axis). 89.93 degrees will generate a vertical ring, excel gets a bit screwy when you go fully to 90°. All the data generated is passed onto the Ring Resourcesphere sheet (See the Notes on The Ring Resourcesphere Worksheet below). 
+ 
+ 
+3. Distances (Dylov) 
+----------------------------------------------------------------
+Quite complicated to look at but hopefully easy to use. Contains several elements all using pretty much the same formulae.
+
+This sheet primarily deals with the players only, everything else here is outputted into two worksheets ready to be saved as .csv files: the LevefileFFA and LevelfileTEAM worksheets, although, having said that, there is a teeny wee bit dealing with local player resources that outputs data to the Resourcesphere worksheet. Again with this worksheet, you can simply input your required data, and save the relevant LevefileFFA or LevelfileTEAM worksheet as a .csv files, open this .csv file in any text editor, then copy and paste the bits you need directly into your relevant Level file and Mothership_#.missphere files.
+
+Resource Clouds or other points of reference table 
+----------------------------------------------------------------
+You can input your own co-ordinates for the positions of resource spheres, cylinders, derelicts or other points of note and the sheet will calculate the distances between them. This information is displayed on the adjacent table, and the co-ordinates you input will be passed on to the Player Start Co-ordinate Table as well as the relevant section in the Resourcesphere sheet (See the Notes on The Resourcesphere Worksheet below). 
+
+Player Start Co-ordinates; Optional Player Start Co-ordinates 
+----------------------------------------------------------------
+You can input your own co-ordinates for the positions where each player starts on the map and the sheet will calculate the distances between each player. This information is displayed on the adjacent table, and the co-ordinates you input will be passed on to the Player Start Co-ordinate Table as well as the relevant section in the Levelfile sheet (See The Levelfile Sheets (FFA and TEAM) Worksheet below). 
+
+Player Start Co-ordinates; Player Distribution Parameters 
+----------------------------------------------------------------
+Player Start Positions are generated for maps, by using the Global Position Settings to set the radius of a ring of players, any shift in y rotation (up/down) or shift in z rotation (left/right) of this ring of players. You can use these settings to generate equal distances about the co-ordinates 0,0,0, or modify these co-ordinates in the Co-ordinates Shift Table. Each individual Player number game type can be individually modified to produce the best fit for your map. 
+
+Team Game Distribution parameters 
+----------------------------------------------------------------
+Team game set up will group players together in groups of 2, 3 or 4 depending on the amount of teams required, all players will start in a ring about the co-ordinates 0,0,0, only grouped closer together. Again, modify this location with the Co-ordinates Shift Table if you want the centre of you ring of players to be moved from the centre of the map. Each individual Team player-number game type can be individually modified to produce the best fit for your map.
+
+The Player Start Co-ordinates Table 
+----------------------------------------------------------------
+This table has been optimised for use with the Excel 'Autofilter' function. Select (or highlight) anywhere on the table, then from the menu choose Data then Filter then AutoFilter. Used the little arrows above the Type button and the Number button and it will reduce the lists to show only selected game type calculations. 
+  
+  
+WORKSHEETS READY TO SAVE AS .CSV FILES
+----------------------------------------------------------------
+
+4. The Resourcesphere Worksheet 
+----------------------------------------------------------------
+This is a ready formatted sheet that will take the co-ordinates generated from the Strand Creator Worksheet. Also at the very bottom of this page, is data outputted from the Distances Worksheet; specifically from the Resource Clouds or other points of reference table. 
+
+Do not change any area you see in Yellow, i.e.; the x, y and z co-ordinates, and the y and z rotations, as these are all generated numbers and thus are imported data. All the cells of imported date are coloured do not touch any of these coloured boxes. Of course, change everything else that is in the non-coloured boxes, especially Quantity and Radius, you will know yourself what sort of values you want here. Always remember case, and format when changing anything.
+
+Save this sheet as a text file; Select File, Save As and in the Save as type box select CSV (Comma delimited (*.csv). Then, open this *.csv file with a text editor (such as Textpad) and just copy the relevant lines directly into your ResourceSphere_#.missphere file. Saving in .csv format will save your data in text exactly as required by Homeworld, its a simple matter of copying and pasting what you want into your existing resourcesphere file, or saving the whole shebang, it will work as long as its named in the Level file.
+ 
+5. The Ring Resourcesphere Worksheet
+----------------------------------------------------------------
+This is a ready formatted sheet that will take the co-ordinates generated from TAKERS Tilted Ring sheet. All five of the Ring Worksheets output their generated Data here. (See above for what to do when saving this sheet).
+ 
+6 & 7. The Levelfile (FFA and TEAM) Worksheets
+----------------------------------------------------------------
+These are pre-formatted sheets that will input the player start co-ordinates from the Distances sheet. Do not change any area you see in Yellow, i.e.; the x, y and z Player Start Co-ordinates and the Rotation value (facing). These yellow cells contain imported data from the Distances sheet. Save this sheet as a .csv file and copy the data into the relevant areas of your '.level' and '.missphere' file. 
+You can change anything else in the non coloured boxes, if you want to add more ships, select the entire line and copy paste it below, just make sure your new yellow boxes are pointing to the correct cells to receive their imported data, this only requires a modicum of Excel knowledge to do, and so is simple to set up this file outputting several lines of ships for the Mothership files, such as harvesters, research ships and so on. (See above for what to do when saving this sheet).

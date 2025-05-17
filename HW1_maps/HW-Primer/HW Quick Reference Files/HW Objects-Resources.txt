@@ -1,0 +1,44 @@
+Resources
+
+Resourcetype is:
+
+
+For asteroids:		
+
+Asteroid0	(value-11RU's although these are non harvestable)
+Asteroid1	(value-25RU's)
+Asteroid2	(value-40RU's)
+Asteroid3	(value-100RU's)
+Asteroid4	(value-400RU's)
+
+
+For dust clouds:		
+
+DustCloud0	(value-50RU's)
+DustCloud1	(value-108RU's)
+DustCloud2	(value-250RU's)
+DustCloud3	(value-700RU's)
+
+
+For Nebulae:		
+
+Nebula0		(value-100RU's)
+Nebula1		(value-100RU's)
+Nebula2		(value-100RU's)
+Nebula3		(value-100RU's)
+Nebula4		(value-100RU's)
+
+
+For gas clouds:		
+
+GasCloud0	(value-0RU's and is Invisible)
+GasCloud1	(value-0RU's and is Invisible)
+GasCloud2	(value-0RU's and is Invisible)
+GasCloud3	(value-0RU's and is Invisible)
+GasCloud4	(value-0RU's and is Invisible)
+
+
+Note: Gas Clouds are not supported and thus should not be used, they will crash your mission if used.
+
+Note Also: The value of resourcetype depends on what type of resource it is. I have absolutely no idea why the nebula values are all the same… All the values above, I found in the Homeworld.Big file using Taleisin's big file viewer/extractor.
+

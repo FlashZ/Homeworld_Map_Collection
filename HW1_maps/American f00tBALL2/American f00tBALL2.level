@@ -1,0 +1,36 @@
+; MissionMan script, Sunday, August 31 2006
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: American f00tBALL2
+; Info:  American f00tBALL (2-8)
+
+[American f00tBALL (2-8)]
+
+MissionSphere    -1,? ,ResourceSphere,0.0    ,0.0    ,0.0     ,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1 ,R1,Mothership    ,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    0 ,R1,Mothership    ,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,1000
+ 
+Lighting    BlueNebula
+Background    BlueNebula
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    500000
+smZoomMin    30000
+smInitialDistance    245000
+smUniverseSizeX    210000
+smUniverseSizeZ    210000
+smUniverseSizeY    210000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    Traders, ResearchStatation
+ExcludeShips    Traders Junk_Lgun
+ExcludeShips    Traders, Junk_Sgun
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+ExcludeGasCloud	All

@@ -1,0 +1,55 @@
+; MissionMan script, Saturday, May 27 2000, 2:21:35 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Decisive Victory2
+; Info: Decisive Victory 2-6
+
+[Decisive Victory (2-6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    -1,?,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,0
+
+Lighting    Spiral2
+Background    spiral2, 90, -45
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    300000
+smZoomMin    30000
+smInitialDistance    150000
+smUniverseSizeX    200000
+smUniverseSizeZ    100000
+smUniverseSizeY    200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+IncludeShips    Traders,JunkyardDawg
+IncludeShips    Traders,GhostShip
+IncludeShips    Traders,Junk_LGun
+IncludeShips    P1,P1IonArrayFrigate
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+ExcludeDerelict    All
+IncludeDerelict    Crate
+;IncludeDerelict    Shipwreck
+IncludeDerelict    Junk0_antenna
+IncludeDerelict    Junk0_fin1
+IncludeDerelict    Junk0_fin2
+IncludeDerelict    Junk0_GunAmmo
+IncludeDerelict    Junk2_shipwreck
+IncludeDerelict    Junk1_partA
+IncludeDerelict    Junk1_partB
+IncludeDerelict    Junk1_strut
+IncludeDerelict    Junk2_panelB
+IncludeDerelict    Junk2_panelD
+IncludeDerelict    FragmentPanel0c
+IncludeDerelict    FragmentPanel1
+IncludeDerelict    FragmentPanel2
+IncludeDerelict    FragmentPanel3
+SongNumber    16

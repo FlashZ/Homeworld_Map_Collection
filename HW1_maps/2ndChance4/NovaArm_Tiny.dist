@@ -1,0 +1,9 @@
+; MissionMan script, Thursday, Dec 2 1999, 4:40:16 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Distribution Object: CenterResource_1
+
+Asteroid0	130	3
+Asteroid1	1	5
+Asteroid2	2	5
+Asteroid3	3	10
+Asteroid4	4	10

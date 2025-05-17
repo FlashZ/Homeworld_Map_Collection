@@ -1,0 +1,7 @@
+; Relative frequencies of dust cloud types
+
+DustCloud0       40     40
+DustCloud1       60     60
+DustCloud2       50     30
+DustCloud3       10     40
+

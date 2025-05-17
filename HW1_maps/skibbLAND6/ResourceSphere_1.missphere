@@ -1,0 +1,35 @@
+; MissionMan script, Tuesday, May 23 2000, 9:34:33 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    DustCloud,-6091.0,-74757.0,0.0,Cylinder,DustCloud.dist,50,1500.0,10000.0,0.0,-90.0,0,?
+Resources    DustCloud,-1000.0,-78080.0,0.0,Cylinder,DustCloud.dist,50,1500.0,10000.0,0.0,0.0,0,?
+Resources    DustCloud,6414.0,-75080.0,0.0,Cylinder,DustCloud.dist,50,1500.0,10000.0,0.0,-90.0,0,?
+Resources    DustCloud,10736.0,-70327.0,0.0,Cylinder,DustCloud.dist,50,1500.0,10000.0,0.0,0.0,0,?
+Resources    DustCloud,19166.0,-73757.0,0.0,Cylinder,DustCloud.dist,50,1500.0,12000.0,0.0,-90.0,0,?
+Resources    DustCloud,-1000.0,-59252.0,0.0,Cylinder,DustCloud.dist,50,1500.0,40000.0,0.0,0.0,0,?
+Resources    DustCloud,-3000.0,-51499.0,0.0,Cylinder,DustCloud.dist,50,1500.0,20000.0,0.0,-45.0,0,?
+Resources    DustCloud,12000.0,-51499.0,0.0,Cylinder,DustCloud.dist,50,1500.0,20000.0,0.0,45.0,0,?
+Resources    DustCloud,12099.0,-34317.0,0.0,Cylinder,DustCloud.dist,50,1500.0,15000.0,0.0,0.0,0,?
+Resources    DustCloud,-3876.0,-34317.0,0.0,Cylinder,DustCloud.dist,50,1500.0,6000.0,0.0,0.0,0,?
+Resources    DustCloud,-544.0,-26242.0,0.0,Cylinder,DustCloud.dist,50,1500.0,40000.0,0.0,0.0,0,?
+Resources    DustCloud,3876.0,-20489.0,0.0,Cylinder,DustCloud.dist,50,1500.0,15000.0,0.0,-90.0,0,?
+Resources    DustCloud,11629.0,-14059.0,0.0,Cylinder,DustCloud.dist,50,1500.0,15000.0,0.0,0.0,0,?
+Resources    DustCloud,19382.0,-20489.0,0.0,Cylinder,DustCloud.dist,50,1500.0,15000.0,0.0,-90.0,0,?
+Resources    DustCloud,-544.0,-4984.0,0.0,Cylinder,DustCloud.dist,50,1500.0,40000.0,0.0,0.0,0,?
+Resources    DustCloud,3876.0,2769.0,0.0,Cylinder,DustCloud.dist,50,1500.0,15000.0,0.0,-90.0,0,?
+Resources    DustCloud,19382.0,2769.0,0.0,Cylinder,DustCloud.dist,50,1500.0,15000.0,0.0,-90.0,0,?
+Resources    DustCloud,11629.0,9521.0,0.0,Cylinder,DustCloud.dist,50,1500.0,15000.0,0.0,0.0,0,?
+Resources    DustCloud,-544.0,19182.0,0.0,Cylinder,DustCloud.dist,50,1500.0,40000.0,0.0,0.0,0,?
+Resources    DustCloud,19314.0,30798.0,0.0,Cylinder,DustCloud.dist,50,1500.0,20000.0,0.0,-90.0,0,?
+Resources    DustCloud,3000.0,56898.0,0.0,Cylinder,DustCloud.dist,50,1500.0,40000.0,0.0,-20.0,0,?
+Resources    DustCloud,3000.0,70898.0,0.0,Cylinder,DustCloud.dist,50,1500.0,40000.0,0.0,20.0,0,?
+Resources    DustCloud,7830.0,64118.0,0.0,Cylinder,DustCloud.dist,50,1500.0,20000.0,0.0,-90.0,0,?
+Resources    DustCloud,3000.0,86393.0,0.0,Cylinder,DustCloud.dist,50,1500.0,40000.0,0.0,0.0,0,?
+Resources    DustCloud,3000.0,100000.0,0.0,Cylinder,DustCloud.dist,50,1500.0,40000.0,0.0,30.0,0,?
+Resources    DustCloud,3000.0,111185.0,0.0,Cylinder,DustCloud.dist,50,1500.0,40000.0,0.0,0.0,0,?
+Resources    DustCloud,3000.0,121185.0,0.0,Cylinder,DustCloud.dist,50,1500.0,40000.0,0.0,0.0,0,?
+Resources    DustCloud,-8874.0,133109.0,0.0,Cylinder,DustCloud.dist,50,1500.0,20000.0,0.0,45.0,0,?
+Resources    DustCloud,16050.0,133109.0,0.0,Cylinder,DustCloud.dist,50,1500.0,20000.0,0.0,-45.0,0,?
+Resources    DustCloud,4698.0,140417.0,0.0,Cylinder,DustCloud.dist,50,1500.0,13000.0,0.0,0.0,0,?
+

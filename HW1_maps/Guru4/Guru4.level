@@ -1,0 +1,34 @@
+; MissionMan script, I doubt this will help
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: guruarena4
+; Info: guruarena (2,4,6)
+
+[&g&u&r&uarena (2,4,6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,0.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,0,0,0,0.0,0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,0,0,0,0.0,0,Mothership_0.missphere,0
+MissionSphere    2,R1,Mothership,0,0,0,0.0,0,Mothership_2.missphere,0
+MissionSphere    3,R1,Mothership,0,0,0,0.0,0,Mothership_3.missphere,0
+
+Background    guru.btg
+Lighting     guru.hsf
+SongNumber    13
+smUniverseSizeX    120000
+smUniverseSizeZ    120000
+smUniverseSizeY    120000
+ExcludeDerelict    All
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    500000
+smZoomMin    30000
+smInitialDistance    145000

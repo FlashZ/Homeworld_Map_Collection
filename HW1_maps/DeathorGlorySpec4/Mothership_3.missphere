@@ -1,0 +1,6 @@
+; MissionMan script, Wednesday, Jul 22 2020, 12:39:57 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,0.0,0.0,49000.0,-180.0,R1,Mothership,1,UseAsMothership|?|?,0,?
+

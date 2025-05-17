@@ -1,0 +1,188 @@
+; MissionMan script, Friday, Jul 21 2000, 4:06:47 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,0.0,0.0,0.0,Sphere,dist1.dist,40,6000.0,6000.0,0.0,0.0,0,?
+
+Resources    Asteroid,35000.0,35000.0,0.0,Cylinder,05mediumwell.dist,24,2000.0,45000.0,0.0,225.0,0,?
+Resources    Asteroid,-35000.0,35000.0,0.0,Cylinder,05mediumwell.dist,24,2000.0,45000.0,0.0,325.0,0,?
+Resources    Asteroid,35000.0,-35000.0,0.0,Cylinder,05mediumwell.dist,24,2000.0,45000.0,0.0,135.0,0,?
+Resources    Asteroid,-35000.0,-35000.0,0.0,Cylinder,05mediumwell.dist,24,2000.0,45000.0,0.0,55.0,0,?
+Resources    Asteroid,30000.0,0.0,0.0,Cylinder,05mediumwell.dist,20,2000.0,35000.0,0.0,180.0,0,?
+Resources    Asteroid,-30000.0,0.0,0.0,Cylinder,05mediumwell.dist,20,2000.0,35000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,30000.0,0.0,Cylinder,05mediumwell.dist,20,2000.0,35000.0,0.0,270.0,0,?
+Resources    Asteroid,0.0,-30000.0,0.0,Cylinder,05mediumwell.dist,20,2000.0,35000.0,0.0,90.0,0,?
+
+;top northeast corner
+Slipgate    ,6000.0,6000.0,6000.0,1/2,0.0,dSlipgateLarge
+Slipgate    ,110000.0,110000.0,110000.0,2/2,0.0,dSlipgateLarge
+Resources    Asteroid,120000.0,120000.0,120000.0,Sphere,dist1.dist,30,3500.0,3500.0,0.0,0.0,0,?
+Mine ,99900.0,99900.0,90000.0,0,0
+Mine ,100100.0,100100.0,90000.0,0,0
+Mine ,100100.0,120000.0,110000.0,0,0
+Mine ,99900.0,120000.0,110000.0,0,0
+Mine ,120000.0,100100.0,110000.0,0,0
+Mine ,120000.0,99900.0,110000.0,0,0
+
+;top southeast corner
+Slipgate    ,-6000.0,6000.0,6000.0,1/2,0.0,dSlipgateLarge
+Slipgate    ,-110000.0,110000.0,110000.0,2/2,0.0,dSlipgateLarge
+Resources    Asteroid,-120000.0,120000.0,120000.0,Sphere,dist1.dist,30,3500.0,3500.0,0.0,0.0,0,?
+Mine ,-99900.0,99900.0,90000.0,0,0
+Mine ,-100100.0,100100.0,90000.0,0,0
+Mine ,-100100.0,120000.0,110000.0,0,0
+Mine ,-99900.0,120000.0,110000.0,0,0
+Mine ,-120000.0,100100.0,110000.0,0,0
+Mine ,-120000.0,99900.0,110000.0,0,0
+
+;top northwest corner
+Slipgate    ,6000.0,-6000.0,6000.0,1/2,0.0,dSlipgateLarge
+Slipgate    ,110000.0,-110000.0,110000.0,2/2,0.0,dSlipgateLarge
+Resources    Asteroid,120000.0,-120000.0,120000.0,Sphere,dist1.dist,30,3500.0,3500.0,0.0,0.0,0,?
+Mine ,99900.0,-99900.0,90000.0,0,0
+Mine ,100100.0,-100100.0,90000.0,0,0
+Mine ,100100.0,-120000.0,110000.0,0,0
+Mine ,99900.0,-120000.0,110000.0,0,0
+Mine ,120000.0,-100100.0,110000.0,0,0
+Mine ,120000.0,-99900.0,110000.0,0,0
+
+;top southwest corner
+Slipgate    ,-6000.0,-6000.0,6000.0,1/2,0.0,dSlipgateLarge
+Slipgate    ,-110000.0,-110000.0,110000.0,2/2,0.0,dSlipgateLarge
+Resources    Asteroid,-120000.0,-120000.0,120000.0,Sphere,dist1.dist,30,3500.0,3500.0,0.0,0.0,0,?
+Mine ,-99900.0,-99900.0,90000.0,0,0
+Mine ,-100100.0,-100100.0,90000.0,0,0
+Mine ,-100100.0,-120000.0,110000.0,0,0
+Mine ,-99900.0,-120000.0,110000.0,0,0
+Mine ,-120000.0,-100100.0,110000.0,0,0
+Mine ,-120000.0,-99900.0,110000.0,0,0
+
+;lower northeast corner
+Slipgate    ,6000.0,6000.0,-6000.0,1/2,0.0,dSlipgateLarge
+Slipgate    ,110000.0,110000.0,-110000.0,2/2,0.0,dSlipgateLarge
+Resources    Asteroid,120000.0,120000.0,-120000.0,Sphere,dist1.dist,30,3500.0,3500.0,0.0,0.0,0,?
+Mine ,99900.0,99900.0,-90000.0,0,0
+Mine ,100100.0,100100.0,-90000.0,0,0
+Mine ,100100.0,120000.0,-110000.0,0,0
+Mine ,99900.0,120000.0,-110000.0,0,0
+Mine ,120000.0,100100.0,-110000.0,0,0
+Mine ,120000.0,99900.0,-110000.0,0,0
+
+;lower southeast corner
+Slipgate    ,-6000.0,6000.0,-6000.0,1/2,0.0,dSlipgateLarge
+Slipgate    ,-110000.0,110000.0,-110000.0,2/2,0.0,dSlipgateLarge
+Resources    Asteroid,-120000.0,120000.0,-120000.0,Sphere,dist1.dist,30,3500.0,3500.0,0.0,0.0,0,?
+Mine ,-99900.0,99900.0,-90000.0,0,0
+Mine ,-100100.0,100100.0,-90000.0,0,0
+Mine ,-100100.0,120000.0,-110000.0,0,0
+Mine ,-99900.0,120000.0,-110000.0,0,0
+Mine ,-120000.0,100100.0,-110000.0,0,0
+Mine ,-120000.0,99900.0,-110000.0,0,0
+
+;lower northwest corner
+Slipgate    ,6000.0,-6000.0,-6000.0,1/2,0.0,dSlipgateLarge
+Slipgate    ,110000.0,-110000.0,-110000.0,2/2,0.0,dSlipgateLarge
+Resources    Asteroid,120000.0,-120000.0,-120000.0,Sphere,dist1.dist,30,3500.0,3500.0,0.0,0.0,0,?
+Mine ,99900.0,-99900.0,-90000.0,0,0
+Mine ,100100.0,-100100.0,-90000.0,0,0
+Mine ,100100.0,-120000.0,-110000.0,0,0
+Mine ,99900.0,-120000.0,-110000.0,0,0
+Mine ,120000.0,-100100.0,-110000.0,0,0
+Mine ,120000.0,-99900.0,-110000.0,0,0
+
+;lower southwest corner
+Slipgate    ,-6000.0,-6000.0,-6000.0,1/2,0.0,dSlipgateLarge
+Slipgate    ,-110000.0,-110000.0,-110000.0,2/2,0.0,dSlipgateLarge
+Resources    Asteroid,-120000.0,-120000.0,-120000.0,Sphere,dist1.dist,30,3500.0,3500.0,0.0,0.0,0,?
+Mine ,-99900.0,-99900.0,-90000.0,0,0
+Mine ,-100100.0,-100100.0,-90000.0,0,0
+Mine ,-100100.0,-120000.0,-110000.0,0,0
+Mine ,-99900.0,-120000.0,-110000.0,0,0
+Mine ,-120000.0,-100100.0,-110000.0,0,0
+Mine ,-120000.0,-99900.0,-110000.0,0,0
+
+;north side
+Slipgate    ,6000.0,0.0,0.0,1/2,0.0,dSlipgateLarge
+Slipgate    ,110000.0,0.0,0.0,2/2,0.0,dSlipgateLarge
+Resources    Asteroid,120000.0,0.0,0.0,Sphere,dist1.dist,20,2500.0,2500.0,0.0,0.0,0,?
+Mine ,90100.0,0.0,0.0,0,0
+Mine ,89900.0,0.0,0.0,0,0
+Mine ,100000.0,20100.0,0.0,0,0
+Mine ,100000.0,19900.0,0.0,0,0
+Mine ,100000.0,-20100.0,0.0,0,0
+Mine ,100000.0,-19900.0,0.0,0,0
+
+;south side
+Slipgate    ,-6000.0,0.0,0.0,1/2,0.0,dSlipgateLarge
+Slipgate    ,-110000.0,0.0,0.0,2/2,0.0,dSlipgateLarge
+Resources    Asteroid,-120000.0,0.0,0.0,Sphere,dist1.dist,20,2500.0,2500.0,0.0,0.0,0,?
+Mine ,-90100.0,0.0,0.0,0,0
+Mine ,-89900.0,0.0,0.0,0,0
+Mine ,-100000.0,20100.0,0.0,0,0
+Mine ,-100000.0,19900.0,0.0,0,0
+Mine ,-100000.0,-20100.0,0.0,0,0
+Mine ,-100000.0,-19900.0,0.0,0,0
+
+;east side
+Slipgate    ,0.0,6000.0,0.0,1/2,0.0,dSlipgateLarge
+Slipgate    ,0.0,110000.0,0.0,2/2,0.0,dSlipgateLarge
+Resources    Asteroid,0.0,120000.0,0.0,Sphere,dist1.dist,20,2500.0,2500.0,0.0,0.0,0,?
+Mine ,0.0,90100.0,0.0,0,0
+Mine ,0.0,89900.0,0.0,0,0
+Mine ,20100.0,100000.0,0.0,0,0
+Mine ,19900.0,100000.0,0.0,0,0
+Mine ,-20100.0,100000.0,0.0,0,0
+Mine ,-19900.0,100000.0,0.0,0,0
+
+;west side
+Slipgate    ,0.0,-6000.0,0.0,1/2,0.0,dSlipgateLarge
+Slipgate    ,0.0,-110000.0,0.0,2/2,0.0,dSlipgateLarge
+Resources    Asteroid,0.0,-120000.0,0.0,Sphere,dist1.dist,20,2500.0,2500.0,0.0,0.0,0,?
+Mine ,0.0,-90100.0,0.0,0,0
+Mine ,0.0,-89900.0,0.0,0,0
+Mine ,20100.0,-100000.0,0.0,0,0
+Mine ,19900.0,-100000.0,0.0,0,0
+Mine ,-20100.0,-100000.0,0.0,0,0
+Mine ,-19900.0,-100000.0,0.0,0,0
+
+;top side
+Slipgate    ,0.0,0.0,6000.0,1/2,0.0,dSlipgateLarge
+Slipgate    ,0.0,0.0,110000.0,2/2,0.0,dSlipgateLarge
+Resources    Asteroid,0.0,0.0,120000.0,Sphere,dist1.dist,16,6000.0,6000.0,0.0,0.0,0,?
+Ships    ,0.0,0.0,124000.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,0.0,0.0,116000.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,0.0,4000.0,120000.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,0.0,-4000.0,120000.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,4000.0,0.0,120000.0,60.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,?,?
+Ships    ,-4000.0,0.0,120000.0,60.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,?,?
+Mine ,100.0,0.0,90000.0,0,0
+Mine ,-100.0,0.0,90000.0,0,0
+Mine ,20100.0,0.0,110000.0,0,0
+Mine ,19900.0,0.0,110000.0,0,0
+Mine ,-20100.0,0.0,110000.0,0,0
+Mine ,-19900.0,0.0,110000.0,0,0
+Mine ,0.0,20100.0,110000.0,0,0
+Mine ,0.0,19900.0,110000.0,0,0
+Mine ,0.0,-20100.0,110000.0,0,0
+Mine ,0.0,-19900.0,110000.0,0,0
+
+;lower side
+Slipgate    ,0.0,0.0,-6000.0,1/2,0.0,dSlipgateLarge
+Slipgate    ,0.0,0.0,-110000.0,2/2,0.0,dSlipgateLarge
+Resources    Asteroid,0.0,0.0,-120000.0,Sphere,dist1.dist,16,6000.0,6000.0,0.0,0.0,0,?
+Ships    ,0.0,0.0,-124000.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,0.0,0.0,-116000.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,0.0,4000.0,-120000.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,0.0,-4000.0,-120000.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,4000.0,0.0,-120000.0,60.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,?,?
+Ships    ,-4000.0,0.0,-120000.0,60.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,?,?
+Mine ,100.0,0.0,-90000.0,0,0
+Mine ,-100.0,0.0,-90000.0,0,0
+Mine ,20100.0,0.0,-110000.0,0,0
+Mine ,19900.0,0.0,-110000.0,0,0
+Mine ,-20100.0,0.0,-110000.0,0,0
+Mine ,-19900.0,0.0,-110000.0,0,0
+Mine ,0.0,20100.0,-110000.0,0,0
+Mine ,0.0,19900.0,-110000.0,0,0
+Mine ,0.0,-20100.0,-110000.0,0,0
+Mine ,0.0,-19900.0,-110000.0,0,0

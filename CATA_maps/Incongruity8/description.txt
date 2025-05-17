@@ -1,0 +1,53 @@
+Description	I just used the Close Quarters map template I ripped from the Cataclysm.big file. Made for days when you are tired of game after game of intense strategizing and you just wanna play for fun.
+Description
+Description     Changes from original CQ: 4 starting workers, added 40% more RUs to each patch for those who enjoy longer games, added a little more X and Y and corresponding patches and crystals
+Description
+Description     Settings: No Research (so there's no rush to get started), small bounties (to keep the game going), and an extra CS just for fun (unfortunately as far as I can tell there is no way to fire the Siege Cannon on the second CS, if anyone figures out how please tell me)
+Description	
+Description	Created by Wr&aith_&X
+Description
+
+Font            Arial_b12.hff
+Color           10, 10, 230
+DropShadow      Yes
+
+; DEFAULT SETTINGS:
+
+type.flag                      BIT1     ; destroy mothership
+type.flagNeeded                BIT1     ; FLAG: destroy mothership
+
+;type.flag                     BIT2     ; capture capital ship
+type.flagNeeded                BIT2     ; FLAG: capture capital ship
+
+;type.flag                      BIT3     ; research
+type.flagNeeded                BIT3     ; FLAG: research
+
+type.flag		       BIT4	; allies
+type.flagNeeded		       BIT4	; FLAG: allow allies
+
+type.flag                      BIT5     ; enable harvesting
+type.flagNeeded                BIT5     ; FLAG: enable harvesting
+
+;type.flag                     BIT6     ; resouce injections
+type.flagNeeded                BIT6     ; FLAG: resource injections
+
+;type.flag                     BIT7     ; resouce lump sum
+type.flagNeeded                BIT7     ; FLAG: resource lump sum
+
+type.flag                      BIT11    ; allied victory
+type.flagNeeded                BIT11    ; FLAG: allied victory
+
+;type.flag                      BIT12    ; crates
+type.flagNeeded                BIT12    ; FLAG: crates
+
+type.flag                      BIT14    ; hyperspace
+type.flagNeeded                BIT14    ; FLAG: hyperspace
+
+type.numComputers              0
+type.startingFleet             1
+type.bountySize                0        ;bounties (0 = small 3 = off)
+type.startingResources         2
+type.resourceInjectionInterval 10000
+type.resourceInjectionsAmount  2000
+type.resourceLumpSumTime       10000
+type.resourceLumpSumAmount     10000

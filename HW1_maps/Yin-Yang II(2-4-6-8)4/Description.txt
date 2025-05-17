@@ -1,0 +1,15 @@
+Description	Yin-Yang (2-4-6-8)
+Description	You'll like this.
+Description	This is a balanced map, by the name, and good for team battles.
+Description	2v2 and 3v3 should be TvB.
+Description	In 4v4 you can play TvB or Outer Vs Inner.
+Description	
+Description	Author: &Z&ol&o&F
+Description	DoB: August 10th, 2006
+
+
+Color           100, 200, 155
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

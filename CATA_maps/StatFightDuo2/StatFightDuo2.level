@@ -1,0 +1,61 @@
+; MissionMan script, Friday, Jul 21 2000, 4:07:10 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: StatFightDuo2
+; Info: Static's Fighter Duel (2)
+
+[Static's Fighter Duel (2)]
+
+MissionSphere    -1,?,ResourceSphere,16759.0,-85466.0,0.0,30000.0,0.0,Resource.missphere,2000
+MissionSphere    0,RACE_SECT,sMothership,1000.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,2000
+MissionSphere    1,RACE_SECT,sMothership,9000.0,-1000.0,0.0,30000.0,0.0,Mothership_1.missphere,2000
+
+Lighting    Mission17
+Background    Mission17,200,0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    120000
+smZoomMax    300000
+smZoomMin    50000
+smInitialDistance    60000
+smUniverseSizeX    85000
+smUniverseSizeZ    30000
+smUniverseSizeY    95000
+ExcludeShips    RACE_DERELICT,ALL
+ExcludeShips    RACE_KUSHAN,ALL
+ExcludeShips    RACE_TAIDAN,ALL
+ExcludeShips    RACE_P1,ALL
+ExcludeShips    RACE_TRADERS,ALL
+ExcludeShips    RACE_SECT,sMothershipLowerSpine
+ExcludeShips    RACE_SECT,sMothershipEnginesLower
+ExcludeShips    RACE_SECT,sMothershipOreCanArmour
+ExcludeShips    RACE_BEAST,bSectMoShip
+ExcludeShips    RACE_SECT,sMothershipBigGun
+IncludeShips    RACE_DERELICT,dCrate
+IncludeShips    RACE_DERELICT,dCrystal0
+IncludeShips    RACE_DERELICT,dCrystal1
+IncludeShips	RACE_DERELICT,dslipgatesmall
+IncludeShips	RACE_DERELICT,dslipgatelarge
+IncludeShips	RACE_DERELICT,dslipgatemedium
+IncludeShips	RACE_SECT,sLightInterceptor
+ExcludeShips    RACE_SECT,sDreadNought
+ExcludeShips    RACE_SECT,sMCV
+ExcludeShips    RACE_SECT,sMimic
+ExcludeShips    RACE_SECT,sMultiBeamFrigate
+ExcludeShips    RACE_SECT,sHiveFrigate
+ExcludeShips    RACE_SECT,sRammingFrigate
+ExcludeShips    RACE_SECT,sDestroyer
+ExcludeShips    RACE_SECT,sLeech
+ExcludeShips    RACE_SECT,sSentinel
+ExcludeShips    RACE_SECT,sProcessor
+ExcludeShips    RACE_BEAST,bHeavyCorvette
+ExcludeShips    RACE_BEAST,bMultiGunCorvette
+ExcludeShips    RACE_BEAST,bMissileCorvette
+ExcludeShips    RACE_BEAST,bIonArrayFrigate
+ExcludeShips    RACE_BEAST,bHeavyCruiser
+ExcludeShips    RACE_BEAST,bCruiseMissile
+ExcludeShips    RACE_BEAST,bDFGFrigate
+ExcludeShips    RACE_BEAST,bProcessor
+ExcludeShips    RACE_SECT,sCarrier
+ExcludeShips    RACE_BEAST,bCarrier
+SongNumber    11
+LensFlare    ps-50-300mm-zoom

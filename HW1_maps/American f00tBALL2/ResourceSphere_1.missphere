@@ -1,0 +1,111 @@
+; MissionMan script, Sunday, August 31 2006
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+;outer perimeter
+
+Resources    Asteroid,70000.0,0.0,0.0,Cylinder,pebble.dist,190,600.0,300000.0,0.0,90.0,0,?
+Resources    Asteroid,-70000.0,0.0,0.0,Cylinder,pebble.dist,190,600.0,300000.0,0.0,90.0,0,?
+Resources    Asteroid,0.0,150000.0 ,0.0,Cylinder,pebble.dist,190,600.0,140000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-150000.0,0.0,Cylinder,pebble.dist,190,600.0,140000.0,0.0,0.0,0,?
+
+-outer hash mark lines
+Resources    Asteroid,45000.0,0.0,0.0,Cylinder,pebble.dist,190,800.0,300000.0,0.0,90.0,0,?
+Resources    Asteroid,-45000.0,0.0,0.0,Cylinder,pebble.dist,190,800.0,300000.0,0.0,90.0,0,?
+
+-center hash mark line
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,pebble.dist,140,800.0,300000.0,0.0,90.0,0,?
+
+
+-end zones
+Resources    Asteroid,0.0,140625.0,0.0,Rectangle,rock.dist,250,9375.0,70000.0,0.0,90.0,2048,8
+Resources    Asteroid,0.0,140625.0,0.0,Rectangle,pebble.dist,200,9375.0,70000.0,0.0,90.0,0,?
+Resources    Asteroid,0.0,-140625.0,0.0,Rectangle,rock.dist,250,9375.0,70000.0,0.0,90.0,2048,8
+Resources    Asteroid,0.0,-140625.0,0.0,Rectangle,pebble.dist,200,9375.0,70000.0,0.0,90.0,0,?
+
+-center circle
+Resources    Asteroid,-30000.0,0.0,0.0,Cylinder,rock.dist,11,1500.0,15500.0,0.0,-90.0,2048,8
+Resources    Asteroid,-26500.0,13000.0,0.0,Cylinder,rock.dist,11,1500.0,15500.0,0.0,-120.0,2048,8
+Resources    Asteroid,0.0,30000.0,0.0,Cylinder,rock.dist,11,1500.0,15500.0,0.0,0.0,2048,8
+Resources    Asteroid,0.0,-30000.0,0.0,Cylinder,rock.dist,11,1500.0,15500.0,0.0,0.0,2048,8
+Resources    Asteroid,30000.0,0.0,0.0,Cylinder,rock.dist,11,1500.0,15500.0,0.0,-90.0,2048,8
+Resources    Asteroid,-15500.0,24500.0,0.0,Cylinder,rock.dist,11,1500.0,15500.0,0.0,35.0,2048,8
+Resources    Asteroid,-13500.0,-26500.0,0.0,Cylinder,rock.dist,11,1500.0,15500.0,0.0,-30.0,2048,8
+Resources    Asteroid,-25000.0,-15000.0,0.0,Cylinder,rock.dist,11,1500.0,15500.0,0.0,125.0,2048,8
+Resources    Asteroid,26900.0,13000.0,0.0,Cylinder,rock.dist,11,1500.0,15500.0,0.0,115.0,2048,8
+Resources    Asteroid,15000.0,25000.0,0.0,Cylinder,rock.dist,11,1500.0,15500.0,0.0,150.0,2048,8
+Resources    Asteroid,15000.0,-25500.0,0.0,Cylinder,rock.dist,11,1500.0,15500.0,0.0,-147.0,2048,8
+Resources    Asteroid,26000.0,-14000.0,0.0,Cylinder,rock.dist,11,1500.0,15500.0,0.0,-120.0,2048,8
+
+Resources    Asteroid,-30000.0,0.0,0.0,Cylinder,pebble.dist,14,1500.0,15500.0,0.0,-90.0,2048,8
+Resources    Asteroid,-26500.0,13000.0,0.0,Cylinder,pebble.dist,14,1500.0,15500.0,0.0,-120.0,2048,8
+Resources    Asteroid,0.0,30000.0,0.0,Cylinder,pebble.dist,14,1500.0,15500.0,0.0,0.0,2048,8
+Resources    Asteroid,0.0,-30000.0,0.0,Cylinder,pebble.dist,14,1500.0,15500.0,0.0,0.0,2048,8
+Resources    Asteroid,30000.0,0.0,0.0,Cylinder,pebble.dist,14,1500.0,15500.0,0.0,-90.0,2048,8
+Resources    Asteroid,-15500.0,24500.0,0.0,Cylinder,pebble.dist,14,1500.0,15500.0,0.0,35.0,2048,8
+Resources    Asteroid,-13500.0,-26500.0,0.0,Cylinder,pebble.dist,14,1500.0,15500.0,0.0,-30.0,2048,8
+Resources    Asteroid,-25000.0,-15000.0,0.0,Cylinder,pebble.dist,14,1500.0,15500.0,0.0,125.0,2048,8
+Resources    Asteroid,26900.0,13000.0,0.0,Cylinder,pebble.dist,14,1500.0,15500.0,0.0,115.0,2048,8
+Resources    Asteroid,15000.0,25000.0,0.0,Cylinder,pebble.dist,14,1500.0,15500.0,0.0,150.0,2048,8
+Resources    Asteroid,15000.0,-25500.0,0.0,Cylinder,pebble.dist,14,1500.0,15500.0,0.0,-147.0,2048,8
+Resources    Asteroid,26000.0,-14000.0,0.0,Cylinder,pebble.dist,14,1500.0,15500.0,0.0,-120.0,2048,8
+
+-GOAL POSTS-
+
+-upright
+Resources    Asteroid,20000.0,150000.0,30000.0,Cylinder,rock.dist,60,1500.0,60000.0,90.0,0.0,0,?
+Resources    Asteroid,-20000.0,150000.0,30000.0,Cylinder,pebble.dist,100,1000.0,60000.0,90.0,0.0,0,?
+Resources    Asteroid,-20000.0,150000.0,30000.0,Cylinder,rock.dist,60,1500.0,60000.0,90.0,0.0,0,?
+Resources    Asteroid,20000.0,150000.0,30000.0,Cylinder,pebble.dist,100,1000.0,60000.0,90.0,0.0,0,?
+
+-upright
+Resources    Asteroid,20000.0,-150000.0,30000.0,Cylinder,rock.dist,60,1500.0,60000.0,90.0,0.0,0,?
+Resources    Asteroid,-20000.0,-150000.0,30000.0,Cylinder,pebble.dist,100,1000.0,60000.0,90.0,0.0,0,?
+Resources    Asteroid,-20000.0,-150000.0,30000.0,Cylinder,rock.dist,60,1500.0,60000.0,90.0,0.0,0,?
+Resources    Asteroid,20000.0,-150000.0,30000.0,Cylinder,pebble.dist,100,1000.0,60000.0,90.0,0.0,0,?
+
+-crossbars
+Resources    Asteroid,0.0,150000.0,20000.0,Cylinder,rock.dist,35,1500.0,35000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-150000.0,20000.0,Cylinder,pebble.dist,70,1000.0,40000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-150000.0,20000.0,Cylinder,rock.dist,35,1500.0,35000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,150000.0,20000.0,Cylinder,pebble.dist,70,1000.0,40000.0,0.0,0.0,0,?
+
+-10 yard lines
+Resources    Asteroid,0.0,26250.0,0.0,Cylinder,pebble.dist,110,400.0,140000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,52500.0,0.0,Cylinder,pebble.dist,110,400.0,140000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,78750.0,0.0,Cylinder,pebble.dist,110,400.0,140000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,105000.0,0.0,Cylinder,pebble.dist,110,400.0,140000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,131250.0,0.0,Cylinder,pebble.dist,110,400.0,140000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,pebble.dist,110,400.0,140000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,rock.dist,45,400.0,140000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-26250.0,0.0,Cylinder,pebble.dist,110,400.0,140000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-52500.0,0.0,Cylinder,pebble.dist,110,400.0,140000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-78750.0,0.0,Cylinder,pebble.dist,110,400.0,140000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-105000.0,0.0,Cylinder,pebble.dist,110,400.0,140000.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-131250.0,0.0,Cylinder,pebble.dist,110,400.0,140000.0,0.0,0.0,0,?
+
+-hash marks
+Resources    Asteroid,45000.0,0.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,45000.0,26250.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,45000.0,52500.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,45000.0,78750.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,45000.0,105000.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,45000.0,-26250.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,45000.0,-52500.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,45000.0,-78750.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,45000.0,-105000.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+
+Resources    Asteroid,-45000.0,0.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,-45000.0,26250.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,-45000.0,52500.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,-45000.0,78750.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,-45000.0,105000.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,-45000.0,-26250.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,-45000.0,-52500.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,-45000.0,-78750.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+Resources    Asteroid,-45000.0,-105000.0,0.0,Cylinder,rock.dist,20,3700.0,10700.0,0.0,90.0,2048,8
+
+
+
+
+

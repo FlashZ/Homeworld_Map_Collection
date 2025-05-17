@@ -1,0 +1,39 @@
+; MissionMan script, lunedì, feb 19 2001, 3.47.12 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+
+Main Belt
+
+Resources    Asteroid	0.0	0.0	0.0	Cylinder	Tiny.dist	425	2500.0	175000.0	180.0	126.9	     ?,?
+Resources    Asteroid	0.0	0.0	0.0	Cylinder	Asteroid.dist	50	2000.0	50000.0	180.0	126.9	     2048,2
+Resources    DustCloud	-15000.0	20000.0	0.0	Sphere	DustCloud.dist	10	2000.0	5000.0	180.0	126.9	     ?,?
+Resources    DustCloud	15000.0	-20000.0	0.0	Sphere	DustCloud.dist	10	2000.0	5000.0	180.0	126.9	     ?,?
+
+MS Belt P1
+
+Resources    Asteroid	21000.0	18750.0	0.0	Cylinder	Tiny.dist	35	1000.0	3201.6	180.0	128.7	     ?	     ?
+Resources    Asteroid	22000.0	15000.0	0.0	Cylinder	Tiny.dist	35	2000.0	5000.0	180.0	90.0	     ?	     ?
+Resources    Asteroid	21000.0	11250.0	0.0	Cylinder	Tiny.dist	35	2500.0	3201.6	180.0	51.3	     ?	     ?
+
+Resources    Asteroid	21000.0	18750.0	0.0	Cylinder	Asteroid.dist	8	1000.0	3201.6	180.0	128.7	     2048,2
+Resources    Asteroid	22000.0	15000.0	0.0	Cylinder	Asteroid.dist	8	2000.0	5000.0	180.0	90.0	     2048,2
+Resources    Asteroid	21000.0	11250.0	0.0	Cylinder	Asteroid.dist	8	2500.0	3201.6	180.0	51.3	     2048,2
+
+MS Belt P2
+
+Resources    Asteroid	-21000.0	-18750.0	0.0	Cylinder	Tiny.dist	35	1000.0	3201.6	180.0	128.7	     ?	     ?
+Resources    Asteroid	-22000.0	-15000.0	0.0	Cylinder	Tiny.dist	35	2000.0	5000.0	180.0	90.0	     ?	     ?
+Resources    Asteroid	-21000.0	-11250.0	0.0	Cylinder	Tiny.dist	35	2500.0	3201.6	180.0	51.3	     ?	     ?
+
+Resources    Asteroid	-21000.0	-18750.0	0.0	Cylinder	Asteroid.dist	8	1000.0	3201.6	180.0	128.7	     2048,2
+Resources    Asteroid	-22000.0	-15000.0	0.0	Cylinder	Asteroid.dist	8	2000.0	5000.0	180.0	90.0	     2048,2
+Resources    Asteroid	-21000.0	-11250.0	0.0	Cylinder	Asteroid.dist	8	2500.0	3201.6	180.0	51.3	     2048,2
+
+Gas P1
+
+Resources    DustCloud	15000.0	0.0	0.0	Sphere	DustCloud.dist	12	2000.0	5000.0	180.0	126.9	     2048	     2
+
+Gas P2
+
+Resources    DustCloud	-15000.0	0.0	0.0	Sphere	DustCloud.dist	12	2000.0	5000.0	180.0	126.9	     2048	     2

@@ -1,0 +1,13 @@
+Description	Fire-Maps Presents
+Description	Fort (2-4 Player)
+Description	==========================
+Description	there are 2 teams and 2 forts, use them in your battle!
+Description	==========================
+Description	Created by =TBB=CoFFeeeee
+Description	Created on 23/07/2003
+Description	E-Mail - Graham_ra1@hotmail.com
+ 
+
+Font Arial_b12.hff
+Color 255, 0, 0
+DropShadow Yes

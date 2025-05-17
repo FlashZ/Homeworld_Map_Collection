@@ -1,0 +1,49 @@
+; MissionMan script, Friday, Jul 21 2000, 4:06:47 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Ships    ,5000.0,0.0,0.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,0.0,5000.0,0.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,-5000.0,0.0,0.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,0.0,-5000.0,0.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,5000.0,5000.0,0.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,5000.0,-5000.0,0.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,-5000.0,5000.0,0.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,-5000.0,-5000.0,0.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,0.0,0.0,5000.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,0.0,0.0,-5000.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+
+Ships    ,2500.0,2500.0,2500.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,2500.0,-2500.0,2500.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,-2500.0,2500.0,2500.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,-2500.0,-2500.0,2500.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+
+Ships    ,2500.0,2500.0,-2500.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,2500.0,-2500.0,-2500.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,-2500.0,2500.0,-2500.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+Ships    ,-2500.0,-2500.0,-2500.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,?,?
+
+Ships    ,0.0,0.0,0.0,60.0,RACE_DERELICT,trGhostship,1,NULL_FORMATION|?|256,265,256
+
+Resources    Asteroid,60000.0,0.0,0.0,Sphere,dist1.dist,30,5500.0,5500.0,0.0,0.0,0,?
+Resources    Asteroid,-60000.0,0.0,0.0,Sphere,dist1.dist,30,5500.0,5500.0,0.0,0.0,0,?
+
+Resources    Asteroid,8000.0,8000.0,0.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,8000.0,0.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?
+Resources    Asteroid,8000.0,-8000.0,0.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?
+Resources    Asteroid,-8000.0,-8000.0,0.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?
+
+Resources    Asteroid,10000.0,0.0,0.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?
+Resources    Asteroid,-10000.0,0.0,0.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,10000.0,0.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?
+Resources    Asteroid,0.0,-10000.0,0.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?
+
+Resources    Asteroid,6000.0,6000.0,6000.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,6000.0,6000.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?
+Resources    Asteroid,6000.0,-6000.0,6000.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,-6000.0,6000.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?
+
+Resources    Asteroid,6000.0,6000.0,-6000.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,6000.0,-6000.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?
+Resources    Asteroid,6000.0,-6000.0,-6000.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?
+Resources    Asteroid,-6000.0,-6000.0,-6000.0,Sphere,dist1.dist,4,1500.0,1500.0,0.0,0.0,0,?

@@ -1,0 +1,27 @@
+; MissionMan script, Thursday, Oct 4 2001, 11:24:01 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    DustCloud,45163.9,20179.4,0.0,Sphere,dust.dist,30,11640.0,23280.0,0.0,0.0,0,?
+Resources    DustCloud,44203.1,-21140.6,0.0,Sphere,dust.dist,30,11640.0,23280.0,0.0,0.0,0,?
+Resources    DustCloud,-49968.8,19218.8,0.0,Sphere,dust.dist,30,11640.0,23280.0,0.0,0.0,0,?
+Resources    DustCloud,-49007.8,-21140.6,0.0,Sphere,dust.dist,30,11640.0,23280.0,0.0,0.0,0,?
+Resources    DustCloud,16335.9,0.0,28828.1,Sphere,dust.dist,30,11640.0,23280.0,0.0,0.0,0,?
+Resources    DustCloud,-22101.6,0.0,-29789.1,Sphere,dust.dist,30,11640.0,23280.0,0.0,0.0,0,?
+Resources    DustCloud,17296.9,0.0,-26906.3,Sphere,dust.dist,30,11640.0,23280.0,0.0,0.0,0,?
+Resources    DustCloud,-22101.6,0.0,28828.1,Sphere,dust.dist,30,11640.0,23280.0,0.0,0.0,0,?
+Resources    Asteroid,39087.1,-4917.2,0.0,Cylinder,Asteroid.dist,10,1000.0,10000.0,0.0,45.0,0,?
+Resources    Asteroid,39681.2,5736.7,0.0,Cylinder,Asteroid.dist,10,1000.0,10000.0,0.0,-56.0,0,?
+Resources    Asteroid,-55445.6,0.0,0.0,Cylinder,Asteroid.dist,10,1000.0,10000.0,0.0,0.0,0,?
+Resources    Asteroid,-43813.7,0.0,0.0,Cylinder,Asteroid.dist,10,1000.0,10000.0,0.0,1.0,0,?
+Resources    Asteroid,-33344.9,5428.2,0.0,Cylinder,Asteroid.dist,10,1000.0,10000.0,0.0,35.0,0,?
+Resources    Asteroid,-34508.1,-5428.2,0.0,Cylinder,Asteroid.dist,10,1000.0,10000.0,0.0,-44.0,0,?
+Resources    Asteroid,-23651.6,-10081.0,0.0,Cylinder,Asteroid.dist,10,1000.0,10000.0,0.0,179.0,0,?
+Resources    Asteroid,-23651.6,9305.6,0.0,Cylinder,Asteroid.dist,10,1000.0,10000.0,0.0,-178.0,0,?
+Resources    Asteroid,58186.9,0.0,0.0,Cylinder,Asteroid.dist,10,1000.0,10000.0,0.0,180.0,0,?
+Resources    Asteroid,47533.0,0.0,0.0,Cylinder,Asteroid.dist,10,1000.0,10000.0,0.0,180.0,0,?
+Resources    Asteroid,29503.2,-8195.3,0.0,Cylinder,Asteroid.dist,10,1000.0,10000.0,0.0,-1.0,0,?
+Resources    Asteroid,29503.2,10653.9,0.0,Cylinder,Asteroid.dist,10,1000.0,10000.0,0.0,0.0,0,?
+Resources    Asteroid,18849.3,10653.9,0.0,Cylinder,Asteroid.dist,10,1000.0,10000.0,0.0,0.0,0,?
+Resources    Asteroid,19668.8,-8195.3,0.0,Cylinder,Asteroid.dist,10,1000.0,10000.0,0.0,-1.0,0,?
+

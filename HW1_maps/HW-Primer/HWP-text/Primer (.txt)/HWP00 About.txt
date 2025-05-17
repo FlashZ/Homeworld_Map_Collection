@@ -1,0 +1,51 @@
+HOMEWORLD The Map-Makers Primer
+[v2.1 Dylov 22/12/00 Based mainly around the work written and compiled by: Dylov, Shin, Hellhawk666, TAKER, Obithrawn and BPLlama]
+
+
+ABOUT THE PRIMER
+================================================================
+
+
+ABOUT
+----------------------------------------------------------------
+
+This Primer aims to take you through every aspect in making maps for Homeworld, everything is covered. No need for downloading a ton of texts from a dozen different sites as everything is here. This guide has been authored by Dylov, inspired by the various writings of the Homeworld players community, specifically, long time players who've published and advised prolifically over the years and wanted to share their tips and experiences with other budding map-makers. This primer is a heavily edited version of many others works as well as my own.
+
+
+HOMEWORLD VERSION
+----------------------------------------------------------------
+
+This guide is based on the original release of Homeworld by Relic Entertainment. The material does however equally apply to the Barking Dog follow up Homeworld: Cataclysm. Notes on Cataclysm Should hopefully follow in time, Barking Dog seem to have fixed the annoying problems with the MissionMan editor so future articles may be aimed at that aspect of Map Creation.
+
+
+DISTRIBUTION
+----------------------------------------------------------------
+
+You may post an unaltered copy of this guide to any Internet site, newsgroup, or BBS. Actually that's a bit steep. Ok You may alter copies although all I ask is you don't delete mine, nor any of the other contributors names from the documents.
+
+
+DISCUSSION AND FURTHER HELP
+----------------------------------------------------------------
+
+Since the guide is written by Dylov from articles that have originated from myself and other Homeworld players/map-makers, we'd like you to keep discussion of its contents within the player community. This means the Project Red Engineering Forum, Relic Forums, BD Forums, The OMO Map Editing Forum and the Drunken Pirates Forums. Posting to these forums is always the best start to any specific problems you may have that is not covered in this primer, a word of caution though, the Relic Editing forum has been going for over a year now and most of the information contained herein originates from there so do a search first before posting, it often saves on unnecessary 'Use the Search Engine you Gimp!' flames.
+
+
+FEEDBACK
+----------------------------------------------------------------
+
+Please submit all all feedback and bug reports to hwprimer@ntlworld.com. I will do my utmost to keep the primer updated and fix any bugs etc you may come across. Feedback (especially praise and cash donations to the Lets get Dylov Really Massively Drunk Foundation) is always welcome.
+
+Good Luck and Happy Map Making!
+
+ 
+*** COPYRIGHT NOTICE AND DISCLAIMER ***
+----------------------------------------------------------------
+
+This Primer is a non-profit publication and is intended as an entirely unofficial publication and is therefore entirely unconnected to Relic Entertainment, Barking Dog or Sierra Studios or even Bink Videos. No contest of any kind is intended or offered to any other person or entity's subsisting copyright. Copyrighted materials are included in this publication purely for fair comment. So get a grip. Where no other copyright subsists or exists this work and any part thereof is copyright Dylov who asserts his right to be identified as an author and copyright holder of the subsisting portion hereof.
+I disclaim everything. The contents of this article might be totally inaccurate, inappropriate, misguided, or otherwise perverse - except for my name (you can probably trust me on that). Copyright (c) 1999 - 2000 by Dylov, all rights reserved. This Primer may be posted to any USENET newsgroup, on-line service, web site, or BBS as long as it is posted in its entirety and includes this copyright statement. This Primer may be distributed as class material on diskette, CD-ROM or DVD as long as there is no charge (except to cover materials). This Primer may not be distributed for financial gain. This Primer may not be included in commercial collections or compilations without express permission from the author(s).
+
+This Primer is provided as is without any express or implied warranties. While every effort has been taken to ensure the accuracy of the information contained in this article, the author/maintainer/contributors (take your pick) assume(s) no responsibility for errors or omissions, or for damages resulting from the use of the information contained herein.
+
+(c) 1999, 2000, Sierra On-Line, Inc. All rights reserved. Homeworld is a registered trademark and Cataclysm, Sierra, and Sierra Studios are trademarks of Sierra On-Line, Inc.
+
+

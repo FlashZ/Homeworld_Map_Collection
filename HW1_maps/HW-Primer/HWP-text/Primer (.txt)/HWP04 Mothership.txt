@@ -1,0 +1,136 @@
+HOMEWORLD The Map-Makers Primer
+[v2.1 Dylov 22/12/00]
+
+
+MOTHERSHIP
+================================================================
+
+
+4.0 INTRODUCTION TO THE MISSION SPHERE FILES 
+----------------------------------------------------------------
+
+As we have seen, the level file has (at least 3) lines that are prefaced with "MissionSphere". These lines give information about starting ships and the map's resources. The first MissionSphere line in our example level file contains information about our resources, including, most importantly, the name of the resource file: "ResourceSphere_1.missphere" This file contains every single resource element that we want to use in the map including asteroids, dust clouds and particles.
+
+The 'ResourceSphere' holds all the resources, and any derelicts or ships. When ships are placed in the ResourceSphere they go under AI control, even when playing with no computer players. These are also where the Distribution (*.dist) files are linked to (i.e. the *.dist files are named in the ResourceSphere file). You need one Resource Sphere file at least, even if your map doesn't have resources, you can have more than one, but usually there is no point, unless your ResourceSphere_*.missphere file is bigger than 64K.
+
+The next two files in our example level are Mothership_*.missphere file, these contain all the player starting fleets and the starting location of those fleets. Again the most important aspect of these lines it the fact that these lines contain the names of the files containing the details for player one and player two; the files Mothership_0.missphere and Mothership_1.missphere consecutively.
+
+These files are our 'Mothership' files. You need the Mothership mission sphere files in every directory, and you have to have one for each player on that map. We will begin with these Mothership files:
+ 
+
+
+4.1 THE MOTHERSHIP MISSION SPHERES 
+----------------------------------------------------------------
+
+The "Mothership_0.missphere" contains the list of ships/fighters etc that the player starts with. Well lets take a gander at the 'Mothership_0.missphere' file. Open it up and take a look around. Have a look at the first three lines, again it's those MissionMan generated lines, and they have to be there. Why? Nobody knows, just make sure they are there, the only thing you can change here is on the third line saying 'MissionSphere Object: R1,Mothership', you can change the 'R1' to 'R2' if you need to (i.e. when all the ships below are 'R2' ships you would change it, although its not drastic and wont crash your game if you neglect this).
+
+There are three lines of ships in this file, lets take a closer look at them;
+
+Ships     ,11633.0,-76504.0,36722.4,97.0,R1,Mothership,1,NULL_FORMATION|?|?,?,?
+Ships     ,7259.3,-76708.0,36722.4,97.0,R1,ResourceCollector,1,PARADE_FORMATION|?|?,?,?
+Ships     ,12875.4,-76018.5,36722.4,97.0,R1,ResearchShip,1,PARADE_FORMATION|?|?,?,?
+
+"Ye Gods! Yet more numbers and stuff! What's all that after the 'ships<tab>' leader?" I hear you ask. Well, these too are simple once you know, let's go through them, they are;
+
+Ships	Label,x,y,z,rot,race,ship,num,formation|flag|(color),properties,propertiesParam
+
+Label: 
+AI label (no spaces) or ? 
+
+x,y,z: 
+x,y,z coordinates
+
+rot: 
+rotation angle of ship (facing)
+
+race: 
+R1, R2, P1, P2, P3, or Traders
+
+ship: 
+shiptype (See The Ship List for ship types you can use here)
+
+num: 
+number of ships to place
+
+formation: 
+Formation these ships will be in.
+
+flag
+UseAsMothership or ?
+
+color
+? or colorScheme(n) where n= 0 to 7
+
+properties
+Integer value See Properties more info.
+
+propertiesParam: 
+Some properties (eg: Regrow) have an attached value or 'propertiesParam'
+
+4.1.1 POSX, POSY, POSZ 
+----------------------------------------------------------------
+Once again, these are the x,y,z co-ordinates that designate the positions of the ship(s) on the map. These will always be the bit you fiddle about with most.
+
+4.1.2 ROT 
+----------------------------------------------------------------
+This sets the rotation angle of ship - it's facing. 0 degrees is always along the positive x=0 axis of your map so if you have a ship way out on the x axis, say with co-ordinates 80000,0,0, to have it facing the centre you would have to turn it around at an angle of 180 degrees. Ergo, if it is way back along the negative x axis say -90000,0,0 then you would leave it at a facing of 0 degrees to have it facing the centre. Remember the angle is measured anticlockwise.
+
+4.1.3 RACE 
+----------------------------------------------------------------
+This sets the race of the ship where;
+
+?	No Race 
+R1	Kushan
+R2	Taiidan
+P1	Turanic Raiders
+P2	Kadeshi Garden Protectors
+P3	T-Mat
+Traders	Bentusi & assorted
+
+This is defined by the 'ship type', if you had a Kadeshi missile corvette then its race would be P2, a defence field frigate would be a R2 race ship and so on. It does not have anything to do with the race as defined in the level file, only the ship type it is and the ship type is defined by the next value;
+
+4.1.4 SHIPTYPE 
+----------------------------------------------------------------
+This sets what type of ship it is. The list of ships available have already been mentioned above and you can find the list again here in Appendix A.
+
+4.1.5 NUMSHIPS 
+----------------------------------------------------------------
+This value sets the number of ship to place, theoretically there is no limit to the amount of ships you place.
+
+4.1.6 FORMATION 
+----------------------------------------------------------------
+Here the starting formation of these ship(s) is assigned, the default is NULL_FORMATION, but you can get some weird results using this for more than one ship, although if you place proximity sensors and there is more than one of them then I recommend using this formation. Your best bet is PARADE_FORMATION, which will place all the ships you want in the default parade formation your ships assume around your mothership after being built, this also reveals a shortcut that you need only define the x,y,z position for your mothership, and put all the rest in parade formation, no matter what position is listed for them. Set it to anything else and they'll appear wherever they're representational x,y,z co-ordinates designate in the level. Which could be interesting. Or it could suck.
+The available formations are:
+
+NULL_FORMATION
+PARADE_FORMATION
+DELTA_FORMATION
+BROAD_FORMATION
+DELTA3D_FORMATION
+CLAW_FORMATION
+WALL_FORMATION
+SPHERE_FORMATION
+PICKET_FORMATION
+
+4.1.7 FLAG 
+----------------------------------------------------------------
+You can have any ship you want as the mothership. This value sets whether the ship is the players mothership with 'UseAsMothership' or '?' if its not. A word of warning though, if your designated mothership is not a proper 'Mothership' or a Carrier then your game will crash the second you or any opponent, including computer opponents, enters the build manager.
+
+4.1.8 PROPERTIES AND PORPERTIESPARAM: COLOUR 
+----------------------------------------------------------------
+The next three values, the '?,?,?' part at the end of the line concern properties of that ship(s). These are covered in Gary's Notes, and so will be discussed more fully there. There is however one unique property concerning ships, namely the colour.
+
+You can add a "colorScheme(n)" to explicitly control what colour scheme the ship will be. Here are the default colour schemes for the ships as they stand now.
+Race/Default Color Scheme 
+
+R1 (Kushan) 			0
+R2 (Taiidan) 			1
+P1 (Turanic Raiders) 		4
+P2 (Kadeshi Garden Protectors) 	5
+P3 (T-Mat)	 		6
+Traders (Bentusi & assorted) 	7
+ 
+Don't forget that this all ties in with what you have set in the level file, (see 'Determining what colour schemes a ship can be' for a full explanation of how its done.)
+
+So that's the ship lines. Pretty simple when you know how eh?
+

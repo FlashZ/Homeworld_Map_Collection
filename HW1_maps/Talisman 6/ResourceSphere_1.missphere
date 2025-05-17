@@ -1,0 +1,132 @@
+; MissionMan script, Friday, Dec 29 2006, 4:57:51 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+-bottom tiers
+Resources    Asteroid,0.0,22000.0,10000.0,Cylinder,rock.dist,14,500.0,12000.0,45.0,-90.0,0,?
+Resources    Asteroid,-32000.0,20000.0,10000.0,Cylinder,rock.dist,14,500.0,12000.0,45.0,-45.0,0,?
+Resources    Asteroid,32000.0,20000.0,10000.0,Cylinder,rock.dist,14,500.0,12000.0,-45.0,45.0,0,?
+Resources    Asteroid,0.0,-22000.0,10000.0,Cylinder,rock.dist,14,500.0,12000.0,-45.0,-90.0,0,?
+Resources    Asteroid,-32000.0,-20000.0,10000.0,Cylinder,rock.dist,14,500.0,12000.0,45.0,45.0,0,?
+Resources    Asteroid,32000.0,-20000.0,10000.0,Cylinder,rock.dist,14,500.0,12000.0,-45.0,-45.0,0,?
+
+-bottom half ring
+Resources    Asteroid,0.0,29000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-12000.0,28000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,5.0,0,?
+Resources    Asteroid,-24000.0,26000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,10.0,0,?
+Resources    Asteroid,-36000.0,23000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,15.0,0,?
+Resources    Asteroid,-47000.0,19500.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,20.0,0,?
+Resources    Asteroid,-58000.0,15000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,25.0,0,?
+Resources    Asteroid,-68500.0,9500.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,30.0,0,?
+Resources    Asteroid,12000.0,28000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,-5.0,0,?
+Resources    Asteroid,24000.0,26000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,-10.0,0,?
+Resources    Asteroid,36000.0,23000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,-15.0,0,?
+Resources    Asteroid,47000.0,19500.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,-20.0,0,?
+Resources    Asteroid,58000.0,15000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,-25.0,0,?
+Resources    Asteroid,68500.0,9500.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,-30.0,0,?
+
+-three half tiers
+Resources    Asteroid,0.0,36000.0,24000.0,Cylinder,rock.dist,14,500.0,16000.0,-45.0,90.0,0,?
+Resources    Asteroid,40000.0,28000.0,24000.0,Cylinder,rock.dist,14,500.0,16000.0,-45.0,45.0,0,?
+Resources    Asteroid,-40000.0,28000.0,24000.0,Cylinder,rock.dist,14,500.0,16000.0,45.0,-45.0,0,?
+
+-upper half ring
+Resources    Asteroid,0.0,42500.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,0.0,0,?
+Resources    Asteroid,-10000.0,42000.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,5.0,0,?
+Resources    Asteroid,-20000.0,40500.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,10.0,0,?
+Resources    Asteroid,-29800.0,38200.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,15.0,0,?
+Resources    Asteroid,-39400.0,35000.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,20.0,0,?
+Resources    Asteroid,-48700.0,31200.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,25.0,0,?
+Resources    Asteroid,-57600.0,26500.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,30.0,0,?
+Resources    Asteroid,57600.0,26500.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,-30.0,0,?
+Resources    Asteroid,48700.0,31200.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,-25.0,0,?
+Resources    Asteroid,39400.0,35000.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,-20.0,0,?
+Resources    Asteroid,29800.0,38200.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,-15.0,0,?
+Resources    Asteroid,20000.0,40500.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,-10.0,0,?
+Resources    Asteroid,10000.0,42000.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,-5.0,0,?
+
+-other bottom half ring
+Resources    Asteroid,0.0,-29000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,0.0,0,?
+Resources    Asteroid,-12000.0,-28000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,-5.0,0,?
+Resources    Asteroid,-24000.0,-26000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,-10.0,0,?
+Resources    Asteroid,-36000.0,-23000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,-15.0,0,?
+Resources    Asteroid,-47000.0,-19500.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,-20.0,0,?
+Resources    Asteroid,-58000.0,-15000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,-25.0,0,?
+Resources    Asteroid,-68500.0,-9500.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,-30.0,0,?
+Resources    Asteroid,12000.0,-28000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,5.0,0,?
+Resources    Asteroid,24000.0,-26000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,10.0,0,?
+Resources    Asteroid,36000.0,-23000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,15.0,0,?
+Resources    Asteroid,47000.0,-19500.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,20.0,0,?
+Resources    Asteroid,58000.0,-15000.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,25.0,0,?
+Resources    Asteroid,68500.0,-9500.0,16000.0,Cylinder,ring.dist,10,2500.0,12000.0,0.0,30.0,0,?
+
+-other three half tiers
+Resources    Asteroid,0.0,-36000.0,24000.0,Cylinder,rock.dist,14,500.0,16000.0,-45.0,-90.0,0,?
+Resources    Asteroid,40000.0,-28000.0,24000.0,Cylinder,rock.dist,14,500.0,16000.0,-45.0,-45.0,0,?
+Resources    Asteroid,-40000.0,-28000.0,24000.0,Cylinder,rock.dist,14,500.0,16000.0,45.0,45.0,0,?
+
+-other upper half ring
+Resources    Asteroid,0.0,-42500.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,0.0,0,?
+Resources    Asteroid,-10000.0,-42000.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,-5.0,0,?
+Resources    Asteroid,-20000.0,-40500.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,-10.0,0,?
+Resources    Asteroid,-29800.0,-38200.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,-15.0,0,?
+Resources    Asteroid,-39400.0,-35000.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,-20.0,0,?
+Resources    Asteroid,-48700.0,-31200.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,-25.0,0,?
+Resources    Asteroid,-57600.0,-26500.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,-30.0,0,?
+Resources    Asteroid,57600.0,-26500.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,30.0,0,?
+Resources    Asteroid,48700.0,-31200.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,25.0,0,?
+Resources    Asteroid,39400.0,-35000.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,20.0,0,?
+Resources    Asteroid,29800.0,-38200.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,15.0,0,?
+Resources    Asteroid,20000.0,-40500.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,10.0,0,?
+Resources    Asteroid,10000.0,-42000.0,31000.0,Cylinder,ring2.dist,10,4000.0,10000.0,0.0,5.0,0,?
+
+-other upper half ring dust
+Resources    DustCloud,0.0,-42500.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,0.0,0,?
+Resources    DustCloud,-10000.0,-42000.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,-5.0,0,
+Resources    DustCloud,-20000.0,-40500.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,-10.0,0
+Resources    DustCloud,-29800.0,-38200.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,-15.0,0
+Resources    DustCloud,-39400.0,-35000.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,-20.0,0
+Resources    DustCloud,-48700.0,-31200.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,-25.0,0
+Resources    DustCloud,-57600.0,-26500.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,-30.0,0
+Resources    DustCloud,57600.0,-26500.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,30.0,0,?
+Resources    DustCloud,48700.0,-31200.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,25.0,0,?
+Resources    DustCloud,39400.0,-35000.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,20.0,0,?
+Resources    DustCloud,29800.0,-38200.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,15.0,0,?
+Resources    DustCloud,20000.0,-40500.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,10.0,0,?
+Resources    DustCloud,10000.0,-42000.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,5.0,0,?
+
+-upper half ring dust
+Resources    DustCloud,0.0,42500.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,0.0,0,?
+Resources    DustCloud,-10000.0,42000.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,5.0,0,?
+Resources    DustCloud,-20000.0,40500.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,10.0,0,?
+Resources    DustCloud,-29800.0,38200.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,15.0,0,?
+Resources    DustCloud,-39400.0,35000.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,20.0,0,?
+Resources    DustCloud,-48700.0,31200.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,25.0,0,?
+Resources    DustCloud,-57600.0,26500.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,30.0,0,?
+Resources    DustCloud,57600.0,26500.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,-30.0,0,?
+Resources    DustCloud,48700.0,31200.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,-25.0,0,?
+Resources    DustCloud,39400.0,35000.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,-20.0,0,?
+Resources    DustCloud,29800.0,38200.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,-15.0,0,?
+Resources    DustCloud,20000.0,40500.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,-10.0,0,?
+Resources    DustCloud,10000.0,42000.0,31000.0,Cylinder,dustring2.dist,6,4000.0,10000.0,0.0,-5.0,0,?
+
+-end oval
+Resources    Asteroid,68200.0,19400.0,31000.0,Cylinder,ring2.dist,10,4000.0,15000.0,0.0,-35.0,0,?
+Resources    Asteroid,82000.0,8400.0,31000.0,Cylinder,ring2.dist,10,4000.0,20000.0,0.0,-40.0,0,?
+Resources    Asteroid,68200.0,-19400.0,31000.0,Cylinder,ring2.dist,10,4000.0,15000.0,0.0,35.0,0,?
+Resources    Asteroid,82000.0,-8400.0,31000.0,Cylinder,ring2.dist,10,4000.0,20000.0,0.0,40.0,0,?
+Resources    Asteroid,-68200.0,19400.0,31000.0,Cylinder,ring2.dist,10,4000.0,15000.0,0.0,35.0,0,?
+Resources    Asteroid,-82000.0,8400.0,31000.0,Cylinder,ring2.dist,10,4000.0,20000.0,0.0,40.0,0,?
+Resources    Asteroid,-68200.0,-19400.0,31000.0,Cylinder,ring2.dist,10,4000.0,15000.0,0.0,-35.0,0,?
+Resources    Asteroid,-82000.0,-8400.0,31000.0,Cylinder,ring2.dist,10,4000.0,20000.0,0.0,-40.0,0,?
+
+-end oval dust
+Resources    DustCloud,68200.0,19400.0,31000.0,Cylinder,dustring2.dist,6,4000.0,15000.0,0.0,-35.0,0,?
+Resources    DustCloud,82000.0,8400.0,31000.0,Cylinder,dustring2.dist,6,4000.0,20000.0,0.0,-40.0,0,?
+Resources    DustCloud,68200.0,-19400.0,31000.0,Cylinder,dustring2.dist,6,4000.0,15000.0,0.0,35.0,0,?
+Resources    DustCloud,82000.0,-8400.0,31000.0,Cylinder,dustring2.dist,6,4000.0,20000.0,0.0,40.0,0,?
+Resources    DustCloud,-68200.0,19400.0,31000.0,Cylinder,dustring2.dist,6,4000.0,15000.0,0.0,35.0,0,?
+Resources    DustCloud,-82000.0,8400.0,31000.0,Cylinder,dustring2.dist,6,4000.0,20000.0,0.0,40.0,0,?
+Resources    DustCloud,-68200.0,-19400.0,31000.0,Cylinder,dustring2.dist,6,4000.0,15000.0,0.0,-35.0,0,?
+Resources    DustCloud,-82000.0,-8400.0,31000.0,Cylinder,dustring2.dist,6,4000.0,20000.0,0.0,-40.0,0,?
+

@@ -1,0 +1,25 @@
+; MissionMan script, Thursday, Sep 7 2006, 1:11:22 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    DustCloud,0.0,0.0,0.0,Sphere,DustMid.dist,20,2925.0,5850.0,0.0,0.0,2048,4
+Resources    Asteroid,-25000.0,0.0,0.0,Cylinder,AsteroidMed.dist,100,1000.0,44000.0,0.0,0.0,0,?
+Resources    Asteroid,25011.0,14967.0,0.0,Rectangle,AsteroidMed.dist,70,51320.0,1500.0,1500.0,30.0,0,?
+Resources    Asteroid,25011.0,-14967.0,0.0,Rectangle,AsteroidMed.dist,70,51320.0,1500.0,1500.0,-30.0,0,?
+Resources    Asteroid,11450.9,0.0,0.0,Rectangle,Pebble.dist,100,16234.4,649.4,649.4,2.0,0,?
+Resources    Asteroid,27788.7,2835.6,0.0,Rectangle,Pebble.dist,100,16234.4,649.4,649.4,15.0,0,?
+Resources    Asteroid,27788.7,-2268.5,0.0,Rectangle,Pebble.dist,100,16234.4,649.4,649.4,-18.0,0,?
+Resources    Asteroid,41399.6,-10775.2,0.0,Rectangle,Pebble.dist,100,16234.4,649.4,649.4,-45.0,0,?
+Resources    Asteroid,41966.7,11342.3,0.0,Rectangle,Pebble.dist,100,16234.4,649.4,649.4,44.0,0,?
+Resources    Asteroid,53938.7,28795.7,0.0,Rectangle,Pebble.dist,100,24771.0,990.8,990.8,64.0,0,?
+Resources    Asteroid,53798.4,-28222.1,0.0,Rectangle,Pebble.dist,100,24771.0,990.8,990.8,116.0,0,?
+Resources    Asteroid,70555.2,-44979.0,0.0,Rectangle,Pebble.dist,100,24771.0,990.8,990.8,152.0,0,?
+Resources    Asteroid,70555.2,45860.9,0.0,Rectangle,Pebble.dist,100,24771.0,990.8,990.8,-159.0,0,?
+Resources    Asteroid,79375.0,882.0,0.0,Rectangle,Pebble.dist,100,86738.6,3472.3,3472.3,-90.0,0,?
+Resources    Asteroid,-82902.0,27340.0,0.0,Rectangle,Pebble.dist,100,88990.0,3560.0,3560.0,143.0,0,?
+Resources    Asteroid,-85548.0,-22049.0,0.0,Rectangle,Pebble.dist,100,88990.0,3560.0,3560.0,-150.0,0,?
+Resources    DustCloud,-9701.3,25576.3,0.0,Sphere,DustMid.dist,10,2925.0,5850.0,0.0,0.0,2048,1
+Resources    DustCloud,-9701.3,-25576.3,0.0,Sphere,DustMid.dist,10,2925.0,5850.0,0.0,0.0,2048,1
+Resources    Asteroid,-9701.3,-25576.3,0.0,Sphere,Tiny.dist,20,2925.0,5850.0,0.0,0.0,2048,1
+Resources    Asteroid,-9701.3,25576.3,0.0,Sphere,Tiny.dist,20,2925.0,5850.0,0.0,0.0,2048,1
+

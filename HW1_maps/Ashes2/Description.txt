@@ -1,0 +1,12 @@
+Description     Ashes To Ashes:         
+Description     RU's come hard on this map. Follow your vein and run into your opponents real quick. This map has been converted from my HW:C map along with the background.
+Description     
+Description     AUTHOR: medamanx[DP]
+Description     E-MAIL: medamanx@hotmail.com
+Description     
+Description	www.strategyplanet.com/hwshots		
+
+Font            Arial_b12.hff
+Color 		255, 255, 0
+DropShadow      Yes
+

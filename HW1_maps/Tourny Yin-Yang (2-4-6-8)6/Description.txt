@@ -1,0 +1,15 @@
+Description	Tourny Yin-Yang (2-4-6-8)
+Description	You'll like this.
+Description	This is a balanced map, by the name, and good for team battles.
+Description	2v2 and 3v3 should be TvB.
+Description	In 4v4 you can play TvB or Outer Vs Inner.
+Description	Author: &Z&ol&o&F
+Description	DoB: August 10th, 2006
+Description     Tournament arrangement by &Poor&Man&D&S&O
+
+
+Color           100, 200, 155
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

@@ -1,0 +1,39 @@
+; MissionMan script, sabato, gen 26 2002, 3.19.42 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: TalasRoids6
+; Info: Talas Roids (2, 4)
+
+[Talas Roids (2, 4)]
+
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,?,0.0,Mothership_0.missphere,?
+MissionSphere    1,R1,Mothership,0.0,0.0,0.0,?,0.0,Mothership_1.missphere,?
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,?,0.0,ResourceSphere_3.missphere,?
+MissionSphere    2,R1,Mothership,-38000.0,-54000.0,0.0,?,0.0,Mothership_4.missphere,?
+MissionSphere    3,R1,Mothership,0.0,0.0,0.0,?,0.0,Mothership_5.missphere,?
+MissionSphere    4,R1,Mothership,0.0,0.0,0.0,?,0.0,Mothership_2.missphere,?
+MissionSphere    5,R1,Mothership,0.0,0.0,0.0,?,0.0,Mothership_3.missphere,?
+
+Lighting    ez06
+Background    ez06, 180, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    175000
+smZoomMin    40000
+smInitialDistance    145000
+smUniverseSizeX    75000
+smUniverseSizeZ    22500
+smUniverseSizeY    100000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,TargetDrone
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    0

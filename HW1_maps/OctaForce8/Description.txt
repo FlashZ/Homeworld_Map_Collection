@@ -1,0 +1,3 @@
+Description     AUTHOR:Taiidan|SF
+Description     Made:11/29/04
+Description     4 vs 4 only map. Each player has an ally near them so you can work in pairs. Starting fleet is:15 scouts,10 interceptors,3 resource collectors,1 resource controller, and 4 research ships. Plenty of resources for everyone,GL HF.

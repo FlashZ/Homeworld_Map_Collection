@@ -1,0 +1,11 @@
+Description	Dust to Dust:
+Description	Weave your way around through the vast resource veins as you attempt to locate & destroy your enemies while you hide from them at the same time.
+Description	
+Description	AUTHOR: medamanx[DP]
+Description	E-MAIL: medamanx@hotmail.com
+Description	
+Description	www.strategyplanet.com/hwshots
+
+Font 		Arial_b12.hff
+Color 		255, 255, 0
+DropShadow 	Yes

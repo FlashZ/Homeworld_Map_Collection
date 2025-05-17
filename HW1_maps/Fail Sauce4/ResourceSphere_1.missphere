@@ -1,0 +1,44 @@
+; MissionMan script, Saturday, Oct 2 2010, 1:46:09 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,0.0,0.0,0.0,Cylinder,rock.dist,2,2000.0,10000.0,0.0,-90.0,2048,5
+Resources    Asteroid,0.0,-10000.0,0.0,Cylinder,rock.dist,2,2000.0,10000.0,0.0,-90.0,2048,5
+Resources    Asteroid,0.0,-20000.0,0.0,Cylinder,rock.dist,2,2000.0,10000.0,0.0,-90.0,2048,5
+Resources    Asteroid,0.0,20000.0,0.0,Cylinder,rock.dist,2,2000.0,10000.0,0.0,-90.0,2048,5
+Resources    Asteroid,0.0,10000.0,0.0,Cylinder,rock.dist,2,2000.0,10000.0,0.0,-90.0,2048,5
+Resources    Asteroid,-8000.0,10000.0,0.0,Cylinder,rock.dist,2,2000.0,10000.0,0.0,-90.0,2048,5
+Resources    Asteroid,-8000.0,20000.0,0.0,Cylinder,rock.dist,2,2000.0,10000.0,0.0,-90.0,2048,5
+Resources    Asteroid,-8000.0,-20000.0,0.0,Cylinder,rock.dist,2,2000.0,10000.0,0.0,-90.0,2048,5
+Resources    Asteroid,-8000.0,-10000.0,0.0,Cylinder,rock.dist,2,2000.0,10000.0,0.0,-90.0,2048,5
+Resources    Asteroid,-8000.0,0.0,0.0,Cylinder,rock.dist,2,2000.0,10000.0,0.0,-90.0,2048,5
+Resources    Asteroid,8000.0,10000.0,0.0,Cylinder,rock.dist,2,2000.0,10000.0,0.0,-90.0,2048,5
+Resources    Asteroid,8000.0,20000.0,0.0,Cylinder,rock.dist,2,2000.0,10000.0,0.0,-90.0,2048,5
+Resources    Asteroid,8000.0,-20000.0,0.0,Cylinder,rock.dist,2,2000.0,10000.0,0.0,-90.0,2048,5
+Resources    Asteroid,8000.0,-10000.0,0.0,Cylinder,rock.dist,2,2000.0,10000.0,0.0,-90.0,2048,5
+Resources    Asteroid,8000.0,0.0,0.0,Cylinder,rock.dist,2,2000.0,10000.0,0.0,-90.0,2048,5
+Resources    Asteroid,-40000.0,-20000.0,0.0,Cylinder,tiny.dist,15,2500.0,2500.0,90.0,180.0,0,?
+Resources    Asteroid,-40000.0,20000.0,0.0,Cylinder,tiny.dist,15,2500.0,2500.0,90.0,180.0,0,?
+Resources    Asteroid,40000.0,-20000.0,0.0,Cylinder,tiny.dist,15,2500.0,2500.0,90.0,180.0,0,?
+Resources    Asteroid,40000.0,20000.0,0.0,Cylinder,tiny.dist,15,2500.0,2500.0,90.0,180.0,0,?
+Resources    Asteroid,-38000.0,-20000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,-42000.0,-20000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,-40000.0,-18000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,-40000.0,-22000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,-40000.0,-20000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,-38000.0,20000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,-42000.0,20000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,-40000.0,18000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,-40000.0,22000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,-40000.0,20000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,40000.0,20000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,40000.0,22000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,40000.0,18000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,42000.0,20000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,38000.0,20000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,40000.0,-20000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,40000.0,-22000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,40000.0,-18000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,42000.0,-20000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+Resources    Asteroid,38000.0,-20000.0,0.0,Sphere,rubble.dist,1,500.0,1000.0,90.0,180.0,2048,1
+

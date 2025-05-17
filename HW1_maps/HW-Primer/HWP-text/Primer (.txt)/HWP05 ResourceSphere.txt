@@ -1,0 +1,403 @@
+HOMEWORLD The Map-Makers Primer
+[v2.1 Dylov 22/12/00]
+
+
+RESOURCESPHERE
+================================================================
+
+
+5.0 INTRODUCTION TO THE RESOURCESPHERE FILE 
+----------------------------------------------------------------
+
+Right, this is where everyone seems to get disillusioned with the whole thing. Resources are simple to deal with, absolutely easy-peasy as we will discover. All you need is an idea of SOHCAHTOA (or access to MS excel but more on this later). But, don't let that worry you. Lets take a look then at what information is to be found in the ResourceSphere file. 
+
+The 'ResourceSphere' holds all the resources, and any derelicts or ships. When ships are placed in the ResourceSphere they go under AI control, even when playing with no computer players.
+ 
+These are also where the Distribution (*.dist) files are linked to (i.e. the *.dist files are named in the ResourceSphere file). You need one Resource Sphere file at least, even if your map doesn't have resources, you can have more than one, but usually there is no point, unless your ResourceSphere_*.missphere file is bigger than 64K
+
+
+ 
+5.1 THE RESOURCE MISSION SPHERES 
+----------------------------------------------------------------
+
+The "ResourceSphere_*.missphere" file contains every single resource element used in the map including asteroids, dust clouds and particles. Resources can be of the following resource types:
+
+Resources   Asteroid
+Resources   DustCloud
+Resources   Nebula
+
+Each line is an individual 'cluster' of asteroids. Each line can be regarded as separate, dealing with a single sphere or cylinder shape area on your map that is full of asteroids. The information contained in each line is cross-referenced with the '*.dist' file (the distribution file) named in that line.
+
+It is VERY important that if you are placing resources that you insure that the distribution file contains the right kind of resources for the "Resource" type listed. Another important thing to remember is that the ResourceSphere names the distribution files that will be used by the game and thus is present in every folder of your map. There is a close relationship between ResourceSphere files and distribution files (closer than two really close things that are really close together). The distribution files contain all the ratio information about the asteroid type that the cluster is composed of. The types of asteroid as well as the location, total amount and area are all dealt with in the ResourceSphere file.
+
+Having no resources in the map will work fine, although the ResourcesSphere file itself is still required, don't forget to leave the MissionMan comments section at the top, just delete all resources from an existing ResourcesSphere file and add that to your folder.
+
+5.1.1 RESOURCE TYPES 
+----------------------------------------------------------------
+There are Four types of resources available; Asteroids, DustClouds, Nebula and GasCloud.
+Click here to see the Resourcetype List.
+
+Note: Gas Clouds are not supported and thus should not be used, they will crash your mission if used.
+Note Also: The value of resourcetype depends on what type of resource it is. The nebula values are indeed all the same... All the values above, I found in the Homeworld.Big file using Taleisin's big file viewer/extractor.
+
+Just make sure that the correct resource types are present within each type of distribution file. The first parameter of the resource line is what you expect to find in the distribution file named also named in that line.
+
+Ok then, lets continue and start dealing with the resource clusters. We will start by taking a look at what is actually going on in the resource lines.
+
+ 
+
+5.2 THE RESOURCES LINE 
+----------------------------------------------------------------
+
+A couple typical resource lines looks like these;
+
+Resources    Asteroid,11498.0,-75590.6,37846.9,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,? 
+Resources    DustCloud,29272.0,57643.9,-60609.0,Sphere,DustCloudCentre.dist,28,5000.0,10000.0,0.0,0.0,2048,0 
+
+The first for an Asteroid 'cluster' the second showing a Dustloud 'cluster'. Once again the seemingly intelligible mass of numbers following is simple, they are;
+
+resourcetype	posx, posy, posz, layout, distribution, numResources, radius, length, roty, rotz, properties, propertiesParam.. 
+
+resourcetype: 
+Asteroid, Nebula, GasCloud, or DustCloud 
+
+posx,posy,posz: 
+x,y,z coordinates of the cluster
+
+layout: 
+Sphere, Cylinder, Rectangle, Nebula (Nebula is a sphere, see section below)
+
+distribution : 
+the Distribution File containing cluster info.
+
+numResources: 
+number of resources
+
+radius : 
+radius of cylinder or sphere
+
+length: 
+length of cylinder  (not relevant for spheres)
+
+roty
+angle of rotation (y axis) - not relevant for spheres
+
+rotz
+angle of rotation (z axis) - not relevant for spheres
+
+properties
+Integer value See Properties more info.
+
+propertiesParam: 
+Some properties (eg: Regrow) have an attached value or 'propertiesParam'
+
+5.2.1 RESOURCETYPE 
+----------------------------------------------------------------
+This tells the game what type of resource it is dealing with here. You have a choice of three resource types and these must tie in with the distribution file you name in the line (see 'distribution' below). The types you can use are Asteroid, DustCloud, or, Nebula (There is a fourth; 'GasCloud' although if you use these, which are not supported by the game, then Homeworld will crash).
+
+5.2.2 POSX, POSY, POSZ 
+----------------------------------------------------------------
+The co-ordinates that designate the absolute centre of your cluster.
+
+5.2.3 LAYOUT 
+----------------------------------------------------------------
+The 3D layout of your resource cluster, can be either Sphere, Cylinder or Rectangle, alternately this line also earmarks Nebulas, which are spheres themselves, but they have their own wee section below.(see 'Nebulas' below). While Spheres and Cylinders are 3D shapes, Rectangles are 2D. Very flat. Very, very flat as it happens.
+
+5.2.4 DISTRIBUTION 
+----------------------------------------------------------------
+This is where you name the distribution file that the game goes to look for ratio details on the contents of your cluster. (see below on the section concerning distribution files)
+
+5.2.5 NUMRESOURCES 
+----------------------------------------------------------------
+The number of resources, this is giving the total amount of asteroids in your clusters. If you set this at 6 then you will have a total of 6 asteroids in the ratio as defined by the distribution file (but more on that later)
+
+5.2.6 RADIUS 
+----------------------------------------------------------------
+The radius of the cylinder or sphere, or the length of a Rectangles.
+
+5.2.7 LENGTH 
+----------------------------------------------------------------
+The length of a cylinder, if you have tagged the resource cluster as being a cylinder. Or the Width of a Rectangle if you have tagged that line so. If a sphere has been tagged then it is not required although using this field to give the diameter of the sphere is cool. You can't leave it out altogether (retaining format), you have to have a number in here even though it may not be used.
+
+5.2.8 ROTY, ROTZ 
+----------------------------------------------------------------
+The angles of rotation (again, not relevant for spheres). The rotation about the y axis (up/down) and the rotation about the z axis (left/right). Cylinders or rectangles co-ordinates are located at the centre of that cylinder or rectangle. It's with this very thing that causes most headaches. Look for instance at Genesis 240D or Jupiter's rings. Every ring is made up of straight lines. Much more on this later.
+
+5.2.9 PROPERTIES 
+----------------------------------------------------------------
+<Check with Gary> hahahahahahahahahah...wheee... I'm sorry, I couldn't resist. We'll have a closer look at resource properties later for the moment we will move on to derelicts;
+
+
+ 
+5.3 DERELICTS 
+----------------------------------------------------------------
+
+Derelicts are all added alongside the resources in the ResourceSphere file. Derelicts also include the planets that you will often see on various maps. They follow virtually the same rules as resources, let's take a look at a derelict line;
+
+Derelict     Homeworld,0,3000000,0,0,-90,0,?,?
+
+Really, this is just a simplified version of the resource or ship lines. The values here are;
+
+Derelict     derelicttype,posx,posy,posz,roty,rotz,properties.. 
+
+derelicttype:
+Fragment, Ghostship, Shipwreck etc
+
+posx,posy,posz:
+The co-ordinates of your derelicts.
+
+roty,rotz
+The angles of rotation ( or facing) about the y axis (up/down) and the z axis (left/right).
+
+properties
+Integer value See Properties more info.
+
+propertiesParam:
+Some properties (eg: Regrow) have an attached value or 'propertiesParam'
+ 
+5.3.1 DERELICTTYPE 
+----------------------------------------------------------------
+This tells the game what type of derelict it is dealing with here, be it a station, a piece of junk or a planet. You have a choice of many derelict types and these must tie in with what you have included in the level file (using the IncludeDerelict command). The types you can use are listed in the relic objects file (see Appendix A).
+
+5.3.2 POSX, POSY, POSZ 
+----------------------------------------------------------------
+The co-ordinates of your derelicts.
+
+5.3.3 ROTY, ROTZ 
+----------------------------------------------------------------
+The angles of rotation about the y axis (up/down) and the rotation about the z axis (left/right or facing).
+
+5.3.4 PROPERTIES 
+----------------------------------------------------------------
+<Check with Gary>
+ 
+
+
+5.4 SHIPS 
+----------------------------------------------------------------
+
+Any ships added in this file will always be under computer control, even when there are 8 players rampaging about the map. Ships have already been covered, they are used in exactly the same way as you would with a MissionSphere file. The following line is a rotating Mining Base as copied directly from the somewhat astoundingly fantastic map; 'Lughnassad'.
+
+Ships     ,42695.5,3622.8,11440.4,0,Traders,MiningBase,1,NULL_FORMATION|?|?,8,?,1,
+
+A wee point to note, here you can see the Mining Base is rotating about the z axis, which has been flagged as up/down but it seemed to work fine for me here, perhaps it's the design of the Mining Base? If you are wondering just what the hell I am wittering on about, don't worry all will become clear when we take a look at Gary's notes.
+
+
+ 
+5.5 NEBULAS 
+----------------------------------------------------------------
+
+They are twisting tubes of gas that can be collected by workers. They aren't like Dust Clouds or Asteroids. They have mysterious sub-attributes, possibly involving magic, that dictate things like tendrils and chunks. They are also transparent, like Dust Clouds and placing a lot of them tends to bog a level down. 
+
+Nebulae aren't as flexible when controlling the distribution as other resource types because of the extreme amount of randomness that goes into their construction. A vast cylindrical region thinly populated with nebulosity tendrils appears mostly identical to a vast rectangular region populated similarly, and I found that too many constraints produce unappealing tendril bunching. Nebulae tend to form in a cylindrical / spherical fashion even given the 'box' distribution (xSize,ySize,zSize).
+
+Nebulae use the same number of parameters as other resources, but again, with different intent. Lets take a look at the nebula from 'Hyperspace Arena';
+
+Resources    Nebula,-11851.0,12876.0,0.0,Nebula,nebula.dist,150,39610.0,39610.0,39610.0,10000,0,? 
+
+Once again very simply to decipher once you know how. Here's how;
+
+ResourcesNebula	posx,posy,posz,Nebula,distribution,numTendrils,xSize,ySize,zSize,numChunks
+
+posx,posy,posz
+The co-ordinates for its position. The co-ordinates designate the exact centre of the nebula.
+
+Nebula
+The 'layout' (normally cylinder, sphere, &c). Nebulae can only be of distribution 'Nebula'
+
+distribution
+the Distribution File containing Nebula info.
+
+NumTendrils
+The number of "tendrils" in the nebula.
+
+xSize, ySize, zSize
+Extent of the region that the nebula appears within, defines an axis-aligned box.
+
+NumChunks
+Seed value. Best to leave at >= 60 * numTendrils, <= 100 * numTendrils.
+
+5.5.1 POSX,POSY,POSZ 
+----------------------------------------------------------------
+The co-ordinates for its position. The co-ordinates designate the exact centre of the nebula.
+
+5.5.2 NEBULA 
+----------------------------------------------------------------
+The 'layout' (normally cylinder, sphere, &c). Nebulae can only be of distribution 'Nebula'
+
+5.5.3 DISTRIBUTION 
+----------------------------------------------------------------
+This is where you name the distribution file that the game goes to look for ratio details on the contents of your nebula. (The *.dist file, see below on the section concerning distribution files)
+
+5.5.4 NUMTENDRILS 
+----------------------------------------------------------------
+The number of "tendrils" in the nebula
+
+5.5.5 XSIZE, YSIZE, ZSIZE 
+----------------------------------------------------------------
+Extent of the region that the nebula appears within, defines an axis-aligned box.
+
+5.5.6 NUMCHUNKS 
+----------------------------------------------------------------
+Seed value. Best to leave at >= 60 * numTendrils, <= 100 * numTendrils
+
+
+ 
+5.6 RESOURCESPHERE AND MISSIONSPHERE PROPERTIES: 
+----------------------------------------------------------------
+
+...or the infamous 'Gary's Notes'
+
+The last three values in the resource, derelict and ship lines, more usually written as; '?,?,?' (and sometimes only two '?s' are used in resources, it really matters not) covers any special properties governing that resource cluster/derelict/ship, and the last two '?s', are that properties parameters.
+The most common used is the 'regrowth' property for clusters of asteroids that regrow after they have been harvested and the shell property where a line concerning a sphere of asteroids will be a shell rather than a solid sphere. Gary's list of known properties is as follows;
+
+Attributes/Value 
+
+SalvageAttachtime 	     1
+ShellOfResources 	     2
+VelToMothership 	     4
+DontApplyFriction 	     8
+KillerCollDamage 	    16
+Anomaly 		    32
+NeutralShip 		   256
+HeadShotVelToMothership    512
+HeadShotKillerCollDamage  1024
+Regrow			  2048
+SMColorInvisible 	  4096
+SMColorYellow 		  8192
+SMColorGreen 		 12288
+ 
+5.6.1 Here are some examples:
+----------------------------------------------------------------
+1	-Attempts to salvage the object result in the Salvage Corvette attaching, waiting for a short period of time (set by it's value), and then returning to the mothership without the object.
+2 - Shell of resources. This only works for the spherical distribution. This flag indicates instead of a sphere, it should be a shell.
+8	-Don't Apply Friction. This allows any ships, derelicts or asteroids placed on the map to rotate, this is covered more fully below
+256	-Neutral ship.  It shows up yellow on the mini map, won't attack you, and can't be salvaged.
+2048 - Regrowing asteroids. Set 'propertiesParam' to indicate regrowth rate from min 0 to max 7, e.g. 7 this is perhaps the most useful attribute, and allows you to create resource pockets that regrow.
+
+5.6.2 A NOTE ON ROTATING DERELICTS: 
+----------------------------------------------------------------
+Set properties to 8
+
+• If you want y-axis rotation set the first propertiesParam to 1  (Example:  8,1,?)
+• If you want z-axis rotation set the second propertiesParam to 1 (Example:  8,?,1)
+• Set both to one for rotation along both y and z (Example:  8,1,1)
+
+There has not been much done with these at time of writing, it has been suggested that upping the propertiesParam from 1 to a higher number may result in faster spin.
+
+5.6.3 A NOTE ON MISSIONMAN AND PROPERTIES: 
+----------------------------------------------------------------
+Note that properties and propertiesParam can be set from within MissionMan and that some of these properties were designed for the single player game, and may not work in multiplayer.
+
+Using MM: below "distribution" you should see "numResources". Double-click it. This tells it roughly how many RU's the resource cluster should generate.
+
+5.6.4 A NOTE ON PROPERTIES OF '64' AND '128': 
+----------------------------------------------------------------
+At time of writing I have absolutely no idea what they do or where you would use them, if you find out yourself ever, be sure to let the relicboard (and myself) know.
+
+5.6.5 MULTIPLE PROPERTIES
+----------------------------------------------------------------
+Properties can be doubled up by adding the property values together. On the ever helpful Relic Boards, Tech recently posted that properties can be combined like; rotating (8) + neutral ship (256) = 264 to give us rotating neutral ships that cant be salvaged, and so on. 
+
+
+ 
+5.7 A FEW POINTS FOR TROUBLESHOOTING THE MISSION SPHERE FILES; 
+----------------------------------------------------------------
+
+The Mission Sphere Files have the distinction of winning the 'Files most likely to crash your Game Awards For 1999' and it looks like its in for a good shout in the 2000 Awards. It is an evil file that will crash your game at the slightest opportunity. Have I talked about my problems with a comma and a full stop yet?
+
+• Pay attention for spelling errors, particularly: resource types, distribution file names and resource shape (layout) types.
+• Be very aware of the format all the lines are set in, be careful you don't accidentally exclude or add more fields when copying and pasting into lines.
+• Check that there are no derelicts or ships specified which are also excluded in the level file.
+• Check that the correct distribution files associated with each resource type.
+• 'GasClouds' are not supported and will crash HW, don't use them (allegedly).
+• If the file larger than 64KB in size, it must be cut into two files (for WON downloading).
+ 
+
+
+5.8 DISTRIBUTION OF RESOURCES; THE *.DIST FILES 
+----------------------------------------------------------------
+
+Distribution files are simple text files that hold the information on the size and amounts of each size of the resource you have in a cluster. Lets take a look at a distribution file, open up Asteroid.dist which can be found in the Tutorial Map Folder, or if you are following the tutorial you will have copied it into your Revelations2 folder;
+
+; Relative frequencies of asteroid types
+Asteroid0    0    1
+Asteroid1    1    2
+Asteroid2    2    2
+Asteroid3    2    1
+Asteroid4    1    0 
+
+These files contain three values that are;
+
+ResourceTypeSize,RelativeNumber,RegenNumber
+
+5.8.1 RESOURCETYPESIZE 
+----------------------------------------------------------------
+This is the Asteroid Size scale (in this case the Resource Type is Asteroids, there are 5 different sizes listed here, this works exactly the same way with DustClouds - 'DustCloud0' to 'DustCloud4'and Nebulae - Nebula0 to Nebula4). Size '0' is the non-harvestable dust motes, '1' are slightly larger rocks and so on until '4' which are the size of a Destroyer or larger  (See Appendix A for the listing of all available resource types).
+
+5.8.2 RELATIVENUMBER 
+----------------------------------------------------------------
+This gives us the relative number of times each asteroid type will occur. In our example, this means that for roughly every three 'Asteroid4's', there will be two 'Asteroid3's', etc
+
+5.8.3 REGENNUMBER 
+----------------------------------------------------------------
+This deals with regeneration properties and is not necessary for clusters you don't have set to regenerate. (property 2048, with propertiesParam being the regeneration rate.). If the cluster has not been set to regenerate then this number is completely unnecessary and can be omitted. 'RegenNumber' describes the distribution that the resource pocket will take after regenerating. This lets you have really valuable pockets that become less valuable after they've been completely mined (or alternately, pockets that grow MORE valuable...).
+
+5.8.4 A SUMMARY OF THE *.DIST FILE 
+----------------------------------------------------------------
+So let's have a wee shufty at our Asteroid.dist file. We can see at a glance the overall ratio of sizes that will make up each and every resource cluster that uses this file as its distribution file. We can see that in each cluster, the RelativeNumber or starting resources (those on your map when the game begins), there will be no dust motes (Asteroid0). There will be a percentage total of 16.7% 'Asteroid1' size, 33% 'Asteroid2', 33% 'Asteroid3' and 16.7% 'Asteroid4'. Or, we can say that for every 'Asteroid1' sized asteroid in this cluster you will find 2 'Asteroid2' sized asteroids, 2 'Asteroid3' sized asteroids and 1 'Asteroid4' sized asteroid.
+
+So, say your Resource line has a numResources value of '6' then you can see at a glance what they 6 asteroids will be: ie 1 Asteroid1 (small Rock); 2 Asteroid2's (Medium rock); 3 Asteroid3's (big rock) and 1 Asteroid4 (big massive rock). Once they have all been harvested, if Regen property is selected for them then the 6 rocks will regrow, only this time there will be 1 Asteroid0 (dust mote); 2 Asteroid1's... etc, Im sure you got it by now.
+
+Looking at the RegenNumber next, we see that 16.7% of the regenerated asteroids will be dust motes and so on. Eventually the entire cloud will be dust motes (because these cannot be harvested and once the are generated on your map, they are there to stay), but only after the cluster has been harvested five times.
+
+So, to summarise; the RelativeNumber column is the percentage of the numResources attribute found in the ResourceSphere file. Making the RelativeNumber column add up to the numResources attribute makes the file easily readable. One can look at it and instantly know how many of each type of entity will occur. By making the RegenNumber column a percentage of the RelativeNumber or even exactly the numResources value from the Resource line, again makes it easy to read because you can see how the cluster will regenerate.
+
+Didn't I say that these were simple?
+
+
+ 
+5.9 ON THE PLACEMENT OF SPHERES, CYLINDERS AND RECTANGLES 
+----------------------------------------------------------------
+
+5.9.1 SPHERES 
+----------------------------------------------------------------
+Spheres are relatively simple to place. Their co-ordinates mark their exact centre and thus are easily dealt with. There is however an inherent problem that if you sphere is big and/or dense then it turns into a big square. A highly annoying point, however don't despair! If you have been following the tutorial then you will see I have already covered this using my favourite solution, but there are a number of ways around this. I refer you to a discussion from the Relic Editing Message Board sparked off by Obithrawn;
+
+[Obithrawn] Its pretty much impossible to make an actually sphere of cylinder in homeworld, when you do, it always ends up looking like a square, especially if it is a really thick 'sphere'
+
+[*TAKER*] I have made some pretty good looking spheres by using four cylinders in the same location. The cylinders have a length exactly twice their radius. I have two larger ones and two smaller ones. One of each type is rotated 45 and 45 and this will give you a nice sphere a little denser towards the middle like a globular cluster.
+If you wanted to make bigger ones you could by using several cylinders again of the same x/y/z dimensions and rotating them slightly off from one another. If you want a uniform density I would think you could construct one by making several cylinders of various sizes and constructing it by placing smaller ones on the sides of the larger ones.
+
+[Hellhawk666] Regarding making nice neat spheres, try placing a number of ordinary spheres on the same centre co-ordinates but with increasing radii. Don't make the spheres too densely populated, and make the last couple shells instead of spheres - they seem to maintain a neater shape than ordinary spheres.
+
+5.9.2 CYLINDERS 
+----------------------------------------------------------------
+Ah, Cylinders. These are the toughest things to deal with. Quite frankly these are a nightmare. If you can get access to MS Excel then you are laughing, if you can't or won't then using cylinders will require a bit of work. Just remember that the co-ordinates of a cylinder is the centre of the tube! You can read a bit about Excel here, or check out what the Homeworld Excel Mapper has to offer here.
+A Cylinder is a long tube of asteroids, the radius of the cylinder as well as its length is easily controlled. However they are straight lines and do not turn, so to create rings (See 'Genesis 240D') or just weird 'streams' of asteroids (see 'Fields of Plaz') you need more than one cylinder all set end to end. To do this you need to know your trigonometry. (SOHCAHTOA!). 
+
+Say you want to put 24 cylinders end to end to form a ring. If you have access to MS Excel then its just a matter of downloading the Homeworld Excel Mapper spreadsheet from The Project Red Engineering Module: The Map an Map Makers Archives, inputting the radius and axial tilt you want this circle to have and then saving the results as a *.csv file. Copying that into your resources file and viola! One ring of asteroids.
+
+Without Excel, and until someone writes a spreadsheet for lotus 123 or any other spreadsheet package you have access to, then its trig and hard graft for you.
+
+What you need to do to link two cylinders together is to work out at what co-ordinates the ends of the each cylinder are. Its easier if you have drawn out the end points of each cylinder and you work back to find out what the central co-ordinates and the angle of rotation are and these co-ordinates/angles are then added to the line in the resources file.
+
+I'm not going to go into all the maths of how you work out the length of your cylinder in 3D, and the angle of rotation (both roty and rotz), as after I wrote the Homeworld Excel Mapper I promptly forgot it all again. But I can give you a couple documents where I got everything (including Links) I needed to relearn all that trig. If you need it, try 'The Maths Index', 'An Overview of Trigonometry' 'Kenneth Boyd's Trigonometry  - A Crash Review' or Coordinates and vectors in three dimensional space.
+
+5.9.3 RECTANGLES 
+----------------------------------------------------------------
+Rectangles are very flat, these are completely 2D shapes, good for backgrounds I suppose. They are rarely (if ever) used. I can't think of a single example other than one of the single player missions where I dredged it up using the Big viewer. They are, I'm told, used in MissionMan.
+
+Take note that they differ from cylinders in that they have a length and width as opposed to a radius and length, otherwise they can be regarded as a 2D cylinder and can be used in exactly the same way.
+Aged-OMO has recently informed me that they cannot tilt, an oddity overlooked before. I think these are best left to use as backgrounds, using dust & gravel (as in asteroid0's to fill them, a tiny.dist file for instance). If you take a look at Hyperspace Arena, there is a large stream of rectangules making up that bed of dust & gravel at the bottom of the map, very pretty.
+
+
+ 
+5.10 ON THE ADDITION OF CPU CONTROLLED SHIPS IN MULTIPLAYER MISSIONS 
+----------------------------------------------------------------
+
+Any ship of any race that has been included in the relevant section of the level file can be added into the ResourceSphere file or a CPU only file with the 'PlayerNumber' set as '-1', these ships will then be under CPU control. There is however a drawback to this. If you try adding a squadron of fighters then this becomes immediately apparent, the ships won't move other than to manoeuvre themselves into firing positions to return fire if they are attacked. This is alright for fixed emplacements so you could happily add the guns you have already seen on the single player Junkyard mission or some of the heavier ships and they then become viable targets for salvage (see Medamanx's map; 'Dustiness', or the classic BPLlama map; 'Debris Field').
+
+If you want an alien race to involve itself in offensive operations (and by this I mean actively attacking other players, not involving themselves in degrading and vile act of unspeakable filth) then you need to have these ships in a Mothership file as a player. (see 'Streamers', again by BPLlama).
+Its simplicity itself to add these ships in, just make sure you have included them in the level file and they are named correctly in the ship lines, done in exactly the same way you do your players starting fleet whether they are in the ResourceSphere or Mothership files.
+

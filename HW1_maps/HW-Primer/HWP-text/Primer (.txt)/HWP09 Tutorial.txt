@@ -1,0 +1,1054 @@
+HOMEWORLD The Map-Makers Primer
+[v2.1 Dylov 22/12/00]
+
+
+THE TUTORIAL
+================================================================
+
+
+INDEX
+----------------------------------------------------------------
+INTRODUCTION	5
+NOTES:	5
+THE HOMEWORLD TUTORIAL MAP FILES FOLDER.	5
+THE MULTIPLAYER FOLDER. (..\SIERRA\HOMEWORLD\MULTIPLAYER).	5
+'THE MAP FOLDER'.	5
+JUMPING IN AND OUT OF THE GAME: ALT-TAB-ING	5
+
+PART ONE: BASIC SET UP	7
+1,0 - THE BASIC MAP SET UP OR 'WHERE TO START'	7
+1,1 - BASIC FOLDER SET-UP.	7
+1.2 - WHAT'S GOING TO BE HERE BY THE TIME YOU FINISH...	7
+
+PART TWO: DESCRIPTION	9
+2.0 THE DESCRIPTION FILE	9
+2.1 - COPY AND PASTE A DESCRIPTION.TXT FILE INTO THE REVELATIONS2 FOLDER.	9
+2.2 - SET UP THE DESCRIPTION HEADER DISPLAYING THE IN-GAME NAME AND ACCOMPANYING NOTES.	9
+2.3 - SET COLOUR OF YOU TEXT IN THE DESCRIPTION BOX	10
+2.4 - SET DEFAULT: 'CRATES OFF'.	10
+2.5 - THE LAST WEE BIT, AND A SUMMARY	10
+
+PART THREE: LEVEL FILE	11
+3.0 THE LEVEL FILE	11
+3.1 - CREATE THE LEVEL FILE.	11
+3.2 - CHANGING THE 'MULTIPLAYER LEVEL:', 'INFO:' AND THE MAP NAME.	11
+3.3 - MISSIONSPHERE LINES; CORRECT AMOUNT AND POINTING TO THE RIGHT FILES.	12
+3.4 - UNIVERSAL MAP SETTINGS: BACKGROUND AND LIGHTING SOURCE.	12
+3.5 - UNIVERSAL MAP SETTINGS: SENSOR MANAGER PARAMETERS.	12
+3.6 - SHIPS THAT WILL BE AVAILABLE ON THE MAP.	13
+3.7 - DEFAULT MUSIC.	13
+3.8 - SUMMARY	13
+
+PART FOUR: MOTHERSHIP FILE	15
+4.0 THE MOTHERSHIP FILE	15
+4.1 - SET UP THE MOTHERSHIP_0.MISSPHERE AND MOTHERSHIP_1.MISSPHERE FILES.	15
+4.2 - ADD MORE SHIPTYPES AND SET THEIR NUMBERS AND FORMATION.	15
+4.3 - SET THE SHIPS POSITION AND FACING.	16
+4.4 - REPEATING 4.2 AND 4.3 FOR THE PLAYER TWO (MOTHERSHIP_1.MISSPHERE) FILE.	16
+4.5 - SUMMARY	16
+
+PART FIVE: RESOURCE FILE	18
+5.0 THE RESOURCE FILE	18
+5.1 - SET UP THE RESOURCESPHERE_1.MISSPHERE FILE	18
+5.2 - ADD THE REQUIRED *.DIST FILES INTO THE MAP FOLDER.	18
+
+PART SIX: PREVIEW	19
+6.0 PREVIEW THE MAP	19
+6.1 - COPY THE RELEVANT MAP FOLDER TO THE HOMEWORLD MULTIPLAYER DIRECTORY.	19
+6.2 - LOAD UP THE MAP AND TAKE A LOOK AROUND.	19
+6.3 - TWEAK THE MAP AND TAKE A LOOK AT THE CHANGES YOU MAKE.	20
+6.4 - SUMMARY	21
+
+PART SEVEN: RESOURCES	22
+7.0 RESOURCES	22
+7.1 - COPY THE RELEVANT MAP DISTRIBUTION FILES TO THE MAP FOLDER.	22
+7.2 - EDIT THE 'RESOURCESPHERE_1.MISSPHERE' FILE.	22
+7.3 - EDIT THE ASTEROID.DIST FILE.	23
+
+PART EIGHT: TWEAKING	24
+8.0 TWEAKING RESOURCES	24
+8.1 - EDIT THE 'RESOURCESPHERE_1.MISSPHERE' LOCAL PLAYER RESOURCESPHERE LINES.	24
+8.2 - EDIT THE LOCAL PLAYER RESOURCESPHERE LINES BY USING CYLINDERS TO MAKE A BETTER 'SPHERE'.	24
+8.3 - CREATE A HUGE CENTRAL DUST CLOUD FROM DUST MOTES AND DUSTCLOUDS.	25
+8.4 - SUMMARY	26
+
+PART NINE: SHIPS & DERELICTS	27
+9.0 THE ADDITION OF CPU CONTROLLED SHIPS IN MULTIPLAYER MISSIONS	27
+9.1 - ADD A RESEARCH STATION TO THE DEAD CENTRE OF THE MAP.	27
+9.2 - ADD FOUR WALLS OF AUTOGUNS IN A DEFENSIVE POSTURE AROUND THE STATION.	27
+9.3 - SUMMARY	28
+
+PART TEN: FINISHING	29
+10.0 THE ADDITION OF FURTHER PLAYERS	29
+10.1 - COPYING FILES THAT NEED NO CHANGES.	29
+10.2 - COPYING THE LEVEL FILE AND MAKING REQUIRED CHANGES.	30
+10.3 - COPYING THE MOTHERSHIP FILE AND MAKING REQUIRED CHANGES FOR THE THREE AND FOUR PLAYER VERSIONS.	31
+10.4 - COPYING THE MOTHERSHIP FILE AND MAKING REQUIRED CHANGES FOR THE FIVE AND SIX PLAYER VERSIONS.	31
+10.5 - COPYING THE RESOURCE FILE AND MAKING REQUIRED CHANGES FOR EACH PLAYER NUMBER VERSIONS.	32
+10.6 - COPYING THE DISTRIBUTION FILES.	33
+10.7 - TUTORIAL SUMMARY	33
+WELL, THATS IT, YOU HAVE DONE IT... CONGRATULATIONS!	33
+ 
+ 
+
+
+HW TUTORIAL: REVELATIONS
+----------------------------------------------------------------
+
+
+INTRODUCTION
+----------------------------------------------------------------
+This Tutorial is designed to take you through the creation of a custom map entitled 'Revelations'. To make things as easy peasy as possible I have included all the files you will need in a folder called 'HW Tutorial Map Files' and if you don't already have it, you can download a zipped version of it here. Alternately you could quite happily dredge up all the files from any existing map you already have.
+For our map Revelations, we will have a huge central cluster in the dead centre of our map with another six smaller clusters of asteroids around it at the cardinal points. One directly above, one directly below and four on the same plane as the central cluster, to the 'north', 'south', 'east' and 'west'.
+Our map will have a maximum of Six Players and they will start within each of the smaller satellite clusters. We will have a lightly defended 'Research Station' in the central cluster which will be purely decoration (and sensor disruption terrain), made up of mainly non-harvestable asteroids (or 'dust').
+A simple wee map to start you off.
+
+
+NOTES:
+----------------------------------------------------------------
+
+The Homeworld Tutorial Map Files Folder.
+----------------------------------------------------------------
+I will be mentioning this folder a lot. This folder will contain every file I talk about throughout the tutorial. Don't let this stop you trawling through other custom maps, you could always grab each and every file from almost any map. Its just easier for all concerned if i give you all the stuff in the one folder. 
+
+The Multiplayer folder. (..\Sierra\Homeworld\Multiplayer).
+----------------------------------------------------------------
+This folder is found in the Homeworld folder, and is where all your multiplayer maps are stored. When you first install the game, if it is there at all, it will be empty, when you download a map from a multiplayer (online) game, this is where the map is stored, you need to restart Homeworld for the game to recognise it, and thus list it in the Multiplayer\Skirmish Vs CPU settings screen. Go find it now, if it don't exist then create it, just make sure you name and place it exactly as i have shown above, directly into the Homeworld folder. 
+
+'The Map Folder'.
+----------------------------------------------------------------
+Homeworld maps all have their own folders, in fact each map is made up of a number of folders that I often refer to as sub-directories. There will be a folder for each amount of players the map can hold. A map that can accommodate 4 players (such as a 2v2 team game map) will be made up of three folders, a two player folder, a three player folder, and a four player folder. There will never be a one player folder obviously... When I refer to 'Map folders', these are what I'm talking about, they always have a number at the end so are easily differentiated.
+
+Jumping in and out of the game: ALT-TAB-ing
+----------------------------------------------------------------
+Using the windows shortcut ALT-TAB to switch between the game and desktop is how all the tweaking is done. Did you read the point about downloading maps over WON when online? The 'restarting homeworld so it recognises the new folders added' bit? Well, the same process happens whenever you add a map folder into the Multiplayer folder, you wont see it listed in the game until you quit and then restart the game. But happily this does not apply to the folders contents, you can add empty folders containing nothing but a description file and still have them listed when you start up the game, then add what you need to the folder, delete it, change it, swap it for another file etc, all while the game is running, ALT-TAB back into the game, reload the map, view your changes. 
+
+I find on my CPU the transition between Homeworld and windows to be much faster when I use the in game options to turn off the graphics card and select '(SW) Software' as the rendering system. But this may just be my CPU...
+
+
+
+
+PART ONE: BASIC MAP SET UP
+----------------------------------------------------------------
+
+
+PART ONE: OVERVIEW
+In this section you will set up the folders and individual sub-folders that in total, will make up your map. 
+
+1.1 Create a Folder called 'Revelations' and all the individual Sub-Folders that will in total, make up your map.
+1.2 A first look at what will comprise by the time you finish.
+
+
+1.0 - THE BASIC MAP SET UP OR 'WHERE TO START' 
+----------------------------------------------------------------
+When making maps, I use a separate folder from Homeworld to work in, I named a folder 'Workshop' While I prefer to create a folder for a new map on desktop and working in there, and then copying the entire map into the ..\Sierra\Homeworld\Multiplayer directory when I want to look at it, there is nothing to stop you working in your multiplayer folder from the start. I only do this so I can get access to all the files I may need easier, especially for copying and pasting between directories which is a common feature of maply creation. You can see a screen-grab of what I'm talking about here.
+
+
+1.1 - Basic Folder set-up.
+----------------------------------------------------------------
+Create a folder in your desktop and rename it: Revelations, go into this folder and create 5 new folders called;
+
+Revelations2
+Revelations3
+Revelations4
+Revelations5
+Revelations6
+
+
+1.2 - What's going to be here by the time you finish... 
+----------------------------------------------------------------
+Open up the Revelations2 folder and move the window aside. Leave it open somewhere on the screen as you are going to be in and out of this folder like a yo-yo from now on.
+
+We will not actually be creating all the various files that make up a map from scratch here, we will be editing existing maps. Confused? Worried? The reason is, is because Homeworld is unforgiving if you deviate from the format the files are in. You will crash faster than a dotcom company. So we use existing files as templates. The end result is usually almost a complete rewrite of the code that was their before, but the ability to copy and paste between these files is what makes it so simple. If you have TextPad then this is made all the easier with its ability to deal with multiple files. With Notepad it's a little less wieldy but still far, far easier than the mysteries of MissionMan.
+
+As shown above our map will accommodate up to six players, and so will consist of five folders. What that means in real terms is that you have to make five separate maps! 'Five Maps!?' I hear you ask. Yes I say, Five maps! Each folder must be able to stand up as a map in its own right. This is made simple by the fact that each map is basically a copy of the previous map, only with a few more Mothership_#.missphere files thrown in.
+At the moment all five of your revelations folders are empty. By the time you have finished this primer you will have the following files in here;
+
+Description.txt
+Revelations2.level
+Mothership_0.missphere
+Mothership_1.missphere
+ResourceSphere_1.missphere
+Asteroid.dist
+DustCloud.dist
+Tiny.dist
+
+All these files are required for each map, although you could get away with less '*.dist' files if you have less asteroid types named in your ResourceSphere file, but that particular point is covered later. We will take each file step by step in the order I have shown them in above.
+
+
+
+
+PART TWO: DESCRIPTION FILE
+----------------------------------------------------------------
+
+
+PART TWO: OVERVIEW
+----------------------------------------------------------------
+In this section you will deal with the Description File: 'Description.txt'.
+
+2.1 Copy and Paste a Description.txt file into the Revelations2 folder.
+2.2 Set up the Description header displaying the in-game name and accompanying notes.
+2.3 Set up the Colour the text in the description box will appear in. 
+2.4 Set Default: 'Crates off'.
+2.5 Summary
+
+
+2.0 THE DESCRIPTION FILE
+----------------------------------------------------------------
+The Description file (Description.txt) gives the description of your map and allows you to tweak the options that are available within the Homeworld game itself, in the Multiplayer\Skirmish Vs CPU settings screen. With this file you set the default options for the map, be it crates on, caps off, injections on etc. This file will be the same file copied into all the maps Sub-Folders, there are no differences between any of them ( - they all must be identical) so this file only needs to be changed once. There will never be more than one per folder.
+
+
+2.1 - Copy and Paste a Description.txt file into the Revelations2 folder.
+----------------------------------------------------------------
+Open up the Tutorial Map Files Folder (or indeed, any other map folder in the homeworld/multiplayer folder), and find the file called Description.txt. Highlight the file and copy it (highlight it, press ctrl-c or right click on the file and select copy), then paste a copy of this file into your spanking new 'Revelations2' folder.
+
+
+2.2 - Set up the Description header displaying the in-game name and accompanying notes.
+----------------------------------------------------------------
+OK, open up this file and look at the first five lines beginning with: 'Description<tab>'. While not touching 'Description' or the tab space after it, rename the map to "Revelations (2-6 Players)" and change the map description text to: "Hooray me! My First Map! Am I not just the dogs bollocks!?" Leave the line; 'Settings: Crates off'. In the line below put your own name and email in, below that change the date.
+
+I would really suggest you keep these last two lines in, everyone likes to advertise who made the map and there is a fantastic Homeworld community of map makers out there, all centred on the relic boards, and who are always happy to help/be helped. The version is important so folks can see at a glance what version of a map they are using, especially if updates are available (So far this has happened with 'Haven', 'Deepspace' and 'Arachne'- all fine maps that had some initial teething problems).
+OK so now you have something looking like this:
+
+Description        Revelations (2-6 Players)
+Description        Hooray me! My First Map! Am I not just the dogs bollocks?
+Description        Settings: Crates off.
+Description        AUTHOR: Dylov (dy.lov@techemail.com)
+Description        VERSION: 1.0 (May 01 2000)
+
+Of course you will have a different name and date, but you get the idea. 
+
+Now, later on we will be copying this file into all the other map folders, and I will be telling you that they all must be identical. Well... this is not strictly true... You should feel free to make changes to the default settings as they will register in the game, but these lines we have just covered (the header lines) abso-positively must be identical in all the map folders, you mess up the header and Homeworld goes in a big huff and refuses to show any of them in the game when you select your map. Anyway don't worry about this just now, this will all be covered later, lets continue down the file and change the default settings to fit our map.
+
+
+2.3 - Set Colour of you text in the Description box
+----------------------------------------------------------------
+The Next three lines give the settings for the font and colour in the description box, they are;
+
+Font                Arial_b12.hff
+Color               0, 180, 40
+DropShadow     Yes
+
+Don't change the font, or it will crash HW:C. Don't change 'Dropshadow' either, I have no idea what it does, and you can set it to "No" but I have never noticed any difference and its probably best left well alone. You can change the text colour, and it's probably best I leave you to play around with it a bit yourself, until you come up with a colour you like, just change the R/G/B values, (min=0, max=255), remember don't touch the format, just the actual values.
+
+
+2.4 - Set Default: 'Crates off'.
+----------------------------------------------------------------
+From Chapter 2.2 of the Primer (Default settings),  we learned that if you want an option off, place a semicolon at the start of each "type.flag" line, not the "type.flgNeeded" line. If you want the option on, then remove the semicolon from in front of it. On your Description.txt file, scroll down until you come across the two lines dealing with crates and switch the crates off. Just follow the example I gave. Don't change anything else, we will leave the rest of the settings as they are for the moment.
+
+
+2.5 - The Last wee bit, and a Summary
+----------------------------------------------------------------
+The last wee block deals with injections and starting RU defaults, again the game defaults are all preset at the popular options of 'NO Injections' and Maximum RU (ie 4000) beginning amounts. We will ignore them as we want these starting amounts, they are fine for us. 
+We are finished with the Description file for the moment. Save the and close the description.txt file and lets move on to the Level file.
+
+
+
+
+PART THREE: LEVEL FILE
+----------------------------------------------------------------
+
+
+PART THREE: OVERVIEW
+In this section you will deal with the Level File: 'Revelations2.level'.
+
+3.1 Create the level file. Copy and Paste any Level file into the Revelations2 folder. Rename this file Revelations2.level.
+3.2 Change the 'Multiplayer Level:' tag, and the 'Info:' tag and add the name of your map inside the square brackets.
+3.3 Check the Missionsphere lines are the correct amount and pointing to the right files.
+3.4 Change the background and lighting.
+3.5 Change the universal settings (Sensor manager settings and the overall map size).
+3.6 Set the ships that will be available on the map.
+3.7 Set the default music.
+3.8 Part Three Summary.
+
+
+3.0 THE LEVEL FILE
+----------------------------------------------------------------
+The Level file contains all the basic information about your map. It contains the name and race of all the starting ship files, the name of the resource file, the universe size, the lighting type, the background type, the sensor manager zoom sizes, the default song to be played and any ship restrictions. There will never be more than one per folder and all will contain only minor changes between folders of the same map.
+
+
+3.1 - Create the level file.
+----------------------------------------------------------------
+The best place to start with a *.Level file is with one that already exists. Every map you Have has one. Every map that you don't have has one too, you can trust me on this. Happily, the Tutorial Map files folder has one too, and more; it's snappily named: TutorialMap2.level. Pretty damn snappy huh?
+
+3.1.1 - From the Tutorial Map files folder and copy the file called 'TutorialMap2.level' into your 'Revelations2' folder. 
+
+3.1.2 - Rename the file to: 'Revelations2.level' (always take care that when you rename the *.level file to match the folder it resides in, that you rename it EXACTLY as the name of the folder is, remember when we talked about CaSe?).
+
+
+3.2 - Changing the 'Multiplayer Level:', 'Info:' and the map name.
+----------------------------------------------------------------
+Open up this 'Revelations2.level' file. Look now at the top six lines. These first six lines have to retain their Format, so all you will change is the 'Multiplayer Level:' tag, and the 'Info:' tag and the name of your map inside the square brackets. Keep that fifth blank line, (between the four header lines and the map name in the square brackets) as well as the blank line immediately after the map name in square brackets. 
+
+3.2.1 - Change the map name to 'Revelations2', (and see that it matches the name of the folder in exactly! If the folder is called 'revelations2' and you input 'Revelations2' here then it will not work, it wont appear in the custom map listing in the game, always remember that case matters). Change the info tag to 'Revelations (2-6)', and change the name in square brackets to 'Revelations (2-6)' 
+So now your header should look like this:
+
+; MissionMan script, Friday, Sep 3 1999, 12:15:09 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Revelations2
+; Info: Revelations (2-6)
+ 
+[Revelations (2-6)] 
+
+
+3.3 - Missionsphere lines; correct amount and pointing to the right files. 
+----------------------------------------------------------------
+Take a look at the next three lines, these are three Mission Sphere lines We see that these refer to a Resourcesphere file entitled 'ResourceSphere_1.missphere' and two Mothership files entitled 'Mothership_0.missphere' (for the first player), 'Mothership_1.missphere' (for the second player). 
+
+If there are more than two lines dealing with Motherships files, just delete them, if there are less than two (and I can't envisage that happening but just in case) then just close the file, go find another *.Level file from any map folder ending in a '2', and using this file go back and do part 3.2 again. You need two. You have two? Cool, this is fine, lets leave these as they are, we will eventually be adding the files as named in these lines but for the moment lets move on to the last chunk of lines in your level file.
+
+
+3.4 - Universal Map Settings: background and lighting source.
+----------------------------------------------------------------
+Okay then, lets sort out the universal map settings of our map. The first thing we want to do is decide on a background and lighting source for the map. Our Revelations2.level file has currently got lighting file 'ez05' and background file 'ez05' set. These correspond to lighting file ez05.hsf and background file ez05.btg (the Lighting and Background from single player mission Five), which are found within the homeworld.big file if you'd care to go looking with the 'BIG viewer'. 
+
+3.4.1 - We are going to change these, not to another single player map file, but to a brand new one as supplied to us by the inimitable /Downslope\. In the Tutorial Map files folder there are two files that I want you to copy into your Revelations2 folder they are 'downslope.hsf' and 'Downslope.btg'. 
+
+3.4.2 - For these lines, change 'ez05' to 'downslope' for the Lighting line and 'Downslope' for the Background line. In the Background line, change the rotz from 180 degrees to 0 degrees.
+
+
+3.5 - Universal Map Settings: Sensor Manager parameters.
+----------------------------------------------------------------
+Next we have the Sensor Manager parameters to deal with. 
+3.5.1 - Leave the first three lines alone (the smDepthCueRadius, smDepthCueStartRadius and the smCircleBorder). The Zoom Max and Zoom Min we will leave also, these are fine for our needs, and we are not making a huge map. 
+
+3.5.2 - We will however reduce the size of our map though, change the next three parameters regarding the Universe size (radius) to 150000 (150km). Do this for all three lines (smUniverseSizeX, smUniverseSizeZ and smUniverseSizeY). For each axis we are setting radius to 150km, therefore this will make the map a big cube 300km in length, width and breadth.
+These lines should now look like this;
+
+Lighting    downslope
+Background    Downslope, 0, 0
+smDepthCueRadius    50000 
+smDepthCueStartRadius    20000 
+smCircleBorder    90000 
+smZoomMax    500000 
+smZoomMin    30000 
+smInitialDistance    145000 
+smUniverseSizeX    150000 
+smUniverseSizeZ    150000 
+smUniverseSizeY    150000 
+
+
+3.6 - Ships that will be available on the map. 
+----------------------------------------------------------------
+Lets sort out then what ships will be available and set the default music for the map. At the moment your Revelations2.level file excludes all alien races bar the Kushan and Taiidan, we however want more, we are going to add a moderately defended station on our map, lets use the Traders Research Station for this. 
+
+3.6.1 - Below the line that says "ExcludeShips    Traders,All" we will add the station and its defence by including it on our map using the "IncludeShips" command. We want to add a ResearchStation and the Junk_Lgun and Junk_Sgun. So we would add these three lines;
+
+IncludeShips     Traders, ResearchStation 
+IncludeShips     Traders, Junk_Lgun 
+IncludeShips     Traders, Junk_Sgun
+
+We have not actively excluded the Kushan and Taiidan races so they will be there, adding the lines; 'Includeships    R1,All' and 'Includeships    R2,All' is merely superfluous as both are default races, but you'll notice that LightDefenders, The SuperHeadshotAsteroid and the TargetDrone have been excluded, this is fine as these are rarely used and are a bit crap, leave them alone.
+
+
+3.7 - Default Music. 
+----------------------------------------------------------------
+Lastly we will set the default music for the map. 
+
+The song number, is currently set at '0', which is a sort of default, lets change this to song 10. You can see a full listing of the available music in the Primer Appendices, changing this will not affect use of the '<' and '>' keys when in the game to change the music.
+
+
+3.8 - Summary
+----------------------------------------------------------------
+So all our final lines in the Revelations2.level file will look like this;
+
+ExcludeShips    P1,All 
+ExcludeShips    P2,All 
+ExcludeShips    P3,All 
+ExcludeShips    Traders,All 
+IncludeShips    Traders, ResearchStation 
+IncludeShips    Traders, Junk_Lgun 
+IncludeShips    Traders, Junk_Sgun  
+ExcludeShips    R1,LightDefender 
+ExcludeShips    R2,LightDefender 
+ExcludeShips    R2,HeadShotAsteroid 
+ExcludeShips    R1,HeadShotAsteroid 
+ExcludeShips    R1,TargetDrone 
+ExcludeShips    R2,TargetDrone 
+ExcludeGasCloud    All 
+ExcludeDerelict    All 
+IncludeDerelict    Crate 
+SongNumber    10 
+
+And that's the level file done with for the moment. Save your file and close it up. Pat yourself on the back and tell yourself how brilliant you are, you are well on the way now to completing your first map.
+
+
+
+
+PART FOUR: MOTHERSHIP FILE
+----------------------------------------------------------------
+
+
+PART FOUR: OVERVIEW
+In this section you will deal with the Mothership Mission Sphere Files: 'Mothership_0.missphere and Mothership_1.missphere'.
+
+4.1 Set up the Mothership_0.missphere and Mothership_1.missphere files. 
+4.2 Add more shiptypes and set their numbers and formation.
+4.3 Set the ships position and facing.
+4.4 Repeat 4.2 and 4.3 for the Player Two file.
+4.5 Part Four Summary.
+
+
+4.0 THE MOTHERSHIP FILE
+----------------------------------------------------------------
+Mothership files contain all the player starting fleets and the starting location of those fleets. The most important aspect of these files is the fact that these files are named in the level file and the game will seek out these named files, if they are not included as listed in the level file (case and spelling again!) then the game will crash. 
+
+
+4.1 - Set up the Mothership_0.missphere and Mothership_1.missphere files. 
+----------------------------------------------------------------
+Once again let's use the example given in the Tutorial Map Files folder, go into it and copy both the Mothership_#.missphere files into your Revelations2 folder. 
+
+4.1.1 - These files will concern ship details for player one and player two consecutively.
+Rename each file to;
+
+Mothership_0.missphere
+Mothership_1.missphere. 
+
+4.1.2 - Open both these files, we will edit both simultaneously, it's easier that way.
+
+
+4.2 - Add more shiptypes and set their numbers and formation.
+----------------------------------------------------------------
+Okay lets take a look at our starting fleets. The basic start up kit; along with the Mothership we have a resource collector and a research ship. Let's add more. Now, the simplest way would be to copy the starting fleet we want from another Mothership_#.missphere file and change the fleets starting location and facing to fit the map, but we are going to do this the hard way.
+
+We will deal with one file at a time here to speed things up, so starting with the Mothership_0.missphere file (Player One).
+
+4.2.1 - Copy the last line four times, leaving no blank line gaps. So we now have 7 lines of ships. We want to have a resource controller in there, as well as some scouts, three frigates and three ion frigates (as in Hyperspace Arena). 
+
+4.2.2 - First off, we will rename all our ships, using Relic's Ship list in Appendix A, (and being-ware of case and spelling!) 
+
+Rename your newly copied ship lines to the ships you want. You want to change these last four lines, respectively changing 'ResearchShip' to: 
+
+ResourceController
+LightInterceptor
+StandardFrigate
+IonCannonFrigate
+
+4.2.3 - Okay, change the numbers of each ship type, we want; 
+
+2 ResourceCollectors
+1 ResourceController
+4 ResearchShips
+5 LightInterceptors
+3 StandardFrigates
+3 IonCannonFrigates
+
+We are happy with the rest of the lines for the moment, just make sure they are all in PARADE_FORMATION, so the position will not matter, the facing we will deal with shortly (see 4.3) and the race is "R1". Cool. If its not R1 (Kushan) then change every R2 that you can find to R1
+
+
+4.3 - Set the ships position and facing. 
+----------------------------------------------------------------
+Position and facing (or location and ship heading) using the posx, posy and posz co-ordinates (position) and rot (rotation) parameters. We want one player set up to the 'north' of the map (top of your drawn out map) and the second player to the 'south' (bottom of your drawing). Also, we don't want the players to start too far apart, perhaps 100km will be enough (and we can always change this once we have seen our map). 
+
+We will be using PARADE_FORMATION throughout because all ships that begin in PARADE_FORMATION, their posx, posy and posz values and their facing will be the same. ie; using PARADE means you only need to set up the co-ordinates for the Mothership and any included ships will default in the same positions they attain when they are built in the game. 
+
+4.3.1 - For Player One (the Mothership_0.missphere file) change the x,y,z co-ordinates to; 0,50000,0.
+
+4.3.2 - Dealing with the facing (rot), remembering that x=0 and the angle is measured anticlockwise, we can see from our drawing that to have player 1 (at co-ord. 0,50000,0) facing the centre he must turn 270 degrees (or -90(), for player 2 on the 'minus' y axis this turn will be 90(. Just remember your trigonometry and you can't go wrong. 
+
+
+4.4 - Repeating 4.2 and 4.3 for the Player Two (Mothership_1.missphere) file. 
+----------------------------------------------------------------
+Repeat parts 4.2 and 4.3 for the Mothership_1.missphere file (Player Two), and change every R1 you find to 'R2'.
+The easiest and quickest way to do this is just by copying the entire contents of the Player One missphere file over the entire contents of the Player Two missphere file and then changing merely;
+
+(4.2.3) All the R1 references (to; R2)
+(4.3.1) The location co-ordinates (to; 0,-50000,0,)
+(4.3.2) All the position (rot) values (to; 90)
+
+
+4.5 - Summary
+----------------------------------------------------------------
+OK then, now you're Mothership_0.missphere file (for Player One) should look like this;
+
+; MissionMan script, Friday, Sep 3 1999, 12:14:43 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership  
+
+Ships     ,0.0,50000.0,0.0,-90.0,R1,Mothership,1,NULL_FORMATION|?|?,?,?
+Ships     ,0.0,50000.0,0.0,-90.0,R1,ResourceController,1,PARADE_FORMATION|?|?,?,?
+Ships     ,0.0,50000.0,0.0,-90.0,R1,ResourceCollector,2,PARADE_FORMATION|?|?,?,?
+Ships     ,0.0,50000.0,0.0,-90.0,R1,LightInterceptor,5,PARADE_FORMATION|?|?,?,?
+Ships     ,0.0,50000.0,0.0,-90.0,R1,ResearchShip,4,PARADE_FORMATION|?|?,?,?
+Ships     ,0.0,50000.0,0.0,-90.0,R1,StandardFrigate,3,PARADE_FORMATION|?|?,?,?
+Ships     ,0.0,50000.0,0.0,-90.0,R1,IonCannonFrigate,3,PARADE_FORMATION|?|?,?,? 
+
+And you're Mothership_1.missphere file (for Player Two) should look like this;
+
+; MissionMan script, Friday, Sep 3 1999, 12:14:43 PM 
+; Copyright (c) 1998-99, Relic Entertainment Inc. 
+; MissionSphere Object: R2,Mothership   
+
+Ships     ,0.0,-50000.0,0.0,90.0,R2,Mothership,1,NULL_FORMATION|?|?,?,? 
+Ships     ,0.0,-50000.0,0.0,90.0,R2,ResourceController,1,PARADE_FORMATION|?|?,?,? 
+Ships     ,0.0,-50000.0,0.0,90.0,R2,ResourceCollector,2,PARADE_FORMATION|?|?,?,? 
+Ships     ,0.0,-50000.0,0.0,90.0,R2,LightInterceptor,5,PARADE_FORMATION|?|?,?,? 
+Ships     ,0.0,-50000.0,0.0,90.0,R2,ResearchShip,4,PARADE_FORMATION|?|?,?,? 
+Ships     ,0.0,-50000.0,0.0,90.0,R2,StandardFrigate,3,PARADE_FORMATION|?|?,?,? 
+Ships     ,0.0,-50000.0,0.0,90.0,R2,IonCannonFrigate,3,PARADE_FORMATION|?|?,?,? 
+
+And that's that. Simple. We have set up two starting fleets, for Player One (Kushan) and Player Two (Taiidan), sitting facing one another in the basic starting formations around their Motherships and at 100km apart.
+You could if you wish have the other ships, say the scouts for instance, in any of the viable formations other than PARADE and the co-ordinates will locate the central or 'lead' ship in that formation. Just be careful that your ships are not too close together.
+
+
+
+
+PART FIVE: RESOURCE FILE
+----------------------------------------------------------------
+
+PART FIVE: OVERVIEW
+In this section you will set up the ResourceSphere File: 'ResourceSphere_1.missphere', and prepare for a preview of your map.
+
+5.1 Set up the ResourceSphere_1.missphere file 
+5.2 Add the required *.dist files into the map folder.
+
+
+5.0 THE RESOURCE FILE
+----------------------------------------------------------------
+This file contains every single resource element that we want to use in the map including asteroids, dust clouds and particles. When ships are placed in the ResourceSphere they go under AI control, even when playing with no computer players. There will only be more than one of these if it becomes bigger than 64k.
+
+
+5.1 - Set up the ResourceSphere_1.missphere file 
+----------------------------------------------------------------
+Open up the Tutorial Map folder and copy the Resource file called 'ResourceSphere_1.missphere' into your 'Revelations2' folder. Check to make sure this file name is exactly as named in the Revelations2.level file, in this case it is, the level file says the resources are to be found in the file named 'ResourceSphere_1.missphere' and the file is indeed called 'ResourceSphere_1.missphere'. (Once again, the case should match EXACTLY).
+
+Next we would normally want to delete all the resources that are in here, as we want to add or own. We would delete everything bar the first three lines (the MissionMan generated headers). However, don't do it just yet, I'm gonna show you a wee trick that I use. 
+
+
+5.2 - Add the required *.dist files into the map folder.
+----------------------------------------------------------------
+The ResourceSphere file in the Tutorial Map folder is taken from the Relic made default map called 'Hyperspace Arena'. I found this file using the Big Viewer, in the Homeworld/Multiplayer/Hyperspace2 folder to be precise. I think it was originally called 'ResourceSphere_3.missphere' but that's not important. Anyway, what I do is just copy this file into my map folder and look at the names of the *.dist files that this file refers to. In this case there are four, and they are; 
+
+AsteroidCentre.dist
+DustCloudCentre.dist
+AsteroidLong.dist
+nebula.dist. 
+
+We will cover these shortly, but for the moment just nod in agreement. "Yes Dylov..." Right, these four distribution files have been named so they will be required, happily they have all been included in the Tutorial Map folder. So go there and copy all four files into your Revelations2 folder.
+
+The point of adding in all 'Hyperspace Arena's' resources is so that you can see your map and get an idea of the scale. 'Hyperspace Arena' is a medium to large map, this is a handy thing to do if you, like me are into big maps. I have a habit of making huge maps that are way too big, this gives me some idea of a decent sized map so I don't start with players absolutely bloody miles away from each other. 
+
+
+
+
+PART SIX: PREVIEW
+----------------------------------------------------------------
+
+PART SIX: OVERVIEW
+In this section you will take a first look, a preview of your map.
+
+6.1 Copy the relevant map folder to the Homeworld Multiplayer directory. 
+6.2 Load up the Map and take a look around.
+6.3 Tweak the Map and take a look at the changes you make.
+6.4 Part Six Summary.
+
+
+6.0 PREVIEW THE MAP
+----------------------------------------------------------------
+Using the windows shortcut ALT-TAB to switch between the game and desktop is how all the tweaking is done. Did you read the point about downloading maps over WON when online? The 'restarting homeworld so it recognises the new folders added' bit? Well, the same process happens whenever you add a map folder into the Multiplayer folder, you wont see it listed in the game until you quit and then restart the game. But happily this does not apply to the folders contents, you can add empty folders containing nothing but a description file and still have them listed when you start up the game, then add what you need to the folder, delete it, change it, swap it for another file etc, all while the game is running, ALT-TAB back into the game, reload the map, view your changes.
+
+6.1 - Copy the relevant map folder to the Homeworld Multiplayer directory. 
+
+Now, copy your Revelations2 folder into the Homeworld/Multiplayer folder (if its not already there). Your Revelations2 folder should contain the following files;
+
+Revelations2.level
+Description.txt 
+Mothership_0.missphere 
+Mothership_1.missphere 
+ResourceSphere_1.missphere 
+Downslope.btg 
+Downslope.hsf 
+AsteroidCentre.dist 
+DustCloudCentre.dist 
+AsteroidLong.dist 
+nebula.dist 
+
+Make sure that it does, then away you go and start up Homeworld. 
+
+6.2 - Load up the Map and take a look around.
+----------------------------------------------------------------
+In the Multiplayer/Skirmish Vs CPU/Set Up Game/Basic Options screen, your mission is listed as; 'Revelations (2-6)'. Take note of the description box when you select your map, make sure all is well. 
+If you cant see your map listed then you have made a mistake somewhere, most likely in the naming, check that the folder name matches exactly (Case and Spelling!) the name your map has in the Revelations2.level file, as I was saying here. Possibly, you never actually changed the map name itself in the *.level file and it may have been recognised but the game has it listed as something else, ie Tutorial Map or whatever. If you can see it then select it anyway, we can change everything later.
+
+6.2.1 - You only have the map set up for two players at the moment so start up a 2-player game on your map. 
+
+Did it work? It should have, if not be sure to go through each stage of the tutorial checking you done everything right added everything I told you to, and remember; case and format. Case and format and Spelling.
+
+6.2.2 - In the game, look around, marvel at your stellar work thus far. You should see two MS's 100km from each other, either side of the nebula that lies at the heart of the 'Hyperspace Arena' map. 
+
+6.2.3 - Pay attention that the background matches the light source (A minor yet important point. My original version of 'Lughnassad' had the lighting all mixed up and I only noticed after I had spent ages placing all the resources and stuff. I had to virtually rewrite the whole damned thing after that. Man, I was royally miffed). 
+
+6.2.4 - Are you happy with the music? 
+
+6.2.5 - Are the two players facing the right direction and are all the ships placed okay? (fire off a probe at the CPU Mothership to check this, or, record the game then check the recording for it's disposition and facing).
+
+6.2.6 - When you are finished quit out of the map, back to the main menu and press Alt-Tab to jump back to desktop, you will want to keep Homeworld running from now on. 
+
+
+6.3 - Tweak the Map and take a look at the changes you make.
+----------------------------------------------------------------
+Okay, lets tweak a little bit. We'll fool around with your description box and the light source. Remember you are now working from the files within the Homeworld/Multiplayer Directory itself if you created your map elsewhere. Remember, don't touch the map folder itself! From here on only save/delete/rename/etc. the files this map folder contains.
+
+6.3.1 - The Description box looks a little bunched up lets space out those lines of text a little. This is easily accomplished here by adding in two more lines beginning with 'Description<tab>' in the Description.txt file. Add these lines in the relevant places so your first few lines will look like this;
+
+Description    Revelations (2-6 Players)
+Description    
+Description    Hooray me! My First Map! Am I not just the dogs bollocks?
+Description    
+Description    Settings: Crates off.
+Description    AUTHOR: Dylov (dy.lov@techemail.com)
+Description    VERSION: 1.0 (April 19 2000) 
+
+You could if you so wish make the revelations titled Bold by adding the usual '&' (shift-7) in front of every letter, but note that if you do this, the game still regards the '&' as a space used and even though you cant see the '&', you will still see the effects it will have on long titles, you will find it wraps. 
+
+6.3.2 - You'LL have noticed that /downslope\ has set his light source as almost directly above and slightly more to the rear of your Mothership starting position, so lets move the background about a little to match up the star with the light source.
+
+In the level file change the background line a little, we won't rotate it up/down (as /downslope\'s background is completely unforgiving for even a minor changes) but we will rotate the left/right (rotz) by a small amount though, say; 20(. (Remember that x=0( when we rotate the map, we are rotating it 'anticlockwise', by 20().
+The line should now look like this;
+
+Background    Downslope, 20, 0
+
+6.3.3 - Still in the level file, lets change the Overall map size a little. We can see that 150km radius gives two thirds volume of empty space around our players at the core, so as we aim to make an inward looking map, lets reduce the size a little... Actually lets reduce it a Lot! Cut the smUniverseSizeX, smUniverseSizeZ and smUniverseSizeY size down by half to 75km (75000).
+
+6.3.4 - Okay have a last look at the settings for the map in the Description.txt file, check that only crates are switched off, are you happy with the starting RU's and the bounty level? Sweeeet...
+
+6.3.5 - Away into Homeworld (ALT-TAB) and look at the results to these changes. Looks much better huh? 
+
+
+6.4 - Summary
+----------------------------------------------------------------
+Okay, so the map is working, the Ships are set up for players One and Two, the Game Settings, Background, Lighting, Universe Size and Sensor Manager settings are done. All that really remains is the resources and the extra players. And look how simple this has been so far! We're over halfway done so lets quickly push on and finish the two player map fully, by setting up our resources. 
+
+
+
+
+PART SEVEN: RESOURCES
+----------------------------------------------------------------
+
+PART SEVEN: OVERVIEW
+In this section you will begin setting up the resources starting with a template for each players local resources.
+
+7.1 Copy the relevant map distribution files to the map folder. 
+7.2 Edit the 'ResourceSphere_1.missphere' file. 
+7.3 Edit the Asteroid.dist file. 
+
+
+7.0 RESOURCES
+----------------------------------------------------------------
+The ResourceSphere_1.missphere file contains every single resource element that we want to use in the map including asteroids, dust clouds and particles. When ships are placed in the ResourceSphere they go under AI control, even when playing with no computer players. There will only ever be more than one of these if it becomes bigger than 64k.
+We know exactly what is going on in the Resources and Distribution Files, we know that not only the resource clusters are here, but also if we want AI controlled ships and other derelicts or scenery then they all go in here too. 
+
+
+7.1 - Copy the relevant map distribution files to the map folder. 
+----------------------------------------------------------------
+In your Revelations2 folder delete all the *.dist files. Now, go into the Tutorial Map Folder, you will find three more distribution files called 'Asteroid.dist', 'DustCloud.dist' and, 'Tiny.dist' copy these into your Revelations2 folder. Don't worry about the distribution files at the moment, they are simple text files that have the data pertaining to the range of sizes of each resource type, and should we need it; the regeneration rates of these resource types. We will deal with these later, but we add them now so we can jump in and out of the game and see our changes as we make them.
+
+
+7.2 - Edit the 'ResourceSphere_1.missphere' file. 
+----------------------------------------------------------------
+Open up the 'ResourceSphere_1.missphere' file now, we will ignore the 3 line header beginning with the semicolon and deal with the rest. 
+
+7.2.1 - We only need the first line beginning with Resources<tab>, so I want you to delete every other line beginning with Resources<tab>, so we are left with just the one. The only reason we are keeping this line is because it makes a handy template to build our resources from.
+
+7.2.2 - Okay our first line should look like this;
+
+Resources    Asteroid,11498.0,-75590.6,37846.9,Sphere,AsteroidCentre.dist,20,10038.4,20076.8,0.0,0.0,2048,?
+
+which reads:
+
+Resources    resourcetype, posx, posy, posz, layout, distribution, numResources, radius, length, roty, rotz, properties, propertiesparam..
+
+7.2.2.1 - First we will to change the location of this spherical cluster. We want this sphere to be one of the spheres that surround the player Mothership. The easiest way to do that is to open up the Mothership_0.missphere file (Player One) in your Revelations2 folder and copy the x,y,z co-ord. (posx,posy,posz) and replace the posx,posy and posz values in your resource line with these. So that's the cluster centred about the players MS,
+
+7.2.2.2 - We are happy that it's a sphere so leave that.
+
+7.2.2.3 - Next we want to point this resource line at the 'Asteroid.dist' file, so delete 'AsteroidCentre.dist' and replace it with 'Asteroid.dist'.
+
+7.2.2.4 - Leave the resourceNum at 20 it's a nice big amount to start us off and allow for initial building in the relative safety of the immediate vicinity of the Mothership.
+
+7.2.2.5 - Lets leave the next two values alone, the radius and diameter is fine here, we know this because this is the resource cluster that we start in when we play 'Hyperspace Arena' and if it ain't broke...
+
+7.2.2.6 - Angle and rotation are fine, for a sphere it does not matter in the slightest, ignore them.
+
+7.2.2.7 - The property value for this sphere is already set at Regeneration (2048), this is cool as we want the to regenerate to encourage the players to stay put and not all charge into the centre as is too often the case. The propertiesParam has been left at the default of '?', this seems to manifest as roughly the propertiesParam value of 7. Lets speed it up a little, lets hike it all the way up! Change the propertiesParam to '1'.
+
+And that's it. Your lines should look like this;
+
+Resources    Asteroid,0.0,50000.0,0.0,Sphere,Asteroid.dist,20,10038.4,20076.8,0.0,0.0,2048,1
+Resources    Asteroid,0.0,-50000.0,0.0,Sphere,Asteroid.dist,20,10038.4,20076.8,0.0,0.0,2048,1
+
+Start up Homeworld and take a look at everything so far then Alt-Tab back to desktop. Lets go on to discuss the distribution files in a bit more depth.
+
+
+7.3 - Edit the Asteroid.dist file. 
+----------------------------------------------------------------
+This file contains the information on the size and amounts of each size of the resource you have in a cluster. They are very simple files giving the relative sizes of asteroids/dustclouds of the resources named in the Resourcesphere file. There can be any amount of distribution files in the folder.
+
+We now know that the range of sizes of each resource type, and the range of regeneration are found in the distribution file that each resource line names. Lets give a slightly higher emphasis to the ratio of asteroids found in the Asteroid.dist file. Change the Asteroid.dist file lines to match this;
+
+Asteroid0    0    1
+Asteroid1    2    3
+Asteroid2    3    3
+Asteroid3    3    2
+Asteroid4    1    0
+
+The point of this is to give the clusters our players start in more RU's. This will make these clusters highly desirable areas worth fighting for, bring the fight to each other as opposed to a central area drawing each player in, as many small maps tend to do. 
+
+
+
+
+PART EIGHT: TWEAKING
+----------------------------------------------------------------
+
+PART EIGHT: OVERVIEW
+In this section you will edit the local player resources and add a huge cloud of dust motes and dustclouds in the centre of the map.
+
+8.1 Edit the 'ResourceSphere_1.missphere' local player resourcesphere lines.
+8.2 Edit the local player resourcesphere lines by using cylinders to make a better 'Sphere'.
+8.3 Create a huge central dust cloud from dust motes and dustclouds.
+8.4 Part Eight Summary.
+
+
+8.0 TWEAKING RESOURCES
+----------------------------------------------------------------
+We are going to make each of our local player resource spheres as dense as possible. We are going to add a second sphere in exactly the same place as the last, but to retain (or even enhance) the spherical nature of these starting spheres we are going to reduce the size of both spheres, making one smaller than the other as well. 
+
+
+8.1 - Edit the 'ResourceSphere_1.missphere' local player resourcesphere lines.
+----------------------------------------------------------------
+Copy both resource lines in the ResourceSphere_1.missphere, paste them directly underneath. For each cluster we want a sphere with radius and diameter to 6000,12000 and the second as 8000,16000; 
+
+Resources    Asteroid,0.0,50000.0,0.0,Sphere,Asteroid.dist,20,6000.4,12000.8,0.0,0.0,2048,1
+Resources    Asteroid,0.0,50000.0,0.0,Sphere,Asteroid.dist,20,8000.4,16000.8, 0.0,0.0,2048,1
+Resources    Asteroid,0.0,-50000.0,0.0,Sphere,Asteroid.dist,20,6000.4,12000.8,0.0,0.0,2048,1
+Resources    Asteroid,0.0,-50000.0,0.0,Sphere,Asteroid.dist,20,8000.4,16000.8, 0.0,0.0,2048,1
+ 
+Take a look at them in the game. Nice and dense, dense enough to hid our opponent in, but they don't look very spherical do they not? Well there is a property that can address this; the shell property and we could feasibly add a shell, which seem to retain their shape better for the larger spheres. But, were not going to do that, instead we are going to use a better method first devised by TAKER, we are going to use two cylinders at 45( angles to one another. These changes can be simply done by cutting and pasting, (in fact if you havent already realised 90% of making maps is cutting and pasting), I will take you through it;
+
+
+8.2 - Edit the local player resourcesphere lines by using cylinders to make a better 'Sphere'.
+----------------------------------------------------------------
+Each player is going to start in an asteroid cluster composed of six lines of resources. 
+
+8.2.1 - Copy and paste each until you have 6 lines with co-ordinates '0,50000,0' and six of '0,-50000,0' (posx,posy,posz).
+
+8.2.2 - Next rename the layout to 'Cylinder' for them all.
+
+8.2.3 - The first two lines in each cluster we want to have numResources value of 16, radius and length of 6000 and 12000 respectively, 
+
+8.2.4 - For the second line only, change the roty and rotz to 45. 
+
+8.2.5 - The next two lines (lines 3 and 4 from each sextuplet) again will have numResources of 16 but this time we want the cylinder to be slightly larger, set the radius and length to 8000 and 16000 respectively.
+
+8.2.6 - For the second 8000 line only, (line 4) change the roty and rotz to 45. 
+
+8.2.7 - The last two lines of each cluster will be there purely for aesthetic reasons and will be composed entirely of dust motes, the distribution file for this is called Tiny.dist. If you open it up and take a look you will see it is composed of 15 asteroid0's only. 
+
+You know what your doing now yes? For these lines, rename the distribution to 'Tiny.dist', change the numResources to 30, radius to 10000, length to 20000 and change the roty and rotz to 45 for the last line. 
+
+Your lines should look like this when you're finished;
+
+Resources    Asteroid,0.0,50000.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,0.0,0.0,2048,1
+Resources    Asteroid,0.0,50000.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,45.0,45.0,2048,1
+Resources    Asteroid,0.0,50000.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,0.0,0.0,2048,1
+Resources    Asteroid,0.0,50000.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,45.0,45.0,2048,1
+Resources    Asteroid,0.0,50000.0,0.0,Cylinder,Tiny.dist,30,10000.4,20000.8,0.0,0.0,?,?
+Resources    Asteroid,0.0,50000.0,0.0,Cylinder,Tiny.dist,30,10000.4,20000.8,45.0,45.0,?,?
+ 
+Resources    Asteroid,0.0,-50000.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,0.0,0.0,2048,1
+Resources    Asteroid,0.0,-50000.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,45.0,45.0,2048,1
+Resources    Asteroid,0.0,-50000.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,0.0,0.0,2048,1
+Resources    Asteroid,0.0,-50000.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,45.0,45.0,2048,1
+Resources    Asteroid,0.0,-50000.0,0.0,Cylinder,Tiny.dist,30,10000.4,20000.8,0.0,0.0,?,?
+Resources    Asteroid,0.0,-50000.0,0.0,Cylinder,Tiny.dist,30,10000.4,20000.8,45.0,45.0,?,? 
+
+Take a look at the results in Homeworld, a lot, lot better huh?
+
+
+8.3 - Create a huge central dust cloud from dust motes and dustclouds.
+----------------------------------------------------------------
+Ok, we will now finish of the 2 player map by adding in a central region of asteroids with its CPU defended station to make it a dangerous place to go.
+
+The central sphere will be a huge cluster of dust in an overlarge ball, this time we will follow Hellhawk666's example on how to create these and retain large spherical shapes.
+
+8.3.1 - First lets add a DustCloud sphere in the centre to hide our Station in. Copy a resource line and rename the 'Resources   Asteroid' to 'Resources   DustCloud'. 
+
+8.3.2 - We want this cloud in the centre of our map so posx,posy,posz will be 0,0,0. Next rename the layout back to 'Sphere'. The Distribution of the file will be 'DustCloud.dist' because we have named the resourcetype (the first parameter in the line) as 'DustCloud'. Drop the resourceNum to '16', we don't need it too dense. The radius and diameter change to '3000' and '6000' respectively. We have no need for any axial tilt so set them to '0' and we don't want them to regenerate so lets make sure that the properties all are set at '?'.
+
+8.3.3 - Copy this line and in the second line we will make a slightly larger sphere, all we need to change in our second line is the radius and diameter, change them to '10000' and '20000'. 
+
+The last thing you need to do is make sure you have the relevant distribution file in your Revelations2 folder, so just make sure you really do have 'DustCloud.dist' in there, if not it can be found in the Tutorial Map files folder.
+
+8.3.4 - Next; the dust ball that will comprise our central region. Ok you know what you are doing with this so rather than talk you through it all I will explain what I did:
+
+I created 12 spheres all centred on the dead centre of the map at co-ordinates 0,0,0, then I made sure they were all spheres of Tiny.dist distribution with a resourceNum of 250, this whopping number was needed because the spheres are so big. I made the radius for each sphere slightly larger than the one before it and to retain the spherical shape I made the last 6 spheres shells using property '2'.Here they are in full;
+
+Resources    DustCloud,0,0,0,Sphere,DustCloud.dist,16,3000,6000,0,0,?,?
+Resources    DustCloud,0,0,0,Sphere,DustCloud.dist,16,10000,20000,0,0,?,?
+
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,10000,20000,0,0,?,?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,12000,24000,0,0,?,?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,14000,28000,0,0,?,?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,16000,32000,0,0,?,?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,18000,36000,0,0,?,?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,19000,38000,0,0,?,?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,20000,40000,0,0,2,?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,22000,45000,0,0,2,?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,24000,50000,0,0,2,?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,25000,50000,0,0,2,?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,26000,52000,0,0,2,?
+Resources    Asteroid,0,0,0,Sphere,Tiny.dist,250,27000,54000,0,0,2,?
+
+
+8.4 - Summary
+----------------------------------------------------------------
+So how did I come up with the numbers, sizes etc? Sheer experimentation my dear reader, you can happily access and modify every file that makes up a map, Alt-tabbing between Homeworld and desktop is a doddle and you only need to reload the actual game (as opposed to Homeworld loading up your map) when you change something that causes a fatal error, or you add a new folder in.
+
+Working in small increments and constantly checking and tweaking is what its all about.
+So that's the resources completed for our 2 player (1v1) map. I created these by jumping in and out of Homeworld and tweaking them until I was happy. Go take a look at them for yourself in Homeworld. All that remains to add is our station and its defending weaponry, the large and small guns found in the singleplayer junkyard mission 'The Karos Graveyard'. Everything you need is here, there is nothing stopping you going and doing it for yourself but fear not, I will talk you through the addition of CPU controlled ships in Multiplayer missions.
+
+
+
+
+PART NINE: SHIPS & DERELICTS
+----------------------------------------------------------------
+
+PART NINE: OVERVIEW
+In this section you will add the CPU controlled walls of Autoguns in a defensive posture around a Research Station.
+
+9.1 Add a Research Station to the dead centre of the map.
+9.2 Add four walls of Autoguns in a defensive posture around the station.
+9.3 Part Nine Summary.
+
+
+9.0 THE ADDITION OF CPU CONTROLLED SHIPS IN MULTIPLAYER MISSIONS
+----------------------------------------------------------------
+We are now going to add a Research Station in the dead centre of our map and surround it with 4 walls of Autoguns sitting 2000m away along each of the axis.
+
+9.1 - Add a Research Station to the dead centre of the map. 
+
+In the your Revelations2 folder, open up the 'Mothership_1.missphere' file and the 'ResourceSphere_0.missphere' files. Copy the first ship line, the Mothership line from the Mothership file into the ResourceSphere file, this line;
+Ships    ,0.0,50000.0,0.0,-90.0,R1,Mothership,1,NULL_FORMATION|?|?,?,?
+
+9.1.1 - This is going to be our Research Station. Change the co-ordinates to '0,0,0' so it sits at the dead centre of our map and change its facing to '0' 
+
+9.1.2 - Looking at the Relic Object Derelict list we see there race is 'Traders' and its written as 'ResearchStation' so change the R1 and Mothership values accordingly. 
+
+9.1.3 - We only want one of them and the formation is NULL_FORMATION which I find always sits well with the bigger ships (those you usually add in singly), so leave these values. That's our Station done, its that simple.
+
+
+9.2 - Add four walls of Autoguns in a defensive posture around the station. 
+----------------------------------------------------------------
+Lets add the Auto Guns. 
+
+9.2.1 - We want four groups so copy the Research Station line four times. 
+
+9.2.2 - On the first of these lines we will have them sitting 2000m to the 'North' or '+y' axis, simply change the co-ordinates to '0,2000,0' and we want them facing this direction so change their facing (rot) to '90' (Always remember x=0( and the angle is measured anticlockwise), the second group to the 'East' so they have co-ordinates '2000,0,0' and rot of '0', the third co-ordinates are '0,-2000,0', rot is '-90', the fourth group I will leave you to puzzle over yourself. Did you get it? Wadda you mean a five year old could have got that!? 
+
+9.2.3 - Ok then smartypants lets continue along the line, the race of the Auto Guns is 'Traders', so that's fine. The ship names we get from the Relic Object Derelicts listings again and they are 'Junk_Lgun' and 'Junk_Sgun', make the North and South emplacements the Large guns and those to the East and west the Small guns. We want to have '6' in each group and we want them in 'WALL_FORMATION'. Nothing special about them although we can do funky thing like making them invisible to sensors if we wanted but we wont bother. Your completed lines should look like this;
+
+Ships    ,0.0,0.0,0.0,0.0,Traders,ResearchStation,1,NULL_FORMATION|?|?,0,? 
+Ships    ,0.0,2000.0,0.0,90.0,Traders,Junk_Lgun,6,WALL_FORMATION|?|?,0,? 
+Ships    ,-2000.0,0.0,0.0,180.0,Traders,Junk_Sgun,6,WALL_FORMATION|?|?,0,? 
+Ships    ,0.0,-2000.0,0.0,-90.0,Traders,Junk_Lgun,6,WALL_FORMATION|?|?,0,? 
+Ships    ,2000.0,0.0,0.0,0.0,Traders,Junk_Sgun,6,WALL_FORMATION|?|?,0,? 
+
+9.3 - Summary
+----------------------------------------------------------------
+And that's it. You have completed your 1v1 version of your map. The toughest part is over and all that remains is putting in players 3, 4, 5 and 6.
+
+
+
+
+PART TEN: FINISHING
+----------------------------------------------------------------
+
+PART TEN: OVERVIEW
+In this section you will add players three through six to the map.
+
+10.1 Copy files that need no changes between folders.
+10.2 Copy the Level file into all the map folders, and make the necessary changes.
+10.3 Copy the Mothership file into all the 3 and 4 player map folders, and make the necessary changes.
+10.4 Copy the Mothership file into all the 5 and 6 player map folders, creating the fourth and fifth player file as we go along, and making any necessary changes.
+10.5 Copy the Resource file into all the map folders, making the necessary changes as we go along.
+10.6 Copy all the Distribution files into all the map folders.
+10.7 Tutorial Summary.
+
+
+10.0 THE ADDITION OF FURTHER PLAYERS
+----------------------------------------------------------------
+Lots to do here so I will take it step by step. We have already set up all the extra folders needed for our Revelations map, in 'Tutorial Map Part One' So let's get cracking and work our way through the files, adding and modifying as we go along.
+
+Just remember that each folder must be able to stand alone as a map, ie you are going to make 5 more maps in this chapter. All are based on the 2 player version we have already completed, so only relatively minor changes to each are required. This may look daunting because there is quite a bit to do, but as you have done most of it already this shouldn't take long to complete. 
+
+Now, I prefer to work on all the files as a whole, but you could quite feasibly do the extra map folders one at a time. I will take you through the way I do things. which I feel is faster. If you were going to change the map depending on the amount of players present then it may well be easier to deal with them in succession, but we will only have minor changes between player numbers, ie the map will look pretty much the same for six players as it does for two players. Remember though, if you have changes made, the Description.txt file header, (the first will still be identical in each file, make changes to this file and Homeworld goes in a huff and refuses to show any of the files
+
+
+10.1 - Copying files that need no changes.
+----------------------------------------------------------------
+Some files only need to be copied into each folder. There are no changes to be made to these files, indeed in the case of the Description file, they all must be identical. We will do these first.
+10.1.1 - Copy the Description.txt file from your 'Revelations2' folder into all the other 'Revelations#' folders.
+10.1.2 - For our map we have added a new background as opposed to the default types available within the Homeworld.big file itself. We have added the background and lighting files called 'Downslope.btg' and 'Downslope.hsf' respectively, and so these need to be copied into each map folder. Copy these two files into each Revelations# folder. 
+
+ 
+10.2 - Copying the Level file and making required changes. 
+----------------------------------------------------------------
+The level file however, does require some changes, so lets deal with them and get them out the way.
+
+10.2.1 - Copy the 'Revelations2.level' file from your 'Revelations2' folder into your 'Revelations3' folder.
+
+10.2.2 - Rename the 'Revelations2.level' file to match the folder it resides in, (i.e. to: 'Revelations3.level') 
+
+10.2.3 - Open up this new 'Revelations3.level' file in your 'Revelations3' folder, the top 10 lines of the file look like this at the moment;
+
+; MissionMan script, Friday, Sep 3 1999, 12:15:09 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Revelations2
+; Info: Revelations (2-6)
+
+[Revelations (2-6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+
+10.2.4 - Rename the Multiplayer level part to match the folder name, in this case its just the simple change of the '2' to a '3'. 
+
+10.2.5 - Next, copy the last MissionSphere line and paste a copy on the line directly below. Keep the space after the last MissionSphere line and before the defaults heading.
+
+10.2.6 - This new line will tell the game what the third MissionSphere is (ie; player three) and where it can find the file dealing with the objects (ships) that this MissionSphere will contain. 
+
+- Change the playerNumber value from 1 to 2
+
+- Change the race to R1 (change the default player race if you want, really it makes no difference what this is, so do it if you if you want its not important.) 
+
+- And finally, change the contents to Mothership_2.missphere (the player three Mothership file name). 
+These lines should now look like this;
+
+; MissionMan script, Friday, Sep 3 1999, 12:15:09 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Revelations3
+; Info: Revelations (2-6)
+
+[Revelations (2-6)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    2,R2,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+
+10.2.7 - Repeat 10.2.1 - 10.2.6 for all the Revelations# folders, adding and renaming the level file and ensuring it contains the relevant name and has the correct numbers of MissionSphere lines naming the correct extra player MissionSphere files and so on. 
+
+The biggest change here is the addition of further MissionSpheres lines to each incremental level file, but this example shows how simple this is. Take note though, we have now added a third player to the Revelations3 map and Homeworld will read this new third line and go looking for the file called 'Mothership_2.missphere'. Meaning of course, that we need to create that whole new Mothership file to deal with this extra players starting fleet and its location. Lets start dealing with these now.
+
+ 
+10.3 - Copying the Mothership file and making required changes for the Three and Four Player versions. 
+----------------------------------------------------------------
+In our folders we need to add the correct number of Mothership#.missphere files. And then make changes to the locations of each fleet contained in each file.
+
+10.3.1 - Lets start with Revelations3. 
+
+- Copy both the Mothership#.missphere files from Revelations2 into Revelations3.
+- Now copy and paste one of the Mothership_#.missphere files into the same folder, renaming it Mothership_2.missphere (as we have named it in the Revelations3.level file above in 10.2.6). 
+- Done that? OK, lets open up all three Mothership_#.missphere files.
+
+10.3.2 - For our three player map we are going to shift about all three starting locations. We are going to place them around the central sphere of dust containing the Research Station, at the cardinal points of an equilateral triangle, keeping the player starting distances equidistant. We want each player to start 50km (a value of '50000') from the centre of the map, so it's a matter of working out the end point of three lines, each line rotated 120( from the last. All this trigonometry is better covered in the two html files ('Trigonometry or Trig Math' and 'Trigonometry a Crash Review' in Appendix C). 
+
+Personally, I use MS Excel, specifically 'Dylov's Homeworld Excel Mapper' where on the 'Distances' sheet I can just type in the distance i want the players to be from the centre and then save the results. These results are pre-formatted on the 'LevelfileFFA' sheet, and I save that sheet as a 'comma delimited file' (*.csv), and then it's a simple matter of copying and pasting as *.csv files can be opened in any text editor. See here for more details on the XL Mapper, or here for more on using Excel.
+
+I have included the actual 'LevelfileFFA.csv' that I'm talking about here, in the Tutorial Map Files folder, open it up (it's a text file) and you can see what I outputted from MS Excel after typing in that one number. 
+
+10.3.3 - Use the LevelfileFFA.csv file to supply the starting co-ordinates for each players Mothership_#.missphere file, using this file you can simply copy and paste each relevant line into the correct folder, its all spelled out for you so away and make the changes..
+Use this file for the co-ordinates for the Mothership files for the three-player and four-player versions of your map, and stop there.
+
+
+10.4 - Copying the Mothership file and making required changes for the Five and Six Player versions. 
+----------------------------------------------------------------
+In our folders for the five and six player versions of the map, we still need to add the correct number of Mothership#.missphere files!
+
+10.4.1 - OK. Lets deal with the files for players five and six.. 
+Remember we said we would have a player directly above and one directly below? You Do? Cool! For the Five-player map we will have one above, one below the sphere and the other three in triangular formation about the spheres equator. We have already made three files in the three player map folder where the starting locations for the three players are in this huge triangular formation about the equator, so its an easy copy/paste exercise to begin with. 
+- Copy all three Mothership files from the folders 'Revelations3' to 'Revelations5'. 
+
+10.4.2 - Now we need to create a new player four file for the five player version of the map (Mothership_3.missphere). The co-ordinates for these ships will be '0,0,50000' which is 50km straight up. Away and do that. OK, now repeat for a Player five file; (Mothership_4.missphere), and set the co-ordinates to 0,0,-50000', which of course, is 50km straight down.
+
+And thats the five player map, lets quickly move onto the Six-player map. This time, we will have four players in a huge square formation around the equator and a single player above and one below again. We have already made every Missphere we need here, so this is merely a matter of copying/pasteing/renaming the relevant files. I'll walk you through it but I'm sure you have seen what I'm up to by now.
+
+10.4.3 - For the Six-player map we will have 4 players about the equator in a big square along with the player above and the player below. 
+
+- Copy the four Mothership files from the folders 'Revelations4' folder  into 'Revelations6' folder, leave them be because they are fine
+
+- Copy the new player four file (Mothership_3.missphere the top player) file from the 'Revelations5' folder into the 'Revelations6' folder and rename it 'Mothership_4.missphere', then repeat this for the player five file in the five player version folder (Mothership_4.missphere the bottom player), this time copying into the six player version folder as 'Mothership_5.missphere'. 
+
+Note; This is most easily accomplished using 'TextPad' which supports the multiple file editing and easy interchange between each file you have open. See Appendix C if you want to get hold of TextPad.
+
+10.5 - Copying the Resource file and making required changes for each Player number versions. 
+----------------------------------------------------------------
+Now, we wanted each player to begin in his/her own sphere of asteroids, the focal points for our Revelations map are going to be each players starting point. So, we need to add the sphere for the third player as well as move the two existing spheres so they are centred on players One and Two (we moved these players above didn't we?). We will only have these spheres of asteroids (local player resources I'll call them), around each player, if you play the map two player only two will appear, play 6 player and six will appear, you see?
+
+10.5.1 - If you have not already done so, copy the 'ResourceSphere_1.missphere' from Revelations2 into the Revelations3 and Revelations4 folders. 
+
+10.5.2 - In Revelations3 folder, open up the ResourceSphere_1.missphere file.
+
+10.5.3 - Its then a simple matter of copying all six lines that make up the local player resources for each players own little cluster, so, we have three of these six-line clusters. So, from the Mothership#.missphere files in this folder, we use the player start co-ordinates as the co-ordinates for each cluster, copy and paste until you have your three clusters sitting at the correct co-ordinates, ie at where all three players start.
+
+Your ResourceSphere in the Revelations3 folder should now have three clusters looking like this;
+
+Resources    Asteroid,26162.0,45313.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,0.0,0.0,2048,1
+Resources    Asteroid,26162.0,45313.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,45.0,45.0,2048,1
+Resources    Asteroid,26162.0,45313.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,0.0,0.0,2048,1
+Resources    Asteroid,26162.0,45313.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,45.0,45.0,2048,1
+Resources    Asteroid,26162.0,45313.0,0.0,Cylinder,Tiny.dist,30,10000.4,22000.8,0.0,0.0,?,?
+Resources    Asteroid,26162.0,45313.0,0.0,Cylinder,Tiny.dist,30,10000.4,22000.8,45.0,45.0,?,?
+
+Resources    Asteroid,-52323.0,0.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,0.0,0.0,2048,1
+Resources    Asteroid,-52323.0,0.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,45.0,45.0,2048,1
+Resources    Asteroid,-52323.0,0.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,0.0,0.0,2048,1
+Resources    Asteroid,-52323.0,0.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,45.0,45.0,2048,1
+Resources    Asteroid,-52323.0,0.0,0.0,Cylinder,Tiny.dist,30,10000.4,22000.8,0.0,0.0,?,?
+Resources    Asteroid,-52323.0,0.0,0.0,Cylinder,Tiny.dist,30,10000.4,22000.8,45.0,45.0,?,?
+
+Resources    Asteroid,26162.0,-45313.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,0.0,0.0,2048,1
+Resources    Asteroid,26162.0,-45313.0,0.0,Cylinder,Asteroid.dist,16,6000.4,12000.8,45.0,45.0,2048,1
+Resources    Asteroid,26162.0,-45313.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,0.0,0.0,2048,1
+Resources    Asteroid,26162.0,-45313.0,0.0,Cylinder,Asteroid.dist,16,8000.4,16000.8,45.0,45.0,2048,1
+Resources    Asteroid,26162.0,-45313.0,0.0,Cylinder,Tiny.dist,30,10000.4,22000.8,0.0,0.0,?,?
+Resources    Asteroid,26162.0,-45313.0,0.0,Cylinder,Tiny.dist,30,10000.4,22000.8,45.0,45.0,?,? 
+
+10.5.4 - OK, now you've done this, repeat 10.5.3 for the Four-player version (Revelations4). 
+
+10.5.5 - Once you have done that, copy the 'ResourceSphere_1.missphere' file from the 'Revelations3' folder into the 'Revelations5' folder and add two more of these 6-line clusters for local player resources at co-ordinates '0,5000,0' and '0,-50000,0'. And that's your five player resources sorted.
+
+10.5.6 - Now copy the 'ResourceSphere_1.missphere' file from the 'Revelations4' folder into the 'Revelations6' folder, open up the 'ResourceSphere_1.missphere' file from Revelations5 and copy the last two local player resources clusters you created (the clusters at co-ordinates '0,5000,0' and '0,-50000,0'), paste them into your Six-Player version of the 'ResourceSphere_1.missphere' file. And that's your Six-player map resources sorted.
+
+
+10.6 - Copying the Distribution files.
+----------------------------------------------------------------
+As for the Distribution files we are not going to bother changing them, as all the clusters are localised and regenerate at one helluva rate. Just copy all three distribution files (Asteroid.dist, DustCloud.dist and Tiny.dist) into all your Revelations# folders.
+
+
+10.7 - Tutorial Summary
+----------------------------------------------------------------
+Restart Homeworld, start up the map with each player number to check they all work. If they dont all work you need to track down the mistakes which will be nine times out of ten spelling errors. look out for:
+Spelling Errors - perhaps typing a name of a missphere file in the Level file wrongly pointing to a wrong mothership file
+
+Format Errors - check that when you copied and pasted you didnt overwrite a comma or not overwrite a parameter so lines now have extra parameters and so on.
+
+Missing Files - have a quick look, just to be sure the all required files are actually present.
+I refer you to TAKER's Exception Errors Demystified (Written by TAKER, aka James Tooman) which is a marvelous resource to have when a map keeps crashing Homeworld for no earthly reason.
+
+Did they all work? They should have done if you where being methodical and careful about your work. Just remember to always try to change only a little at a time so errors are more easily tracked. 
+
+The way I have done it throughout the tutorial is the way I do things; set up a basic map, keeping it very rough, then add a little at a time, building up the map until the two player is complete then scaling from there. Of course, you may have other ideas of how to go about things, whatever suits you is fine as long as you always be aware of case, spelling and format.
+
+
+Well, thats it, you have done it... Congratulations! 
+----------------------------------------------------------------
+Away you go and dance the 'Jig of Maply Creation' while singing the 'Song of Maply Creation' for you have completed your First map! Waaaaay! Three cheers! RA! RA! RA! Big smiles all round and a hearty pat on the back for you. Play your new map, feel good about yourself! Tell your nearest and dearest how wonderful you are. For now you know pretty much everything there is to know about maply creation!
+Dylov (Grunter-OMO on WON)
+
+
+
+1
+
+

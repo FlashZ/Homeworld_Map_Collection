@@ -1,0 +1,11 @@
+Description     &Talas&I&I 2vs2 .
+Description	
+Description	By: &Fa&R, &Hg
+Description	&Email: Bigdaddyssjgoku@hotmail.com
+Description	January 27, 2003
+
+
+Font            Arial_b12.hff
+Color           250, 150, 250
+DropShadow      Yes
+

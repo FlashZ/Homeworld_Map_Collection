@@ -1,0 +1,5 @@
+; MissionMan
+
+Resources    DustCloud,0,0,0,Sphere,DustCloud.dist,30,5000,0,0,0,511
+Resources    Asteroid,50000,0,0,Cylinder,Asteroids.dist,40,3000,50000,0,0,2048,30
+Resources    Asteroid,-50000,0,0,Cylinder,Asteroids.dist,40,3000,50000,0,0,2048,30

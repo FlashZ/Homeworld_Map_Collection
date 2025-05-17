@@ -1,0 +1,615 @@
+; MissionMan script, Friday, Jul 21 2000, 4:06:47 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+;Center Crystals
+
+Ships    ,200.0,350.0,210.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships    ,-200.0,-350.0,-210.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships    ,50.0,70.0,750.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships    ,-50.0,-70.0,-750.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+
+Ships    ,16000.0,0.0,13000.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships    ,-16000.0,0.0,13000.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships    ,16000.0,0.0,-13000.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships    ,-16000.0,0.0,-13000.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships    ,0.0,16000.0,0.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+Ships    ,0.0,-16000.0,0.0,60.0,RACE_DERELICT,dCrystal1,1,NULL_FORMATION|?|?,0,?
+
+;Crystals Inside Spheres
+
+Ships    ,47000.0,20000.0,-7000.0,60.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,-47000.0,20000.0,7000.0,60.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,47000.0,-20000.0,7000.0,60.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,-47000.0,-20000.0,-7000.0,60.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,20000.0,47000.0,7000.0,60.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,-20000.0,47000.0,-7000.0,60.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,20000.0,-47000.0,-7000.0,60.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+Ships    ,-20000.0,-47000.0,7000.0,60.0,RACE_DERELICT,dCrystal0,1,NULL_FORMATION|?|?,0,?
+
+;Nebulae
+
+;Meteor Showers
+
+MeteorStorm 0.0,0.0,0.0,Cylinder,03mediumrare.dist,30,4500.0,50000.0,90.0,180.0,0,1000,0,0
+
+;Center Rings
+
+Resources    Asteroid,-18048.0,-3106.0,-15198.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-4.8,-84.2,     ?,     ?
+Resources    Asteroid,-16818.0,-9107.0,-14162.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-14.3,-72.4,     ?,     ?
+Resources    Asteroid,-14442.0,-14487.0,-12161.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-23.1,-59.6,     ?,     ?
+Resources    Asteroid,-11082.0,-18879.0,-9332.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-30.7,-45.1,     ?,     ?
+Resources    Asteroid,-6966.0,-21985.0,-5866.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-36.5,-28.4,     ?,     ?
+Resources    Asteroid,-2376.0,-23592.0,-2001.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-39.7,-9.8,     ?,     ?
+Resources    Asteroid,2376.0,-23592.0,2001.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-39.7,9.8,     ?,     ?
+Resources    Asteroid,6966.0,-21985.0,5866.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-36.5,28.4,     ?,     ?
+Resources    Asteroid,11082.0,-18879.0,9332.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-30.7,45.1,     ?,     ?
+Resources    Asteroid,14442.0,-14487.0,12161.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-23.1,59.6,     ?,     ?,,
+Resources    Asteroid,16818.0,-9107.0,14162.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-14.3,72.4,     ?,     ?,,
+Resources    Asteroid,18048.0,-3106.0,15198.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-4.8,84.2,     ?,     ?,,
+Resources    Asteroid,18048.0,3106.0,15198.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-4.8,-84.2,     ?,     ?,,
+Resources    Asteroid,16818.0,9107.0,14162.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-14.3,-72.4,     ?,     ?,,
+Resources    Asteroid,14442.0,14487.0,12161.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-23.1,-59.6,     ?,     ?,,
+Resources    Asteroid,11082.0,18879.0,9332.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-30.7,-45.1,     ?,     ?,,
+Resources    Asteroid,6966.0,21985.0,5866.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-36.5,-28.4,     ?,     ?,,
+Resources    Asteroid,2376.0,23592.0,2001.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-39.7,-9.8,     ?,     ?,,
+Resources    Asteroid,-2376.0,23592.0,-2001.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-39.7,9.8,     ?,     ?,,
+Resources    Asteroid,-6966.0,21985.0,-5866.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-36.5,28.4,     ?,     ?,,
+Resources    Asteroid,-11082.0,18879.0,-9332.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-30.7,45.1,     ?,     ?,,
+Resources    Asteroid,-14442.0,14487.0,-12161.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-23.1,59.6,     ?,     ?,,
+Resources    Asteroid,-16818.0,9107.0,-14162.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-14.3,72.4,     ?,     ?,,
+Resources    Asteroid,-18048.0,3106.0,-15198.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,-4.8,84.2,     ?,     ?,,
+
+Resources    Asteroid,-17888.0,-3106.0,15386.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,4.9,-84.3,     ?,     ?,
+Resources    Asteroid,-16669.0,-9107.0,14338.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,14.4,-72.6,     ?,     ?,
+Resources    Asteroid,-14314.0,-14487.0,12312.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,23.4,-59.8,     ?,     ?,
+Resources    Asteroid,-10984.0,-18879.0,9448.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,31.2,-45.3,     ?,     ?,
+Resources    Asteroid,-6905.0,-21985.0,5939.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,37.0,-28.6,     ?,     ?,
+Resources    Asteroid,-2355.0,-23592.0,2026.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,40.3,-9.8,     ?,     ?,
+Resources    Asteroid,2355.0,-23592.0,-2026.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,40.3,9.8,     ?,     ?,
+Resources    Asteroid,6905.0,-21985.0,-5939.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,37.0,28.6,     ?,     ?,
+Resources    Asteroid,10984.0,-18879.0,-9448.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,31.2,45.3,     ?,     ?,
+Resources    Asteroid,14314.0,-14487.0,-12312.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,23.4,59.8,     ?,     ?,
+Resources    Asteroid,16669.0,-9107.0,-14338.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,14.4,72.6,     ?,     ?,
+Resources    Asteroid,17888.0,-3106.0,-15386.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,4.9,84.3,     ?,     ?,
+Resources    Asteroid,17888.0,3106.0,-15386.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,4.9,-84.3,     ?,     ?,
+Resources    Asteroid,16669.0,9107.0,-14338.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,14.4,-72.6,     ?,     ?,
+Resources    Asteroid,14314.0,14487.0,-12312.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,23.4,-59.8,     ?,     ?
+Resources    Asteroid,10984.0,18879.0,-9448.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,31.2,-45.3,     ?,     ?
+Resources    Asteroid,6905.0,21985.0,-5939.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,37.0,-28.6,     ?,     ?
+Resources    Asteroid,2355.0,23592.0,-2026.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,40.3,-9.8,     ?,     ?
+Resources    Asteroid,-2355.0,23592.0,2026.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,40.3,9.8,     ?,     ?
+Resources    Asteroid,-6905.0,21985.0,5939.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,37.0,28.6,     ?,     ?
+Resources    Asteroid,-10984.0,18879.0,9448.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,31.2,45.3,     ?,     ?
+Resources    Asteroid,-14314.0,14487.0,12312.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,23.4,59.8,     ?,     ?
+Resources    Asteroid,-16669.0,9107.0,14338.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,14.4,72.6,     ?,     ?
+Resources    Asteroid,-17888.0,3106.0,15386.0,Cylinder,HeavierAsteroid.dist,5,2500.0,6266.0,4.9,84.3,     ?,     ?
+
+;Center Dust
+
+Resources    DustCloud,0.0,8000.0,-500.0,Cylinder,DustCloudCentre.dist,3,3000.0,1000.0,0.0,0.0,     ?,     ?
+Resources    DustCloud,0.0,-8000.0,-500.0,Cylinder,DustCloudCentre.dist,3,3000.0,1000.0,0.0,0.0,     ?,     ?
+Resources    DustCloud,9000.0,0.0,500.0,Cylinder,DustCloudCentre.dist,4,3000.0,1000.0,0.0,0.0,     ?,     ?
+Resources    DustCloud,-9000.0,0.0,500.0,Cylinder,DustCloudCentre.dist,4,3000.0,1000.0,0.0,0.0,     ?,     ?
+
+;Sphere RUs
+
+Resources    Asteroid,50000.0,20000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,0.0,     ?,     ?
+Resources    Asteroid,49580.0,21500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,30.0,     ?,     ?
+Resources    Asteroid,48500.0,22580.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,60.0,     ?,     ?
+Resources    Asteroid,47000.0,23000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,90.0,     ?,     ?
+Resources    Asteroid,45500.0,22580.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,120.0,     ?,     ?
+Resources    Asteroid,44420.0,21500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,150.0,     ?,     ?
+Resources    Asteroid,44000.0,20000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,180.0,     ?,     ?
+Resources    Asteroid,44420.0,18500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,210.0,     ?,     ?
+Resources    Asteroid,45500.0,17420.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,240.0,     ?,     ?
+Resources    Asteroid,47000.0,17000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,270.0,     ?,     ?
+Resources    Asteroid,48500.0,17420.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,300.0,     ?,     ?
+Resources    Asteroid,49580.0,18500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,330.0,     ?,     ?
+Resources    Asteroid,47000.0,22580.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,90.0,     ?,     ?
+Resources    Asteroid,47000.0,21500.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,90.0,     ?,     ?
+Resources    Asteroid,47000.0,18500.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,90.0,     ?,     ?
+Resources    Asteroid,47000.0,17420.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,90.0,     ?,     ?
+Resources    Asteroid,47000.0,17420.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,90.0,     ?,     ?
+Resources    Asteroid,47000.0,18500.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,90.0,     ?,     ?
+Resources    Asteroid,47000.0,21500.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,90.0,     ?,     ?
+Resources    Asteroid,47000.0,22580.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,90.0,     ?,     ?
+Resources    Asteroid,49580.0,20000.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,0.0,     ?,     ?
+Resources    Asteroid,48500.0,20000.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,0.0,     ?,     ?
+Resources    Asteroid,47000.0,20000.0,-4000.0,Cylinder,Asteroid.dist,2,900.0,50.0,270.0,0.0,     ?,     ?
+Resources    Asteroid,45500.0,20000.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,0.0,     ?,     ?
+Resources    Asteroid,44420.0,20000.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,0.0,     ?,     ?
+Resources    Asteroid,44420.0,20000.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,0.0,     ?,     ?
+Resources    Asteroid,45500.0,20000.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,0.0,     ?,     ?
+Resources    Asteroid,47000.0,20000.0,-10000.0,Cylinder,Asteroid.dist,2,900.0,50.0,90.0,0.0,     ?,     ?
+Resources    Asteroid,48500.0,20000.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,0.0,     ?,     ?
+Resources    Asteroid,49580.0,20000.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,0.0,     ?,     ?
+Resources    Asteroid,49218.8,21290.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,30.0,     ?,     ?
+Resources    Asteroid,48290.0,22218.8,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,60.0,     ?,     ?
+Resources    Asteroid,45710.0,22218.8,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,120.0,     ?,     ?
+Resources    Asteroid,44781.2,21290.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,150.0,     ?,     ?
+Resources    Asteroid,44781.2,18710.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,210.0,     ?,     ?
+Resources    Asteroid,45710.0,17781.2,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,240.0,     ?,     ?
+Resources    Asteroid,48290.0,17781.2,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,300.0,     ?,     ?
+Resources    Asteroid,49218.8,18710.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,330.0,     ?,     ?
+Resources    Asteroid,49218.8,21290.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,30.0,     ?,     ?
+Resources    Asteroid,48290.0,22218.8,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,60.0,     ?,     ?
+Resources    Asteroid,45710.0,22218.8,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,120.0,     ?,     ?
+Resources    Asteroid,44781.2,21290.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,150.0,     ?,     ?
+Resources    Asteroid,44781.2,18710.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,210.0,     ?,     ?
+Resources    Asteroid,45710.0,17781.2,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,240.0,     ?,     ?
+Resources    Asteroid,48290.0,17781.2,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,300.0,     ?,     ?
+Resources    Asteroid,49218.8,18710.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,330.0,     ?,     ?
+Resources    Asteroid,48060.7,21060.7,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,45.0,     ?,     ?
+Resources    Asteroid,45939.3,21060.7,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,135.0,     ?,     ?
+Resources    Asteroid,45939.3,18939.3,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,225.0,     ?,     ?
+Resources    Asteroid,48060.7,18939.3,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,315.0,     ?,     ?
+Resources    Asteroid,48060.7,21060.7,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,45.0,     ?,     ?
+Resources    Asteroid,45939.3,21060.7,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,135.0,     ?,     ?
+Resources    Asteroid,45939.3,18939.3,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,225.0,     ?,     ?
+Resources    Asteroid,48060.7,18939.3,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,315.0,     ?,     ?
+
+Resources    Asteroid,-44000.0,20000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,0.0,     ?,     ?
+Resources    Asteroid,-44420.0,21500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,30.0,     ?,     ?
+Resources    Asteroid,-45500.0,22580.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,60.0,     ?,     ?
+Resources    Asteroid,-47000.0,23000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,90.0,     ?,     ?
+Resources    Asteroid,-48500.0,22580.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,120.0,     ?,     ?
+Resources    Asteroid,-49580.0,21500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,150.0,     ?,     ?
+Resources    Asteroid,-50000.0,20000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,180.0,     ?,     ?
+Resources    Asteroid,-49580.0,18500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,210.0,     ?,     ?
+Resources    Asteroid,-48500.0,17420.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,240.0,     ?,     ?
+Resources    Asteroid,-47000.0,17000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,270.0,     ?,     ?
+Resources    Asteroid,-45500.0,17420.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,300.0,     ?,     ?
+Resources    Asteroid,-44420.0,18500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,330.0,     ?,     ?
+Resources    Asteroid,-47000.0,22580.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,90.0,     ?,     ?
+Resources    Asteroid,-47000.0,21500.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,90.0,     ?,     ?
+Resources    Asteroid,-47000.0,18500.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,90.0,     ?,     ?
+Resources    Asteroid,-47000.0,17420.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,90.0,     ?,     ?
+Resources    Asteroid,-47000.0,17420.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,90.0,     ?,     ?
+Resources    Asteroid,-47000.0,18500.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,90.0,     ?,     ?
+Resources    Asteroid,-47000.0,21500.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,90.0,     ?,     ?
+Resources    Asteroid,-47000.0,22580.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,90.0,     ?,     ?
+Resources    Asteroid,-44420.0,20000.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,0.0,     ?,     ?
+Resources    Asteroid,-45500.0,20000.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,0.0,     ?,     ?
+Resources    Asteroid,-47000.0,20000.0,10000.0,Cylinder,Asteroid.dist,2,900.0,50.0,270.0,0.0,     ?,     ?
+Resources    Asteroid,-48500.0,20000.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,0.0,     ?,     ?
+Resources    Asteroid,-49580.0,20000.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,0.0,     ?,     ?
+Resources    Asteroid,-49580.0,20000.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,0.0,     ?,     ?
+Resources    Asteroid,-48500.0,20000.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,0.0,     ?,     ?
+Resources    Asteroid,-47000.0,20000.0,4000.0,Cylinder,Asteroid.dist,2,900.0,50.0,90.0,0.0,     ?,     ?
+Resources    Asteroid,-45500.0,20000.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,0.0,     ?,     ?
+Resources    Asteroid,-44420.0,20000.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,0.0,     ?,     ?
+Resources    Asteroid,-44781.2,21290.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,30.0,     ?,     ?
+Resources    Asteroid,-45710.0,22218.8,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,60.0,     ?,     ?
+Resources    Asteroid,-48290.0,22218.8,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,120.0,     ?,     ?
+Resources    Asteroid,-49218.8,21290.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,150.0,     ?,     ?
+Resources    Asteroid,-49218.8,18710.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,210.0,     ?,     ?
+Resources    Asteroid,-48290.0,17781.2,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,240.0,     ?,     ?
+Resources    Asteroid,-45710.0,17781.2,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,300.0,     ?,     ?
+Resources    Asteroid,-44781.2,18710.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,330.0,     ?,     ?
+Resources    Asteroid,-44781.2,21290.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,30.0,     ?,     ?
+Resources    Asteroid,-45710.0,22218.8,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,60.0,     ?,     ?
+Resources    Asteroid,-48290.0,22218.8,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,120.0,     ?,     ?
+Resources    Asteroid,-49218.8,21290.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,150.0,     ?,     ?
+Resources    Asteroid,-49218.8,18710.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,210.0,     ?,     ?
+Resources    Asteroid,-48290.0,17781.2,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,240.0,     ?,     ?
+Resources    Asteroid,-45710.0,17781.2,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,300.0,     ?,     ?
+Resources    Asteroid,-44781.2,18710.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,330.0,     ?,     ?
+Resources    Asteroid,-45939.3,21060.7,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,45.0,     ?,     ?
+Resources    Asteroid,-48060.7,21060.7,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,135.0,     ?,     ?
+Resources    Asteroid,-48060.7,18939.3,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,225.0,     ?,     ?
+Resources    Asteroid,-45939.3,18939.3,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,315.0,     ?,     ?
+Resources    Asteroid,-45939.3,21060.7,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,45.0,     ?,     ?
+Resources    Asteroid,-48060.7,21060.7,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,135.0,     ?,     ?
+Resources    Asteroid,-48060.7,18939.3,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,225.0,     ?,     ?
+Resources    Asteroid,-45939.3,18939.3,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,315.0,     ?,     ?
+
+Resources    Asteroid,50000.0,-20000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,0.0,     ?,     ?
+Resources    Asteroid,49580.0,-18500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,30.0,     ?,     ?
+Resources    Asteroid,48500.0,-17420.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,60.0,     ?,     ?
+Resources    Asteroid,47000.0,-17000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,90.0,     ?,     ?
+Resources    Asteroid,45500.0,-17420.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,120.0,     ?,     ?
+Resources    Asteroid,44420.0,-18500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,150.0,     ?,     ?
+Resources    Asteroid,44000.0,-20000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,180.0,     ?,     ?
+Resources    Asteroid,44420.0,-21500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,210.0,     ?,     ?
+Resources    Asteroid,45500.0,-22580.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,240.0,     ?,     ?
+Resources    Asteroid,47000.0,-23000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,270.0,     ?,     ?
+Resources    Asteroid,48500.0,-22580.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,300.0,     ?,     ?
+Resources    Asteroid,49580.0,-21500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,330.0,     ?,     ?
+Resources    Asteroid,47000.0,-17420.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,90.0,     ?,     ?
+Resources    Asteroid,47000.0,-18500.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,90.0,     ?,     ?
+Resources    Asteroid,47000.0,-21500.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,90.0,     ?,     ?
+Resources    Asteroid,47000.0,-22580.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,90.0,     ?,     ?
+Resources    Asteroid,47000.0,-22580.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,90.0,     ?,     ?
+Resources    Asteroid,47000.0,-21500.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,90.0,     ?,     ?
+Resources    Asteroid,47000.0,-18500.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,90.0,     ?,     ?
+Resources    Asteroid,47000.0,-17420.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,90.0,     ?,     ?
+Resources    Asteroid,49580.0,-20000.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,0.0,     ?,     ?
+Resources    Asteroid,48500.0,-20000.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,0.0,     ?,     ?
+Resources    Asteroid,47000.0,-20000.0,10000.0,Cylinder,Asteroid.dist,2,900.0,50.0,270.0,0.0,     ?,     ?
+Resources    Asteroid,45500.0,-20000.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,0.0,     ?,     ?
+Resources    Asteroid,44420.0,-20000.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,0.0,     ?,     ?
+Resources    Asteroid,44420.0,-20000.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,0.0,     ?,     ?
+Resources    Asteroid,45500.0,-20000.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,0.0,     ?,     ?
+Resources    Asteroid,47000.0,-20000.0,4000.0,Cylinder,Asteroid.dist,2,900.0,50.0,90.0,0.0,     ?,     ?
+Resources    Asteroid,48500.0,-20000.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,0.0,     ?,     ?
+Resources    Asteroid,49580.0,-20000.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,0.0,     ?,     ?
+Resources    Asteroid,49218.8,-18710.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,30.0,     ?,     ?
+Resources    Asteroid,48290.0,-17781.2,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,60.0,     ?,     ?
+Resources    Asteroid,45710.0,-17781.2,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,120.0,     ?,     ?
+Resources    Asteroid,44781.2,-18710.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,150.0,     ?,     ?
+Resources    Asteroid,44781.2,-21290.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,210.0,     ?,     ?
+Resources    Asteroid,45710.0,-22218.8,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,240.0,     ?,     ?
+Resources    Asteroid,48290.0,-22218.8,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,300.0,     ?,     ?
+Resources    Asteroid,49218.8,-21290.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,330.0,     ?,     ?
+Resources    Asteroid,49218.8,-18710.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,30.0,     ?,     ?
+Resources    Asteroid,48290.0,-17781.2,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,60.0,     ?,     ?
+Resources    Asteroid,45710.0,-17781.2,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,120.0,     ?,     ?
+Resources    Asteroid,44781.2,-18710.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,150.0,     ?,     ?
+Resources    Asteroid,44781.2,-21290.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,210.0,     ?,     ?
+Resources    Asteroid,45710.0,-22218.8,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,240.0,     ?,     ?
+Resources    Asteroid,48290.0,-22218.8,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,300.0,     ?,     ?
+Resources    Asteroid,49218.8,-21290.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,330.0,     ?,     ?
+Resources    Asteroid,48060.7,-18939.3,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,45.0,     ?,     ?
+Resources    Asteroid,45939.3,-18939.3,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,135.0,     ?,     ?
+Resources    Asteroid,45939.3,-21060.7,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,225.0,     ?,     ?
+Resources    Asteroid,48060.7,-21060.7,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,315.0,     ?,     ?
+Resources    Asteroid,48060.7,-18939.3,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,45.0,     ?,     ?
+Resources    Asteroid,45939.3,-18939.3,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,135.0,     ?,     ?
+Resources    Asteroid,45939.3,-21060.7,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,225.0,     ?,     ?
+Resources    Asteroid,48060.7,-21060.7,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,315.0,     ?,     ?
+
+Resources    Asteroid,-44000.0,-20000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,0.0,     ?,     ?
+Resources    Asteroid,-44420.0,-18500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,30.0,     ?,     ?
+Resources    Asteroid,-45500.0,-17420.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,60.0,     ?,     ?
+Resources    Asteroid,-47000.0,-17000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,90.0,     ?,     ?
+Resources    Asteroid,-48500.0,-17420.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,120.0,     ?,     ?
+Resources    Asteroid,-49580.0,-18500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,150.0,     ?,     ?
+Resources    Asteroid,-50000.0,-20000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,180.0,     ?,     ?
+Resources    Asteroid,-49580.0,-21500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,210.0,     ?,     ?
+Resources    Asteroid,-48500.0,-22580.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,240.0,     ?,     ?
+Resources    Asteroid,-47000.0,-23000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,270.0,     ?,     ?
+Resources    Asteroid,-45500.0,-22580.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,300.0,     ?,     ?
+Resources    Asteroid,-44420.0,-21500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,330.0,     ?,     ?
+Resources    Asteroid,-47000.0,-17420.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,90.0,     ?,     ?
+Resources    Asteroid,-47000.0,-18500.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,90.0,     ?,     ?
+Resources    Asteroid,-47000.0,-21500.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,90.0,     ?,     ?
+Resources    Asteroid,-47000.0,-22580.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,90.0,     ?,     ?
+Resources    Asteroid,-47000.0,-22580.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,90.0,     ?,     ?
+Resources    Asteroid,-47000.0,-21500.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,90.0,     ?,     ?
+Resources    Asteroid,-47000.0,-18500.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,90.0,     ?,     ?
+Resources    Asteroid,-47000.0,-17420.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,90.0,     ?,     ?
+Resources    Asteroid,-44420.0,-20000.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,0.0,     ?,     ?
+Resources    Asteroid,-45500.0,-20000.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,0.0,     ?,     ?
+Resources    Asteroid,-47000.0,-20000.0,-4000.0,Cylinder,Asteroid.dist,2,900.0,50.0,270.0,0.0,     ?,     ?
+Resources    Asteroid,-48500.0,-20000.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,0.0,     ?,     ?
+Resources    Asteroid,-49580.0,-20000.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,0.0,     ?,     ?
+Resources    Asteroid,-49580.0,-20000.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,0.0,     ?,     ?
+Resources    Asteroid,-48500.0,-20000.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,0.0,     ?,     ?
+Resources    Asteroid,-47000.0,-20000.0,-10000.0,Cylinder,Asteroid.dist,2,900.0,50.0,90.0,0.0,     ?,     ?
+Resources    Asteroid,-45500.0,-20000.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,0.0,     ?,     ?
+Resources    Asteroid,-44420.0,-20000.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,0.0,     ?,     ?
+Resources    Asteroid,-44781.2,-18710.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,30.0,     ?,     ?
+Resources    Asteroid,-45710.0,-17781.2,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,60.0,     ?,     ?
+Resources    Asteroid,-48290.0,-17781.2,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,120.0,     ?,     ?
+Resources    Asteroid,-49218.8,-18710.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,150.0,     ?,     ?
+Resources    Asteroid,-49218.8,-21290.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,210.0,     ?,     ?
+Resources    Asteroid,-48290.0,-22218.8,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,240.0,     ?,     ?
+Resources    Asteroid,-45710.0,-22218.8,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,300.0,     ?,     ?
+Resources    Asteroid,-44781.2,-21290.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,330.0,     ?,     ?
+Resources    Asteroid,-44781.2,-18710.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,30.0,     ?,     ?
+Resources    Asteroid,-45710.0,-17781.2,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,60.0,     ?,     ?
+Resources    Asteroid,-48290.0,-17781.2,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,120.0,     ?,     ?
+Resources    Asteroid,-49218.8,-18710.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,150.0,     ?,     ?
+Resources    Asteroid,-49218.8,-21290.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,210.0,     ?,     ?
+Resources    Asteroid,-48290.0,-22218.8,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,240.0,     ?,     ?
+Resources    Asteroid,-45710.0,-22218.8,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,300.0,     ?,     ?
+Resources    Asteroid,-44781.2,-21290.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,330.0,     ?,     ?
+Resources    Asteroid,-45939.3,-18939.3,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,45.0,     ?,     ?
+Resources    Asteroid,-48060.7,-18939.3,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,135.0,     ?,     ?
+Resources    Asteroid,-48060.7,-21060.7,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,225.0,     ?,     ?
+Resources    Asteroid,-45939.3,-21060.7,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,315.0,     ?,     ?
+Resources    Asteroid,-45939.3,-18939.3,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,45.0,     ?,     ?
+Resources    Asteroid,-48060.7,-18939.3,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,135.0,     ?,     ?
+Resources    Asteroid,-48060.7,-21060.7,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,225.0,     ?,     ?
+Resources    Asteroid,-45939.3,-21060.7,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,315.0,     ?,     ?
+
+Resources    Asteroid,23000.0,47000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,0.0,     ?,     ?
+Resources    Asteroid,22580.0,48500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,30.0,     ?,     ?
+Resources    Asteroid,21500.0,49580.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,60.0,     ?,     ?
+Resources    Asteroid,20000.0,50000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,90.0,     ?,     ?
+Resources    Asteroid,18500.0,49580.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,120.0,     ?,     ?
+Resources    Asteroid,17420.0,48500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,150.0,     ?,     ?
+Resources    Asteroid,17000.0,47000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,180.0,     ?,     ?
+Resources    Asteroid,17420.0,45500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,210.0,     ?,     ?
+Resources    Asteroid,18500.0,44420.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,240.0,     ?,     ?
+Resources    Asteroid,20000.0,44000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,270.0,     ?,     ?
+Resources    Asteroid,21500.0,44420.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,300.0,     ?,     ?
+Resources    Asteroid,22580.0,45500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,330.0,     ?,     ?
+Resources    Asteroid,20000.0,49580.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,90.0,     ?,     ?
+Resources    Asteroid,20000.0,48500.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,90.0,     ?,     ?
+Resources    Asteroid,20000.0,45500.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,90.0,     ?,     ?
+Resources    Asteroid,20000.0,44420.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,90.0,     ?,     ?
+Resources    Asteroid,20000.0,44420.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,90.0,     ?,     ?
+Resources    Asteroid,20000.0,45500.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,90.0,     ?,     ?
+Resources    Asteroid,20000.0,48500.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,90.0,     ?,     ?
+Resources    Asteroid,20000.0,49580.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,90.0,     ?,     ?
+Resources    Asteroid,22580.0,47000.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,0.0,     ?,     ?
+Resources    Asteroid,21500.0,47000.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,0.0,     ?,     ?
+Resources    Asteroid,20000.0,47000.0,10000.0,Cylinder,Asteroid.dist,2,900.0,50.0,270.0,0.0,     ?,     ?
+Resources    Asteroid,18500.0,47000.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,0.0,     ?,     ?
+Resources    Asteroid,17420.0,47000.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,0.0,     ?,     ?
+Resources    Asteroid,17420.0,47000.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,0.0,     ?,     ?
+Resources    Asteroid,18500.0,47000.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,0.0,     ?,     ?
+Resources    Asteroid,20000.0,47000.0,4000.0,Cylinder,Asteroid.dist,2,900.0,50.0,90.0,0.0,     ?,     ?
+Resources    Asteroid,21500.0,47000.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,0.0,     ?,     ?
+Resources    Asteroid,22580.0,47000.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,0.0,     ?,     ?
+Resources    Asteroid,22218.8,48290.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,30.0,     ?,     ?
+Resources    Asteroid,21290.0,49218.8,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,60.0,     ?,     ?
+Resources    Asteroid,18710.0,49218.8,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,120.0,     ?,     ?
+Resources    Asteroid,17781.2,48290.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,150.0,     ?,     ?
+Resources    Asteroid,17781.2,45710.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,210.0,     ?,     ?
+Resources    Asteroid,18710.0,44781.2,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,240.0,     ?,     ?
+Resources    Asteroid,21290.0,44781.2,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,300.0,     ?,     ?
+Resources    Asteroid,22218.8,45710.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,330.0,     ?,     ?
+Resources    Asteroid,22218.8,48290.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,30.0,     ?,     ?
+Resources    Asteroid,21290.0,49218.8,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,60.0,     ?,     ?
+Resources    Asteroid,18710.0,49218.8,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,120.0,     ?,     ?
+Resources    Asteroid,17781.2,48290.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,150.0,     ?,     ?
+Resources    Asteroid,17781.2,45710.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,210.0,     ?,     ?
+Resources    Asteroid,18710.0,44781.2,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,240.0,     ?,     ?
+Resources    Asteroid,21290.0,44781.2,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,300.0,     ?,     ?
+Resources    Asteroid,22218.8,45710.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,330.0,     ?,     ?
+Resources    Asteroid,21060.7,48060.7,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,45.0,     ?,     ?
+Resources    Asteroid,18939.3,48060.7,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,135.0,     ?,     ?
+Resources    Asteroid,18939.3,45939.3,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,225.0,     ?,     ?
+Resources    Asteroid,21060.7,45939.3,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,315.0,     ?,     ?
+Resources    Asteroid,21060.7,48060.7,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,45.0,     ?,     ?
+Resources    Asteroid,18939.3,48060.7,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,135.0,     ?,     ?
+Resources    Asteroid,18939.3,45939.3,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,225.0,     ?,     ?
+Resources    Asteroid,21060.7,45939.3,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,315.0,     ?,     ?
+
+Resources    Asteroid,-17000.0,47000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,0.0,     ?,     ?
+Resources    Asteroid,-17420.0,48500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,30.0,     ?,     ?
+Resources    Asteroid,-18500.0,49580.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,60.0,     ?,     ?
+Resources    Asteroid,-20000.0,50000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,90.0,     ?,     ?
+Resources    Asteroid,-21500.0,49580.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,120.0,     ?,     ?
+Resources    Asteroid,-22580.0,48500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,150.0,     ?,     ?
+Resources    Asteroid,-23000.0,47000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,180.0,     ?,     ?
+Resources    Asteroid,-22580.0,45500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,210.0,     ?,     ?
+Resources    Asteroid,-21500.0,44420.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,240.0,     ?,     ?
+Resources    Asteroid,-20000.0,44000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,270.0,     ?,     ?
+Resources    Asteroid,-18500.0,44420.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,300.0,     ?,     ?
+Resources    Asteroid,-17420.0,45500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,330.0,     ?,     ?
+Resources    Asteroid,-20000.0,49580.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,90.0,     ?,     ?
+Resources    Asteroid,-20000.0,48500.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,90.0,     ?,     ?
+Resources    Asteroid,-20000.0,45500.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,90.0,     ?,     ?
+Resources    Asteroid,-20000.0,44420.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,90.0,     ?,     ?
+Resources    Asteroid,-20000.0,44420.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,90.0,     ?,     ?
+Resources    Asteroid,-20000.0,45500.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,90.0,     ?,     ?
+Resources    Asteroid,-20000.0,48500.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,90.0,     ?,     ?
+Resources    Asteroid,-20000.0,49580.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,90.0,     ?,     ?
+Resources    Asteroid,-17420.0,47000.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,0.0,     ?,     ?
+Resources    Asteroid,-18500.0,47000.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,0.0,     ?,     ?
+Resources    Asteroid,-20000.0,47000.0,-4000.0,Cylinder,Asteroid.dist,2,900.0,50.0,270.0,0.0,     ?,     ?
+Resources    Asteroid,-21500.0,47000.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,0.0,     ?,     ?
+Resources    Asteroid,-22580.0,47000.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,0.0,     ?,     ?
+Resources    Asteroid,-22580.0,47000.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,0.0,     ?,     ?
+Resources    Asteroid,-21500.0,47000.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,0.0,     ?,     ?
+Resources    Asteroid,-20000.0,47000.0,-10000.0,Cylinder,Asteroid.dist,2,900.0,50.0,90.0,0.0,     ?,     ?
+Resources    Asteroid,-18500.0,47000.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,0.0,     ?,     ?
+Resources    Asteroid,-17420.0,47000.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,0.0,     ?,     ?
+Resources    Asteroid,-17781.2,48290.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,30.0,     ?,     ?
+Resources    Asteroid,-18710.0,49218.8,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,60.0,     ?,     ?
+Resources    Asteroid,-21290.0,49218.8,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,120.0,     ?,     ?
+Resources    Asteroid,-22218.8,48290.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,150.0,     ?,     ?
+Resources    Asteroid,-22218.8,45710.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,210.0,     ?,     ?
+Resources    Asteroid,-21290.0,44781.2,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,240.0,     ?,     ?
+Resources    Asteroid,-18710.0,44781.2,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,300.0,     ?,     ?
+Resources    Asteroid,-17781.2,45710.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,330.0,     ?,     ?
+Resources    Asteroid,-17781.2,48290.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,30.0,     ?,     ?
+Resources    Asteroid,-18710.0,49218.8,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,60.0,     ?,     ?
+Resources    Asteroid,-21290.0,49218.8,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,120.0,     ?,     ?
+Resources    Asteroid,-22218.8,48290.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,150.0,     ?,     ?
+Resources    Asteroid,-22218.8,45710.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,210.0,     ?,     ?
+Resources    Asteroid,-21290.0,44781.2,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,240.0,     ?,     ?
+Resources    Asteroid,-18710.0,44781.2,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,300.0,     ?,     ?
+Resources    Asteroid,-17781.2,45710.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,330.0,     ?,     ?
+Resources    Asteroid,-18939.3,48060.7,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,45.0,     ?,     ?
+Resources    Asteroid,-21060.7,48060.7,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,135.0,     ?,     ?
+Resources    Asteroid,-21060.7,45939.3,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,225.0,     ?,     ?
+Resources    Asteroid,-18939.3,45939.3,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,315.0,     ?,     ?
+Resources    Asteroid,-18939.3,48060.7,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,45.0,     ?,     ?
+Resources    Asteroid,-21060.7,48060.7,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,135.0,     ?,     ?
+Resources    Asteroid,-21060.7,45939.3,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,225.0,     ?,     ?
+Resources    Asteroid,-18939.3,45939.3,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,315.0,     ?,     ?
+
+Resources    Asteroid,-17000.0,-47000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,0.0,     ?,     ?
+Resources    Asteroid,-17420.0,-45500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,30.0,     ?,     ?
+Resources    Asteroid,-18500.0,-44420.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,60.0,     ?,     ?
+Resources    Asteroid,-20000.0,-44000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,90.0,     ?,     ?
+Resources    Asteroid,-21500.0,-44420.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,120.0,     ?,     ?
+Resources    Asteroid,-22580.0,-45500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,150.0,     ?,     ?
+Resources    Asteroid,-23000.0,-47000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,180.0,     ?,     ?
+Resources    Asteroid,-22580.0,-48500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,210.0,     ?,     ?
+Resources    Asteroid,-21500.0,-49580.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,240.0,     ?,     ?
+Resources    Asteroid,-20000.0,-50000.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,270.0,     ?,     ?
+Resources    Asteroid,-18500.0,-49580.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,300.0,     ?,     ?
+Resources    Asteroid,-17420.0,-48500.0,7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,330.0,     ?,     ?
+Resources    Asteroid,-20000.0,-44420.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,90.0,     ?,     ?
+Resources    Asteroid,-20000.0,-45500.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,90.0,     ?,     ?
+Resources    Asteroid,-20000.0,-48500.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,90.0,     ?,     ?
+Resources    Asteroid,-20000.0,-49580.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,90.0,     ?,     ?
+Resources    Asteroid,-20000.0,-49580.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,90.0,     ?,     ?
+Resources    Asteroid,-20000.0,-48500.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,90.0,     ?,     ?
+Resources    Asteroid,-20000.0,-45500.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,90.0,     ?,     ?
+Resources    Asteroid,-20000.0,-44420.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,90.0,     ?,     ?
+Resources    Asteroid,-17420.0,-47000.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,0.0,     ?,     ?
+Resources    Asteroid,-18500.0,-47000.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,0.0,     ?,     ?
+Resources    Asteroid,-20000.0,-47000.0,10000.0,Cylinder,Asteroid.dist,2,900.0,50.0,270.0,0.0,     ?,     ?
+Resources    Asteroid,-21500.0,-47000.0,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,0.0,     ?,     ?
+Resources    Asteroid,-22580.0,-47000.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,0.0,     ?,     ?
+Resources    Asteroid,-22580.0,-47000.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,0.0,     ?,     ?
+Resources    Asteroid,-21500.0,-47000.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,0.0,     ?,     ?
+Resources    Asteroid,-20000.0,-47000.0,4000.0,Cylinder,Asteroid.dist,2,900.0,50.0,90.0,0.0,     ?,     ?
+Resources    Asteroid,-18500.0,-47000.0,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,0.0,     ?,     ?
+Resources    Asteroid,-17420.0,-47000.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,0.0,     ?,     ?
+Resources    Asteroid,-17781.2,-45710.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,30.0,     ?,     ?
+Resources    Asteroid,-18710.0,-44781.2,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,60.0,     ?,     ?
+Resources    Asteroid,-21290.0,-44781.2,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,120.0,     ?,     ?
+Resources    Asteroid,-22218.8,-45710.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,150.0,     ?,     ?
+Resources    Asteroid,-22218.8,-48290.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,210.0,     ?,     ?
+Resources    Asteroid,-21290.0,-49218.8,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,240.0,     ?,     ?
+Resources    Asteroid,-18710.0,-49218.8,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,300.0,     ?,     ?
+Resources    Asteroid,-17781.2,-48290.0,8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,330.0,     ?,     ?
+Resources    Asteroid,-17781.2,-45710.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,30.0,     ?,     ?
+Resources    Asteroid,-18710.0,-44781.2,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,60.0,     ?,     ?
+Resources    Asteroid,-21290.0,-44781.2,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,120.0,     ?,     ?
+Resources    Asteroid,-22218.8,-45710.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,150.0,     ?,     ?
+Resources    Asteroid,-22218.8,-48290.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,210.0,     ?,     ?
+Resources    Asteroid,-21290.0,-49218.8,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,240.0,     ?,     ?
+Resources    Asteroid,-18710.0,-49218.8,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,300.0,     ?,     ?
+Resources    Asteroid,-17781.2,-48290.0,5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,330.0,     ?,     ?
+Resources    Asteroid,-18939.3,-45939.3,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,45.0,     ?,     ?
+Resources    Asteroid,-21060.7,-45939.3,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,135.0,     ?,     ?
+Resources    Asteroid,-21060.7,-48060.7,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,225.0,     ?,     ?
+Resources    Asteroid,-18939.3,-48060.7,9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,315.0,     ?,     ?
+Resources    Asteroid,-18939.3,-45939.3,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,45.0,     ?,     ?
+Resources    Asteroid,-21060.7,-45939.3,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,135.0,     ?,     ?
+Resources    Asteroid,-21060.7,-48060.7,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,225.0,     ?,     ?
+Resources    Asteroid,-18939.3,-48060.7,4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,315.0,     ?,     ?
+
+Resources    Asteroid,23000.0,-47000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,0.0,     ?,     ?
+Resources    Asteroid,22580.0,-45500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,30.0,     ?,     ?
+Resources    Asteroid,21500.0,-44420.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,60.0,     ?,     ?
+Resources    Asteroid,20000.0,-44000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,90.0,     ?,     ?
+Resources    Asteroid,18500.0,-44420.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,120.0,     ?,     ?
+Resources    Asteroid,17420.0,-45500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,150.0,     ?,     ?
+Resources    Asteroid,17000.0,-47000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,180.0,     ?,     ?
+Resources    Asteroid,17420.0,-48500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,210.0,     ?,     ?
+Resources    Asteroid,18500.0,-49580.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,240.0,     ?,     ?
+Resources    Asteroid,20000.0,-50000.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,270.0,     ?,     ?
+Resources    Asteroid,21500.0,-49580.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,300.0,     ?,     ?
+Resources    Asteroid,22580.0,-48500.0,-7000.0,Cylinder,Asteroid.dist,2,900.0,50.0,0.0,330.0,     ?,     ?
+Resources    Asteroid,20000.0,-44420.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,90.0,     ?,     ?
+Resources    Asteroid,20000.0,-45500.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,90.0,     ?,     ?
+Resources    Asteroid,20000.0,-48500.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,90.0,     ?,     ?
+Resources    Asteroid,20000.0,-49580.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,90.0,     ?,     ?
+Resources    Asteroid,20000.0,-49580.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,90.0,     ?,     ?
+Resources    Asteroid,20000.0,-48500.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,90.0,     ?,     ?
+Resources    Asteroid,20000.0,-45500.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,90.0,     ?,     ?
+Resources    Asteroid,20000.0,-44420.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,90.0,     ?,     ?
+Resources    Asteroid,22580.0,-47000.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,0.0,     ?,     ?
+Resources    Asteroid,21500.0,-47000.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,0.0,     ?,     ?
+Resources    Asteroid,20000.0,-47000.0,-4000.0,Cylinder,Asteroid.dist,2,900.0,50.0,270.0,0.0,     ?,     ?
+Resources    Asteroid,18500.0,-47000.0,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,240.0,0.0,     ?,     ?
+Resources    Asteroid,17420.0,-47000.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,210.0,0.0,     ?,     ?
+Resources    Asteroid,17420.0,-47000.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,150.0,0.0,     ?,     ?
+Resources    Asteroid,18500.0,-47000.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,120.0,0.0,     ?,     ?
+Resources    Asteroid,20000.0,-47000.0,-10000.0,Cylinder,Asteroid.dist,2,900.0,50.0,90.0,0.0,     ?,     ?
+Resources    Asteroid,21500.0,-47000.0,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,0.0,     ?,     ?
+Resources    Asteroid,22580.0,-47000.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,0.0,     ?,     ?
+Resources    Asteroid,22218.8,-45710.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,30.0,     ?,     ?
+Resources    Asteroid,21290.0,-44781.2,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,60.0,     ?,     ?
+Resources    Asteroid,18710.0,-44781.2,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,120.0,     ?,     ?
+Resources    Asteroid,17781.2,-45710.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,150.0,     ?,     ?
+Resources    Asteroid,17781.2,-48290.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,210.0,     ?,     ?
+Resources    Asteroid,18710.0,-49218.8,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,240.0,     ?,     ?
+Resources    Asteroid,21290.0,-49218.8,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,300.0,     ?,     ?
+Resources    Asteroid,22218.8,-48290.0,-5500.0,Cylinder,Asteroid.dist,2,900.0,50.0,330.0,330.0,     ?,     ?
+Resources    Asteroid,22218.8,-45710.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,30.0,     ?,     ?
+Resources    Asteroid,21290.0,-44781.2,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,60.0,     ?,     ?
+Resources    Asteroid,18710.0,-44781.2,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,120.0,     ?,     ?
+Resources    Asteroid,17781.2,-45710.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,150.0,     ?,     ?
+Resources    Asteroid,17781.2,-48290.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,210.0,     ?,     ?
+Resources    Asteroid,18710.0,-49218.8,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,240.0,     ?,     ?
+Resources    Asteroid,21290.0,-49218.8,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,300.0,     ?,     ?
+Resources    Asteroid,22218.8,-48290.0,-8500.0,Cylinder,Asteroid.dist,2,900.0,50.0,30.0,330.0,     ?,     ?
+Resources    Asteroid,21060.7,-45939.3,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,45.0,     ?,     ?
+Resources    Asteroid,18939.3,-45939.3,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,135.0,     ?,     ?
+Resources    Asteroid,18939.3,-48060.7,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,225.0,     ?,     ?
+Resources    Asteroid,21060.7,-48060.7,-4420.0,Cylinder,Asteroid.dist,2,900.0,50.0,300.0,315.0,     ?,     ?
+Resources    Asteroid,21060.7,-45939.3,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,45.0,     ?,     ?
+Resources    Asteroid,18939.3,-45939.3,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,135.0,     ?,     ?
+Resources    Asteroid,18939.3,-48060.7,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,225.0,     ?,     ?
+Resources    Asteroid,21060.7,-48060.7,-9580.0,Cylinder,Asteroid.dist,2,900.0,50.0,60.0,315.0,     ?,     ?
+
+;Close to Home RU patches
+
+Resources    Asteroid,55000.0,-4500.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,55000.0,-4500.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,55000.0,-4500.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,55000.0,4500.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,55000.0,4500.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,55000.0,4500.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+
+Resources    Asteroid,-55000.0,-4500.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-55000.0,-4500.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-55000.0,-4500.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-55000.0,4500.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-55000.0,4500.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-55000.0,4500.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+
+Resources    Asteroid,-4500.0,55000.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-4500.0,55000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-4500.0,55000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,4500.0,55000.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,4500.0,55000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,4500.0,55000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+
+Resources    Asteroid,-4500.0,-55000.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-4500.0,-55000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-4500.0,-55000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,4500.0,-55000.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,4500.0,-55000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,4500.0,-55000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+
+Resources    Asteroid,39500.0,35000.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,39500.0,35000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,39500.0,35000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,39500.0,44000.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,39500.0,44000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,39500.0,44000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+
+Resources    Asteroid,-39500.0,35000.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-39500.0,35000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-39500.0,35000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-39500.0,44000.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-39500.0,44000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-39500.0,44000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+
+Resources    Asteroid,39500.0,-35000.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,39500.0,-35000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,39500.0,-35000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,39500.0,-44000.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,39500.0,-44000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,39500.0,-44000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+
+Resources    Asteroid,-39500.0,-35000.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-39500.0,-35000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-39500.0,-35000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-39500.0,-44000.0,0.0,Cylinder,type2.dist,2,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-39500.0,-44000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-39500.0,-44000.0,0.0,Cylinder,type1.dist,5,1166.6,2333.1,0.0,66.0,0,?
+
+;Other RU patches
+
+Resources    Asteroid,30000.0,0.0,0.0,Cylinder,type3.dist,3,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,30000.0,0.0,0.0,Cylinder,type1.dist,6,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,30000.0,0.0,0.0,Cylinder,type0.dist,7,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,30000.0,0.0,0.0,Cylinder,type0.dist,7,1166.6,2333.1,0.0,66.0,0,?
+
+Resources    Asteroid,-30000.0,0.0,0.0,Cylinder,type3.dist,3,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-30000.0,0.0,0.0,Cylinder,type1.dist,6,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-30000.0,0.0,0.0,Cylinder,type0.dist,7,1166.6,2333.1,0.0,66.0,0,?
+Resources    Asteroid,-30000.0,0.0,0.0,Cylinder,type0.dist,7,1166.6,2333.1,0.0,66.0,0,?
+
+Resources    Asteroid,23000.0,23000.0,0.0,Cylinder,03mediumrare2.dist,12,2753.8,10318.5,-6.2,-87.2,0,?
+Resources    Asteroid,-23000.0,23000.0,0.0,Cylinder,03mediumrare2.dist,12,2753.8,10318.5,-6.2,-87.2,0,?
+Resources    Asteroid,23000.0,-23000.0,0.0,Cylinder,03mediumrare2.dist,12,2753.8,10318.5,-6.2,-87.2,0,?
+Resources    Asteroid,-23000.0,-23000.0,0.0,Cylinder,03mediumrare2.dist,12,2753.8,10318.5,-6.2,-87.2,0,?
+
+Resources    Asteroid,0.0,23000.0,0.0,Cylinder,03mediumrare2.dist,8,2753.8,10318.5,-6.2,-87.2,0,?
+Resources    Asteroid,0.0,-23000.0,0.0,Cylinder,03mediumrare2.dist,8,2753.8,10318.5,-6.2,-87.2,0,?
+
+

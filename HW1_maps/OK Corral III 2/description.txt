@@ -1,0 +1,9 @@
+Description     OK Corral III 
+Description	The ultimate team showdown at high noon. 
+Description	VERSION	: 2
+
+
+Font            Arial_b12.hff
+Color           200, 100, 200
+DropShadow      Yes
+

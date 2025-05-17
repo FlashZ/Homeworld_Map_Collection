@@ -1,0 +1,17 @@
+; MissionMan script, Saturday, Apr 6 2002, 9:03:21 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources DustCloud,-60000.0,0.0,-500.0,Sphere,Dust.dist,100,1000.0,2000.0,0.0,0.0,20,?
+Resources DustCloud,60000.0,0.0,-2000.0,Sphere,Dust.dist,100,500.0,1000.0,0.0,0.0,20,?
+Resources DustCloud,-490,3560,-1470,Sphere,Dust.dist,10,5000,10000,0,0,0,?
+Resources DustCloud,9360,-1740,-8100,Sphere,Dust.dist,10,5000,10000,0,0,0,?
+Resources DustCloud,8180,2760,-5060,Sphere,Dust.dist,10,5000,10000,0,0,0,?
+Resources DustCloud,4890,-5640,870,Sphere,Dust.dist,10,5000,10000,0,0,0,?
+Resources DustCloud,460,-9420,-4080,Sphere,Dust.dist,10,5000,10000,0,0,0,?
+Resources DustCloud,3430,-5560,-6150,Sphere,Dust.dist,10,5000,10000,0,0,0,?
+Resources DustCloud,5260,7060,-6110,Sphere,Dust.dist,10,5000,10000,0,0,0,?
+Resources DustCloud,-2460,5970,4930,Sphere,Dust.dist,10,5000,10000,0,0,0,?
+Resources DustCloud,1030,730,-1640,Sphere,Dust.dist,10,5000,10000,0,0,0,?
+Resources DustCloud,4480,6860,6720,Sphere,Dust.dist,10,5000,10000,0,0,0,?
+

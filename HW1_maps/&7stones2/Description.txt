@@ -1,0 +1,16 @@
+Description	&7 Stones (2 or 4)
+Description	
+Description	**FIXED**
+Description
+Description
+Description
+Description
+Description
+Description
+Description
+Description	&f&a&lcon
+Description	2010 (org. 2006)
+
+Font 		Arial_b12.hff
+Color 		255, 200, 0
+DropShadow 	Yes

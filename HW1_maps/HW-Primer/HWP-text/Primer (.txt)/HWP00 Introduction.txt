@@ -1,0 +1,54 @@
+HOMEWORLD The Map-Makers Primer
+[v2.1 Dylov 22/12/00]
+
+
+INTRODUCTION
+================================================================
+
+
+WELCOME
+----------------------------------------------------------------
+
+Welcome to v2.1 of the epic Homeworld Map Makers Primer. This Primer contains all the information I know and could find pertaining to maply creation for Homeworld. Everything is here, you need go no further to learn every aspect of maply creation. 
+
+Throughout the course of the Primer I am going to take you through every single aspect in making maps for Homeworld, absolutely everything is covered. So make yourself a coffee, sit back and relax as we begin to trawl through the various aspects of maply creation. 
+
+This Primer was inspired by 'An introduction to Map Building' By TAKER and is a vastly edited collection of all relevant data I have so far discovered pertaining to Map Making. Everyone who has released documents that has been used in this file has been credited in the Bibliography section of Appendix C, if your names not down, then I'm truly sorry but it wasn't available with the help files that I was working with to compile this, please, contact the author to correct any omissions or misquotes.
+This is an updated version of the v2.0 html release hosted on Dylov's now defunct site 'The Homeworld Map Makers Archives'. Now moved to its new home in the Project Red Site, specifically in the Engineering section, which backs this primer up with all the associated files you could possibly need to get you building maps, and building them well.
+
+Dont assume that I have not accidentaly missed anything out in the Primer, while doing this update I discovered I had not really mentioned Nebulas at all. I have covered everything that I know of, and there may still be stuff that I dont know or may have just plain got wrong. Take Rectangles for instance, I have never really worked much with these resource shapes and Aged has recently informed me that some of my assumptions were wrong. So if you think of anything I have omitted or should change, again contact me and I will set the record straight, as well as adding your name to the credits.
+ 
+
+THE TUTORIAL
+----------------------------------------------------------------
+
+The included tutorial 'Revelations', will take you through each stage of map creation in a step by step process, covering as much of the nuts and bolts as possible. I would suggest you follow each step carefully, as set out, so you can get a good grounding in the process of building maps for Homeworld. 
+Even if you have no intention of actually making the map (although I strongly suggest you do), read each part of the Tutorial as its pretty much exactly how I went about the creation of the map and they are full of really Top tips.
+ 
+
+THE MAP MAKERS TOOLS
+----------------------------------------------------------------
+
+MS Excel 2000 and TextPad (v4.4), and thats it. And I cannot recommend them enough. 
+If you can't get hold of MS Excel any spreadsheet utility that supports comma delimited files ('.csv') will do fine. Using Excel helps unbelievably, especially when making sweeping changes to your map, I will cover use of Excel later [See Useful Tools]. 
+
+'TextPad' was a revelation, recommended to me by TAKER I downloaded after I had completed my first map (I used notepad at first), now I would not dream of using anything else, for the purposes of maply creation it is invaluable. Happily, its shareware too, you can download and use it for free while you evaluate the product, and I guarantee you register soon after. Or at least agree that's it's a good product and feel bad for not registering... You really should get down to the Helios Website and download a free Evaluation copy. [See Useful Tools]. 
+
+Every Map I mention in this document is available from the Project Red Map Archives and BPLlama's superb web site; 'The Homeworld Map Archive'. [See Appendix C].
+
+Good Luck and Happy Map Making! 
+
+Dylov [12/12/00]
+ 
+
+
+SOME POINTS TO REMEMBER:
+----------------------------------------------------------------
+
+'CaSe' is Important, I will be constantly reiterating this point. It's really important. It really is. Truly. I kid you not. Important. If your map crashes you should always check your case first. Check your capitalisation at all times!
+
+Format is important. This too is really important, try opening up all the Description.txt files you can find (every map in your homeworld/multiplayer folder will have one) See how none deviate from the Format? They may deviate a little in the first five lines beginning with Description<tab>, amounts but nothing else. Try it with every *.level file and you will see they only deviate in the amount of 'MissionSphere' lines present, but the Format is the same. By Format I also include Spelling, make sure everything is spelt the same. Take note. I spent ages trying to figure out why the 6-player version of the included map Revelations kept crashing and I finally traced it to the formatting in one of the Mothership files, I had replaced a comma with a full stop. That simple mistake kept crashing me back to desktop.
+
+Case and Format and Spelling of all the lines in all the files and all the names of all the files that make up your map is really massively important. Take care of them.
+
+

@@ -1,0 +1,48 @@
+; MissionMan script, Wednesday, Jul 31 2002, 12:38:08 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Sudden and Brutal3
+; Info: Sudden and Brutal (2-4)
+
+[Sudden and Brutal (2-4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    2,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_2.missphere,0
+
+Lighting    ez12
+Background    ez12
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    100000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    75000
+smUniverseSizeZ    50000
+smUniverseSizeY    75000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+IncludeDerelict    PrisonShipOld
+IncludeDerelict    FragmentStrut
+IncludeDerelict    FragmentPanel3
+IncludeDerelict    FragmentPanel0b
+IncludeDerelict    Junk3_BoilerCasing
+IncludeDerelict    Junk3_Boiler
+IncludeDerelict    Junk2_shipwreck
+IncludeDerelict    Junk2_panelB
+IncludeDerelict    Junk1_strut
+IncludeDerelict    Junk1_shell
+IncludeDerelict    Junk1_partB
+IncludeDerelict    Junk1_partA
+IncludeDerelict    Junk0_panel
+IncludeDerelict    Junk0_antenna
+SongNumber    12

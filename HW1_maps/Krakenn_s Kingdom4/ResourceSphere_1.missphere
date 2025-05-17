@@ -1,0 +1,62 @@
+; MissionMan script, Saturday, Oct 5 2002, 12:11:15 
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+
+
+
+Resources    Asteroid,-43529,0,49148,Cylinder,rocky.dist,5,200,7500,7.5,0.0,0,?
+Resources    Asteroid,-31029,0,45799,Cylinder,rocky.dist,5,200,7500,22.5,0.0,0,?
+Resources    Asteroid,-19822,0,39329,Cylinder,rocky.dist,5,200,7500,35.5,0.0,0,?
+Resources    Asteroid,-10672,0,30178,Cylinder,rocky.dist,5,200,7500,52.5,0.0,0,?
+Resources    Asteroid,-4201,0,18971,Cylinder,rocky.dist,5,200,7500,67.5,0.0,2048,2
+Resources    Asteroid,-852,0,6471,Cylinder,rocky.dist,5,200,7500,82.5,0.0,2048,2
+Resources    Asteroid,43529,0,-49148,Cylinder,rocky.dist,5,200,7500,7.5,0.0,0,?
+Resources    Asteroid,31029,0,-45799,Cylinder,rocky.dist,5,200,7500,22.5,0.0,0,?
+Resources    Asteroid,19822,0,-39329,Cylinder,rocky.dist,5,200,7500,35.5,0.0,0,?
+Resources    Asteroid,10672,0,-30178,Cylinder,rocky.dist,5,200,7500,52.5,0.0,0,?
+Resources    Asteroid,4201,0,-18971,Cylinder,rocky.dist,5,200,7500,67.5,0.0,2048,2
+Resources    Asteroid,852,0,-6471,Cylinder,rocky.dist,5,200,7500,82.5,0.0,2048,2
+Resources    Asteroid,-43529,0,-49148,Cylinder,rocky.dist,5,200,7500,-7.5,0.0,0,?
+Resources    Asteroid,-31029,0,-45799,Cylinder,rocky.dist,5,200,7500,-22.5,0.0,0,?
+Resources    Asteroid,-19822,0,-39329,Cylinder,rocky.dist,5,200,7500,-35.5,0.0,0,?
+Resources    Asteroid,-10672,0,-30178,Cylinder,rocky.dist,5,200,7500,-52.5,0.0,0,?
+Resources    Asteroid,-4201,0,-18971,Cylinder,rocky.dist,5,200,7500,-67.5,0.0,2048,2
+Resources    Asteroid,-852,0,-6471,Cylinder,rocky.dist,5,200,7500,-82.5,0.0,2048,2
+Resources    Asteroid,43529,0,49148,Cylinder,rocky.dist,5,200,7500,-7.5,0.0,0,?
+Resources    Asteroid,31029,0,45779,Cylinder,rocky.dist,5,200,7500,-22.5,0.0,0,?
+Resources    Asteroid,19822,0,39329,Cylinder,rocky.dist,5,200,7500,-35.5,0.0,0,?
+Resources    Asteroid,10672,0,30178,Cylinder,rocky.dist,5,200,7500,-52.5,0.0,0,?
+Resources    Asteroid,4201,0,18971,Cylinder,rocky.dist,5,200,7500,-67.5,0.0,2048,2
+Resources    Asteroid,852,0,6471,Cylinder,rocky.dist,5,200,7500,-82.5,0.0,2048,2
+Resources    Asteroid,0,0,0,Sphere,rocky.dist,12,2000,4000,0,0,2048,2
+Resources    DustCloud,-37279,0,47474,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,-25425,0,42564,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,-15247,0,34753,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,-7436,0,24574,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,-2526,0,12721,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,37279,0,-47474,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,25425,0,-42564,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,15247,0,-34753,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,7436,0,-24574,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,2526,0,-12721,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,-37279,0,-47474,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,-25425,0,-42564,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,-15247,0,-34753,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,-7436,0,-24574,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,-2526,0,-12721,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,37279,0,47474,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,25425,0,42564,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,15247,0,34753,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,7436,0,24574,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,2526,0,12721,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,9000,0,0,Sphere,dusty.dist,12,1000,2000,0,0,2048,2
+Resources    DustCloud,-9000,0,0,Sphere,dusty.dist,12,1000,2000,0,0,2048,2
+Resources    DustCloud,44000,0,50000,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,-44000,0,50000,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,44000,0,-50000,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,-44000,0,-50000,Sphere,dusty.dist,4,200,400,0,0,0,?
+Resources    DustCloud,60000,0,50000,Sphere,dusty.dist,9,600,1200,0,0,0,?
+Resources    DustCloud,-60000,0,50000,Sphere,dusty.dist,9,600,1200,0,0,0,?
+Resources    DustCloud,60000,0,-50000,Sphere,dusty.dist,9,600,1200,0,0,0,?
+Resources    DustCloud,-60000,0,-50000,Sphere,dusty.dist,9,600,1200,0,0,0,?

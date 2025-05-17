@@ -1,0 +1,31 @@
+; MissionMan script, Saturday, Oct 8 2005, 10:49:09 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: ?,ResourceSphere
+
+Resources    Asteroid,27500.0,-15000.0,0.0,Cylinder,AsteroidLarge.dist,5,1750.0,7000.0,0.0,55.0,0,?
+Resources    Asteroid,27500.0,15000.0,0.0,Cylinder,AsteroidLarge.dist,5,1750.0,7000.0,0.0,-55.0,0,?
+Resources    DustCloud,27500.0,-15000.0,0.0,Cylinder,DustCloudScattered.dist,5,1750.0,7000.0,0.0,55.0,0,?
+Resources    DustCloud,27500.0,15000.0,0.0,Cylinder,DustCloudScattered.dist,5,1750.0,7000.0,0.0,-55.0,0,?
+Resources    Asteroid,23250.0,-20000.0,0.0,Cylinder,AsteroidLarge.dist,5,1750.0,7000.0,0.0,45.0,0,?
+Resources    Asteroid,23250.0,20000.0,0.0,Cylinder,AsteroidLarge.dist,5,1750.0,7000.0,0.0,-45.0,0,?
+Resources    DustCloud,23250.0,-20000.0,0.0,Cylinder,DustCloudScattered.dist,5,1750.0,7000.0,0.0,45.0,0,?
+Resources    DustCloud,23250.0,20000.0,0.0,Cylinder,DustCloudScattered.dist,5,1750.0,7000.0,0.0,-45.0,0,?
+Resources    Asteroid,18250.0,-24250.0,0.0,Cylinder,AsteroidLarge.dist,5,1750.0,7000.0,0.0,35.0,0,?
+Resources    Asteroid,18250.0,24250.0,0.0,Cylinder,AsteroidLarge.dist,5,1750.0,7000.0,0.0,-35.0,0,?
+Resources    DustCloud,18250.0,-24250.0,0.0,Cylinder,DustCloudScattered.dist,5,1750.0,7000.0,0.0,35.0,0,?
+Resources    DustCloud,18250.0,24250.0,0.0,Cylinder,DustCloudScattered.dist,5,1750.0,7000.0,0.0,-35.0,0,?
+Resources    Asteroid,12500.0,-27500.0,0.0,Cylinder,AsteroidLarge.dist,5,1750.0,7000.0,0.0,25.0,0,?
+Resources    Asteroid,12500.0,27500.0,0.0,Cylinder,AsteroidLarge.dist,5,1750.0,7000.0,0.0,-25.0,0,?
+Resources    DustCloud,12500.0,-27500.0,0.0,Cylinder,DustCloudScattered.dist,5,1750.0,7000.0,0.0,25.0,0,?
+Resources    DustCloud,12500.0,27500.0,0.0,Cylinder,DustCloudScattered.dist,5,1750.0,7000.0,0.0,-25.0,0,?
+Resources    Asteroid,6250.0,-29750.0,0.0,Cylinder,AsteroidLarge.dist,5,1750.0,7000.0,0.0,15.0,0,?
+Resources    Asteroid,6250.0,29750.0,0.0,Cylinder,AsteroidLarge.dist,5,1750.0,7000.0,0.0,-15.0,0,?
+Resources    DustCloud,6250.0,-29750.0,0.0,Cylinder,DustCloudScattered.dist,5,1750.0,7000.0,0.0,15.0,0,?
+Resources    DustCloud,6250.0,29750.0,0.0,Cylinder,DustCloudScattered.dist,5,1750.0,7000.0,0.0,-15.0,0,?
+Resources    Asteroid,-250.0,-30750.0,0.0,Cylinder,AsteroidLarge.dist,5,1750.0,7000.0,0.0,5.0,0,?
+Resources    Asteroid,-250.0,30750.0,0.0,Cylinder,AsteroidLarge.dist,5,1750.0,7000.0,0.0,-5.0,0,?
+Resources    DustCloud,-250.0,-30750.0,0.0,Cylinder,DustCloudScattered.dist,5,1750.0,7000.0,0.0,5.0,0,?
+Resources    DustCloud,-250.0,30750.0,0.0,Cylinder,DustCloudScattered.dist,5,1750.0,7000.0,0.0,-5.0,0,?
+Resources    DustCloud,12500.0,0.0,0.0,Sphere,DustCloudLarge.dist,7,1750.0,3500.0,0.0,0.0,2048,7
+Resources    DustCloud,-15000.0,0.0,0.0,Sphere,DustCloudLarge.dist,7,1750.0,3500.0,0.0,0.0,2048,7
+

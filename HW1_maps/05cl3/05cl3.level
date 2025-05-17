@@ -1,0 +1,42 @@
+; MissionMan script, Saturday, Oct 23 2004, 10:40:03 AM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: 05cl3
+; Info: CL5 (2-4)
+
+[CL5 (2-4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_1.missphere,1000
+MissionSphere    0,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_0.missphere,1000
+MissionSphere    2,R1,Mothership,0.0,0.0,0.0,30000.0,0.0,Mothership_2.missphere,1000
+
+Lighting    default
+Background    ez07
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    100000
+smZoomMin    50000
+smInitialDistance    75000
+smUniverseSizeX    100000
+smUniverseSizeZ    50000
+smUniverseSizeY    100000
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    P1,All
+ExcludeShips    R1,SalCapCorvette
+ExcludeShips    R2,SalCapCorvette
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+BaseColor    4, 255, 255, 255
+BaseColor    5, 0, 0, 192
+StripeColor    4, 0, 0, 0
+StripeColor    5, 0, 255, 0
+AvailableColorSchemes    R1, All, 4
+AvailableColorSchemes    R2, All, 5
+SongNumber    12

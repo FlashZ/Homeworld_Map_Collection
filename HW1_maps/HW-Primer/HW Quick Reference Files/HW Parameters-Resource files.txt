@@ -1,0 +1,59 @@
+Resource file parameters
+------------------------
+
+Resources	type,x,y,z,layout,distribution,numResources,radius,length,roty,rotz,properties
+
+eg
+Resources	Asteroid,0.0,0.0,0.0,Sphere,distrib.dist,10,5000.0,10000.0,0.0,0.0,?
+
+type:		Asteroid, Nebula, GasCloud, or DustCloud
+x:		x coordinate
+y:		y coordinate
+z:		z coordinate
+layout:		Sphere, Cylinder, Rectangle, Nebula (Nebula is a sphere, see section below)
+distribution :	ìxxxxxxx.distî file
+numResources:	number of resources
+radius :	radius of cylinder or sphere
+length:		length of cylinder  (not relevant for spheres)
+roty:		angle of rotation (y axis) - not relevant for spheres
+rotz:		angle of rotation (z axis) - not relevant for spheres
+properties:	(value with possible 'propertiesParam' see The HW Map Makers Primer on Properties)
+
+ATTRIBUTES_SalvageAttachtime		1 
+ATTRIBUTES_ShellOfResources 		2 
+ATTRIBUTES_VelToMothership 		4 
+ATTRIBUTES_DontApplyFriction 		8 
+ATTRIBUTES_KillerCollDamage 		16 
+ATTRIBUTES_Anomaly 			32 
+ATTRIBUTES_NeutralShip			256
+ATTRIBUTES_HeadShotVelToMothership 	512 
+ATTRIBUTES_HeadShotKillerCollDamage 	1024 
+ATTRIBUTES_Regrow 			2048 
+
+ATTRIBUTES_SMColorInvisible		4096 
+ATTRIBUTES_SMColorYellow 		8192 
+ATTRIBUTES_SMColorGreen 		12288 
+
+
+Nebula stuff:
+
+Nebulae use the same number of parameters as other resources, but with different intent.  Here's a template:
+
+Resources	Nebula,x,y,z,shape,xxxxxxx.dist,tendrils,xSize,ySize,zSize,numChunks
+
+eg
+Resources	Nebula,0.0,0.0,0.0,Nebula,nebula.dist,50,10000,10000,10000,4000
+
+x:		x coordinate of the nebulaís centre
+y:		y coordinate of the nebulaís centre
+z:		z coordinate of the nebulaís centre
+shape: 		Nebula (the distribution shape. Normally this is cylinder or sphere but nebulae
+		can only be of shape Nebula)
+xxxxxxx.dist :	relative distribution of RUs throughout the nebula
+tendrils : 	the number of "tendrils" in the nebula
+xSize:		x axis length of the nebula
+ySize:		y axis length of the nebula
+zSize:		z axis length of the nebula
+numChunks:	the seed value - best to leave at >= 60 * numTendrils, <= 100 * numTendrils
+
+Nebulae aren't as flexible  about controlling the distribution as other resource types because of the extreme amount of randomness that goes into their construction: a vast cylindrical region thinly populated with nebulosity tendrils appears mostly identical to a vast rectangular region [box] populated similarly, and I found that too many constraints produce unappealing tendril bunching.  Nebulae tend to form in a cylindrical/spherical fashion, even given the box distribution.

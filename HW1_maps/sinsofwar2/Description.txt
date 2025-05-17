@@ -1,0 +1,17 @@
+Description     Clan vs Clan or w/e altho i would enjoy this better battling clans with meduim RUs using a pathetic strat and win by ease
+Description	
+Description     btwi did sumthin to this map and if it sync by sum idiot ioning clouds tell me!!!!
+Description     
+Description     Map design by : &S&i&n-&h&g
+Description     
+Description           
+Description	
+
+
+
+Font            Arial_b12.hff
+Color          300, 97, 260
+DropShadow      Yes
+
+
+; DEFAULT SETTINGS:

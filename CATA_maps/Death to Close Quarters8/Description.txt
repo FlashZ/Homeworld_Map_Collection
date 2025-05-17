@@ -1,0 +1,50 @@
+Description         I made this map for all the fans of my Death map. 1st I like to thank every body who has played Death and has helped make it  
+Description       one of the top maps played in Cata. I made this map based off the map Death, and I am decating this map to all the players who love my Death map.   
+Description         This  map is simlar to Death but the resouse patchs are not as big, and I put more of them in. I also added some cystals too. Over all I say this is a adv version of my map Death. If you liked my map Death I think you will like this map even more so. Well I made this map for every one who loves Death so enjoy this map as well.          Oh!! thanks for all the suport guys!!!!!
+Description         By Darksoul X feb/10/2004
+DescriptionFrench   This is old and doesn't impact the game. If you actually speak another language, just add it to the "Decription" lines above.
+
+DescriptionGerman   This is old and doesn't impact the game. If you actually speak another language, just add it to the "Decription" lines above.
+
+
+Font            Arial_b12.hff
+Color           255, 200, 0
+DropShadow      Yes
+
+; DEFAULT SETTINGS:
+
+type.flag                      BIT1     ; destroy mothership
+type.flagNeeded                BIT1     ; FLAG: destroy mothership
+
+;type.flag                     BIT2     ; capture capital ship
+type.flagNeeded                BIT2     ; FLAG: capture capital ship
+
+type.flag                      BIT3     ; research
+type.flagNeeded                BIT3     ; FLAG: research
+
+type.flag                      BIT5     ; enable harvesting
+type.flagNeeded                BIT5     ; FLAG: enable harvesting
+
+;type.flag                     BIT6     ; resouce injections
+type.flagNeeded                BIT6     ; FLAG: resource injections
+
+;type.flag                     BIT7     ; resouce lump sum
+type.flagNeeded                BIT7     ; FLAG: resource lump sum
+
+type.flag                      BIT11    ; allied victory
+type.flagNeeded                BIT11    ; FLAG: allied victory
+
+type.flag                      BIT12    ; crates
+type.flagNeeded                BIT12    ; FLAG: 
+
+type.flag                      BIT14    ; hyperspace
+type.flagNeeded                BIT14    ; FLAG: hyperspace
+
+type.numComputers              0
+type.startingFleet             1
+type.bountySize                3        ; turn off bounties (3 = off)
+type.startingResources         2
+type.resourceInjectionInterval 10000
+type.resourceInjectionsAmount  2000
+type.resourceLumpSumTime       19200
+type.resourceLumpSumAmount     2000

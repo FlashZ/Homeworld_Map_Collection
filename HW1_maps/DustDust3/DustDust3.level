@@ -1,0 +1,38 @@
+; MissionMan script, Friday, Nov 2 2001, 6:08:18 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: DustDust4
+; Info: Dust to Dust (2-4)
+
+[Dust to Dust (2-4)]
+
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,?
+MissionSphere    1,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_1.missphere,0
+MissionSphere    0,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_0.missphere,0
+MissionSphere    2,R1,Mothership,47689.0,75044.0,-20602.0,30000.0,0.0,Mothership_2.missphere,0
+
+Lighting    dust.hsf
+Background    dust.btg, 180, 0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    90000
+smZoomMax    200000
+smZoomMin    10000
+smInitialDistance    75000
+smUniverseSizeX    105000
+smUniverseSizeZ    105000
+smUniverseSizeY    105000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeShips    R1,SensorArray
+ExcludeShips    R2,SensorArray
+ExcludeShips    R2,MinelayerCorvette
+ExcludeShips    R1,MinelayerCorvette
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    11

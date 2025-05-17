@@ -1,0 +1,37 @@
+; MissionMan script, Wednesday, August 02, 2000 6:39:05 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Butterflies Forever4
+; Info: Butterflies Forever (2 v 2)
+
+[Butterflies Forever (2 v 2)]
+
+MissionSphere    0,R1,Mothership,55600.0,49600.0,27000.0,40000,0.0,Mothership_0.missphere,1000
+MissionSphere    1,R1,Mothership,44400.0,50300.0,20000.0,30000,0.0,Mothership_1.missphere,1000
+MissionSphere    2,R2,Mothership,-55600.0,-49600.0,-27000.0,30000,0.0,Mothership_2.missphere,1000
+MissionSphere    3,R2,Mothership,-44400.0,-50300.0,-20000.0,30000,0.0,Mothership_3.missphere,1000
+MissionSphere    -1,?,ResourceSphere,0.0,0.0,0.0,30000.0,0.0,ResourceSphere_1.missphere,1000
+
+Lighting    ez07
+Background    ez07, 180, 0
+smDepthCueRadius    70000
+smDepthCueStartRadius    30000
+smCircleBorder    125000
+smZoomMax    175000
+smZoomMin    40000
+smInitialDistance    175000
+smUniverseSizeX    200000
+smUniverseSizeZ    150000
+smUniverseSizeY    200000
+ExcludeShips    P1,All
+ExcludeShips    P2,All
+ExcludeShips    P3,All
+ExcludeShips    Traders,All
+ExcludeShips    R1,LightDefender
+ExcludeShips    R2,LightDefender
+ExcludeShips    R2,TargetDrone
+ExcludeShips    R1,HeadShotAsteroid
+ExcludeShips    R1,TargetDrone
+ExcludeShips    R2,HeadShotAsteroid
+ExcludeDerelict    ALL
+IncludeDerelict    Crate
+SongNumber    2

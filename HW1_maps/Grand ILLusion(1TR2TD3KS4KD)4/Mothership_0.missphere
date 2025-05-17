@@ -1,0 +1,11 @@
+; MissionMan script, Friday, Sep 3 1999, 12:14:43 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; MissionSphere Object: R1,Mothership
+
+Ships     ,-38000,45000.6,30000,305.0,P1,P1Mothership,1,NULL_FORMATION|UseAsMothership|?,0,?
+Ships     ,-36000,46000.6,29000,305.0,P1,P1Fighter,20,WALL_FORMATION|?|?,?,?
+Ships     ,-39000,43900.6,29000,305.0,P1,P1Fighter,20,WALL_FORMATION|?|?,?,?
+Ships     ,-36300,46800.6,29000,305.0,P1,P1StandardCorvette,16,WALL_FORMATION|?|?,?,?
+Ships     ,-39500,44500.6,29000,305.0,P1,P1MissileCorvette,16,WALL_FORMATION|?|?,?,?
+Ships     ,-36900,47900.6,30000,305.0,P1,P1IonArrayFrigate,3,BROAD_FORMATION|?|?,?,?
+Ships     ,-41000,45000.6,30000,305.0,P1,P1IonArrayFrigate,3,BROAD_FORMATION|?|?,?,?

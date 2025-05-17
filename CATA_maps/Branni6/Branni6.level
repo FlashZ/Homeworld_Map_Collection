@@ -1,0 +1,32 @@
+; MissionMan script, Saturday, Sep 28 2002, 12:08:15 PM
+; Copyright (c) 1998-99, Relic Entertainment Inc.
+; Multiplayer Level: Branni6
+; Info: Branni (6)
+
+[Branni (6)]
+
+MissionSphere    -1,?,ResourceSphere,16759.0,-85466.0,0.0,30000.0,0.0,Resource.missphere,1000
+MissionSphere    0,RACE_SECT,sMothership,-90000.0,-50000.0,0.0,30000.0,0.0,Mothership_0.missphere,2500
+MissionSphere    1,RACE_SECT,sMothership,-90000.0,50000.0,0.0,30000.0,0.0,Mothership_1.missphere,2500
+MissionSphere    2,RACE_SECT,sMothership,0.0,-50000.0,0.0,30000.0,0.0,Mothership_2.missphere,2500
+MissionSphere    3,RACE_SECT,sMothership,0.0,50000.0,0.0,30000.0,0.0,Mothership_3.missphere,2500
+MissionSphere    4,RACE_SECT,sMothership,90000.0,-50000.0,0.0,30000.0,0.0,Mothership_4.missphere,2500
+MissionSphere    5,RACE_SECT,sMothership,90000.0,50000.0,0.0,30000.0,0.0,Mothership_5.missphere,2500
+
+Lighting    Mission7
+Background    Mission7,200,0
+smDepthCueRadius    50000
+smDepthCueStartRadius    20000
+smCircleBorder    120000
+smZoomMax    300000
+smZoomMin    50000
+smInitialDistance    60000
+smUniverseSizeX    125000
+smUniverseSizeZ    25000
+smUniverseSizeY    75000
+ExcludeShips    RACE_DERELICT,ALL
+ExcludeShips    RACE_KUSHAN,ALL
+ExcludeShips    RACE_TAIDAN,ALL
+ExcludeShips    RACE_P1,ALL
+ExcludeShips    RACE_TRADERS,ALL
+SongNumber    24
