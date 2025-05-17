@@ -17,7 +17,7 @@ jobs:
 
       - name: Zip CATA_map
         run: |
-          zip -r Homeworld-CATA-map-${{ github.event.release.tag_name }}.zip CATA_map
+          zip -r Homeworld-CATA-maps-${{ github.event.release.tag_name }}.zip CATA_map
 
       - name: Upload Homeworld-HW1-maps ZIP
         uses: actions/upload-release-asset@v1
@@ -29,12 +29,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload Homeworld-CATA-map ZIP
+      - name: Upload Homeworld-CATA-maps ZIP
         uses: actions/upload-release-asset@v1
         with:
           upload_url: ${{ github.event.release.upload_url }}
-          asset_path: ./Homeworld-CATA-map-${{ github.event.release.tag_name }}.zip
-          asset_name: Homeworld-CATA-map-${{ github.event.release.tag_name }}.zip
+          asset_path: ./Homeworld-CATA-maps-${{ github.event.release.tag_name }}.zip
+          asset_name: Homeworld-CATA-maps-${{ github.event.release.tag_name }}.zip
           asset_content_type: application/zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
