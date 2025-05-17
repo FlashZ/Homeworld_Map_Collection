@@ -13,28 +13,28 @@ jobs:
 
       - name: Zip HW1_maps
         run: |
-          zip -r Homeworld-HW1-maps-${{ github.event.release.tag_name }}.zip HW1_maps
+          zip -r HW1-maps-${{ github.event.release.tag_name }}.zip HW1_maps
 
       - name: Zip CATA_map
         run: |
-          zip -r Homeworld-CATA-map-${{ github.event.release.tag_name }}.zip CATA_map
+          zip -r CATA-maps-${{ github.event.release.tag_name }}.zip CATA_maps
 
       - name: Upload Homeworld-HW1-maps ZIP
         uses: actions/upload-release-asset@v1
         with:
           upload_url: ${{ github.event.release.upload_url }}
-          asset_path: ./Homeworld-HW1-maps-${{ github.event.release.tag_name }}.zip
-          asset_name: Homeworld-HW1-maps-${{ github.event.release.tag_name }}.zip
+          asset_path: ./HW1_maps-${{ github.event.release.tag_name }}.zip
+          asset_name: HW1-maps-${{ github.event.release.tag_name }}.zip
           asset_content_type: application/zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload Homeworld-CATA-map ZIP
+      - name: Upload Homeworld-CATA-maps ZIP
         uses: actions/upload-release-asset@v1
         with:
           upload_url: ${{ github.event.release.upload_url }}
-          asset_path: ./Homeworld-CATA-map-${{ github.event.release.tag_name }}.zip
-          asset_name: Homeworld-CATA-map-${{ github.event.release.tag_name }}.zip
+          asset_path: ./CATA_maps-${{ github.event.release.tag_name }}.zip
+          asset_name: CATA-maps-${{ github.event.release.tag_name }}.zip
           asset_content_type: application/zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
