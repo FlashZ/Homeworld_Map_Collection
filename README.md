@@ -1,12 +1,12 @@
-# Homeworld (1999), Homeworld: Cataclysm/Emergence, and Homeworld: Cataclysm – Multiplayer Map Collection  
+# Homeworld and Homeworld: Cataclysm – Multiplayer Map Collection  
 *Preserving two decades of community creativity*
 
-## About  
+## About
 This repository is an **archive of fan‑made multiplayer maps for the original *Homeworld* and *Homeworld: Cataclysm/Emergence*** (1999–2000, v1.05 GOTY and v1.00).  
 Many of these files circulated on relicnews.com, WON, and early clan websites in the 2000‑2005 era and are increasingly hard to find.  
 Everything here is provided *as‑is* for historical and educational purposes.
 
-Thanks to [@Volans-SF] (https://www.github.com/Volans-SF) for providing additional HW1 maps and all of the Cataclysm Maps.
+Thanks to [@Volans-SF](https://www.github.com/Volans-SF) for providing additional HW1 maps and all of the Cataclysm Maps.
 
 ## Directory layout
 HW1_maps/ # each sub‑folder is a self‑contained level
@@ -53,7 +53,7 @@ No game files are overwritten; uninstall by simply deleting the folder(s).
 Release	Works?	Notes
 Homeworld 1.05 GOTY	✅	Original target.
 Homeworld: Cataclysm 1.00	✅	Original target.
-Homeworld Remastered (2015)	⚠️	Needs conversion (see tools/HWRM_port_guide.md).
+Homeworld Remastered (2015)	⚠️	Needs conversion.
 Homeworld Classic Remastered (v1.0rc)	✅	Copy as above; ignore .leveldata warnings.
 
 ## Curation rules
