@@ -1,15 +1,16 @@
 # Homeworld and Homeworld: Cataclysm – Multiplayer Map Collection
 *Preserving two decades of community creativity*
 
-## About
-This repository is an **archive of fan‑made multiplayer maps for the original *Homeworld* and *Homeworld: Cataclysm/Emergence*** (1999–2000, v1.05 GOTY and v1.00).  
-Many of these files circulated on relicnews.com, WON, and early clan websites in the 2000‑2005 era and are increasingly hard to find.  
-Everything here is provided *as‑is* for historical and educational purposes.
+## About
+This repository is an **archive of fan-made multiplayer maps for the original *Homeworld* and *Homeworld: Cataclysm/Emergence*** (1999–2000, targeting v1.05 GOTY for HW1 and v1.00 for Cataclysm).
+Many of these files circulated on relicnews.com, WON, and early clan websites in the 2000–2005 era and are increasingly hard to find.
+Everything here is provided *as-is* for historical and educational purposes.
 
 Thanks to [@Volans-SF](https://www.github.com/Volans-SF) for providing additional HW1 maps and all of the Cataclysm Maps.
 
-## Directory layout
-HW1_maps/ # each sub‑folder is a self‑contained level
+## Directory Layout
+
+HW1_maps/ # Each sub-folder is a self-contained level for Homeworld 1
 ```
 ├─ Map_Name2/ # 2 player version
 │ ├─ Map_Name.level # mission script
@@ -20,7 +21,6 @@ HW1_maps/ # each sub‑folder is a self‑contained level
 │ ├─ …
 │ └─ Description.txt # lobby blurb & default rules
 ├─ Map_Name4/ # 4 player version
-
 └─ …
 ```
 
@@ -39,38 +39,49 @@ CATA_maps/ # Homeworld: Cataclysm maps (same structure as above)
 └─ …
 ```
 
-## Installation
+## Installation
 
-1. **Locate your HW or Cataclysm install** – e.g. `C:\Sierra\Homeworld` or `C:\Sierra\Cataclysm` (GOG/CD).  
-2. Copy any desired map folder from `HW1_maps/` into:
-    - Homeworld: `Homeworld\Data\MultiPlayer\`
-    - Cataclysm: `Cataclysm\Data\MultiPlayer\`
+1.  **Locate your *Homeworld* or *Cataclysm* installation directory.**
+    *   Examples: `C:\Sierra\Homeworld`, `C:\GOG Games\Homeworld`, `C:\Sierra\Cataclysm`.
+2.  **Copy any desired map folder** (e.g., `Map_Name2/`) from this repository's `HW1_maps/` or `CATA_maps/` into the correct subfolder within your game's installation:
+    *   **For Homeworld 1 maps:** Copy into `[Your Homeworld Install Path]\MultiPlayer\`
+    *   **For Cataclysm maps:** Copy into `[Your Cataclysm Install Path]\MultiPlayer\`
 
-No game files are overwritten; uninstall by simply deleting the folder(s).
+No original game files are overwritten. To uninstall a custom map, simply delete its folder from the `MultiPlayer` directory.
 
-## Compatibility
+## Compatibility
 
-Release	Works?	Notes
-Homeworld 1.05 GOTY	✅	Original target.
-Homeworld: Cataclysm 1.00	✅	Original target.
-Homeworld Remastered (2015)	⚠️	Needs conversion.
-Homeworld Classic Remastered (v1.0rc)	✅	Copy as above; ignore .leveldata warnings.
+| Release                             | Works? | Notes                                                    |
+|-------------------------------------|--------|----------------------------------------------------------|
+| *Homeworld* v1.05 GOTY              | ✅      | Original target for HW1 maps.                            |
+| *Homeworld: Cataclysm* v1.00        | ✅      | Original target for Cataclysm maps.                      |
+| *Homeworld Remastered* (2015)       | ⚠️      | HW1/Cata maps need conversion to work in HWR multiplayer. |
+| *Homeworld Classic* (via Remastered) | ✅      | Copy as above; may show ignorable `.leveldata` warnings. |
 
-## Curation rules
+## Curation Rules
 
-Original author tags kept where present (see Description.txt)
+*   Original author tags within `Description.txt` files have been kept where present.
+*   The aim is to preserve maps as they were originally distributed.
 
-## Contributing
+## Contributing
 
-Zip the entire map folder ( .level, .missphere, .dist, Description.txt)
+We welcome contributions of additional classic Homeworld 1 and Cataclysm multiplayer maps!
 
-Open a PR in `maps/<MapName>/` or create an issue with a download link.
+1.  **Prepare your map:**
+    *   Ensure the map folder is complete, containing the `.level` file, all necessary `.dist` and `.missphere` files, and a `Description.txt`.
+    *   Zip the entire map folder (e.g., `MyAwesomeMap2.zip`).
+2.  **Submit your map:**
+    *   **Preferred:** Open a Pull Request, placing your map folder within the appropriate `HW1_maps/` or `CATA_maps/` directory.
+    *   **Alternative:** Create an Issue and provide a download link to your zipped map file.
+3.  **Provide Information:**
+    *   Include any known details about the map: author(s), approximate year of creation, original website (if known), and any changelog or specific notes.
 
-Include any known author / year / changelog info.
+## License
+All map scripts and associated files remain © (copyright) their original creators.
+This repository is a non-commercial preservation project. Where original licenses are unknown or unstated, the collection is presented under a spirit similar to CC BY-NC-SA 4.0 where permissible for archival and community access.
 
-## License
-All map scripts remain © their original creators.
-This repository is a non‑commercial preservation project under the CC‑BY‑NC‑SA 4.0 umbrella where permissible; contact us if you need a file removed.
+If you are an original creator and wish for your map to be attributed differently or removed, please contact us by opening an Issue.
 
-Fleet Command confirmed.
-– Relic 1999
+---
+*Fleet Command confirmed.*  
+*– Relic Entertainment, 1999*
