@@ -1,4 +1,4 @@
-# Homeworld and Homeworld: Cataclysm – Multiplayer Map Collection  
+# Homeworld and Homeworld: Cataclysm – Multiplayer Map Collection
 *Preserving two decades of community creativity*
 
 ## About
