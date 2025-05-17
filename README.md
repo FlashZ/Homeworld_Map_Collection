@@ -1,4 +1,4 @@
-# Homeworld (1999), Homeworld: Cataclysm/Emergence, and Homeworld: Cataclysm – Multiplayer Map Collection  
+# Homeworld and Homeworld: Cataclysm – Multiplayer Map Collection  
 *Preserving two decades of community creativity*
 
 ## About  
@@ -53,7 +53,7 @@ No game files are overwritten; uninstall by simply deleting the folder(s).
 Release	Works?	Notes
 Homeworld 1.05 GOTY	✅	Original target.
 Homeworld: Cataclysm 1.00	✅	Original target.
-Homeworld Remastered (2015)	⚠️	Needs conversion (see tools/HWRM_port_guide.md).
+Homeworld Remastered (2015)	⚠️	Needs conversion.
 Homeworld Classic Remastered (v1.0rc)	✅	Copy as above; ignore .leveldata warnings.
 
 ## Curation rules
